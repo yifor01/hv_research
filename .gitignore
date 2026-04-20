@@ -1,0 +1,7 @@
+reports/**/*.pdf
+reports/**/*.html
+raw-materials/**
+!raw-materials/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
