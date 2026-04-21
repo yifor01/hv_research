@@ -201,9 +201,12 @@
 | NTU | 吳安宇 | **MediaTek-NTU Research Center** | 中心主任（冠名中心）；A 世代半導體 PI | 排除（與聯發科競爭者不宜） |
 | NTU | 王鈺強 | **NVIDIA Research Taiwan** | NVIDIA Research Director（Since 2022）；學生幾乎全流向 NVIDIA | 排除 |
 | NTHU | 林本堅 | **TSMC** | 20+ 年 TSMC 副總、冠名 Director；NTHU-TSMC Joint Center | 排除（對 TSMC 內部可忽略，對外部半導體廠則完全不投） |
+| NTHU | **張孟凡** ⚠️Batch1 新增 | **TSMC Corporate Research** | **現任 TSMC CR Director（兼任）**；Nature 2025 致謝 4 個 TSMC 部門；畢業生首大流向 TSMC；22nm/16nm 多次 JDP tape-out | **對非 TSMC 廠商排除**；對 TSMC 內部為 Tier-S 資產 |
 | NYCU | Yao-Jen Lee 李耀仁 | **TSRI** | 研究員 16 年兼任 | 排除 |
 | NYCU | Chun-Hsiung Lin 林君雄 | **TSMC R&D** | Manager 2012-19 出身 | 視具體公司立場（若非 TSMC，須評估） |
 | NYCU | YuanFu Yang | **TSMC** | 前 TSMC Data Scientist Team Lead | 視具體公司立場 |
+
+**教訓**：Phase 1 agent 對「非公開兼職」（如張孟凡的 TSMC CR Director）識別能力低。Phase 2 深度 profile 的主要價值就是發現這種隱形綁定。
 
 **補充 🟡 需警惕的案例**：
 - NYCU Tian-Li Wu — MediaTek Chair（但研究獨立性尚可）

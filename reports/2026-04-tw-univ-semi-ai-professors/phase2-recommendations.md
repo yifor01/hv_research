@@ -17,6 +17,17 @@
 - **#15 唐麗英**：**已替換為 鄭少為**（NYCU IEM → NTHU 統計；原 PI 疑似榮休無 2022+ 論文）
 - 核實結果詳見 `phase1-candidates.md §H` 與 `raw-materials/.../verification-results.md`
 
+## ⚠️ Batch 1 Tier-S 深度 profile 後的重大修正（2026-04-22）
+
+4 位 Tier-S 做完 Phase 2 深度 profile 後，**2 位需重新分類**：
+
+- **#3 陳正剛 🔻 降至「條件式 Tier-A」**：自 2009 轉生醫，近 3 年無半導體論文，Lab 僅 3 名學生。建議替換為 **Jakey Blue（原 #12，上升 Tier-S 位置）**。
+- **#4 張孟凡 ⚠️ 對非 TSMC 廠商重新分級 🔴 Deep Bound**：現任 **TSMC Corporate Research Director（兼任）**；Nature 2025 致謝 4 個 TSMC 部門；畢業生首大流向 TSMC。若本公司非 TSMC，建議替換為 **鄭桂忠（NTHU 電機 Nature 合著者，🟢 Open）**。
+- **#1 簡禎富 修正細節**：Fellow 列表只保留 APIEMS/CIIE/CSMOT（IEEE/IISE Fellow 無公開證據）；**美光講座教授（2018-）**為「可接非台積合作」的成功先例。
+- **#2 李家岩 補強**：本人**有台積電工作背景**、**GitHub 93 stars**（`Manufacturing-Data-Science`）、**Profet AI 產品顧問** — 合作管道有商業化 path。
+
+詳見：`phase2-batch1-tier-s-summary.md`
+
 ---
 
 ## §1 Phase 2 Top 20（主選）
@@ -27,8 +38,8 @@
 |---|---|---|---|---|---|
 | 1 | **簡禎富 Chen-Fu Chien** ✅核實 | NTHU 工工（講座教授兼執行副校長） | T1+T3+T6 | 🎯🎯🎯 **DALab**（Decision Analysis Lab）主持人 + AIMS 中心 PI；台灣半導體 AI 工工最強 PI；**2005-08 借調台積電工業工程處副處長**、清華-台積電卓越製造中心主任（2013 至今）、NSTC STEP 聯盟 PI；H-index 49、逾 200 篇期刊；博士生主動招生 | 🟢 |
 | 2 | **李家岩 Chia-Yen Lee** | NTU 資管副院長 | T1+T3+T6 | 🎯 台灣半導體製造資料科學最高頻出版者；Multi-Agent RL、VM、WBM、PdM 全向；著《製造數據科學》專書；實戰連結最強 | 🟢 |
-| 3 | **陳正剛 Argon Chen** | NTU 工工 | T1+T3 | 🎯 Rutgers IE+Stat 雙碩；SPC/EWMA/CUSUM 半導體工業統計權威；SRC/ISMT 計畫 PI；方法論最清晰的 SPC PI | 🟢 |
-| 4 | **張孟凡 Meng-Fan Chang** | NTHU 電機（特聘） | T5+T2 | 存內計算 AI 晶片全球領袖；ISSCC 2024×2 + Nature；全球最多位元存內運算 | 🟢 |
+| 3 | **陳正剛 Argon Chen** 🔻Batch1 | NTU 工工 | T1（歷史）| 🎯 Rutgers IE+Stat 雙碩；**但 2009 起已轉生醫 75%+**；SRC/ISMT/DARPA Bell Labs 歷史成就；**近 3 年無半導體論文；Lab 僅 3 人** → 建議換成 Jakey Blue 升 Tier-S | 🟢（但半導體活躍度低）|
+| 4 | **張孟凡 Meng-Fan Chang** ⚠️Batch1 | NTHU 電機（特聘）**+ TSMC CR Director** | T5+T2 | Science 2024 + Nature 2025；IEEE Fellow 2026；**TSMC Corporate Research Director 兼任**；Nature 2025 致謝 4 個 TSMC 部門；**對非 TSMC 廠商 🔴 Deep Bound** | 🔴（非 TSMC）/ 🟢（TSMC 內部）|
 
 ### 🥈 Tier-1（8 位，高優先）
 
