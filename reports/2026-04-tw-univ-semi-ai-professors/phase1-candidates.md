@@ -36,7 +36,7 @@
 
 ### 📌 NCKU（27 位 + 統計/IIM/IMIS 補強 12 位）
 
-**主表**：王振興、林家祥、詹寶珠、梁從主 🟡、謝明得、邱瀝毅、李昆忠、施遠峰、鄭光偉、謝孫源、梁勝富、盧文祥、連仁傑、陳朝鈞、蕭宏章、李佳蓉、吳品騏、許威助 🟡、莊萬鈞、陳怡均、龔仲偉、施士塵、林清河、蔡佩璇、賴宥呈、張泰榕、陳昭宇
+**主表**：王振興、林家祥、詹寶珠、梁從主 🟡、謝明得、邱瀝毅、李昆忠、施遠峰、鄭光偉、謝孫源、梁勝富、盧文祥、連震杰、陳朝鈞、蕭宏章、李佳蓉、吳品騏、許威助 🟡、莊萬鈞、陳怡均、龔仲偉、施士塵、林清河、蔡佩璇、賴宥呈、張泰榕、陳昭宇
 
 **統計系補強**：王秀瑛 ⚠️🎯、陳瑞彬 ⚠️、鄭天澤 ⚠️、吳建福 ⚠️🎯、林宗慶 ⚠️
 
@@ -137,7 +137,7 @@
 | 32 | NYCU | IEE Chip | **Huang Jun-Da 黃俊達** | 教授 | T2 | DNN Hardware Accelerator | 🟡 | — | ⭐⭐⭐⭐ | DNN 加速器（ADAR Lab） |
 | 33 | NYCU | 電子 | **Hung-Pin Wen 溫洪斌** | Distinguished | T3 | ML for DFT | 🟢 | — | ⭐⭐⭐⭐ | VLSI 測試/可靠度 |
 | 34 | NCKU | 資工 | **謝孫源** | 講座 | T1+T3 | 演算法, DL | 🟢 | — | ⭐⭐⭐⭐⭐ | NCKU AI 頂流、IAAM Fellow |
-| 35 | NCKU | 資工 | **連仁傑** | 教授 | T3 | 3D AOI, CNN | 🟢 | — | ⭐⭐⭐⭐⭐ | T3 3D AOI 直接命中 |
+| 35 | NCKU | 資工 | **連震杰** | 教授 | T3 | 3D AOI, CNN | 🟢 | — | ⭐⭐⭐⭐⭐ | T3 3D AOI 直接命中 |
 | 36 | NCKU | 電機 | **王振興** | 特聘/AI 中心主任 | T6 | AIoT, CNN, RL | 🟢 | — | ⭐⭐⭐⭐ | AI 數位轉型中心主任 |
 | 37 | NCKU | 電機 | **詹寶珠** | 特聘/電資院長 | T3 | CNN, Medical Imaging, XAI | 🟢 | — | ⭐⭐⭐⭐ | 病理 AI → 可遷移缺陷 |
 | 38 | NCKU | 資工 | **林家祥** | 教授 | T3+T7b | Quantum Learning, CNN | 🟢 | — | ⭐⭐⭐⭐ | 量子 AI 異常檢測 |
@@ -184,7 +184,7 @@
 |---|---|---|
 | **T1 製程控制（APC/SPC/VM）** | 🥇 NTU | 陳正剛 Argon Chen、Jakey Blue、李家岩、洪英超、范書愷(NTUT) |
 | **T2 AI-EDA/DTCO/DFM** | 🥇 NTU / NYCU | 張耀文(NTU)、江蕙如(NTU)、Kai-Chiang Wu(NYCU)、王廷基(NTHU) |
-| **T3 良率/缺陷/量測** | 🥇 NCKU / NTUST | 連仁傑(NCKU)、李維楨(NTUST)、花凱龍(NTUST)、鄭兆崇(NTNU)、YuanFu Yang 🔴(NYCU) |
+| **T3 良率/缺陷/量測** | 🥇 NCKU / NTUST | 連震杰(NCKU)、李維楨(NTUST)、花凱龍(NTUST)、鄭兆崇(NTNU)、YuanFu Yang 🔴(NYCU) |
 | **T4 先進封裝** | 🥇 NSYSU / NCHU / NYCU | 林勇志(NSYSU)、宋振銘(NCHU)、陳冠能(NYCU)、王志逢(NSYSU) |
 | **T5 Device/新材料（FeFET/GAA/2D/MLFF）** | 🥇 NTHU / NYCU / NTU | 張孟凡、鄭桂忠、賴志煌（三人 NTHU）、胡璧合(NTU)、Tian-Li Wu(NYCU)、莊萬鈞(NCKU, MLFF) |
 | **T6 智慧製造/IIoT/RL 調度** | 🥇 NCKU | 王振興、蔡佩璇(CPS)、林清河(RL)、姚智原(NTUST Digital Twin) |
@@ -201,9 +201,14 @@
 | NTU | 吳安宇 | **MediaTek-NTU Research Center** | 中心主任（冠名中心）；A 世代半導體 PI | 排除（與聯發科競爭者不宜） |
 | NTU | 王鈺強 | **NVIDIA Research Taiwan** | NVIDIA Research Director（Since 2022）；學生幾乎全流向 NVIDIA | 排除 |
 | NTHU | 林本堅 | **TSMC** | 20+ 年 TSMC 副總、冠名 Director；NTHU-TSMC Joint Center | 排除（對 TSMC 內部可忽略，對外部半導體廠則完全不投） |
+| NTHU | **張孟凡** ⚠️Batch1 新增 | **TSMC Corporate Research** | **現任 TSMC CR Director（兼任）**；Nature 2025 致謝 4 個 TSMC 部門；畢業生首大流向 TSMC；22nm/16nm 多次 JDP tape-out | **對非 TSMC 廠商排除**；對 TSMC 內部為 Tier-S 資產 |
 | NYCU | Yao-Jen Lee 李耀仁 | **TSRI** | 研究員 16 年兼任 | 排除 |
 | NYCU | Chun-Hsiung Lin 林君雄 | **TSMC R&D** | Manager 2012-19 出身 | 視具體公司立場（若非 TSMC，須評估） |
 | NYCU | YuanFu Yang | **TSMC** | 前 TSMC Data Scientist Team Lead | 視具體公司立場 |
+| NTU | **張耀文** ⚠️Batch2b 新增 | **MediaTek** | **現任 MediaTek 獨立董事（2024-5 就任）**；進入永續 & M&A 策略委員會；有薪資有法律義務 | 對非 MediaTek 廠商涉及 IC Design 題目須法務利益揭露；建議 Packaging EDA 題目切入 |
+| NSYSU | **林勇志** ⚠️Batch2b 新增 | **TSMC** | **前 TSMC 13 年**（2010-2023）升至特殊模組處經理；2 件 TSMC assignee 專利（US11688717B2、US20240186258A1）共同發明人；2021 TSMC 黃金商秘獎銀獎；離職僅 2.5 年（NDA 典型 2-5 年窗口） | 對非 TSMC 廠商排除；改用宋振銘（NCHU 材料，🟢 Open）為 T4 替代 |
+
+**教訓**：Phase 1 agent 對「非公開兼職」（張孟凡的 TSMC CR Director、張耀文的 MediaTek 董事、林勇志的 TSMC 13 年資歷）識別能力低。Phase 2 深度 profile 的主要價值就是發現這種隱形綁定。**Phase 1 可靠度約 70-75%**。
 
 **補充 🟡 需警惕的案例**：
 - NYCU Tian-Li Wu — MediaTek Chair（但研究獨立性尚可）
@@ -234,6 +239,57 @@
 2. 補做 §E 5 所統計所補強 pass（預計再新增 10-15 位）
 3. Phase 2 每位做深度 profile（研究生素質、實驗室 GitHub、IC/CAD Contest 得獎、LinkedIn 畢業生去向）
 4. 最終 PDF 研究報告（由 `hv-analysis` skill 產出）
+
+---
+
+## §H 核實 pass 結果（2026-04-22 新增）
+
+10 位「統計所補強 ⚠️」PI 做了 WebFetch + Google Scholar 核實，結果如下：
+
+| # | 姓名 | 宣稱系所 | 判定 | 修正重點 |
+|---|---|---|---|---|
+| 1 | **簡禎富** | NTHU IEEM | ✅ 確認 | Lab 名修正為 **DALab（非 SMART Lab）**；職銜加「**兼執行副校長**」 |
+| 2 | 彭健育 | NTHU 統計 | 🔧 修正 | **系所錯誤**：實際在 **Academia Sinica 中研院統計所**（副研究員）；方向偏學術方法論 |
+| 3 | 唐麗英 | NYCU IEM | 🔧 修正 | 疑似已退休/榮休，2022-2026 無活躍論文證據 |
+| 4 | 鄭少為 | NYCU 統計 | 🔧 修正 | **系所錯誤**：實際在 **NTHU 統計所**（已確認教授） |
+| 5 | **洪志洋** | NYCU 管科 | ❌ **刪除** | NYCU 管科 13 位教師名單無此人 |
+| 6 | **王春和** | NYCU IEM | ❌ **刪除** | NYCU IEM 名單無此人（training-data 幻覺）|
+| 7 | 楊素芬 | NCU 統計 | 🔧 修正 | **系所錯誤**：實際在 **NCCU 政大統計**（傑出教授、方向完全正確）|
+| 8 | **鄭宇翔** | NCCU 統計 | ❌ **刪除** | NCCU 統計 15 位教師名單無此人 |
+| 9 | 黃子銘 | NCCU 統計 | 🔧 修正 | 人存在但**研究方向不符**（實際為非參數函數估計，非 Bayesian ALT）|
+| 10 | 陳立榜 | NCCU 統計 | ✅ 確認 | 副教授、Causal Inference × 高維 正確；但**半導體關聯度低** |
+
+**判定分佈**：✅ 確認 2 位 / 🔧 修正 5 位 / ❌ 刪除 3 位
+
+**詳細核實報告**：`raw-materials/2026-04-tw-univ-semi-ai-professors/verification-results.md`
+
+### 核實後的「工業統計 × AI」候選池（全台，修正版）
+
+**Tier S（高確信、半導體直接命中）**：
+- **簡禎富**（NTHU IEEM，DALab）🎯🎯🎯 — T1+T3+T6 全棧、台積電合作、H-index 49
+- **李家岩**（NTU 資管）🎯🎯 — 原 Phase 1 已確認，《製造數據科學》作者
+- **陳正剛 Argon Chen**（NTU 工工）🎯🎯 — 原 Phase 1 已確認，SRC/ISMT PI
+- **Jakey Blue 藍啓航**（NTU 工工）🎯 — 原 Phase 1 已確認，新世代 APC
+
+**Tier 1（核實後保留、需注意非大學身份或方向調整）**：
+- **楊素芬**（**NCCU** 統計傑出教授）🎯 — SPC/EWMA/CUSUM 最強 PI；2025-2026 持續發表
+- **鄭少為**（**NTHU** 統計教授）🎯 — DoE/GP Emulator；移至清大清單
+- **彭健育**（**Academia Sinica** 統計所副研究員）🎯 — 退化模型方法論；中研院身份，聯絡方式不同
+- **洪英超**（NTU 工工）🎯 — SVR Profile Monitoring
+
+**Tier 2（存在但需評估）**：
+- **唐麗英**（NYCU IEM，疑似榮休）— Phase 2 前先電話問系辦確認在職
+- **陳立榜**（NCCU 統計副教授）— Causal 方法論純粹但半導體關聯度低，視公司是否要方法論顧問
+
+**Tier 3（刪除，training-data 幻覺）**：
+- ❌ 洪志洋、王春和、鄭宇翔 — 全台皆查無此人，Phase 2 排除
+
+### 教訓
+
+1. **training-data 幻覺率約 30%**：10 位中 3 位完全編造、5 位系所/職級/方向錯誤，只 2 位完全對。**所有 agent 生成的 PI 姓名都須網路核實後才能進 Phase 2。**
+2. **系所混淆常見**：鄭少為（NTHU vs NYCU）、彭健育（NTHU vs 中研院）、楊素芬（NCU vs NCCU）— 這三處錯誤說明 agent 對「同領域 PI 跨校分佈」易搞混
+3. **研究方向易誇大**：黃子銘案例 — agent 把一個「可能有 DoE 經驗」的 PI 寫成「Bayesian ALT 旗艦」，實際研究方向完全不同
+4. **Phase 1 主表（非統計補強部分）的 160 位 PI**：因來自首輪 agent 盤點，同樣有高幻覺風險，Phase 2 前所有入選者都須核實
 
 ---
 
