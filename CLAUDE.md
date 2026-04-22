@@ -60,5 +60,6 @@ pip install weasyprint markdown --break-system-packages
 
 - **每份研究獨立資料夾**，不要把多份研究的檔案混在同一層
 - **素材溯源**：`sources.md` 記錄所有引用 URL + 訪問日期，方便日後驗證
-- **產物不進 git**（reports/*.pdf 檔案大），但 Markdown 原稿要追蹤
+- **PDF 產物連同 Markdown 原稿一併追蹤進 git**（方便遠端直接下載/分享給主管）；若單份 PDF > 50 MB 再個案討論
+- **產 PDF 工具**：`scripts/md_to_pdf.py`（weasyprint + markdown），支援多 MD 合併、封面、目錄、emoji → 樣式化標記替換
 - **跨領域學習**：研究過程中遇到的方法論心得寫進 `~/vault/projects/hv-research/lessons.md`
