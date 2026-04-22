@@ -12,13 +12,16 @@
 - 11 校共 ~210 位候選教授
 - 5 所統計所補強 pass、核實 pass 10 位
 
-### Phase 2（深度 profile） ✅ 20/20 完成
+### Phase 2（深度 profile） ✅ 20/20 完成 + 1 位補充
 - 6 批並行 sonnet agents + WebFetch + Google Scholar + 隱形綁定檢查
 - **重大新發現 🔴 Deep Bound 3 位**（Phase 1 未抓到）：張孟凡（TSMC CR Director）、張耀文（MediaTek 獨立董事）、林勇志（前 TSMC 13 年 + 商秘獎）
 - Phase 1 標籤過期 3 位：陳正剛、洪英超、柏林
 - 姓名勘誤 2 位、隱形兼職 2 位
 - **Batch 3 補完（2026-04-22 本 session）**：蔡銘峰（NCCU T7b RAG）🟢🟡、鄭少為（NTHU T1 DoE）🟢🟡
   - 均 Free Agent 零綁定；蔡銘峰 T7b 核心但無半導體 domain 先例；鄭少為 TSMC-JDP 未列名但近 5 年頂期刊論文不可追溯
+- **Phase 1 遺漏補強（2026-04-22）**：**銀慶剛（NTHU 統計，清華講座教授）** — 判定 Tier-S，應替換陳正剛（條件式 Tier-A）
+  - 🟢 Free Agent；2014 TSMC 合作不良率降 11-14%；2022 IEEE TASE + 美國專利（與成大鄭芳田合著，半導體 KSA）；2025 JCGS 明確應用「半導體缺陷機台識別」；2025 IMS Fellow（唯一台灣入選者）；教育部學術獎 2024
+  - Profile: `phase2-profile-ing-ching-kang.md`
 
 ### 累計 🔴 Deep Bound 9 位
 吳安宇、王鈺強、林本堅、李耀仁、林君雄、YuanFu Yang、張孟凡、張耀文、林勇志
@@ -41,8 +44,8 @@
 - `phase1-candidates.md` — 11 校頓號名單 + 總表
 - `phase2-recommendations.md` — Top 20 建議
 - `phase2-batch1-tier-s-summary.md`、`phase2-batch2a-summary.md`、`phase2-batch2b-summary.md`、`phase2-batch2c-summary.md`
-- `phase2-final-summary.md` — **主總結**（**推薦讀此份**；已更新至 20/20）
-- 20 份 `phase2-profile-<name>.md`
+- `phase2-final-summary.md` — **主總結**（**推薦讀此份**；已更新至 21/20：20 + 銀慶剛補強）
+- 21 份 `phase2-profile-<name>.md`（含 `phase2-profile-ing-ching-kang.md`）
 
 ### raw-materials/2026-04-tw-univ-semi-ai-professors/
 - 11 校 professors.md + 5 校 statistics-supplement.md + `verification-results.md`
@@ -60,13 +63,16 @@
 
 4. **鄭少為近年空窗**：2020+ 無可追溯頂期刊論文、副教授 17 年未升等 — 建議「方法論顧問」而非「深度合作」
 
-5. **Git 狀態**：7 個 feature branches 全合併或待合。本 session 新增 2 份 profile + final-summary 更新 + LATEST.md 更新，需另開 feature branch + PR。
+5. **Git 狀態**：8 個 feature branches 全合併（PR #1-#4 已 merge）。本 session 新增 1 份銀慶剛 profile + final-summary/recommendations/LATEST.md 更新，需另開 feature branch + PR。
+
+6. **陳正剛 Tier-S 降級**：由於銀慶剛補入 + 陳正剛 2009 轉生醫 75%+，正式將陳正剛從 Tier-S 降至條件式降優先（方法論顧問軌）。Tier-S 名單：簡禎富、李家岩、**銀慶剛（新）**、Jakey Blue、鄭桂忠、胡璧合。
 
 ## Next Steps（依優先度）
 
 ### 🥇 最迫切
-1. **主管圈選**：從 `phase2-final-summary.md §5` 圈選實際要接觸的 PI（16 位）
-2. **email 確認王俊明 TSMC 年數**
+1. **主管圈選**：從 `phase2-final-summary.md §5` 圈選實際要接觸的 PI（**17 位**，含銀慶剛）
+2. **銀慶剛破冰點**：2014 TSMC 合作延伸對話 + 2022 成大鄭芳田專利合作範例
+2. ~~email 確認王俊明 TSMC 年數~~（用戶指示暫緩）
 
 ### 🥈 短期（本週）
 3. **（選配）T4 補強**：NYCU 陳冠能 profile
@@ -85,7 +91,8 @@
 5. **冠名講座 ≠ 排他綁定**（Micron/TSMC/Delta 皆有現役 PI 接受）
 6. **論文 Acknowledgments 段是隱形綁定的快速核實工具**
 7. **個人網頁「最後更新時間」與「論文/期刊空窗」是偵測 PI 動量下降的 proxy**（鄭少為案例）
+8. **Phase 1 training-data agent 的標籤偏見**（銀慶剛案例）：agent 偏愛「工業統計」關鍵字明確的 PI，漏掉「看似純方法論但有 TSMC 產學先例」的頂階 PI；未來 Phase 1 應將「講座教授／Academia Sinica 合聘／IMS/ASA/IEEE Fellow」作為獨立高優先 PI 掃描軸
 
 ## 結論
 
-本次 Phase 1 + Phase 2 **共產出 20 位現役 PI 深度 profile + 210 位候選總表**，建立了台灣學界半導體 AI 方向的完整情報資料庫。**🔴 黑名單 9 位**、**最終推薦 16 位可接觸 PI**（Tier-S 5 + Tier-1 5 + 條件式 6）。主管可直接依 `phase2-final-summary.md §5` 順序啟動實際接觸流程。
+本次 Phase 1 + Phase 2 **共產出 21 位現役 PI 深度 profile + 210 位候選總表**，建立了台灣學界半導體 AI 方向的完整情報資料庫。**🔴 黑名單 9 位**、**最終推薦 17 位可接觸 PI**（Tier-S 5 位含銀慶剛 + Tier-1 5 + 條件式 6；陳正剛從 Tier-S 降級）。主管可直接依 `phase2-final-summary.md §5` 順序啟動實際接觸流程，**首波優先接觸銀慶剛**（2014 TSMC 先例 + 2025 IMS Fellow 唯一台灣入選 + 方法論可直接落地）。
