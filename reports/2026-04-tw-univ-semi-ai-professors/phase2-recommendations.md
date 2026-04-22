@@ -17,6 +17,22 @@
 - **#15 唐麗英**：**已替換為 鄭少為**（NYCU IEM → NTHU 統計；原 PI 疑似榮休無 2022+ 論文）
 - 核實結果詳見 `phase1-candidates.md §H` 與 `raw-materials/.../verification-results.md`
 
+## ⚠️ Batch 2c 4 位修正（2026-04-22 新增）
+
+剩 4 位 Tier-1 完成 deep profile：
+
+- **#11 王俊明（NSYSU SAT）**：🟡 TSMC 年數不明但風險低於林勇志（無商秘獎、無 TSMC 專利、Caltech 博）；**待 email 確認 TSMC 年數**
+- **#12 王振興（NCKU 電機）**：🟢 低風險；**姓名勘誤「Zhen-Xing Wang」→「Jeen-Shing Wang」**；AI4DT 中心主任（非 Quanta 冠名）；半導體契合度 5%，需轉譯
+- **#13 蔡佩璇（NCKU IMIS）**：🟢 低風險；Fulbright Pittsburgh 2024-08 至 2025-Q3；CV SOP 驗證可直接產業應用；T6 組最乾淨候選人
+- **#14 楊佳玲（NTU 資工）**：⚠️ 🟡 條件性；**2026-2-2 就任數發部政務次長（借調）**；IEEE Fellow 2026；**借調期間暫緩新計畫，2027 後可升高優先**
+
+### Phase 2 已完成 deep profile（14 位）
+
+- **Tier-S 5 位**：簡禎富、李家岩、Jakey Blue（替陳正剛）、鄭桂忠（替張孟凡）、胡璧合
+- **Tier-1 9 位**：張耀文 🔴、Kai-Chiang Wu、連震杰、林勇志 🔴、宋振銘、王俊明 🟡、王振興 🟢（半導體 5%）、蔡佩璇 🟢、楊佳玲 🟡（借調）
+
+詳見：`phase2-batch2c-summary.md`
+
 ## ⚠️ Batch 2b 4 位修正（2026-04-22 新增）
 
 4 位 Tier-1 完成 deep profile 後，**2 位發現新 🔴 Deep Bound**：
@@ -93,7 +109,7 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 | 14 | **洪英超 Ying-Chao Hung** | NTU 工工（教授） | T1+T3 | 🎯 密西根博士；SVR Profile Monitoring + DoE；統計所方法論強 | 🟢 |
 | 15 | **鄭少為 Shao-Wei Cheng** 🔧核實 | **NTHU 統計所（教授）** | T1 | 🎯 DoE / Response Surface / Computer Experiments / Gaussian Process Emulator — 製程窗口模擬直接對口；2022-2024 持續開設 Experimental Design 課程；ResearchGate 確認活躍；個人頁 stat.nthu.edu.tw/~swcheng/ | 🟢 |
 | 16 | **楊佳玲 Chia-Lin Yang** | NTU 資工（特聘） | T7b+T5 | Edge AI / NVM 方法論 PI；DAC 2024 Program Co-chair；IBM Faculty Award；Open 度高 | 🟢 |
-| 17 | **王振興 Zhen-Xing Wang** | NCKU 電機（特聘 / AI 中心主任） | T6 | 🎯 AI 數位轉型中心主任；AIoT 實績明確；2024-25 AIoT 人因照明論文 | 🟢 |
+| 17 | **王振興 Jeen-Shing Wang** | NCKU 電機（特聘 / AI 中心主任） | T6 | 🎯 AI 數位轉型中心主任；AIoT 實績明確；2024-25 AIoT 人因照明論文 | 🟢 |
 | 18 | **蔡佩璇 Pei-Hsuan Tsai** | NCKU 製造資訊（教授） | T6 | 🎯 Cyber-Physical System Lab；Fab Digital Twin 潛力 | 🟢 |
 | 19 | **蔡銘峰 Ming-Feng Tsai** | NCCU 資科（教授） | T7b | 🎯 Learning-to-Rank / RAG / IR；SIGIR 2025；**最契合 LLM 工程師效率工具** | 🟢 |
 | 20 | **柏林 Berlin Chen** | NTNU 資工（教授） | T7b | 🎯 Taiwan Mandarin LLM 先驅；SMIL Lab；BERT + NLP 深度；教材形象強 | 🟢 |
