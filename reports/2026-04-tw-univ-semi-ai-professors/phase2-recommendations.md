@@ -17,6 +17,26 @@
 - **#15 唐麗英**：**已替換為 鄭少為**（NYCU IEM → NTHU 統計；原 PI 疑似榮休無 2022+ 論文）
 - 核實結果詳見 `phase1-candidates.md §H` 與 `raw-materials/.../verification-results.md`
 
+## ⚠️ Batch 2b 4 位修正（2026-04-22 新增）
+
+4 位 Tier-1 完成 deep profile 後，**2 位發現新 🔴 Deep Bound**：
+
+- **#6 張耀文 ⚠️ 🔴 MediaTek 獨立董事**（2024-5 就任；永續 & M&A 策略委員會）— Phase 1 低估風險。對非 MediaTek 廠商建議：法務先行，避開 IC Design 題目，改 Packaging EDA 切入。
+- **#7 Kai-Chiang Wu ✅ 🟢/🟡 Open 確認**。2022 後研究轉 Edge AI / LLM 壓縮；ICCAD CAD Contest 出題人。
+- **#9 林勇志 🔴 TSMC 重大綁定**（前 TSMC 13 年 → 特殊模組處經理；2 件 TSMC assignee 專利；2021 TSMC 黃金商秘獎銀獎；離職僅 2.5 年仍在 NDA 窗口）— 建議**替換為 宋振銘**（NCHU 研發長，🟢 Open）作為 T4 主要 PI。
+- **#10 宋振銘 ✅ 🟢 Open 確認**。2025 未來科技獎 + i-ONE 儀器獎；3 層端到端架構（光誘導表面改質 → 電化學感測 → AI 預測）。主要風險：研發長行政負擔 30-40%。
+
+### 累計隱形綁定發現（Batch 1 + 2a + 2b）
+
+Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1 未標記）：
+- **張孟凡**（NTHU）— TSMC Corporate Research Director 兼任
+- **張耀文**（NTU）— MediaTek 獨立董事
+- **林勇志**（NSYSU）— 前 TSMC 13 年 + 專利共有 + 商秘獎
+
+**加上 Phase 1 已標 6 位，🔴 黑名單累計 9 位**。詳見 `phase1-candidates.md §D`。
+
+詳見：`phase2-batch2b-summary.md`
+
 ## ⚠️ Batch 2a 4 位修正（2026-04-22 新增）
 
 4 位 Tier-1 完成 deep profile 後，**3 位升 Tier-S、1 位姓名勘誤**：

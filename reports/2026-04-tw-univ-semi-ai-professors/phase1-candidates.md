@@ -205,8 +205,10 @@
 | NYCU | Yao-Jen Lee 李耀仁 | **TSRI** | 研究員 16 年兼任 | 排除 |
 | NYCU | Chun-Hsiung Lin 林君雄 | **TSMC R&D** | Manager 2012-19 出身 | 視具體公司立場（若非 TSMC，須評估） |
 | NYCU | YuanFu Yang | **TSMC** | 前 TSMC Data Scientist Team Lead | 視具體公司立場 |
+| NTU | **張耀文** ⚠️Batch2b 新增 | **MediaTek** | **現任 MediaTek 獨立董事（2024-5 就任）**；進入永續 & M&A 策略委員會；有薪資有法律義務 | 對非 MediaTek 廠商涉及 IC Design 題目須法務利益揭露；建議 Packaging EDA 題目切入 |
+| NSYSU | **林勇志** ⚠️Batch2b 新增 | **TSMC** | **前 TSMC 13 年**（2010-2023）升至特殊模組處經理；2 件 TSMC assignee 專利（US11688717B2、US20240186258A1）共同發明人；2021 TSMC 黃金商秘獎銀獎；離職僅 2.5 年（NDA 典型 2-5 年窗口） | 對非 TSMC 廠商排除；改用宋振銘（NCHU 材料，🟢 Open）為 T4 替代 |
 
-**教訓**：Phase 1 agent 對「非公開兼職」（如張孟凡的 TSMC CR Director）識別能力低。Phase 2 深度 profile 的主要價值就是發現這種隱形綁定。
+**教訓**：Phase 1 agent 對「非公開兼職」（張孟凡的 TSMC CR Director、張耀文的 MediaTek 董事、林勇志的 TSMC 13 年資歷）識別能力低。Phase 2 深度 profile 的主要價值就是發現這種隱形綁定。**Phase 1 可靠度約 70-75%**。
 
 **補充 🟡 需警惕的案例**：
 - NYCU Tian-Li Wu — MediaTek Chair（但研究獨立性尚可）
