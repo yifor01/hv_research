@@ -5,12 +5,40 @@ Usage:
     python3 md_to_pdf.py -o output.pdf --title "Title" file1.md [file2.md ...]
 """
 import argparse
+import re
 import sys
 from datetime import date
 from pathlib import Path
 
 import markdown
 from weasyprint import HTML, CSS
+
+
+EMOJI_MAP = {
+    "🥇": '<span class="medal gold">#1</span>',
+    "🥈": '<span class="medal silver">#2</span>',
+    "🥉": '<span class="medal bronze">#3</span>',
+    "🏅": '<span class="medal bronze">#3</span>',
+    "🟢": '<span class="dot green">●</span>',
+    "🟡": '<span class="dot yellow">●</span>',
+    "🔴": '<span class="dot red">●</span>',
+    "⭐": "★",
+    "✅": '<span class="check ok">✓</span>',
+    "❌": '<span class="check no">✗</span>',
+    "⚠️": '<span class="warn">!</span>',
+    "⚠": '<span class="warn">!</span>',
+    "🚀": '<span class="up">↑↑</span>',
+    "⬇️": '<span class="down">↓</span>',
+    "⬇": '<span class="down">↓</span>',
+    "🆕": '<span class="tag">新</span>',
+    "🔍": "🔎",
+    "⚡": '<span class="bolt">⚡</span>',
+}
+EMOJI_RE = re.compile("|".join(re.escape(k) for k in EMOJI_MAP))
+
+
+def replace_emojis(html: str) -> str:
+    return EMOJI_RE.sub(lambda m: EMOJI_MAP[m.group(0)], html)
 
 
 CSS_STYLE = """
@@ -46,10 +74,27 @@ pre { background: #f2f4f7; border: 1px solid #d9dde4; border-radius: 4pt; paddin
 pre code { background: transparent; padding: 0; }
 blockquote { border-left: 3px solid #a0b5d5; background: #f7f9fc; margin: 8pt 0; padding: 4pt 10pt; color: #445; }
 
-table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8.5pt; page-break-inside: avoid; }
-th { background: #1a3d7c; color: #fff; padding: 4pt 6pt; text-align: left; border: 1px solid #1a3d7c; }
-td { padding: 3pt 6pt; border: 1px solid #d0d5dd; vertical-align: top; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 7.5pt; page-break-inside: avoid; table-layout: auto; }
+th { background: #1a3d7c; color: #fff; padding: 3pt 4pt; text-align: left; border: 1px solid #1a3d7c; word-break: keep-all; overflow-wrap: break-word; }
+td { padding: 2.5pt 4pt; border: 1px solid #d0d5dd; vertical-align: top; word-break: break-word; overflow-wrap: anywhere; line-height: 1.4; }
 tr:nth-child(even) td { background: #f7f9fc; }
+
+/* Emoji -> text markers */
+.medal { display: inline-block; min-width: 18pt; padding: 1pt 4pt; border-radius: 8pt; font-weight: bold; font-size: 8pt; color: #fff; text-align: center; }
+.medal.gold { background: #d4a017; }
+.medal.silver { background: #8a8d93; }
+.medal.bronze { background: #a87139; }
+.dot { font-size: 10pt; vertical-align: middle; }
+.dot.green { color: #2da44e; }
+.dot.yellow { color: #d4a017; }
+.dot.red { color: #c3343e; }
+.check.ok { color: #2da44e; font-weight: bold; }
+.check.no { color: #c3343e; font-weight: bold; }
+.warn { display: inline-block; background: #f4b740; color: #fff; font-weight: bold; padding: 0 4pt; border-radius: 3pt; font-size: 8pt; }
+.up { color: #2da44e; font-weight: bold; }
+.down { color: #c3343e; font-weight: bold; }
+.tag { display: inline-block; background: #2a5aa0; color: #fff; padding: 0 4pt; border-radius: 3pt; font-size: 8pt; }
+.bolt { color: #d4a017; }
 
 ul, ol { margin: 6pt 0; padding-left: 20pt; }
 li { margin: 2pt 0; }
@@ -102,7 +147,7 @@ def build_toc(files_meta: list[tuple[str, str]]) -> str:
 def convert_md(path: Path) -> str:
     text = path.read_text(encoding="utf-8")
     html = markdown.markdown(text, extensions=MD_EXTENSIONS, output_format="html5")
-    return html
+    return replace_emojis(html)
 
 
 def main() -> int:
@@ -130,8 +175,8 @@ def main() -> int:
         print("ERROR: --section-titles / --section-descs count mismatch", file=sys.stderr)
         return 2
 
-    parts = [build_cover(args.title, args.subtitle, args.author)]
-    parts.append(build_toc(list(zip(titles, descs))))
+    parts = [replace_emojis(build_cover(args.title, args.subtitle, args.author))]
+    parts.append(replace_emojis(build_toc(list(zip(titles, descs)))))
 
     for i, path in enumerate(paths):
         break_class = "section-break" if i > 0 else ""
