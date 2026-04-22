@@ -1,81 +1,82 @@
-# Handoff — Phase 3 啟動（B template + C 候選池擴大） — 2026-04-22
-Generated: 2026-04-22（深夜 Phase 2 結束後）
-Branch: master（與 origin/master 同步）
-Status: Phase 2 完成 + PDF 交付；Phase 3 有 2 個 agent 在背景跑
+# Handoff — Phase 3 完成（Top 15 + 方法論 template） — 2026-04-23
+Generated: 2026-04-23
+Branch: master
+Status: Phase 3 主體完成；等主管回覆 Wave 1 圈選後進 Phase 4（Option A briefing 包）
 
-## 目標
-為 TSMC AI 部門深化「長期合作學界 PI」決策基礎，補足 Phase 2 剩下的 2 個缺口：
-- **方法論沉澱**（template）：把本次 5 維度 TSMC 視角盡職調查框架抽成可重用 template，未來換題目/換公司視角可直接套用
-- **候選池擴大**（Top 7 單兵作戰的 2 個題目補人）：
-  - 人員效率 RAG 只有蔡銘峰（Top 11）
-  - CoWoS/封裝 AI 只有宋振銘（Top 8）
+## 本次 session 總結
 
-## Phase 2 結束狀態（已交付）
+### Phase 3 交付
+- **Top 15 最終版 PDF**：`reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_長期投資分析_v2.pdf`（76 頁，1.3 MB）
+- **Batch A 補 3 位 LLM/RAG PI**：黃瀚萱（AS）7.2 / 彭文志（NYCU）7.0 / 高宏宇（NTHU）6.4
+- **Batch B 補 3 位封裝 PI**：陳冠能（NYCU Dean）8.7 / 陳智（NYCU 材料主任）8.3 / 江國寧（NTHU 講座）8.1
+- **整合文件**：`phase3-integrated-ranking.md` — Top 15 總表 + Wave 1-3 調整 + 對主管 3 問防禦
 
-- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top10_長期投資分析.pdf`（52 頁，955 KB，已進 git）
-- 主管正在審查；Wave 1 接觸準備（Option A）**暫緩等主管圈選**
-- Top 7：馬誠佑 8.9 / 胡璧合 8.7 / 銀慶剛 8.5 / 詹寶珠 8.3 / 李家岩 8.0 / 鄭桂忠 8.0 / 林嘉文 7.5
-- 建議新增 Wave 1：王俊明 9.0（法務 check 後確認）
+### 方法論 template（B 完成）
+- `templates/pi-due-diligence-framework.md` — v1.0 首發
+- 5 維度錨點定義、綁定折扣判斷樹、Phase 1-4 標準流程、換公司視角調整、6 大判斷陷阱
+- 未來其他題目（MediaTek / HBM 材料 / 國際比較）可直接套用
 
-## Phase 3 進行中
+## Top 15 最終排序（TSMC 視角）
 
-### 🟡 [RUNNING] Batch A：LLM/RAG PI 候選（非蔡銘峰）
-- 目標：找 2-3 位額外的 LLM / Agentic AI / RAG / IR PI 遷移到製程文件 RAG / 工程師助手
-- Agent 條件：2023-2026 ACL/EMNLP/SIGIR/NeurIPS/ICLR 主會議 + 3+ 研究生 + 無 NVIDIA/Google/Meta 深度綁定
-- 參考候選方向：NTU CSIE、NTHU 電機/資工、NYCU 資工、AS（已排除蔡銘峰 + 16 未入選 U1-U16）
-- 產出：`phase3-batch-a-llm-rag-candidates.md`（5 維度評分 + Phase 2-lite profile 格式）
+| 排名 | PI | 分數 | Wave |
+|---|---|---|---|
+| 1* | 王俊明（NSYSU SAT）| 9.0 | Wave 1（法務 check 後定案）|
+| 2 | 馬誠佑（NSYSU 電機 + SAT）| 8.9 | Wave 1 |
+| 3 | 胡璧合（NTU 電機）| 8.7 | Wave 1 |
+| 3 | 陳冠能（NYCU ICST Dean）| 8.7 🆕 | Wave 1 |
+| 5 | 銀慶剛（NTHU 統計）| 8.5 | Wave 1 |
+| 6 | 陳智（NYCU 材料主任）| 8.3 🆕 | Wave 2 |
+| 6 | 詹寶珠（NCKU 電資院長）| 8.3 | Wave 2 |
+| 8 | 江國寧（NTHU PME）| 8.1 🆕 | Wave 1 |
+| 9 | 宋振銘（NCHU 研發長）| 8.0 | Wave 2 |
+| 9 | 李家岩（NTU 資管副院長）| 8.0 | Wave 2 |
+| 9 | 鄭桂忠（NTHU 電機）| 8.0 | Wave 2 |
+| 12 | 蔡佩璇（NCKU IMIS）| 7.7 | Wave 2 |
+| 13 | 林嘉文（NTHU 電機）| 7.5 | Wave 3 |
+| 14 | 蔡銘峰（NCCU 資科）| 7.2 | Wave 2 |
+| 14 | 黃瀚萱（AS 資訊所）| 7.2 🆕 | Wave 2 |
+| 16 | 彭文志（NYCU 資工）| 7.0 🆕 | Wave 3 |
 
-### 🟡 [RUNNING] Batch B：CoWoS/封裝 PI 候選（非宋振銘）
-- 目標：找 2-3 位額外的材料 / 封裝 / Cu-Cu bonding / 3D IC / HBM PI
-- Agent 條件：2023-2026 IEDM/ECTC/IMAPS/Nature 等封裝/材料頂會 + AI 遷移可行 + 5+ 研究生 + 無日月光/ASE/SPIL 深度獨占
-- 參考候選方向：NTU 材料/機械/電機、NTHU 材料/工工、NYCU 材料、NCKU 工科/材料、NTUST、NCU 工科
-- 產出：`phase3-batch-b-packaging-candidates.md`（5 維度評分 + Phase 2-lite profile 格式）
+**Wave 1 已擴到 6 位**：馬誠佑 / 胡璧合 / 銀慶剛 / 王俊明 / 陳冠能 / 江國寧
 
-### 🔴 [PENDING] B：方法論 template
-- 目標：把 5 維度 × 0-2 分 TSMC 視角盡職調查框架抽成 `templates/pi-due-diligence-framework.md`
-- 內容：
-  - 5 維度定義 + 評分錨點（什麼是 2 / 1.5 / 1 / 0.5 / 0）
-  - 綁定折扣判斷樹（Director 級→扣多少；JDP→中性；SAT 同陣營→不扣；大廠 Chair→看額度）
-  - Phase 1 篩選 → Phase 2 profile → Phase 3 TSMC 視角重評 標準流程
-  - 換公司視角（非 TSMC）時維度 4 的重新定義模板
-- 尚未開始；等 Batch A/B 結束後一併做，可把新候選人當作模板的驗證案例
+## 對主管 3 問的防禦（已建立）
 
-## 未完成（Phase 2 繼承）
-
-- [P1] 主管圈選 Wave 1 候選接觸 owner（**4 位**：馬誠佑 / 胡璧合 / 銀慶剛 / 王俊明）— **等主管**
-- [P1] Wave 1 預算核准（1500-2500 萬台幣 / 5 年，+ 王俊明 300-500 萬）— **等主管**
-- [P2] 法務確認：
-  - (a) 銀慶剛 US12354122B2 與 NCKU 鄭芳田 IP 共有狀態
-  - (b) 王俊明 TSMC 離職年數 + 商秘獎/專利綁定
-- [P3] URL 可達性 check（phase2-top7-investment-analysis.md agent 產出 ref 有部分 placeholder）
+- Q1「CoWoS/封裝為何只推一位？」→ 現有 4 位互補（材料 陳智/宋振銘 → 系統 陳冠能 → AI 方法論 江國寧）
+- Q2「人員效率為何只推一位？」→ 現有 4 位互補（傳統 RAG 蔡銘峰 / CAG 黃瀚萱 / Agentic IR 彭文志 / Domain Adaptation 高宏宇）
+- Q3「都不合作怎麼辦？」→ Phase 4 替代候選快速 scan（150-200 位台灣 AI/半導體 PI 中還有 100+ 未深度盤點）
 
 ## Git 狀態
 
-- origin/master = b3c1d58
-- 最近 commits：
-  - b3c1d58 docs: 更新 CLAUDE.md — PDF 追蹤進 git
-  - b62ed18 chore: 追蹤 PDF 產出（移除 *.pdf gitignore）
-  - a34337f fix: md_to_pdf emoji 替換 + 表格窄欄斷字
-  - d946623 chore: 新增 md_to_pdf 腳本
-  - d188154 chore: handoff 更新 — 3 commit 完成 + 5 位重評併入 Top 12
-  - 907f233 docs: TSMC 視角 Top 7 + 5 位重評
-  - 737c58b docs: 16 未入選 AI 名人分析
-  - af6761b docs: Phase 2 補完 profile + v2 三維度量化排序
+- 本地領先 origin/master 2 commits（未 push）：
+  - `8076228` docs: 新增 PI 盡職調查方法論 template（v1.0）
+  - `1d5b368` docs: Phase 3 擴充候選池 — Top 10 → Top 15
+- 上一次 push：`98cbe32`（handoff Phase 3 啟動）
 
-## 下一步（下次 session 恢復時）
+## 未完成
 
-1. **確認 2 個背景 agent 結果**：
-   ```bash
-   ls reports/2026-04-tw-univ-semi-ai-professors/phase3-batch-*.md
-   ```
-   若產出成功 → 讀兩份報告 → 整合進 phase2-top7-investment-analysis.md §1.2（調整排名）或新開 `phase3-updated-ranking.md`
-2. **寫 B：方法論 template** → `templates/pi-due-diligence-framework.md`
-3. **產新 PDF**（如果 Batch A/B 帶出新 Top 10 或排序變動）：
-   ```bash
-   python3 scripts/md_to_pdf.py -o <out>.pdf --title "..." -- phase2-top7-investment-analysis.md phase3-batch-a*.md phase3-batch-b*.md phase2-tsmc-reeval-5pis.md
-   ```
-4. 主管回覆 Wave 1 圈選後，再做 Option A（Wave 1 接觸 briefing 包）
+- [P0] `git push origin master`（2 commits 未 push）
+- [P1] 主管圈選 Wave 1（6 位）接觸 owner — **等主管**
+- [P1] 預算核准：Wave 1 合計 2000-3500 萬台幣 / 5 年（原 Phase 2 估 1500-2500 萬，+陳冠能/江國寧/王俊明 需追加 500-1000 萬）
+- [P2] 法務 check：
+  - (a) 王俊明 TSMC 離職年數 + 商秘獎/專利綁定（影響 #1 最終定位）
+  - (b) 銀慶剛 US12354122B2 與 NCKU 鄭芳田 IP 共有狀態
+- [P3] URL 可達性 check（phase2/3 agent 產出 ref 部分 placeholder）
+
+## 下一步（下次 session）
+
+### Option A：主管圈選後啟動 Wave 1 接觸 briefing 包
+待主管回覆；每位 PI 產 3-5 KB briefing：
+- 3 個具體合作題目（預算 × 期程 × KPI × deliverable）
+- Email 初次邀約模板（含對教授研究的具體提問）
+- 第一次會議議程 + 3 個關鍵問題
+- 法務/IP pre-flight checklist
+
+### Option B：若主管延遲，補 Phase 4 替代候選掃描
+針對 Wave 1 每位 PI 的「plan B」，各列 2-3 位替代（例如王俊明被拒 → 林勇志 / 廖建能 / 劉致為等）
+
+### Option C：跨領域驗證 template
+用 `templates/pi-due-diligence-framework.md` 套用到第二個主題（例如 HBM 材料 PI 或國際比較 Stanford/MIT AI × 2nm），驗證框架通用性 + 累積第二個案例豐富 template
 
 ## Resume Prompt
 
-「恢復 hv-research Phase 3。Phase 2 Top 10 PDF 已交主管審查。Phase 3 有 2 個背景 agent：Batch A 補 LLM/RAG PI 候選，Batch B 補 CoWoS/封裝 PI 候選。B（方法論 template）待做。確認 agent 產出後併入 Top 10 總表，並寫 template 沉澱。」
+「恢復 hv-research Phase 3 結束狀態。Top 15 PDF v2 已交付主管。方法論 template v1.0 已沉澱。等主管回覆 Wave 1 圈選（6 位）；若等待期可做 Phase 4 替代候選掃描或用 template 啟動第二主題驗證。」
