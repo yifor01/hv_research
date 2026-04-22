@@ -79,14 +79,15 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 
 ## §1 Phase 2 Top 20（主選）
 
-### 🥇 Tier-S（4 位，必訪 PI，無異議）
+### 🥇 Tier-S（5 位，必訪 PI；銀慶剛 2026-04-22 補入，陳正剛降至 Tier-2）
 
 | # | 姓名 | 校/系 | 主命中 | 為何 Tier-S | 綁定 |
 |---|---|---|---|---|---|
 | 1 | **簡禎富 Chen-Fu Chien** ✅核實 | NTHU 工工（講座教授兼執行副校長） | T1+T3+T6 | 🎯🎯🎯 **DALab**（Decision Analysis Lab）主持人 + AIMS 中心 PI；台灣半導體 AI 工工最強 PI；**2005-08 借調台積電工業工程處副處長**、清華-台積電卓越製造中心主任（2013 至今）、NSTC STEP 聯盟 PI；H-index 49、逾 200 篇期刊；博士生主動招生 | 🟢 |
 | 2 | **李家岩 Chia-Yen Lee** | NTU 資管副院長 | T1+T3+T6 | 🎯 台灣半導體製造資料科學最高頻出版者；Multi-Agent RL、VM、WBM、PdM 全向；著《製造數據科學》專書；實戰連結最強 | 🟢 |
-| 3 | **陳正剛 Argon Chen** 🔻Batch1 | NTU 工工 | T1（歷史）| 🎯 Rutgers IE+Stat 雙碩；**但 2009 起已轉生醫 75%+**；SRC/ISMT/DARPA Bell Labs 歷史成就；**近 3 年無半導體論文；Lab 僅 3 人** → 建議換成 Jakey Blue 升 Tier-S | 🟢（但半導體活躍度低）|
-| 4 | **張孟凡 Meng-Fan Chang** ⚠️Batch1 | NTHU 電機（特聘）**+ TSMC CR Director** | T5+T2 | Science 2024 + Nature 2025；IEEE Fellow 2026；**TSMC Corporate Research Director 兼任**；Nature 2025 致謝 4 個 TSMC 部門；**對非 TSMC 廠商 🔴 Deep Bound** | 🔴（非 TSMC）/ 🟢（TSMC 內部）|
+| 3 | **銀慶剛 Ching-Kang Ing** 🆕Batch4 | NTHU 統計所（清華講座教授） | T1+T3 方法論 | 🎯🎯 **2025 IMS Fellow 台灣唯一入選**；Tsing Hua Chair（校方認定，非企業冠名）；2018-21 統計所所長；曾任 Academia Sinica 統計所研究員；**2014 TSMC 產學合作紀錄**（與高雄大學團隊；不良率降 11-14%、1000 次實驗 980 次命中）；**2022 成大鄭芳田 IEEE TASE + 美國專利 US12354122B2**（半導體 KSA 黃金路徑）；**2025 JASA × 2 + JCGS**（JCGS 明確應用缺陷機台識別）；方法論可直接落地 VM feature selection、高維 SPC、Time Series Knockoffs 追因 | 🟢 |
+| 4 | **陳正剛 Argon Chen** 🔻降 Tier-2 | NTU 工工 | T1（歷史）| 🎯 Rutgers IE+Stat 雙碩；**但 2009 起已轉生醫 75%+**；SRC/ISMT/DARPA Bell Labs 歷史成就；**近 3 年無半導體論文；Lab 僅 3 人** → **2026-04-22 正式降為條件式降優先**（見 §附錄 — 可作方法論顧問，非 Tier-S） | 🟢（但半導體活躍度低）|
+| 5 | **張孟凡 Meng-Fan Chang** ⚠️Batch1 | NTHU 電機（特聘）**+ TSMC CR Director** | T5+T2 | Science 2024 + Nature 2025；IEEE Fellow 2026；**TSMC Corporate Research Director 兼任**；Nature 2025 致謝 4 個 TSMC 部門；**對非 TSMC 廠商 🔴 Deep Bound** | 🔴（非 TSMC）/ 🟢（TSMC 內部）|
 
 ### 🥈 Tier-1（8 位，高優先）
 
@@ -133,9 +134,9 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 
 | 主題 | Phase 2 候選數 | PI |
 |---|---|---|
-| **T1 製程控制（SPC/APC/VM）** | 5 | 陳正剛、李家岩、Jakey Blue、洪英超、唐麗英、簡禎富（全棧） |
+| **T1 製程控制（SPC/APC/VM）** | 6 | **銀慶剛**（方法論頂級 + 2014 TSMC 先例）、陳正剛（降級 方法論顧問）、李家岩、Jakey Blue、洪英超、簡禎富（全棧） |
 | **T2 AI-EDA / DTCO / DFM** | 3 | 張耀文、Kai-Chiang Wu、張孟凡（with T5）|
-| **T3 良率/缺陷/量測** | 5 | 李家岩、陳正剛、連震杰、彭健育、宋振銘（with T4）、簡禎富（全棧）|
+| **T3 良率/缺陷/量測** | 6 | 李家岩、陳正剛、連震杰、彭健育、**銀慶剛**（高維 Knockoffs × 缺陷追因）、宋振銘（with T4）、簡禎富（全棧）|
 | **T4 先進封裝** | 3 | 林勇志、宋振銘、陳冠能（備選）|
 | **T5 Device/新材料** | 3 | 胡璧合、張孟凡、賴志煌（備選）/鄭桂忠（備選）|
 | **T6 智慧製造/IIoT** | 4 | 簡禎富、王振興、蔡佩璇、Jakey Blue、李家岩 |
@@ -144,7 +145,7 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 
 ### 校別分佈（核實後）
 - NTU：7 位（#2 李家岩、#3 陳正剛、#5 胡璧合、#6 張耀文、#12 Jakey Blue、#14 洪英超、#16 楊佳玲）
-- NTHU：3 位（#1 簡禎富、#4 張孟凡、**#15 鄭少為**）
+- NTHU：4 位（#1 簡禎富、**#3 銀慶剛 🆕**、#5 張孟凡、#15 鄭少為）
 - Academia Sinica：1 位（#13 彭健育，**中研院非大學**）
 - NYCU：1 位（#7 Kai-Chiang Wu）— 原唐麗英已換
 - NCKU：3 位（#8 連震杰、#17 王振興、#18 蔡佩璇）
