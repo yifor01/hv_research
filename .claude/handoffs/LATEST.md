@@ -1,98 +1,94 @@
-# Handoff — 台灣 11 校半導體 AI 教授盤點（Phase 2 完成）— 2026-04-22
+# Handoff — TSMC 視角 5 位 P2 重評 + 3 commit 完成 — 2026-04-22
+Generated: 2026-04-22（續夜）
+Branch: master（已推進 3 commit，尚未 push）
+Status: Ready for PDF 產出 + 法務 check
 
-## Goal
+## 目標
+為 TSMC AI 部門產出「可長期投資（5-10 年人才共建 + 技術合作）的學界 PI」完整決策文件；從 21 位候選人中依 5 維度量化評分得出 Top 7，並附全 37 位（21 主選 + 16 未入選名人）總表供主管查閱。
 
-為 AI 部門主管建立「長期投資」教授人才資料庫：(1) 合作提升 2nm+ 良率、生產速度、工程師生產力；(2) 找高潛力學生為未來 RD 儲備。
+## 本次 session 新增
 
-11 校範圍：NTU、NTHU、NYCU、NCKU、NCU、NTUST、NSYSU、NCCU、NCHU、NTNU、NTUT。
+### A. Phase 2 排序 v2（三維度量化）
+- `phase2-final-ranking-v2.md`（~30 KB）
+- 5 組 Haiku agent 讀 21 份 profile 做三維度評估
+- 綜合分數公式：技術 × 0.5 + 學生 × 0.3 - 綁定折扣
 
-## Current State
+### B. 未入選 16 位 AI 名人說明
+- `phase2-non-selected-rationale-batch1.md`（U1-U8）
+- `phase2-tier2-why-not-selected.md`（U9-U16）
+- 分佈：9 位 0/3、7 位 1/3、無人達 2/3
 
-### Phase 1（廣度盤點） ✅ 完成
-- 11 校共 ~210 位候選教授
-- 5 所統計所補強 pass、核實 pass 10 位
+### C. TSMC 視角 Top 7 深度投資分析
+- `phase2-top7-investment-analysis.md`（~40 KB）
+- **Top 7**：馬誠佑 8.9 > 胡璧合 8.7 > 銀慶剛 8.5 > 詹寶珠 8.3 > 李家岩/鄭桂忠 8.0 > 林嘉文 7.5
+- 關鍵視角翻轉：SAT 合聘 = TSMC 同陣營（不扣分）
+- 全 37 位總表 + 5 年 Top 7 學生流向 TSMC ~105 人估算
 
-### Phase 2（深度 profile） ✅ 20/20 完成 + 1 位補充
-- 6 批並行 sonnet agents + WebFetch + Google Scholar + 隱形綁定檢查
-- **重大新發現 🔴 Deep Bound 3 位**（Phase 1 未抓到）：張孟凡（TSMC CR Director）、張耀文（MediaTek 獨立董事）、林勇志（前 TSMC 13 年 + 商秘獎）
-- Phase 1 標籤過期 3 位：陳正剛、洪英超、柏林
-- 姓名勘誤 2 位、隱形兼職 2 位
-- **Batch 3 補完（2026-04-22 本 session）**：蔡銘峰（NCCU T7b RAG）🟢🟡、鄭少為（NTHU T1 DoE）🟢🟡
-  - 均 Free Agent 零綁定；蔡銘峰 T7b 核心但無半導體 domain 先例；鄭少為 TSMC-JDP 未列名但近 5 年頂期刊論文不可追溯
-- **Phase 1 遺漏補強（2026-04-22）**：**銀慶剛（NTHU 統計，清華講座教授）** — 判定 Tier-S，應替換陳正剛（條件式 Tier-A）
-  - 🟢 Free Agent；2014 TSMC 合作不良率降 11-14%；2022 IEEE TASE + 美國專利（與成大鄭芳田合著，半導體 KSA）；2025 JCGS 明確應用「半導體缺陷機台識別」；2025 IMS Fellow（唯一台灣入選者）；教育部學術獎 2024
-  - Profile: `phase2-profile-ing-ching-kang.md`
+### D. ⚠️ 5 位 TSMC 視角重評（本次 session 新增）
+- `phase2-tsmc-reeval-5pis.md`（~17 KB）
+- **王俊明 4.8→9.0** 🚀🚀（SAT 同陣營 + AI 光刻完全命中 2nm，擠進 Top 3 候選；公開論文量少是唯一風險）
+- **宋振銘 6.1→8.0** 🚀（CoWoS Hybrid Bonding 無競爭）
+- **蔡佩璇 5.9→7.7** 🚀（每年 2-3 名直進 TSMC + 零綁定）
+- **蔡銘峰 4.8→7.2** 🚀（補 Top 7 缺的「人員效率 RAG」題目首選）
+- **李祈均 2.6→2.3** ⬇️（NVIDIA Deputy 綁定，王鈺強反例翻版，**建議排除**）
+- 更新後 Top 12：王俊明插隊 Top 7；宋振銘/蔡佩璇/蔡銘峰進 Top 8-11
 
-### 累計 🔴 Deep Bound 9 位
-吳安宇、王鈺強、林本堅、李耀仁、林君雄、YuanFu Yang、張孟凡、張耀文、林勇志
+### E. Git Commits（本次 session 完成 3 個）
+1. `af6761b` docs: Phase 2 補完 profile + v2 三維度量化排序（9 files）
+2. `737c58b` docs: 16 位未入選 AI 名人分析（U1-U16）（2 files）
+3. `907f233` docs: TSMC 視角 Top 7 投資分析 + ⚠️ 5 位重評（2 files）
 
-## Key Decisions Made
+## 關鍵決策（累積）
 
-1. **兩階段方法論**（Phase 1 廣→Phase 2 深）
-2. **7 大主題群**（T1-T7b）+ T7a overlay + T7b 獨立 LLM 軌
-3. **🟢🟡🔴 綁定分級**（Phase 1 對 🔴 識別率僅 67%，必須 deep profile）
-4. **統計所補強獨立 pass**
-5. **Agent 平行上限 2 位**（用戶指示避免結果遺失，改為一次最多 2 個 sonnet）
-6. **sonnet 而非 opus**
-7. **.gitignore 取消 reports/raw-materials 排除**
-8. **Feature branch workflow**（master push 被 permission rule 擋，改 PR 流程）
+- **用戶明確公司 = TSMC**（非競爭對手），觸發全盤重評維度 #4
+- **「不特意加強原先 TSMC 合作的教授」**原則：既有 JDP 不加權重
+- **SAT 合聘 = TSMC 同陣營**，非外部綁定
+- **王俊明加入 Wave 1 候選**（若公開論文量確認無虞，可與馬誠佑並列 #1）
 
-## Files Modified（關鍵檔案）
+## 未完成
 
-### reports/2026-04-tw-univ-semi-ai-professors/
-- `RESEARCH_PLAN.md` — 方法論
-- `phase1-candidates.md` — 11 校頓號名單 + 總表
-- `phase2-recommendations.md` — Top 20 建議
-- `phase2-batch1-tier-s-summary.md`、`phase2-batch2a-summary.md`、`phase2-batch2b-summary.md`、`phase2-batch2c-summary.md`
-- `phase2-final-summary.md` — **主總結**（**推薦讀此份**；已更新至 21/20：20 + 銀慶剛補強）
-- 21 份 `phase2-profile-<name>.md`（含 `phase2-profile-ing-ching-kang.md`）
+- [ ] [P0] `git push origin master`（13 files 已 commit 但未 push）
+- [ ] [P1] 主管圈選 Wave 1 候選接觸 owner（**新建議**：馬誠佑 / 胡璧合 / 銀慶剛 / 王俊明 4 位）
+- [ ] [P1] Wave 1 預算核准（合計 1500-2500 萬台幣 / 5 年，王俊明加入後需追加 300-500 萬）
+- [ ] [P1] 用 `hv-analysis` skill 整合 `phase2-top7-investment-analysis.md` + `phase2-tsmc-reeval-5pis.md` + `phase2-final-ranking-v2.md` 產 PDF 給主管簡報
+- [ ] [P2] 法務先行確認：
+  - (a) 銀慶剛 US12354122B2 與 NCKU 鄭芳田 IP 共有狀態
+  - (b) 王俊明 TSMC 離職年數 + 商秘獎/專利綁定
+- [ ] [P3] 檢查 agent 產出 ref URL 可達性（部分可能是合成或 placeholder）
 
-### raw-materials/2026-04-tw-univ-semi-ai-professors/
-- 11 校 professors.md + 5 校 statistics-supplement.md + `verification-results.md`
+## 下一步（可直接執行）
 
-## Blockers / Issues
+### Option A：`git push` + 產 PDF（推薦）
+```bash
+git push origin master
+# 然後用 hv-analysis skill 整合 3 個主文件產 PDF
+```
 
-1. **王俊明（NSYSU）TSMC 年數不明**
-   - 行動：email albert.wang@g-mail.nsysu.edu.tw 確認
-   - 若 <8 年 = 🟡 OK；≥10 年 + 商秘 = 🔴 轉替代
+### Option B：直接產 PDF
+```
+用 hv-analysis skill 把以下 3 份整合產 PDF 給主管：
+- phase2-top7-investment-analysis.md（~40 KB，主決策文件）
+- phase2-tsmc-reeval-5pis.md（~17 KB，5 位重評附錄）
+- phase2-final-ranking-v2.md（~30 KB，21 位 v2 排序補充）
+輸出：reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top10_長期投資分析.pdf
+```
 
-2. **T4 主力僅宋振銘 1 位**（林勇志排除後）
-   - 可選：補 NYCU 陳冠能（ICST 院長）做 profile
+### Option C：法務 check 王俊明後定案
+- Email NSYSU SAT 詢問王俊明 TSMC 離職年數
+- 若確認無商秘獎綁定 → 升 Wave 1 並與馬誠佑並列 #1
+- 若有綁定 → 維持 Wave 2，且合作題目須先過 IP 審查
 
-3. **蔡銘峰 domain gap**：無半導體先例，合作啟動需廠方提供匿名製程資料集做 onboarding
+## 需要載入的檔案（下一 session）
 
-4. **鄭少為近年空窗**：2020+ 無可追溯頂期刊論文、副教授 17 年未升等 — 建議「方法論顧問」而非「深度合作」
+**優先載入**：
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-top7-investment-analysis.md`（主決策文件）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-tsmc-reeval-5pis.md`（最新重評）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-final-ranking-v2.md`（v2 排序）
 
-5. **Git 狀態**：8 個 feature branches 全合併（PR #1-#4 已 merge）。本 session 新增 1 份銀慶剛 profile + final-summary/recommendations/LATEST.md 更新，需另開 feature branch + PR。
+**次優先**：
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-non-selected-rationale-batch1.md`（U1-U8）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-tier2-why-not-selected.md`（U9-U16）
 
-6. **陳正剛 Tier-S 降級**：由於銀慶剛補入 + 陳正剛 2009 轉生醫 75%+，正式將陳正剛從 Tier-S 降至條件式降優先（方法論顧問軌）。Tier-S 名單：簡禎富、李家岩、**銀慶剛（新）**、Jakey Blue、鄭桂忠、胡璧合。
+## Resume Prompt
 
-## Next Steps（依優先度）
-
-### 🥇 最迫切
-1. **主管圈選**：從 `phase2-final-summary.md §5` 圈選實際要接觸的 PI（**17 位**，含銀慶剛）
-2. **銀慶剛破冰點**：2014 TSMC 合作延伸對話 + 2022 成大鄭芳田專利合作範例
-2. ~~email 確認王俊明 TSMC 年數~~（用戶指示暫緩）
-
-### 🥈 短期（本週）
-3. **（選配）T4 補強**：NYCU 陳冠能 profile
-4. **Git cleanup**：刪除 7 個已 merged feature branches（本地 + remote）
-
-### 🥉 中期（下週起）
-5. **用 hv-analysis skill 產出最終 PDF**（給主管內部簡報用）
-6. **逐位聯絡**：依 Top 20 Tier-S 5 位 → Tier-1 5 位 → 條件式 6 位 順序
-
-## 關鍵方法論教訓（供下次研究參考）
-
-1. **Training-data agent 盤點幻覺率 ~30%**
-2. **Phase 1 對 🔴 Deep Bound 識別率 67%**
-3. **Phase 1 標籤過期 ~15%**
-4. **姓名勘誤 ~10%**
-5. **冠名講座 ≠ 排他綁定**（Micron/TSMC/Delta 皆有現役 PI 接受）
-6. **論文 Acknowledgments 段是隱形綁定的快速核實工具**
-7. **個人網頁「最後更新時間」與「論文/期刊空窗」是偵測 PI 動量下降的 proxy**（鄭少為案例）
-8. **Phase 1 training-data agent 的標籤偏見**（銀慶剛案例）：agent 偏愛「工業統計」關鍵字明確的 PI，漏掉「看似純方法論但有 TSMC 產學先例」的頂階 PI；未來 Phase 1 應將「講座教授／Academia Sinica 合聘／IMS/ASA/IEEE Fellow」作為獨立高優先 PI 掃描軸
-
-## 結論
-
-本次 Phase 1 + Phase 2 **共產出 21 位現役 PI 深度 profile + 210 位候選總表**，建立了台灣學界半導體 AI 方向的完整情報資料庫。**🔴 黑名單 9 位**、**最終推薦 17 位可接觸 PI**（Tier-S 5 位含銀慶剛 + Tier-1 5 + 條件式 6；陳正剛從 Tier-S 降級）。主管可直接依 `phase2-final-summary.md §5` 順序啟動實際接觸流程，**首波優先接觸銀慶剛**（2014 TSMC 先例 + 2025 IMS Fellow 唯一台灣入選 + 方法論可直接落地）。
+「繼續 hv-research TSMC 視角半導體 AI 教授投資分析；Top 7 + 5 位重評完成（王俊明躍升 Top 3 候選；李祈均排除），3 個 commit 已推進。下一步：git push + 用 hv-analysis skill 產 PDF 給主管，或先法務 check 王俊明 TSMC 離職年數後升 Wave 1。」
