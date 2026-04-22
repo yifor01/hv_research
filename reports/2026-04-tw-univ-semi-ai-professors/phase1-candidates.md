@@ -36,7 +36,7 @@
 
 ### 📌 NCKU（27 位 + 統計/IIM/IMIS 補強 12 位）
 
-**主表**：王振興、林家祥、詹寶珠、梁從主 🟡、謝明得、邱瀝毅、李昆忠、施遠峰、鄭光偉、謝孫源、梁勝富、盧文祥、連仁傑、陳朝鈞、蕭宏章、李佳蓉、吳品騏、許威助 🟡、莊萬鈞、陳怡均、龔仲偉、施士塵、林清河、蔡佩璇、賴宥呈、張泰榕、陳昭宇
+**主表**：王振興、林家祥、詹寶珠、梁從主 🟡、謝明得、邱瀝毅、李昆忠、施遠峰、鄭光偉、謝孫源、梁勝富、盧文祥、連震杰、陳朝鈞、蕭宏章、李佳蓉、吳品騏、許威助 🟡、莊萬鈞、陳怡均、龔仲偉、施士塵、林清河、蔡佩璇、賴宥呈、張泰榕、陳昭宇
 
 **統計系補強**：王秀瑛 ⚠️🎯、陳瑞彬 ⚠️、鄭天澤 ⚠️、吳建福 ⚠️🎯、林宗慶 ⚠️
 
@@ -137,7 +137,7 @@
 | 32 | NYCU | IEE Chip | **Huang Jun-Da 黃俊達** | 教授 | T2 | DNN Hardware Accelerator | 🟡 | — | ⭐⭐⭐⭐ | DNN 加速器（ADAR Lab） |
 | 33 | NYCU | 電子 | **Hung-Pin Wen 溫洪斌** | Distinguished | T3 | ML for DFT | 🟢 | — | ⭐⭐⭐⭐ | VLSI 測試/可靠度 |
 | 34 | NCKU | 資工 | **謝孫源** | 講座 | T1+T3 | 演算法, DL | 🟢 | — | ⭐⭐⭐⭐⭐ | NCKU AI 頂流、IAAM Fellow |
-| 35 | NCKU | 資工 | **連仁傑** | 教授 | T3 | 3D AOI, CNN | 🟢 | — | ⭐⭐⭐⭐⭐ | T3 3D AOI 直接命中 |
+| 35 | NCKU | 資工 | **連震杰** | 教授 | T3 | 3D AOI, CNN | 🟢 | — | ⭐⭐⭐⭐⭐ | T3 3D AOI 直接命中 |
 | 36 | NCKU | 電機 | **王振興** | 特聘/AI 中心主任 | T6 | AIoT, CNN, RL | 🟢 | — | ⭐⭐⭐⭐ | AI 數位轉型中心主任 |
 | 37 | NCKU | 電機 | **詹寶珠** | 特聘/電資院長 | T3 | CNN, Medical Imaging, XAI | 🟢 | — | ⭐⭐⭐⭐ | 病理 AI → 可遷移缺陷 |
 | 38 | NCKU | 資工 | **林家祥** | 教授 | T3+T7b | Quantum Learning, CNN | 🟢 | — | ⭐⭐⭐⭐ | 量子 AI 異常檢測 |
@@ -184,7 +184,7 @@
 |---|---|---|
 | **T1 製程控制（APC/SPC/VM）** | 🥇 NTU | 陳正剛 Argon Chen、Jakey Blue、李家岩、洪英超、范書愷(NTUT) |
 | **T2 AI-EDA/DTCO/DFM** | 🥇 NTU / NYCU | 張耀文(NTU)、江蕙如(NTU)、Kai-Chiang Wu(NYCU)、王廷基(NTHU) |
-| **T3 良率/缺陷/量測** | 🥇 NCKU / NTUST | 連仁傑(NCKU)、李維楨(NTUST)、花凱龍(NTUST)、鄭兆崇(NTNU)、YuanFu Yang 🔴(NYCU) |
+| **T3 良率/缺陷/量測** | 🥇 NCKU / NTUST | 連震杰(NCKU)、李維楨(NTUST)、花凱龍(NTUST)、鄭兆崇(NTNU)、YuanFu Yang 🔴(NYCU) |
 | **T4 先進封裝** | 🥇 NSYSU / NCHU / NYCU | 林勇志(NSYSU)、宋振銘(NCHU)、陳冠能(NYCU)、王志逢(NSYSU) |
 | **T5 Device/新材料（FeFET/GAA/2D/MLFF）** | 🥇 NTHU / NYCU / NTU | 張孟凡、鄭桂忠、賴志煌（三人 NTHU）、胡璧合(NTU)、Tian-Li Wu(NYCU)、莊萬鈞(NCKU, MLFF) |
 | **T6 智慧製造/IIoT/RL 調度** | 🥇 NCKU | 王振興、蔡佩璇(CPS)、林清河(RL)、姚智原(NTUST Digital Twin) |

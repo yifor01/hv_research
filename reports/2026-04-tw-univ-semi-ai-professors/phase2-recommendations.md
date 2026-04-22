@@ -17,6 +17,17 @@
 - **#15 唐麗英**：**已替換為 鄭少為**（NYCU IEM → NTHU 統計；原 PI 疑似榮休無 2022+ 論文）
 - 核實結果詳見 `phase1-candidates.md §H` 與 `raw-materials/.../verification-results.md`
 
+## ⚠️ Batch 2a 4 位修正（2026-04-22 新增）
+
+4 位 Tier-1 完成 deep profile 後，**3 位升 Tier-S、1 位姓名勘誤**：
+
+- **#5 胡璧合**：✅ **升 Tier-S**；🟢 Open 確認；**Micron Foundation Chair Professor（2024）**；Lab 5 博 + 17 碩；可與鄭桂忠形成 device→circuit 研究鏈
+- **#8 連震杰（姓名勘誤：原寫「連仁傑」）**：✅ **升 Tier-S 候選**；🟢 Open；5 項專利（工程化強）；嵌入式 CUDA 部署能力；南科地緣（距 Fab 20 分鐘）
+- **#12 Jakey Blue**：✅ **升 Tier-S** 替補 #3 陳正剛；**師承陳正剛**（衣缽傳承者）；🟡 TSMC alumni 2010-11，離職 15 年，無返聘
+- **新增 #ref1 鄭桂忠（NTHU 電機）**：✅ **新 Tier-S 候選** 替補 #4 張孟凡；🟡 Partial（無 TSMC 正式職，差別於張孟凡）；IEEE Fellow 2024 Class；ISSCC 7 篇 / 3 年；Delta 飛雁先例（2022）；Lab 2-4 主力 = 精品合作
+
+詳見：`phase2-batch2a-summary.md`
+
 ## ⚠️ Batch 1 Tier-S 深度 profile 後的重大修正（2026-04-22）
 
 4 位 Tier-S 做完 Phase 2 深度 profile 後，**2 位需重新分類**：
@@ -48,7 +59,7 @@
 | 5 | **胡璧合 Vita Pi-Ho Hu** | NTU 電機 | T5+T4 | FeFET × 3D IC × CIM 三方交集；IEDM/IRPS 常駐；L'ORÉAL 科學女性獎 | 🟢 |
 | 6 | **張耀文 Yao-Wen Chang** | NTU 電機 | T2 | NTU EDA 旗艦；IEEE CEDA Fellow；Physical Design / DFM 360+ 論文；產業輸送人才中心 | 🟡 多方業界 |
 | 7 | **Kai-Chiang Wu 吳凱強** | NYCU 資工 | T2 | CMU 博士；EDA+AI 頂級；Intel 經歷但非深綁；ML for EDA + Design-for-Testability | 🟡 Intel 輕 |
-| 8 | **連仁傑 James Lien** | NCKU 資工 | T3 | 3D 自動光學檢測、視覺機器人；T3 AOI 最直接命中 | 🟢 |
+| 8 | **連震杰 James Lien** | NCKU 資工 | T3 | 3D 自動光學檢測、視覺機器人；T3 AOI 最直接命中 | 🟢 |
 | 9 | **林勇志 Yung-Chih Lin** | NSYSU SAT | T4 | 3D 晶圓接合、異質整合、晶圓級整合；南科地緣優勢 | 🟡 TSMC AP 推測 |
 | 10 | **宋振銘 Chen-Ming Sung** | NCHU 材料（研發長） | T4 | 3D 封裝智慧量測平台 AI；2025 未來科技獎、i-ONE 儀器獎；產業化程度最高 | 🟢 |
 | 11 | **王俊明 Chun-Ming Wang** | NSYSU SAT | T6+T7b | 前 TSMC 製程部；光刻/OPC/RET × AI；出身產業背景 | 🟡 TSMC 出身 |
@@ -88,7 +99,7 @@
 |---|---|---|
 | **T1 製程控制（SPC/APC/VM）** | 5 | 陳正剛、李家岩、Jakey Blue、洪英超、唐麗英、簡禎富（全棧） |
 | **T2 AI-EDA / DTCO / DFM** | 3 | 張耀文、Kai-Chiang Wu、張孟凡（with T5）|
-| **T3 良率/缺陷/量測** | 5 | 李家岩、陳正剛、連仁傑、彭健育、宋振銘（with T4）、簡禎富（全棧）|
+| **T3 良率/缺陷/量測** | 5 | 李家岩、陳正剛、連震杰、彭健育、宋振銘（with T4）、簡禎富（全棧）|
 | **T4 先進封裝** | 3 | 林勇志、宋振銘、陳冠能（備選）|
 | **T5 Device/新材料** | 3 | 胡璧合、張孟凡、賴志煌（備選）/鄭桂忠（備選）|
 | **T6 智慧製造/IIoT** | 4 | 簡禎富、王振興、蔡佩璇、Jakey Blue、李家岩 |
@@ -100,7 +111,7 @@
 - NTHU：3 位（#1 簡禎富、#4 張孟凡、**#15 鄭少為**）
 - Academia Sinica：1 位（#13 彭健育，**中研院非大學**）
 - NYCU：1 位（#7 Kai-Chiang Wu）— 原唐麗英已換
-- NCKU：3 位（#8 連仁傑、#17 王振興、#18 蔡佩璇）
+- NCKU：3 位（#8 連震杰、#17 王振興、#18 蔡佩璇）
 - NSYSU：2 位（#9 林勇志、#11 王俊明）
 - NCHU：1 位（#10 宋振銘）
 - NCCU：1 位（#19 蔡銘峰）
