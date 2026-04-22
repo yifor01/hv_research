@@ -9,6 +9,60 @@
   5. T7b LLM 軌獨立配額 2 位（工程師生產力工具）
 - **提交方式**：主管可直接在本檔圈選、增刪、調整順序
 
+## 🚨 2026-04-22 晚間 Haiku 核實 pass 重大發現
+
+對 19 位候選人（扣除 🔴 排除 3 位）做現況再核實，發現以下異動：
+
+1. **簡禎富**：🚨 **2025-02-27 離任清華執行副校長 → 轉任臻鼎科技(KY)總經理（PCB 產業）**。清華講座教授 + AIMS 中心主任 + 清華-台積電卓越中心主持人身分保留。合作仍可能但時間壓縮，**從 Tier-S #1 降為「條件式接觸」**。
+2. **吳凱強**：🚨 **新發現 Neuchips 創鑫智慧技術顧問**（AI 推論晶片新創）。需先確認顧問合約條款；若含排他性則影響合作範圍。
+3. **連震杰**：⚠️ 2025 論文方向已多轉向醫療影像 AI（膽管/肺結節/聯邦學習），T3 半導體 AOI 仍可合作但非主軸。
+4. **鄭桂忠**：✅ 加分 — **2026-02 國科會傑出研究獎** + ISSCC 2025 × 2 篇；IEEE Fellow 2024 確認。
+5. **胡璧合**：✅ 加分 — IEDM 2025 × 2 篇 + **2025-08 兼 GUPS（國際學院全球半導體本科課程）主任**；Micron Chair 持續。
+6. **銀慶剛**：✅ 獨立核實 2025 IMS Fellow 屬實；JASA 2025（High-Dimensional Knockoffs Time Series）+ JCGS 2025 雙頂刊確認。
+7. **楊素芬 / 蔡銘峰**：⚠️ 2025/2026 論文宣稱公開搜尋未返回結果，需人工查期刊原文或直接詢問本人。
+
+基於以上，**第一批 Tier-S 順序調整為**：銀慶剛 → 李家岩 → 鄭桂忠 → 胡璧合 → Jakey Blue；簡禎富另列「條件式接觸」。
+
+---
+
+## 🆕 2026-04-22 深夜漏網之魚 pass + Phase 2 補強（新增 3 位 Tier-1 + 1 位條件式）
+
+3 組 Haiku agent 對 11 校做系統性漏網掃描，嚴格篩選剔除誤報後確認 **3 位 Phase 1 真正漏網的頂階 PI**；另派 3 組 Haiku 完成 Phase 2 深度 profile。**新增完成 Profile 詳見 `phase2-profile-{lin-chia-wen|ma-cheng-yu|chung-pau-choo|lee-chi-chun|mizuno-jun}.md`**。
+
+### ✅ 確認新增 Tier-1（3 位）
+
+| # | 姓名 | 校/系 | T | 半導體契合 | 關鍵訊號 |
+|---|---|---|---|---|---|
+| 21 | **林嘉文 Chia-Wen Lin** | NTHU 電機 + 半導體學院 | T7a / T3b | 70% | IEEE Fellow 2018 + 2024 NSTC 傑出 + 2025 李國鼎會士獎；h-index 69 / 17.4k 引用；已有光刻 EDA + 光罩修正原型；🟢 |
+| 22 | **馬誠佑 Cheng-Yu Ma** | NSYSU 電機（合聘 SAT） | T5 | 92% | IEEE TED 2024 × 2 + 2025 × 1；FeFET/TFT 純 device；**與 #5 胡璧合北南 T5 雙軸互補**；南科地緣 40 min；🟡 SAT |
+| 23 | **詹寶珠 Pau-Choo Chung** | NCKU 電機 + 電資學院院長 | T3 | 需 PoC | IEEE Fellow；醫學影像 DL 先驅；跨設備/域適應方法論直接對接 AOI；🟢 Free Agent |
+
+### ⏸ 新增 Tier-2 條件式（1 位）
+
+| # | 姓名 | 說明 |
+|---|---|---|
+| 24 | **李祈均 Chi-Chun Lee**（NTHU 電機） | Tier-2 條件式；2024 NSTC 傑出；**NVIDIA Joint Center Deputy + 京元電子雙顧問 🟡**；Speech/Affective → 製程異常檢測需跨域轉譯；半導體契合僅 35% |
+
+### 🔴 核實剔除（1 位）
+
+| # | 姓名 | 核實結果 |
+|---|---|---|
+| — | **水野潤 Jun Mizuno**（原推測 NCKU 先進封裝）| **實為日本早稻田大學正職教授**，NCKU 為客座；從台灣學界名單剔除；若要合作建議 TSMC ↔ Waseda 直接協議 |
+
+### T 類別覆蓋度更新
+
+- **T5 補強**：馬誠佑（NSYSU）+ 胡璧合（NTU）形成南北 device 雙軸，T5 軸達 ⭐⭐⭐⭐⭐
+- **T7a 新開**：林嘉文為 Computer Vision / Video AI 獨角戲，可接 AOI + 設備視訊監控
+- **T3 加固**：詹寶珠補強 DL 跨域遷移軌（連震杰方向漂移後空缺）
+- **EDA（T2）**：林嘉文光刻 EDA 原型可補足吳凱強 Neuchips 顧問限制
+
+### 統計更新
+
+- **已完成 Phase 2 profile 總數**：25 份（原 21 + 漏網補強 4，水野潤保留檔案供參考但不計入 Top 20）
+- **Top 20 實質名單**：Tier-S 5 + Tier-1 8（含 3 位漏網補強）+ Tier-2 條件式 7 = **20 位核心推薦** + **條件式 4 位備選**
+
+---
+
 ## ⚠️ 核實 pass 後的修正（2026-04-22）
 
 10 位統計所補強 PI 做 WebFetch 核實，發現 training-data 幻覺率 ~30%。本清單已反映核實結果：
@@ -83,7 +137,7 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 
 | # | 姓名 | 校/系 | 主命中 | 為何 Tier-S | 綁定 |
 |---|---|---|---|---|---|
-| 1 | **簡禎富 Chen-Fu Chien** ✅核實 | NTHU 工工（講座教授兼執行副校長） | T1+T3+T6 | 🎯🎯🎯 **DALab**（Decision Analysis Lab）主持人 + AIMS 中心 PI；台灣半導體 AI 工工最強 PI；**2005-08 借調台積電工業工程處副處長**、清華-台積電卓越製造中心主任（2013 至今）、NSTC STEP 聯盟 PI；H-index 49、逾 200 篇期刊；博士生主動招生 | 🟢 |
+| 1 | **簡禎富 Chen-Fu Chien** ⏸降條件式 | NTHU 工工（清華講座教授，**已於 2025-02-27 離任執行副校長**；**現任臻鼎科技(KY) 總經理**）| T1+T3+T6 | 🎯🎯🎯 **DALab**（Decision Analysis Lab）主持人 + AIMS 中心 PI；台灣半導體 AI 工工最強 PI；**2005-08 借調台積電工業工程處副處長**、清華-台積電卓越製造中心主任（2013 至今）、NSTC STEP 聯盟 PI；H-index 49、逾 200 篇期刊；**2025-02 轉任 PCB 產業 CEO 後時間大幅壓縮**，合作需先確認可用時間 | 🟡 |
 | 2 | **李家岩 Chia-Yen Lee** | NTU 資管副院長 | T1+T3+T6 | 🎯 台灣半導體製造資料科學最高頻出版者；Multi-Agent RL、VM、WBM、PdM 全向；著《製造數據科學》專書；實戰連結最強 | 🟢 |
 | 3 | **銀慶剛 Ching-Kang Ing** 🆕Batch4 | NTHU 統計所（清華講座教授） | T1+T3 方法論 | 🎯🎯 **2025 IMS Fellow 台灣唯一入選**；Tsing Hua Chair（校方認定，非企業冠名）；2018-21 統計所所長；曾任 Academia Sinica 統計所研究員；**2014 TSMC 產學合作紀錄**（與高雄大學團隊；不良率降 11-14%、1000 次實驗 980 次命中）；**2022 成大鄭芳田 IEEE TASE + 美國專利 US12354122B2**（半導體 KSA 黃金路徑）；**2025 JASA × 2 + JCGS**（JCGS 明確應用缺陷機台識別）；方法論可直接落地 VM feature selection、高維 SPC、Time Series Knockoffs 追因 | 🟢 |
 | 4 | **陳正剛 Argon Chen** 🔻降 Tier-2 | NTU 工工 | T1（歷史）| 🎯 Rutgers IE+Stat 雙碩；**但 2009 起已轉生醫 75%+**；SRC/ISMT/DARPA Bell Labs 歷史成就；**近 3 年無半導體論文；Lab 僅 3 人** → **2026-04-22 正式降為條件式降優先**（見 §附錄 — 可作方法論顧問，非 Tier-S） | 🟢（但半導體活躍度低）|
@@ -95,8 +149,8 @@ Phase 2 至今 12 位已 profile，發現 **3 位新 🔴 Deep Bound**（Phase 1
 |---|---|---|---|---|---|
 | 5 | **胡璧合 Vita Pi-Ho Hu** | NTU 電機 | T5+T4 | FeFET × 3D IC × CIM 三方交集；IEDM/IRPS 常駐；L'ORÉAL 科學女性獎 | 🟢 |
 | 6 | **張耀文 Yao-Wen Chang** | NTU 電機 | T2 | NTU EDA 旗艦；IEEE CEDA Fellow；Physical Design / DFM 360+ 論文；產業輸送人才中心 | 🟡 多方業界 |
-| 7 | **Kai-Chiang Wu 吳凱強** | NYCU 資工 | T2 | CMU 博士；EDA+AI 頂級；Intel 經歷但非深綁；ML for EDA + Design-for-Testability | 🟡 Intel 輕 |
-| 8 | **連震杰 James Lien** | NCKU 資工 | T3 | 3D 自動光學檢測、視覺機器人；T3 AOI 最直接命中 | 🟢 |
+| 7 | **Kai-Chiang Wu 吳凱強** ⚠️新綁定 | NYCU 資工（**所長**）| T2 | CMU 博士；EDA+AI 頂級；ML for EDA + Design-for-Testability；2022 後轉 Edge AI / LLM 壓縮（Palu/xkv/Quamba）；**2026-04-22 核實新發現：Neuchips 創鑫智慧技術顧問**（現任；AI 推論晶片新創），需先確認合約排他條款 | 🟡 Intel 歷史 + **Neuchips 現任顧問** |
+| 8 | **連震杰 James Lien** ⚠️方向漂移 | NCKU 資工 | T3 | 3D 自動光學檢測、視覺機器人；T3 AOI 命中；**2026-04-22 核實：2025 論文方向多轉醫療影像 AI（膽管/肺結節/肝腫瘤/聯邦學習），AOI 仍可但已非主軸** | 🟢 |
 | 9 | **林勇志 Yung-Chih Lin** | NSYSU SAT | T4 | 3D 晶圓接合、異質整合、晶圓級整合；南科地緣優勢 | 🟡 TSMC AP 推測 |
 | 10 | **宋振銘 Chen-Ming Sung** | NCHU 材料（研發長） | T4 | 3D 封裝智慧量測平台 AI；2025 未來科技獎、i-ONE 儀器獎；產業化程度最高 | 🟢 |
 | 11 | **王俊明 Chun-Ming Wang** | NSYSU SAT | T6+T7b | 前 TSMC 製程部；光刻/OPC/RET × AI；出身產業背景 | 🟡 TSMC 出身 |
