@@ -2,22 +2,23 @@
 
 ---
 
-## #1*. 王俊明 Chun-Ming (Albert) Wang（NSYSU 半導體及重點科技研究學院 / ISMID 所長）
+## #1. 王俊明 Chun-Ming (Albert) Wang（NSYSU 半導體及重點科技研究學院 / ISMID 所長）
 
-**分數**：9.0 | **接觸建議**：第一波（法務 check 後定案）
+**分數**：9.0 | **接觸建議**：第一波  
+**專長標籤**：`AI-assisted EDA` · `OPC` · `Generative Layout Synthesis` · `DTCO` · `TCAD`
 
 ### (1) 教授技術領域的契合度
 
 - **AI 架構能力**：CNN / ML 深度網路應用於 semiconductor lithography hotspot prediction；DFM（Design for Manufacturability）資料流
 - **半導體 AI 相關計畫**：ISMID 創新半導體製造研究所所長（2023/08 起），統籌 NSYSU × TSMC 南科培訓中心實習計畫；NSTC 一般型研究計畫（具體編號未公開）
-- **產業合作**：前 TSMC 製程部（具體年數待確認）；KLA Corp.（Arthur Lin 共著 SPIE 2025 論文）；ISMID 結構性對接 TSMC 南科
+- **產業合作**：**SAT 中心本身為 TSMC 支持設立**，王為體制內合作方（非離職後的自由身接觸）；KLA Corp.（Arthur Lin 共著 SPIE 2025 論文）；ISMID 結構性對接 TSMC 南科
 - **研究成果與貢獻**：**OPC（Optical Proximity Correction）、RET（Resolution Enhancement Technology）、EUV 光刻、DFM、Machine Learning for Lithography Hotspot Prediction**；先進記憶體技術
-- **落地使用**：業界實戰級訓練（Caltech 應用物理博士 + 前 TSMC 製程部 + 現任 ISMID 所長跨業界與學界）；SPIE Photomask Japan 2025 論文直接對應 ArF immersion 光刻實戰
+- **落地使用**：業界實戰級訓練（Caltech 應用物理博士 + 現任 ISMID 所長跨業界與學界）；SPIE Photomask Japan 2025 論文直接對應 ArF immersion 光刻實戰
 - **獲得肯定**：「教授級專業技術人員（Professor of Practice）」職銜；2023 NSYSU 招攬為 ISMID 首任所長
 
 ### (2) 學生工程素養與實驗室文化
 
-- **系統化能力**：Caltech 應用物理博士訓練 + TSMC 製程部實戰經驗，雙重工程嚴謹度
+- **系統化能力**：Caltech 應用物理博士訓練 + 業界實戰經驗，雙重工程嚴謹度
 - **團隊合作**：SPIE 2025 一作學生 Bo-Yin Tseng + KLA 工業合作方，顯示有跨界共著訓練模式
 - **產學合作經驗**：ISMID 學生直送 TSMC 南科培訓中心暑期實習（中部科學園區台積電新人訓練中心）
 - **獲得肯定**：Lab 規模未公開；學生競賽獎項公開資料有限（資料有限，需訪談補齊）
@@ -30,26 +31,27 @@
 - Caltech 學術訓練品質保證（論文嚴謹度高）
 - NSYSU 南科地緣，畢業生就業出口穩定
 - KLA 業界合作已建立，非紙上研究
+- **SAT 中心已有 TSMC 合作基礎**（SAT 本身即 TSMC 支持設立），易於在既有框架下深化專案範圍，無需從零建立 MOU
 
 **缺點 / 風險**
-- **前 TSMC 年數不明**：若超過 10 年且有商秘協議，風險升高至 🔴 Deep Bound
-- **ISMID 結構性 TSMC 依附**：所長身份使其難以完全獨立於 TSMC 立場，若雇主與 TSMC 為競爭關係可能引起敏感
 - 論文數量偏少（公開資料僅 SPIE 2025 × 1 篇），學術能量待確認
+- ISMID 所長行政負擔，時間分配需事先對齊
 - 記憶體專長聲稱但佐證不足
+- 學生團隊 SAT 外部生源待觀察（SAT 招生模式特殊）
 
 **建議合作方式**
-- 合作類型：**個人級專案制委案 + 後續視法務結果擴大至 ISMID 院級 Joint Lab**
+- 合作類型：**在既有 SAT-TSMC 合作框架下擴大專案範圍**（個人級專案制委案 → ISMID 院級 Joint Lab）
 - 預算區間：5 年 300-500 萬 NTD（個人級）→ 若院級擴大 800-1200 萬 NTD
 - 期程：第一年 PoC（6-12 月）→ 年度 review → 續約
 - **KPI**：(1) SPIE Photomask 一作論文 1-2 篇/年；(2) 公開發表 2nm EUV OPC ML 演算法 benchmark；(3) 實際 TSMC 製程 data 上的 hotspot prediction 準確率 ≥ 95%
 - 交付物：演算法 code + 論文 + 學生派遣（2-3 名/年碩博實習）
-- **前置法務 check 優先**：離職年數、商秘獎、專利 assignee 清點
 
 ---
 
 ## #2. 馬誠佑 William Cheng-Yu Ma（NSYSU 電機 + SAT 合聘）
 
-**分數**：8.9 | **接觸建議**：第一波
+**分數**：8.9 | **接觸建議**：第一波  
+**專長標籤**：`FeFET` · `R2R` · `FDC` · `Virtual Metrology` · `GAA FET`
 
 ### (1) 教授技術領域的契合度
 
@@ -94,7 +96,8 @@
 
 ## #3. 胡璧合 Vita Pi-Ho Hu（NTU 電機正教授 + 美光 Chair Professor）
 
-**分數**：8.7 | **接觸建議**：第一波
+**分數**：8.7 | **接觸建議**：第一波  
+**專長標籤**：`FeFET` · `CIM` · `CFET SRAM` · `GAA FET` · `DTCO`
 
 ### (1) 教授技術領域的契合度
 
@@ -141,7 +144,8 @@
 
 ## #3. 陳冠能 Kuan-Neng Chen（NYCU ICST Dean + 電子所講座教授）
 
-**分數**：8.7 | **接觸建議**：第一波
+**分數**：8.7 | **接觸建議**：第一波  
+**專長標籤**：`Hybrid Bonding` · `3D-IC` · `CoWoS` · `TSV` · `Heterogeneous Integration`
 
 ### (1) 教授技術領域的契合度
 
@@ -188,7 +192,8 @@
 
 ## #5. 銀慶剛 Ching-Kang Ing（NTHU 清華講座教授 統計所）
 
-**分數**：8.5 | **接觸建議**：第一波
+**分數**：8.5 | **接觸建議**：第一波  
+**專長標籤**：`Virtual Metrology` · `SPC` · `Time Series` · `Anomaly Detection` · `Causal AI`
 
 ### (1) 教授技術領域的契合度
 
@@ -237,7 +242,8 @@
 
 ## #6. 陳智 Chih Chen（NYCU 材料系主任 + 特聘教授）
 
-**分數**：8.3 | **接觸建議**：第二波
+**分數**：8.3 | **接觸建議**：第二波  
+**專長標籤**：`Hybrid Bonding` · `TSV` · `3D-IC` · `CoWoS` · `Advanced Packaging Process Control`
 
 ### (1) 教授技術領域的契合度
 
@@ -285,7 +291,8 @@
 
 ## #6. 詹寶珠 Pau-Choo Chung（NCKU 電機特聘 + 電資學院院長）
 
-**分數**：8.3 | **接觸建議**：第二波
+**分數**：8.3 | **接觸建議**：第二波  
+**專長標籤**：`Automated Defect Classification (ADC)` · `AOI` · `Transfer Learning` · `Domain Adaptation` · `CNN`
 
 ### (1) 教授技術領域的契合度
 
@@ -332,7 +339,8 @@
 
 ## #8. 江國寧 Kuo-Ning Chiang（NTHU PME 清華講座 + 先進封裝研究中心主任）
 
-**分數**：8.1 | **接觸建議**：第一波
+**分數**：8.1 | **接觸建議**：第一波  
+**專長標籤**：`CoWoS` · `Warpage Prediction` · `Thermal Management Optimization` · `Physics-Informed Neural Networks (PINN)` · `Digital Twin`
 
 ### (1) 教授技術領域的契合度
 

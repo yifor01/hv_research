@@ -16,7 +16,7 @@
 
 - **統計方法論最深端未被識別但至關重要**：銀慶剛（NTHU 清華講座，2025 IMS Fellow 台灣唯一入選）在 Model Selection / 時間序列 Knockoffs / 高維變數選擇方法論上有 2014 TSMC 落地先例（不良率降 11-14%）及 2025 JCGS 論文明確標示「識別半導體製程缺陷機台」應用場景，為 fab SPC / VM / 異常追因的方法論金礦
 
-- **三類法務風險需先 check 定案**：(a) 王俊明 TSMC 前職綁定（需確認離職年數 + 商秘獎 / 專利綁定）；(b) 銀慶剛 US12354122B2 與成大鄭芳田 IP 共有狀態；(c) 通用所有 PI 現任產業顧問 conflict of interest 清單
+- **兩類法務風險需先 check 定案**：(a) 銀慶剛 US12354122B2 與成大鄭芳田 IP 共有狀態；(b) 通用所有 PI 現任產業顧問 conflict of interest 清單。王俊明已釐清：SAT 中心為 TSMC 支持設立，王為體制內合作方，無離職綁定疑慮
 
 - **5 位 PI 屬於「行政 + 頂級學術雙重身份」**：陳冠能（ICST Dean）、詹寶珠（NCKU 電資院長）、宋振銘（NCHU 研發長）、李家岩（NTU 管院副院長 + EiMBA Director）、江國寧（先進封裝研究中心主任）——合作層級可提升至「院級 / 中心級」Joint Lab，而非只是個人 PI 專案
 
@@ -29,10 +29,9 @@
 **王俊明 / 馬誠佑 / 胡璧合 / 陳冠能 / 銀慶剛 / 江國寧**
 
 理由：
-- 前段製程（王俊明、馬誠佑、胡璧合）三位一起啟動可在 2nm 節點建立完整 Device 研究鏈
+- 前段製程（王俊明、馬誠佑、胡璧合）三位一起啟動可在 2nm 節點建立完整 Device 研究鏈；王俊明在 SAT-TSMC 既有合作框架下深化即可
 - CoWoS 主力（陳冠能、江國寧）兩位一起啟動可在 CoWoS-L / HBM 疲勞預測建立系統層 + AI 方法論層雙線
 - 銀慶剛（統計方法論）為 fab SPC/VM 異常追因的底層工具，可平行開啟「數據整備與初步 PoC」
-- 王俊明前職綁定法務 check 完成後再簽正式合約；若有阻礙則由馬誠佑獨佔 #1
 
 ### 第二波（8 位，6-12 個月補上）
 
@@ -75,8 +74,8 @@
 | §01 | Top 15 一覽大表 —— 11 欄綜覽、排序可快速比較 |
 | §02 | Top 1-8 教授深度檔案 —— 5 維度評分 + 學生素養 + 合作優缺點 + 建議預算 / KPI |
 | §03 | Top 9-15 教授深度檔案 —— 同上格式 |
-| §04 | 關鍵字矩陣 —— 15 位 × 20 個技術關鍵字，快速查找專長對應 |
 | §05 | 附錄 —— 接觸策略詳表、預算分配明細、法務 pre-flight check list、5 維度評分框架說明 |
+
 
 # Top 15 一覽大表
 
@@ -84,7 +83,7 @@
 
 | # | 教授 | 校系 | 專長領域 | 代表實績（近 3 年） | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 補充備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1* | 王俊明 | NSYSU SAT ISMID 所長 | AI 光刻 / OPC / RET / DFM | SPIE Photomask Japan 2025 ML 光刻 hotspot 預測；Caltech 博士 | 前 TSMC 製程部（年數不明）；KLA Corp. | 實戰量產級（業界 13 年訓練） | 2nm EUV OPC 核心 / 光罩修正 | 前 TSMC 工程團隊 bar，SPIE 一作學生產出 | 第一波*（法務 check 後定案） | 無（但需驗證 TSMC 商秘獎/專利綁定） | ISMID 所長，結構性連結 TSMC，法務優先級最高 |
+| 1 | 王俊明 | NSYSU SAT ISMID 所長 | AI 光刻 / OPC / RET / DFM | SPIE Photomask Japan 2025 ML 光刻 hotspot 預測；Caltech 博士 | SAT 中心本身 TSMC 支持設立，現為體制內合作方；KLA Corp. | 實戰量產級（業界訓練） | 2nm EUV OPC 核心 / 光罩修正 | TSMC 南科訓練中心實習通道，SPIE 一作學生產出 | 第一波 | 無 | SAT 中心已有合作基礎，易於深化 |
 | 2 | 馬誠佑 | NSYSU 電機 + SAT 合聘 | FeFET / HfZrO TFT / Neuromorphic | IEEE TED 2025/01 junctionless FeFET；68 篇期刊 / 9 專利 | 前 UMC 28/20nm 工程師（5 年） | 研究級 → 可原型 | 2nm NVM / neuromorphic 邊緣 AI | 連續 5 次教學獎；ADDA Lab 50-60 人 | 第一波 | 無 | 南科 40min 地緣優勢；UMC 離職 13 年 |
 | 3 | 胡璧合 | NTU 電機 | FeFET × M3D × CIM × CFET SRAM | Nature Nanotech 2024 2DM SRAM；IEDM 2024/2025 各 2 篇；L'ORÉAL-UNESCO Women in Science 2023 | 美光 Chair Prof. 2024；TSMC PhD Scholarship × 3 屆；Lam Research | 頂會原型 + TSMC 製程支援 | N2/A16 BEOL FeFET / CIM macro | 3 位連續 TSMC PhD Scholarship；IEDM 頂會一作 | 第一波 | 美光 Chair（非排他） | IEDM/ISSCC/VLSI 技術委員三頂會；DEI 加分 |
 | 3 | 陳冠能 | NYCU ICST Dean（2025/02-）+ 電子所講座 | Hybrid Bonding / 3D IC / Layer Transfer / Hyper RDL | IEDM 2024 × 2 + VLSI 2024 × 2（Hyper RDL interposer、25×33mm² 3DIC）；400+ 論文、87 專利 | NCTU-TSMC JRC 成員；前 Micron Chair（2018-21 結束）；ITRI Adjunct；NSTC 微電子學門召集人 | 國際頂會系統整合領袖 | CoWoS-L 下一代 / SoIC / HBM 層間對準 | IEDM/VLSI 年均 6+ 篇一作；ICST Dean 院級合作 | 第一波 | 無 | MIT EECS PhD；IEEE/IET/IMAPS/NAI/CIEE 五重 Fellow |
@@ -125,9 +124,9 @@
 避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 10 位）。
 
 ### 隱形綁定風險分佈
-- **🟢 完全自由**：10 位
-- **🟡 需確認但非致命**：4 位（王俊明 TSMC 前職年數、鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
-- **🔴 法務 check 後定案**：1 位（王俊明）
+- **🟢 完全自由 / 合作框架已存在**：11 位
+- **🟡 需確認但非致命**：3 位（鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
+- **🔴 法務 check 後定案**：0 位
 
 ### 題目覆蓋完整性
 - **前段 2nm Device**：王俊明 + 馬誠佑 + 胡璧合（3 位完整鏈）
@@ -138,26 +137,28 @@
 - **光刻 / EDA**：王俊明 + 林嘉文（2 位）
 - **工程師 RAG / 效率工具**：蔡銘峰 + 黃瀚萱（2 位方法論互補）
 
+
 # 教授深度檔案（Top 1-8）
 
 ---
 
-## #1*. 王俊明 Chun-Ming (Albert) Wang（NSYSU 半導體及重點科技研究學院 / ISMID 所長）
+## #1. 王俊明 Chun-Ming (Albert) Wang（NSYSU 半導體及重點科技研究學院 / ISMID 所長）
 
-**分數**：9.0 | **接觸建議**：第一波（法務 check 後定案）
+**分數**：9.0 | **接觸建議**：第一波  
+**專長標籤**：`AI-assisted EDA` · `OPC` · `Generative Layout Synthesis` · `DTCO` · `TCAD`
 
 ### (1) 教授技術領域的契合度
 
 - **AI 架構能力**：CNN / ML 深度網路應用於 semiconductor lithography hotspot prediction；DFM（Design for Manufacturability）資料流
 - **半導體 AI 相關計畫**：ISMID 創新半導體製造研究所所長（2023/08 起），統籌 NSYSU × TSMC 南科培訓中心實習計畫；NSTC 一般型研究計畫（具體編號未公開）
-- **產業合作**：前 TSMC 製程部（具體年數待確認）；KLA Corp.（Arthur Lin 共著 SPIE 2025 論文）；ISMID 結構性對接 TSMC 南科
+- **產業合作**：**SAT 中心本身為 TSMC 支持設立**，王為體制內合作方（非離職後的自由身接觸）；KLA Corp.（Arthur Lin 共著 SPIE 2025 論文）；ISMID 結構性對接 TSMC 南科
 - **研究成果與貢獻**：**OPC（Optical Proximity Correction）、RET（Resolution Enhancement Technology）、EUV 光刻、DFM、Machine Learning for Lithography Hotspot Prediction**；先進記憶體技術
-- **落地使用**：業界實戰級訓練（Caltech 應用物理博士 + 前 TSMC 製程部 + 現任 ISMID 所長跨業界與學界）；SPIE Photomask Japan 2025 論文直接對應 ArF immersion 光刻實戰
+- **落地使用**：業界實戰級訓練（Caltech 應用物理博士 + 現任 ISMID 所長跨業界與學界）；SPIE Photomask Japan 2025 論文直接對應 ArF immersion 光刻實戰
 - **獲得肯定**：「教授級專業技術人員（Professor of Practice）」職銜；2023 NSYSU 招攬為 ISMID 首任所長
 
 ### (2) 學生工程素養與實驗室文化
 
-- **系統化能力**：Caltech 應用物理博士訓練 + TSMC 製程部實戰經驗，雙重工程嚴謹度
+- **系統化能力**：Caltech 應用物理博士訓練 + 業界實戰經驗，雙重工程嚴謹度
 - **團隊合作**：SPIE 2025 一作學生 Bo-Yin Tseng + KLA 工業合作方，顯示有跨界共著訓練模式
 - **產學合作經驗**：ISMID 學生直送 TSMC 南科培訓中心暑期實習（中部科學園區台積電新人訓練中心）
 - **獲得肯定**：Lab 規模未公開；學生競賽獎項公開資料有限（資料有限，需訪談補齊）
@@ -170,26 +171,27 @@
 - Caltech 學術訓練品質保證（論文嚴謹度高）
 - NSYSU 南科地緣，畢業生就業出口穩定
 - KLA 業界合作已建立，非紙上研究
+- **SAT 中心已有 TSMC 合作基礎**（SAT 本身即 TSMC 支持設立），易於在既有框架下深化專案範圍，無需從零建立 MOU
 
 **缺點 / 風險**
-- **前 TSMC 年數不明**：若超過 10 年且有商秘協議，風險升高至 🔴 Deep Bound
-- **ISMID 結構性 TSMC 依附**：所長身份使其難以完全獨立於 TSMC 立場，若雇主與 TSMC 為競爭關係可能引起敏感
 - 論文數量偏少（公開資料僅 SPIE 2025 × 1 篇），學術能量待確認
+- ISMID 所長行政負擔，時間分配需事先對齊
 - 記憶體專長聲稱但佐證不足
+- 學生團隊 SAT 外部生源待觀察（SAT 招生模式特殊）
 
 **建議合作方式**
-- 合作類型：**個人級專案制委案 + 後續視法務結果擴大至 ISMID 院級 Joint Lab**
+- 合作類型：**在既有 SAT-TSMC 合作框架下擴大專案範圍**（個人級專案制委案 → ISMID 院級 Joint Lab）
 - 預算區間：5 年 300-500 萬 NTD（個人級）→ 若院級擴大 800-1200 萬 NTD
 - 期程：第一年 PoC（6-12 月）→ 年度 review → 續約
 - **KPI**：(1) SPIE Photomask 一作論文 1-2 篇/年；(2) 公開發表 2nm EUV OPC ML 演算法 benchmark；(3) 實際 TSMC 製程 data 上的 hotspot prediction 準確率 ≥ 95%
 - 交付物：演算法 code + 論文 + 學生派遣（2-3 名/年碩博實習）
-- **前置法務 check 優先**：離職年數、商秘獎、專利 assignee 清點
 
 ---
 
 ## #2. 馬誠佑 William Cheng-Yu Ma（NSYSU 電機 + SAT 合聘）
 
-**分數**：8.9 | **接觸建議**：第一波
+**分數**：8.9 | **接觸建議**：第一波  
+**專長標籤**：`FeFET` · `R2R` · `FDC` · `Virtual Metrology` · `GAA FET`
 
 ### (1) 教授技術領域的契合度
 
@@ -234,7 +236,8 @@
 
 ## #3. 胡璧合 Vita Pi-Ho Hu（NTU 電機正教授 + 美光 Chair Professor）
 
-**分數**：8.7 | **接觸建議**：第一波
+**分數**：8.7 | **接觸建議**：第一波  
+**專長標籤**：`FeFET` · `CIM` · `CFET SRAM` · `GAA FET` · `DTCO`
 
 ### (1) 教授技術領域的契合度
 
@@ -281,7 +284,8 @@
 
 ## #3. 陳冠能 Kuan-Neng Chen（NYCU ICST Dean + 電子所講座教授）
 
-**分數**：8.7 | **接觸建議**：第一波
+**分數**：8.7 | **接觸建議**：第一波  
+**專長標籤**：`Hybrid Bonding` · `3D-IC` · `CoWoS` · `TSV` · `Heterogeneous Integration`
 
 ### (1) 教授技術領域的契合度
 
@@ -328,7 +332,8 @@
 
 ## #5. 銀慶剛 Ching-Kang Ing（NTHU 清華講座教授 統計所）
 
-**分數**：8.5 | **接觸建議**：第一波
+**分數**：8.5 | **接觸建議**：第一波  
+**專長標籤**：`Virtual Metrology` · `SPC` · `Time Series` · `Anomaly Detection` · `Causal AI`
 
 ### (1) 教授技術領域的契合度
 
@@ -377,7 +382,8 @@
 
 ## #6. 陳智 Chih Chen（NYCU 材料系主任 + 特聘教授）
 
-**分數**：8.3 | **接觸建議**：第二波
+**分數**：8.3 | **接觸建議**：第二波  
+**專長標籤**：`Hybrid Bonding` · `TSV` · `3D-IC` · `CoWoS` · `Advanced Packaging Process Control`
 
 ### (1) 教授技術領域的契合度
 
@@ -425,7 +431,8 @@
 
 ## #6. 詹寶珠 Pau-Choo Chung（NCKU 電機特聘 + 電資學院院長）
 
-**分數**：8.3 | **接觸建議**：第二波
+**分數**：8.3 | **接觸建議**：第二波  
+**專長標籤**：`Automated Defect Classification (ADC)` · `AOI` · `Transfer Learning` · `Domain Adaptation` · `CNN`
 
 ### (1) 教授技術領域的契合度
 
@@ -472,7 +479,8 @@
 
 ## #8. 江國寧 Kuo-Ning Chiang（NTHU PME 清華講座 + 先進封裝研究中心主任）
 
-**分數**：8.1 | **接觸建議**：第一波
+**分數**：8.1 | **接觸建議**：第一波  
+**專長標籤**：`CoWoS` · `Warpage Prediction` · `Thermal Management Optimization` · `Physics-Informed Neural Networks (PINN)` · `Digital Twin`
 
 ### (1) 教授技術領域的契合度
 
@@ -517,13 +525,15 @@
 
 ---
 
+
 # 教授深度檔案（Top 9-15）
 
 ---
 
 ## #9. 宋振銘 Jenn-Ming Song（NCHU 材料系教授 + 研發長）
 
-**分數**：8.0 | **接觸建議**：第二波
+**分數**：8.0 | **接觸建議**：第二波  
+**專長標籤**：`Hybrid Bonding` · `Die-to-Wafer Bonding` · `In-line Metrology` · `Predictive Maintenance (PdM)` · `Sensor Fusion`
 
 ### (1) 教授技術領域的契合度
 
@@ -573,7 +583,8 @@
 
 ## #9. 李家岩 Chia-Yen Lee（NTU 資管教授 + 管院副院長 + EiMBA Director）
 
-**分數**：8.0 | **接觸建議**：第二波
+**分數**：8.0 | **接觸建議**：第二波  
+**專長標籤**：`Reinforcement Learning for Scheduling` · `Dispatching Optimization` · `Digital Twin` · `Anomaly Detection` · `MLOps`
 
 ### (1) 教授技術領域的契合度
 
@@ -622,7 +633,8 @@
 
 ## #9. 鄭桂忠 Kea-Tiong Tang（NTHU 電機特聘教授）
 
-**分數**：8.0 | **接觸建議**：第二波
+**分數**：8.0 | **接觸建議**：第二波  
+**專長標籤**：`CIM` · `Neuromorphic` · `Edge AI` · `TinyML` · `FeFET`
 
 ### (1) 教授技術領域的契合度
 
@@ -671,7 +683,8 @@
 
 ## #12. 蔡佩璇 Pei-Hsuan Tsai（NCKU IMIS + CSIE 教授）
 
-**分數**：7.7 | **接觸建議**：第二波
+**分數**：7.7 | **接觸建議**：第二波  
+**專長標籤**：`Digital Twin` · `Computer Vision` · `Vision Transformers (ViTs)` · `AOI` · `Smart Manufacturing`
 
 ### (1) 教授技術領域的契合度
 
@@ -721,7 +734,8 @@
 
 ## #13. 林嘉文 Chia-Wen Lin（NTHU 電機特聘教授 + AI 研發中心副主任）
 
-**分數**：7.5 | **接觸建議**：第三波
+**分數**：7.5 | **接觸建議**：第三波  
+**專長標籤**：`Vision Transformers (ViTs)` · `AI-assisted EDA` · `Generative Layout Synthesis` · `Diffusion Model` · `Computer Vision`
 
 ### (1) 教授技術領域的契合度
 
@@ -769,7 +783,8 @@
 
 ## #14. 蔡銘峰 Ming-Feng Tsai（NCCU 資科正教授 + AS CITI 合聘）
 
-**分數**：7.2 | **接觸建議**：第二波
+**分數**：7.2 | **接觸建議**：第二波  
+**專長標籤**：`Large Language Models` · `RAG` · `Learning to Rank` · `Transformer` · `MLOps`
 
 ### (1) 教授技術領域的契合度
 
@@ -817,7 +832,8 @@
 
 ## #14. 黃瀚萱 Hen-Hsen Huang（Academia Sinica 資訊所 副研究員）
 
-**分數**：7.2 | **接觸建議**：第二波
+**分數**：7.2 | **接觸建議**：第二波  
+**專長標籤**：`Large Language Models` · `Cache-Augmented Generation (CAG)` · `RAG` · `Transformer` · `MLOps`
 
 ### (1) 教授技術領域的契合度
 
@@ -864,96 +880,7 @@
 
 ---
 
-# 關鍵字矩陣
 
-> **用法**：橫向 15 位教授、縱向 20 個技術關鍵字。✅ 代表該教授在此關鍵字上有 2023-2026 期間的代表性發表或產業落地。方便主管根據特定技術需求快速查找對應 PI。
-
-## 關鍵字分群
-
-- **前段 Device / 製程**：GAA FET、FeFET、CIM、AI-assisted EDA、TCAD、DTCO
-- **AOI / 缺陷**：AOI / Vision、Domain Adaptation、Yield Prediction
-- **封裝**：CoWoS / 3D-IC、Hybrid Bonding、nt-Cu / 材料、Warpage Prediction
-- **fab 方法論**：Virtual Metrology、R2R / SPC、Reinforcement Learning for Scheduling、Digital Twin、Multi-Armed Bandit / Bayesian
-- **LLM / 軟體**：LLM / RAG、Agentic AI、Vision Transformer
-
-## 矩陣（15 位 × 20 關鍵字）
-
-| 教授 \ 關鍵字 | FeFET | GAA / CFET | CIM / Neuromorphic | AI-EDA / 光刻 | DTCO | TCAD | AOI / Vision | Domain Adaptation | Yield Prediction | CoWoS / 3D-IC | Hybrid Bonding | nt-Cu / 材料 | Warpage / FEA | Virtual Metrology | SPC / Knockoffs | RL Scheduling | Digital Twin | LLM / RAG | Agentic AI | Vision Transformer |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **王俊明**（#1*）| | | | ✅ | | | | | | | | | | | | | | | | |
-| **馬誠佑**（#2）| ✅ | | ✅ | | | ✅ | | | | | | | | | | | | | | |
-| **胡璧合**（#3）| ✅ | ✅ | ✅ | | ✅ | ✅ | | | | ✅ | | | | | | | | | | |
-| **陳冠能**（#3）| | | | | | | | | | ✅ | ✅ | | | | | | | | | |
-| **銀慶剛**（#5）| | | | | | | | | ✅ | | | | | ✅ | ✅ | | | | | |
-| **陳智**（#6）| | | | | | | | | | ✅ | ✅ | ✅ | | | | | | | | |
-| **詹寶珠**（#6）| | | | | | | ✅ | ✅ | | | | | | | | | | | | |
-| **江國寧**（#8）| | | | | | | | | ✅ | ✅ | | | ✅ | | | | | | | |
-| **宋振銘**（#9）| | | | | | | | | | ✅ | ✅ | ✅ | | ✅ | | | | | | |
-| **李家岩**（#9）| | | | | | | | | ✅ | | | | | | | ✅ | | | | |
-| **鄭桂忠**（#9）| | | ✅ | | | | | | | | | | | | | | | | | |
-| **蔡佩璇**（#12）| | | | | | | ✅ | | | | | | | | | | ✅ | | | |
-| **林嘉文**（#13）| | | | ✅ | | | ✅ | | | | | | | | | | | | | ✅ |
-| **蔡銘峰**（#14）| | | | | | | | | | | | | | | | | | ✅ | | |
-| **黃瀚萱**（#14）| | | | | | | | | | | | | | | | | | ✅ | | |
-
-## 補充：每個關鍵字對應的 PI 快速索引
-
-### 前段 Device / 製程
-- **FeFET**：馬誠佑、胡璧合
-- **GAA / CFET / Nanosheet**：胡璧合
-- **CIM / Neuromorphic**：馬誠佑、胡璧合、鄭桂忠
-- **AI-EDA / 光刻 / OPC**：王俊明、林嘉文
-- **DTCO**：胡璧合
-- **TCAD**：馬誠佑、胡璧合
-
-### AOI / 缺陷
-- **AOI / Computer Vision 缺陷**：詹寶珠、蔡佩璇（SOP）、林嘉文
-- **Domain Adaptation**：詹寶珠（醫療 → AOI 方法論遷移）
-- **Yield Prediction**：銀慶剛、江國寧、李家岩
-
-### 封裝
-- **CoWoS / 3D-IC / SoIC**：陳冠能、陳智、江國寧、胡璧合（M3D）
-- **Hybrid Bonding / Cu-Cu Bonding**：陳冠能、陳智、宋振銘
-- **nt-Cu / 封裝材料**：陳智、宋振銘
-- **Warpage Prediction / FEA × ML**：江國寧
-
-### fab 方法論
-- **Virtual Metrology（VM）**：銀慶剛、宋振銘（線上量測）
-- **SPC / Knockoffs / 統計異常追因**：銀慶剛
-- **Reinforcement Learning for Scheduling**：李家岩
-- **Digital Twin**：蔡佩璇
-- **Multi-Armed Bandit / Bayesian**：銀慶剛（JASA 2024 MAB）、鄭桂忠（Bayesian NN CIM）
-
-### LLM / 軟體層
-- **LLM / RAG**：蔡銘峰、黃瀚萱
-- **Vision Transformer / Multimodal**：林嘉文、黃瀚萱（IJCAI 2024 VLM + Text-to-Image）
-
----
-
-## 矩陣解讀
-
-### 每位 PI 的主要 3-4 個關鍵字（專長焦點）
-
-| PI | 主要關鍵字 |
-|---|---|
-| 王俊明 | AI-EDA / 光刻 |
-| 馬誠佑 | FeFET + CIM + TCAD |
-| 胡璧合 | FeFET + GAA/CFET + CIM + 3D-IC + DTCO |
-| 陳冠能 | 3D-IC + Hybrid Bonding |
-| 銀慶剛 | Yield Prediction + VM + SPC/Knockoffs |
-| 陳智 | Hybrid Bonding + nt-Cu + 3D-IC |
-| 詹寶珠 | AOI/Vision + Domain Adaptation |
-| 江國寧 | Warpage/FEA + Yield Prediction + 3D-IC |
-| 宋振銘 | Hybrid Bonding + nt-Cu + 3D-IC + VM |
-| 李家岩 | RL Scheduling + Yield Prediction |
-| 鄭桂忠 | CIM / Neuromorphic |
-| 蔡佩璇 | Digital Twin + AOI/Vision |
-| 林嘉文 | Vision Transformer + AI-EDA + AOI |
-| 蔡銘峰 | LLM / RAG |
-| 黃瀚萱 | LLM / RAG |
-
-### 關鍵字覆蓋完整性
-所有 20 個關鍵字皆有至少 1 位 PI ✅；部分熱門題目（CIM、3D-IC、Hybrid Bonding、Yield Prediction、LLM/RAG）有 3-4 位 PI 覆蓋，適合做 PoC 對照實驗或多 PI 互補合作。
 
 # 附錄
 
@@ -965,7 +892,7 @@
 
 | 教授 | 接觸 owner 建議 | 優先合作題目（1-2 個）| 預估預算 5 年（NTD）| 關鍵 KPI |
 |---|---|---|---|---|
-| 王俊明（NSYSU SAT）| 法務 + R&D Director 雙頭接觸（法務先 clear，R&D 後談技術）| (1) 2nm EUV OPC ML hotspot prediction；(2) Curvilinear mask + RET 協同最佳化 | 300-500 萬（個人級）→ 若 ISMID 院級擴大 800-1200 萬 | SPIE 一作 1-2 篇/年；TSMC 製程 data 上 hotspot prediction ≥ 95% |
+| 王俊明（NSYSU SAT）| R&D Director 接觸（SAT 中心現有合作深化）| (1) 2nm EUV OPC ML hotspot prediction；(2) Curvilinear mask + RET 協同最佳化 | 300-500 萬（個人級）→ 若 ISMID 院級擴大 800-1200 萬 | SPIE 一作 1-2 篇/年；TSMC 製程 data 上 hotspot prediction ≥ 95% |
 | 馬誠佑（NSYSU ADDA）| Device R&D 接觸 | (1) FeFET compact model SPICE 產業級釋出；(2) HfZrO cycling reliability 物理模型 | 300-500 萬 | IEEE TED / IEDM 共著 1-2 篇/年；SPICE model 交付 |
 | 胡璧合（NTU）| Device R&D + 美光關係確認後接觸 | (1) BEOL HZO FeFET 可靠性 SPICE；(2) M3D CIM Macro 功耗-精度-面積協同；(3) 2D CFET × FeFET A7/A5 NV-SRAM | 500-800 萬 | VLSI 2026 / ISSCC 2027；PhD Scholarship 3 位續約 |
 | 陳冠能（NYCU ICST）| VP-level / Dean-to-Dean 接觸（ICST 院級合作需高層主導）| CoWoS-L 下一代層轉移 JDP；Hyper RDL 升級路徑 | 800-1200 萬（院級）| IEDM/VLSI 共著 4-6 篇/年；每年 6+ 位頂會一作學生通道至 TSMC |
@@ -1035,37 +962,27 @@
 
 ## 附錄 C：法務 Pre-flight Check List
 
-### C.1 王俊明（第一波 blocker）
-
-- [ ] TSMC 離職年數確認（離職滿 X 年無競業限制？需查看原合約的競業條款）
-- [ ] TSMC 期間商業機密獎項清點（比對林勇志 2021 Gold Trade Secret Silver Award 先例）
-- [ ] Google Patents / Justia 等公開資料庫再次確認王俊明名下以 TSMC 為 assignee 的光刻專利（已初查無結果，需進一步核對中文資料庫）
-- [ ] NSYSU 中文版官方簡歷 TSMC 任職年份（目前網頁 404，待網站恢復）
-- [ ] 合約終止條款 + NDA 有效期限解讀
-- [ ] ISMID 所長身份與雇主產業立場潛在衝突評估
-- [ ] 若在職期間曾接觸 TSMC 南科相關 2nm 核心工藝，需評估「回流禁止期」
-
-### C.2 銀慶剛（第一波）
+### C.1 銀慶剛（第一波）
 
 - [ ] **US12354122B2 與 NCKU 鄭芳田 IP 共有狀態**確認（此為關鍵 blocker）
 - [ ] 若共有 → 合作範圍界定（避免 TSMC 新合作成果又自動授權給鄭芳田 / IYM 系統生態）
 - [ ] 鄭芳田與 TSMC 的 AVM 系統合作條款確認（雇主若非 TSMC 或為 TSMC 競爭方特別重要）
 - [ ] 清華講座教授（校方冠名非企業）無 NDA 風險，但建議文件化
 
-### C.3 鄭桂忠（第二波）
+### C.2 鄭桂忠（第二波）
 
 - [ ] 現任 TSMC-NTHU JDP 題目清單盤點（與新合作是否 conflict）
 - [ ] Nature 2025 / Science 2024 共著 TSMC 工程師名單（既有合作深度評估）
 - [ ] ITRI 技術長（2017-）part-time 兼職對新合作的影響評估
 - [ ] 台達飛雁計畫 2022 冠名條款查閱
 
-### C.4 胡璧合（第一波）
+### C.3 胡璧合（第一波）
 
 - [ ] 美光 Foundation Chair Professor 2024 條款確認（是否有記憶體方向排他）
 - [ ] 3 位 TSMC PhD Scholarship 學生（2022-2024 得主）畢業後 TSMC 優先僱用條款
 - [ ] IEEE CAS NG-TC Chair-Elect 身份對新合作資源的影響（正面意義大）
 
-### C.5 通用檢查
+### C.4 通用檢查
 
 - [ ] 所有 15 位 PI 當前產業顧問身分清點（conflict of interest）
   - 李家岩 Profet AI 顧問（2023-）→ 是否與 TSMC 合作方向衝突
@@ -1156,6 +1073,148 @@
 - WebSearch 驗證（2026-04-23）
 
 詳細方法論可參考：`templates/pi-due-diligence-framework.md`（本 repo 內）
+
+---
+
+## 附錄 E：資料來源 References（供主管查證）
+
+本節列出 15 位候選 PI 的公開資料核心連結，供主管或法務/HR 團隊獨立查證。所有 URL 抽取自 `phase2-profile-*.md` / `phase3-batch-*.md` 等現有研究檔案，未經編造。
+
+### E.1 每位教授公開資料
+
+#### #1 王俊明（NSYSU SAT ISMID 所長）
+- NSYSU SAT 王俊明英文個人頁：<https://sat.nsysu.edu.tw/p/405-1325-324718,c25176.php?Lang=en>
+- NSYSU SAT 王俊明中文個人頁（兼所長）：<https://sat.nsysu.edu.tw/p/405-1325-324718,c25997.php?Lang=zh-tw>
+- ISMID 創新半導體製造研究所簡介：<https://sat.nsysu.edu.tw/p/412-1325-24469.php?Lang=en>
+- NSYSU SAT TSMC JDP 2025 公告：<https://sat.nsysu.edu.tw/p/406-1325-339158,r5006.php?Lang=zh-tw>
+
+#### #2 馬誠佑（NSYSU 電機 + SAT 合聘）
+- NSYSU ADDA Lab：<https://sites.google.com/view/nsysu-addalab/>
+- NSYSU SAT 馬誠佑教授頁：<https://sat.nsysu.edu.tw/p/405-1325-311568,c25998.php?Lang=zh-tw>
+- NSYSU 電機系教師頁：<https://www.ee.nsysu.edu.tw/teacher/teacher.asp>
+- ResearchGate：<https://www.researchgate.net/scientific-contributions/William-Cheng-Yu-Ma-2011276114>
+
+#### #3 胡璧合（NTU 電機 + 美光 Chair Professor）
+- NTU 電機系教授個人資料：<https://www.ee.ntu.edu.tw/profile1.php?id=1080918>
+- 個人網站：<https://sites.google.com/site/vitapihohu>
+- NTU Scholars：<https://scholars.lib.ntu.edu.tw/entities/person/13c990a2-a3cf-4470-a58f-c65d06280be8>
+- NTU 校方 Spotlight（L'ORÉAL 獎）：<https://www.ntu.edu.tw/english/spotlight/2023/2139_20230316.html>
+- IEEE CASS Profile：<https://ieee-cas.org/contact/vita-pi-ho-hu>
+
+#### #3 陳冠能（NYCU ICST Dean + 電子所講座）
+- NYCU ICST Dean 頁：<https://icst.nycu.edu.tw/?page_id=1714&lang=en>
+- 3DIC Lab NYCU：<https://3dic.lab.nycu.edu.tw/members/professor/>
+- Google Scholar：<https://scholar.google.com/citations?user=Wbe4-IUAAAAJ&hl=en>
+- NYCU Electrophysics 教師頁：<https://ep.nycu.edu.tw/en/faculty_info/陳冠能/>
+
+#### #5 銀慶剛（NTHU 統計 清華講座）
+- 個人頁（清大）：<http://mx.nthu.edu.tw/~cking/>
+- NTHU 研究者資料庫：<https://khub.nthu.edu.tw/researcherProfile?uuid=6805a865-bdc3-4128-b966-8e0ed21e0ce3>
+- Google Scholar：<https://scholar.google.com/citations?user=ySSGqMcAAAAJ&hl=zh-TW>
+- DBLP：<https://dblp.org/pid/53/11215.html>
+- 美國專利 US12354122B2：<https://patents.google.com/patent/US12354122B2>
+- IMS 2025 Fellows 公告：<https://imstat.org/2025/05/05/congratulations-to-the-2025-class-of-ims-fellows/>
+
+#### #6 陳智（NYCU 材料系主任 + 特聘）
+- NYCU 材料系教師頁：<https://mse.nycu.edu.tw/en/%E9%99%B3%E6%99%BA-2/>
+- CCLAB（Advanced Packaging and Metallization Lab）：<https://cclab.web.nycu.edu.tw/prof-chen/>
+- Google Scholar：<https://scholar.google.com/citations?user=6z6TgWUAAAAJ&hl=en>
+- 2023 NSTC 學術研究獎公告：<https://web.nstc.gov.tw/cen/oaa/award_111/website/Chih-Chen.html>
+- NYCU Academic Hub：<https://scholar.nycu.edu.tw/en/persons/chih-chen/>
+
+#### #6 詹寶珠（NCKU 電機特聘 + 電資院長）
+- NCKU 電機系教師頁：<https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=78>
+- NCKU Research Output：<https://researchoutput.ncku.edu.tw/zh/persons/pau-choo-chung/>
+- Google Scholar：<https://scholar.google.com/citations?user=RqfodmYAAAAJ&hl=zh-TW>
+- DBLP：<https://dblp.org/pid/03/3371.html>
+- NCKU 電資院長任命公告：<https://eecs.ncku.edu.tw/p/406-1020-226168,r668.php?Lang=zh-tw>
+
+#### #8 江國寧（NTHU PME 清華講座 + 先進封裝研究中心主任）
+- NTHU PME 清華講座教授頁：<https://pme.site.nthu.edu.tw/p/406-1308-73988,r4027.php?Lang=en>
+- 江國寧清華講座（中文）：<https://pme.site.nthu.edu.tw/p/406-1308-180002,r4027.php?Lang=zh-tw>
+- KNC Lab @ NTHU PME（CSML）：<http://csml9.pme.nthu.edu.tw/KNC/homepage/C00KNC00_C1.htm>
+- SPIE Profile：<https://spie.org/profile/Kuo-Ning.Chiang-68818>
+
+#### #9 宋振銘（NCHU 材料系 + 研發長）
+- NCHU MSE 英文教師頁：<https://www.mse.nchu.edu.tw/en/members/teacher/Jenn-Ming-Song-69623319>
+- NCHU MSE 中文教師頁：<https://www.mse.nchu.edu.tw/zh_tw/members/teacher/-宋振銘-69623319>
+- Google Scholar：<https://scholar.google.com.tw/citations?user=LNiBlZwAAAAJ>
+- ScienceDirect 作者頁：<https://www.sciencedirect.com/author/57154837200/jenn-ming-song>
+- NCHU 新聞（AI 先進封裝智慧量測平台）：<https://www2.nchu.edu.tw/news-detail/id/60924>
+
+#### #9 李家岩（NTU 資管 + 管院副院長 + EiMBA Director）
+- NTU 管院個人頁：<https://management.ntu.edu.tw/en/IM/faculty/teacher/sn/388>
+- PoLab 網站：<http://polab.im.ntu.edu.tw/Bio.html>
+- Google Scholar：<https://scholar.google.com/citations?user=M_DB0CQAAAAJ&hl=en&sortby=pubdate>
+- PoLab GitHub：<https://github.com/po-lab>
+- IEEE Xplore 作者頁：<https://ieeexplore.ieee.org/author/37086788510>
+- 前 NCKU CSIE 教師頁：<https://www.csie.ncku.edu.tw/en/members/50>
+
+#### #9 鄭桂忠（NTHU 電機 + NBME Lab）
+- NBME Lab 主頁：<https://nbme.ee.nthu.edu.tw/>
+- NBME Advisor 頁：<https://nbme.ee.nthu.edu.tw/advisor.html>
+- NTHU Knowledge Hub：<https://khub.nthu.edu.tw/researcherProfile?uuid=12B0B786-2743-44C5-8315-2CD760E17380>
+- Google Scholar：<https://scholar.google.com/citations?user=DiSis28AAAAJ&hl=en>
+- IEEE CASS Profile：<https://ieee-cas.org/contact/kea-tiong-samuel-tang>
+- TSMC-NTHU JDP 教授名單（鄭桂忠在列）：<https://nthu-tsmc.site.nthu.edu.tw/p/412-1578-20665.php>
+
+#### #12 蔡佩璇（NCKU IMIS + CSIE + CPS Lab）
+- CPS Lab 官網：<https://cps.imis.ncku.edu.tw/>
+- CPS Lab 招生頁：<https://cps.imis.ncku.edu.tw/callforstudent>
+- NCKU CSIE 教師頁：<https://www.csie.ncku.edu.tw/en/members/42>
+- NCKU Research Output：<https://researchoutput.ncku.edu.tw/zh/persons/pei-hsuan-tsai/>
+- Google Scholar：<https://scholar.google.com/citations?user=Ou_rfJoAAAAJ&hl=en>
+- Fulbright Taiwan 期刊：<https://journal.fulbright.org.tw/author/pei-hsuan-tsai/>
+
+#### #13 林嘉文（NTHU 電機特聘 + AI 研發中心副主任）
+- NTHU 電機個人頁：<https://www.ee.nthu.edu.tw/cwlin/>
+- NTHU 研究者 Hub：<https://khub.nthu.edu.tw/researcherProfile?uuid=173F446D-C8BA-405F-B6BA-C2422EEB1158>
+- Google Scholar：<https://scholar.google.com/citations?user=fXN3dl0AAAAJ&hl=en>
+- 2024 NSTC 傑出研究獎公告：<https://web.nstc.gov.tw/cen/oaa/award_112/Chia-Wen-Lin.html>
+- NTHU AI Research Center：<https://ai.site.nthu.edu.tw/p/404-1206-131034.php>
+
+#### #14 蔡銘峰（NCCU 資科正教授 + AS CITI 合聘）
+- 個人主頁：<https://www.cs.nccu.edu.tw/~mftsai/>
+- About 頁（完整履歷）：<https://www.cs.nccu.edu.tw/~mftsai/about.html>
+- Research 頁（論文列表）：<https://www.cs.nccu.edu.tw/~mftsai/research.html>
+- Google Scholar：<https://scholar.google.com/citations?user=ZLkFlS0AAAAJ&hl=en>
+- DBLP：<https://dblp.org/pid/16/3313.html>
+- NCCU CS 系所教師頁：<https://www.cs.nccu.edu.tw/csnccu/web/team/team.jsp?lang=en>
+
+#### #14 黃瀚萱（Academia Sinica 資訊所 副研究員）
+- AS 資訊所個人頁（英文）：<https://homepage.iis.sinica.edu.tw/pages/hhhuang/vita_en.html>
+- AS 資訊所個人頁（中文）：<https://homepage.iis.sinica.edu.tw/pages/hhhuang/index_zh.html>
+- Google Scholar：<https://scholar.google.com/citations?user=ro65EMcAAAAJ&hl=en>
+- AS 資訊所 2025 Publications：<https://www.iis.sinica.edu.tw/en/page/ResearchOverview/Publications/2025.html>
+- iThome：TAIDE 模型鑄造組顧問：<https://www.ithome.com.tw/news/168123>
+
+### E.2 方法論與框架
+
+- `templates/pi-due-diligence-framework.md`（5 維度評分框架 v1.0）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase3-integrated-ranking.md`（完整排名整合）
+- `reports/2026-04-tw-univ-semi-ai-professors/RESEARCH_PLAN.md`（研究計畫）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase1-candidates.md`（150+ 候選池）
+
+### E.3 驗證紀錄
+
+- `reports/2026-04-tw-univ-semi-ai-professors/phase3-verification-notes.md`（2026-04-23 16 位 WebSearch 驗證）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-tier1-verification.md`（Tier-1 驗證）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase2-tsmc-reeval-5pis.md`（TSMC 觀點 5 位 PI 重評）
+
+### E.4 能力限制聲明
+
+以下資訊 WebSearch **無法獨立驗證**，v3 報告直接引用 profile 紀錄，若主管有內部管道請優先確認：
+
+- 各 PI Lab 實際在籍學生人數（profile 多為推估）
+- 產業顧問私約 / 未公開合作（僅能查到公開聲明）
+- 企業內部借調 / 任命動態（例如本次彭文志借調 TSMC 即為此類未公開資訊）
+- 未發表但已進行中的 JDP / MOU 細節
+- 2025-2026 最新職位異動（若非媒體廣泛報導，WebSearch 延遲可達 3-6 月）
+
+建議接觸前透過業界管道再 double-check 現職狀態，特別是：
+- 王俊明 ISMID 所長 2026 是否仍在任
+- 詹寶珠 2026 是否仍兼任 NCKU 電資院長 + 敏求智慧運算學院院長
+- 鄭桂忠 TSMC-NTHU JDP 當期題目清單（可能與新合作 conflict）
 
 ---
 

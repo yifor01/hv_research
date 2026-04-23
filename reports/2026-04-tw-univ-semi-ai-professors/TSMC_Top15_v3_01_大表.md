@@ -4,7 +4,7 @@
 
 | # | 教授 | 校系 | 專長領域 | 代表實績（近 3 年） | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 補充備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1* | 王俊明 | NSYSU SAT ISMID 所長 | AI 光刻 / OPC / RET / DFM | SPIE Photomask Japan 2025 ML 光刻 hotspot 預測；Caltech 博士 | 前 TSMC 製程部（年數不明）；KLA Corp. | 實戰量產級（業界 13 年訓練） | 2nm EUV OPC 核心 / 光罩修正 | 前 TSMC 工程團隊 bar，SPIE 一作學生產出 | 第一波*（法務 check 後定案） | 無（但需驗證 TSMC 商秘獎/專利綁定） | ISMID 所長，結構性連結 TSMC，法務優先級最高 |
+| 1 | 王俊明 | NSYSU SAT ISMID 所長 | AI 光刻 / OPC / RET / DFM | SPIE Photomask Japan 2025 ML 光刻 hotspot 預測；Caltech 博士 | SAT 中心本身 TSMC 支持設立，現為體制內合作方；KLA Corp. | 實戰量產級（業界訓練） | 2nm EUV OPC 核心 / 光罩修正 | TSMC 南科訓練中心實習通道，SPIE 一作學生產出 | 第一波 | 無 | SAT 中心已有合作基礎，易於深化 |
 | 2 | 馬誠佑 | NSYSU 電機 + SAT 合聘 | FeFET / HfZrO TFT / Neuromorphic | IEEE TED 2025/01 junctionless FeFET；68 篇期刊 / 9 專利 | 前 UMC 28/20nm 工程師（5 年） | 研究級 → 可原型 | 2nm NVM / neuromorphic 邊緣 AI | 連續 5 次教學獎；ADDA Lab 50-60 人 | 第一波 | 無 | 南科 40min 地緣優勢；UMC 離職 13 年 |
 | 3 | 胡璧合 | NTU 電機 | FeFET × M3D × CIM × CFET SRAM | Nature Nanotech 2024 2DM SRAM；IEDM 2024/2025 各 2 篇；L'ORÉAL-UNESCO Women in Science 2023 | 美光 Chair Prof. 2024；TSMC PhD Scholarship × 3 屆；Lam Research | 頂會原型 + TSMC 製程支援 | N2/A16 BEOL FeFET / CIM macro | 3 位連續 TSMC PhD Scholarship；IEDM 頂會一作 | 第一波 | 美光 Chair（非排他） | IEDM/ISSCC/VLSI 技術委員三頂會；DEI 加分 |
 | 3 | 陳冠能 | NYCU ICST Dean（2025/02-）+ 電子所講座 | Hybrid Bonding / 3D IC / Layer Transfer / Hyper RDL | IEDM 2024 × 2 + VLSI 2024 × 2（Hyper RDL interposer、25×33mm² 3DIC）；400+ 論文、87 專利 | NCTU-TSMC JRC 成員；前 Micron Chair（2018-21 結束）；ITRI Adjunct；NSTC 微電子學門召集人 | 國際頂會系統整合領袖 | CoWoS-L 下一代 / SoIC / HBM 層間對準 | IEDM/VLSI 年均 6+ 篇一作；ICST Dean 院級合作 | 第一波 | 無 | MIT EECS PhD；IEEE/IET/IMAPS/NAI/CIEE 五重 Fellow |
@@ -45,9 +45,9 @@
 避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 10 位）。
 
 ### 隱形綁定風險分佈
-- **🟢 完全自由**：10 位
-- **🟡 需確認但非致命**：4 位（王俊明 TSMC 前職年數、鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
-- **🔴 法務 check 後定案**：1 位（王俊明）
+- **🟢 完全自由 / 合作框架已存在**：11 位
+- **🟡 需確認但非致命**：3 位（鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
+- **🔴 法務 check 後定案**：0 位
 
 ### 題目覆蓋完整性
 - **前段 2nm Device**：王俊明 + 馬誠佑 + 胡璧合（3 位完整鏈）
