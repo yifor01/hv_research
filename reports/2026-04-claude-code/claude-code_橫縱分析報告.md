@@ -1,6 +1,6 @@
 # Claude Code
 
-> 研究時間：2026-04-20 | 所屬領域：AI 軟體工程、開發者工具 | 研究對象類型：產品（CLI agent）| 作者：GenAI Frontiers
+> 研究時間：2026-04-23（v4，補入 Q1 平台基礎設施輪：Opus/Sonnet 4.6、Compaction、Caching、Fast Mode、Advisor Tool 與 2026 Q1-Q2 Engineering blog 系列）| 所屬領域：AI 軟體工程、開發者工具 | 研究對象類型：產品（CLI agent）| 作者：GenAI Frontiers
 
 ## 一、一句話定義
 
@@ -164,30 +164,67 @@ $5/$25 的價格還有一個副作用：它把 Anthropic 的 API 價格拉到和
 
 12 月 18 日還有一個被低估的動作：**Agent Skills 被發布為 open standard（agentskills.io）**。Anthropic 把 Skills 規格標準化，允許 ChatGPT、Cursor 或其他平台採用同一份 spec 來執行同一個 skill。這在策略上把 Anthropic 自家的 agent instruction 格式推到 MCP 之後的第二個行業標準。
 
-### 2.11 Opus 4.6 與 Agent Teams：1M Context 時代開啟（2026-02）
+### 2.11 Anthropic Labs 擴編與 Claude Cowork：Claude Code 的非工程師雙生子（2026-01）
 
-**2026 年 2 月 5 日**發布 Claude Opus 4.6，2 月 17 日接著是 Sonnet 4.6。這是 Anthropic 第一個真正意義上的 **1M context** 世代。
+2026 年 1 月，Anthropic 內部一個原本只有 2 人、低調運作了一年半的團隊正式對外露面——**Anthropic Labs**。
 
-Opus 4.6 的三個關鍵功能：
+**1 月 13 日**，Anthropic 官網公告 Labs 的擴編：原 CPO **Mike Krieger**（Instagram 共同創辦人）從產品長位置退到 individual contributor 身分，與 **Ben Mann** 共同領導 Labs，直接 report 給總裁 Daniela Amodei。同一公告承諾「未來 6 個月內 headcount 翻倍」。空出來的 CPO 職位由前 Meta 15 年資歷的 Ami Vora 接手——分工很清楚：Vora 管現有產品線增長（Claude.ai、API、Enterprise），Labs 管前緣實驗。
 
-1. **Agent Teams**——多個 agent 並行，各自擁有完整 1M context，透過「Mailbox Protocol」互傳訊息。這是 v2.0 sub-agents 和 Agent Swarms 功能的延伸，但規模和穩定性都上了一個台階
-2. **Claude in PowerPoint**——Claude 可以直接操作 PowerPoint 檔案（computer use 的企業延伸）
-3. **1M token context（beta）**——進入百萬 context 時代
+關鍵在於：**Anthropic Labs 不是新單位**——它從 2024 年中就以 incubator 形式運作，**Claude Code 本身就是 Labs 的第一代旗艦**，MCP、Skills 也都是 Labs 孵出來的東西。1 月 13 日只是 Anthropic 把這個內部建制公開化、給它一個對外品牌、配置更多資源。對 Claude Code 報告而言這個資訊很重要——它意味著 Claude Code 不只是「Anthropic 的一個產品」，它是「Anthropic 整個前緣產品策略的範本」。
 
-Opus 4.6 被 Anthropic 在媒體溝通時打上「vibe working」的標籤——這是 Karpathy 2025 年發明的 vibe coding 一詞的企業版：讓 LLM 接手更完整的工作流程，人類只給方向和檢閱結果。
+擴編公告隔天，**1 月 12 日**，Labs 推出第一個對外用「Labs 品牌」包裝的新品——**Claude Cowork**。
 
-**2026 年 2 月 19 日**，Boris Cherny 上了 Lenny's Newsletter 的 podcast。這次訪談留下幾個後來被反覆引用的數字點：
+Cowork 的定位是「**給非工程師知識工作者的 Claude Code**」：一個 macOS 桌面 agent，在使用者的 Mac 上看著螢幕、操作檔案、跨應用協作。研究預覽期僅開給 Claude Max 訂戶，第一波場景鎖定 financial analyst、operations、HR 這類「重度看檔案、需要跨多個 SaaS 協作」的工作者。
 
-- Claude Code 佔公開 GitHub commits 的 **4%**
-- DAU 上個月翻倍
-- Cherny 自己：「I have not written a single line of code since November」
-- 他確認自己曾短暫離開去 Cursor 兩週後回歸 Anthropic
+Cowork 與 Claude Code 的關係不是隱喻而是字面意義上的雙生：**Cowork 由 Claude Code 在兩週內自舉開發完成**——Boris Cherny 在 X 上揭露這個細節時，把它當成 Claude Code 工程能力的最強 case study。Cowork 共用 Claude Code 的 computer use 能力、共用 sub-agent 架構、共用 Skills 系統，差異在於 UI 層完全重做（不是 CLI，是 macOS native）、tool registry 換成「open SaaS apps、click buttons」這套面向 GUI 的工具。
 
-最後一點很有故事性——連 Claude Code 的創辦人都用過 Cursor，然後又回來了。這個細節在 X 上被反覆截圖討論，是 2026 年 Q1 兩派鬥爭最有象徵意義的一個註腳。
+Cowork 的擴張節奏在後續三個月內非常快：
 
-**2026 年 3 月 13 日**，1M context 正式 **GA**，而且關鍵是**沒有加價**——Opus 4.6 維持 $5/$25、Sonnet 4.6 維持 $3/$15 across the full window。其他 AI 公司（包括 Google 的 Gemini）都有 long-context premium，Anthropic 這個決策等於直接把 1M context 從「奢侈品」打成「基本配置」。Max / Team / Enterprise 訂閱者自動開啟，Pro 需要打 `/extra-usage` 主動 opt-in。
+- **1 月 30 日**：plugins 系統正式上線、connectors 擴張到 Google Drive / Gmail / DocuSign / FactSet。財務、工程、HR 三條垂直 plugin 同步出貨
+- **2 月 24 日**：**Claude for PowerPoint / Claude for Slides** 公測（內嵌在 Cowork plugin 體系內）。Cowork 開始有「個別 vertical app」級別的子產品
+- **4 月 9 日**：Cowork 進入企業版（"ready for enterprise"），Anthropic Managed Agents 同月推出，兩者在企業銷售上互相導流
 
-### 2.12 CronCreate 與 Background Workers（2026-03 初）
+Cowork 對 Claude Code 報告的意義不在 Cowork 本身的產品功能，在它證明了一件事：**Claude Code 累積的 harness、sandbox、Skills、sub-agent 這些底層能力，可以被「換一個 UI、換一套工具集」就重新打包成完全不同的產品**。Managed Agents（2026-04）打包成 API 給開發者；Cowork 打包成桌面 agent 給知識工作者；Claude Design 打包成視覺工具給設計師。三條完全不同的產品線，底層共用同一套 Claude Code 證明過的引擎。這個複用模式是 Anthropic 在 Labs 擴編之後主推的戰略。
+
+Branding guideline 上 Anthropic 對 Cowork 也很保護：Managed Agents 文件明確列出合作夥伴**不可以用「Claude Cowork」「Claude Cowork Agent」**，跟「Claude Code」並列為保留品牌。這是 Anthropic 把 Cowork 當作下一個「Labs 旗艦」級別產品在養。
+
+### 2.12 Opus 4.6、Sonnet 4.6 與平台基礎設施：1M Context 時代開啟（2026-02 ~ 03）
+
+2026 年 2 月是 Anthropic 一波密集的「平台層」更新——不只是新模型，是把 agent runtime 需要的整套底層 primitive（context、cache、effort、speed、residency）一次補齊。Claude Code 是直接受惠者。
+
+**2 月 5 日：Opus 4.6**
+
+Opus 4.6 的招牌不在 benchmark 數字，在它一次推了五件能改變 agent 寫法的東西：
+
+1. **Adaptive thinking 預設**——`budget_tokens` 參數正式 deprecated。Opus 4.6 自己決定要 think 多久，不用開發者預設預算
+2. **Agent Teams**——多個 agent 並行，各自擁有完整 1M context，透過「Mailbox Protocol」互傳訊息。這是 v2.0 sub-agents 和 Agent Swarms 的延伸，但規模和穩定性都上了一個台階
+3. **Claude in PowerPoint**——Claude 可以直接操作 PowerPoint 檔案（computer use 的企業延伸；這條後來在 Cowork plugin 裡放大）
+4. **Compaction API（beta）**——server-side context summarization。長對話 / 長任務 context 撐爆前，Anthropic 端自動壓縮，等同「無限對話」。這把 Claude Code 內部的 compaction 邏輯升級成 platform primitive
+5. **Data Residency Controls**——`inference_geo` 參數，可指定 US-only inference（+10% 價）。受監管行業終於可以用 Anthropic API
+6. **Effort 參數 GA**——controlled think effort 從 beta 進 GA、Fine-grained tool streaming 也 GA
+7. **1M token context（beta）**——進入百萬 context 時代
+
+Opus 4.6 被 Anthropic 在媒體溝通時打上「**vibe working**」的標籤——這是 Karpathy 2025 年發明的 vibe coding 一詞的企業版：讓 LLM 接手更完整的工作流程，人類只給方向和檢閱結果。
+
+**2 月 7 日：Fast Mode**
+
+緊接著推 Fast Mode（Opus 4.6 research preview）——以 premium pricing 換最高 **2.5 倍輸出速度**。對長任務不重要，對「人在 terminal 前等 Claude Code 回覆」這種互動式場景是體驗質變。後來 v2.1 patch 系列加進 `/fast` slash command。
+
+**2 月 17 日：Sonnet 4.6**
+
+Sonnet 4.6 是 Q1 真正的工作主力。比 Opus 4.5 在 coding 場景 **59% 領先**、比自家前代 Sonnet 4.5 在 70% 場景優於，computer use 領域大躍進。最關鍵的是——**價格依然 $3/$15 不變**。這意味著 Cowork、Claude Code 的預設模型都可以在不漲價的前提下換更強的引擎。同步發了一系列 tool API GA：web search、programmatic tool calling、code execution + web search/fetch（後兩者搭配時免費）、memory tool、tool search、tool use examples 全部從 beta 進 GA。
+
+**2 月 19 日：Automatic Caching**
+
+Messages API 新增 automatic prompt caching——一個 `cache_control` 標記，Anthropic 自動推進 cache 點。對 Claude Code 這類「同一份 system prompt + 工具清單」每輪都要送的場景，token 成本與延遲都下降一截。同日 Boris Cherny 上 Lenny's Newsletter podcast，留下幾個後來被反覆引用的數字點：Claude Code 佔公開 GitHub commits **4%**、DAU 上個月翻倍、Cherny 自己「I have not written a single line of code since November」、他確認曾短暫離開去 Cursor 兩週後回歸 Anthropic。最後一點在 X 上被反覆截圖——連 Claude Code 創辦人都用過 Cursor 又回來了，是 Q1 兩派鬥爭最有象徵意義的註腳。
+
+**3 月 13 日：1M Context GA**
+
+1M context 正式 **GA**，無需 beta header，而且關鍵是**沒有加價**——Opus 4.6 維持 $5/$25、Sonnet 4.6 維持 $3/$15 across the full window。其他 AI 公司（包括 Google 的 Gemini）都有 long-context premium，Anthropic 這個決策等於直接把 1M context 從「奢侈品」打成「基本配置」。Max / Team / Enterprise 訂閱者自動開啟，Pro 需要打 `/extra-usage` 主動 opt-in。同日把 1M 模式下圖片 / PDF 上限從 100 提升到 600 張，並移除 1M 專屬 rate limit。
+
+整個 2 月到 3 月中這一輪平台基礎設施更新，看似零碎，合起來是一次「**讓 long-running agent 變成第一公民**」的系統性升級——Compaction 解決對話長度上限、Caching 解決成本、Adaptive thinking 解決 effort 配置、Data Residency 解決企業合規、1M GA 解決 context 上限、Sonnet 4.6 解決能力與成本的平衡。Claude Code 的 v2.1.x 系列為什麼能在 2 月後突然瘋狂出新功能（Routines、Auto mode、PreCompact hook、`/fast`），不是工程組突然變強，是底層 primitive 全部備齊讓上層應用可以開始堆。
+
+### 2.13 CronCreate 與 Background Workers（2026-03 初）
 
 2026 年 3 月初，Claude Code 新增了三個 native tool：**CronCreate / CronDelete / CronList**，加上 `/loop` 和 `/schedule` 兩個 skill。
 
@@ -197,7 +234,7 @@ Anthropic 工程師 Thariq Shihipar 在一篇 blog post 裡示範這個用法，
 
 Schedule task 的實現有幾個刻意的限制：session-scoped（關閉 terminal 後如果是 session 任務會消失）；recurring task 三天後自動 expire（防止「寫完就忘了」的任務無限跑下去）；busy 時不 catch-up missed fires（不會積累）。這些限制都是在說「我們不希望你丟一個 agent 就永遠不管」——Anthropic 明顯在設計上對「完全無人值守」還保持謹慎。
 
-### 2.13 地震月：源碼洩漏與安全連環（2026-03-31）
+### 2.14 地震月：源碼洩漏與安全連環（2026-03-31）
 
 **2026 年 3 月 31 日**是 Claude Code 歷史上最戲劇性的一天。
 
@@ -216,7 +253,7 @@ Schedule task 的實現有幾個刻意的限制：session-scoped（關閉 termin
 
 這直接把 Claude Code 推上「是否該被視為犯罪武器」的爭議。Anthropic 的回應是快速推出一系列安全強化——permission 新增更嚴格的 enterprise 層、hooks 增加數位簽章選項、MCP server 的黑名單機制。但品牌傷害已經造成：Claude Code 作為「safety-first」的 Anthropic 最旗艦產品被成功武器化，這件事在 Anthropic 企業銷售敘事裡很難洗白。
 
-### 2.14 Opus 4.7 反擊與 Desktop 重繪（2026-04）
+### 2.15 Opus 4.7 反擊與 Desktop 重繪（2026-04）
 
 2026 年 4 月是 Claude Code 的反彈月。
 
@@ -226,11 +263,51 @@ Schedule task 的實現有幾個刻意的限制：session-scoped（關閉 termin
 
 **4 月 14-18 日**一週內連續發布 v2.1.108 到 v2.1.114 的 patch 系列，引入一大串社群期待已久的功能：1-hour prompt cache TTL（`ENABLE_PROMPT_CACHING_1H`）、session recap、`/effort` interactive slider、Auto mode（在 Opus / Sonnet / Haiku 之間自動切，Max 訂戶專屬）、PowerShell 工具漸進 rollout、push notification tool、`EnterWorktree` 支援 path 參數、PreCompact hook、plugins 的 background monitor。
 
+同月 **4 月 8 日**還上了 **`ant` CLI**——Anthropic 官方推出的另一條命令列工具，定位是「YAML 版控你在 Claude Platform 上的所有資源」（agents、environments、skills、MCP servers），與 Claude Code 原生整合。`ant` 不跟 Claude Code 搶定位（它不是 agent runtime，是 declarative resource manager），它是 Claude Code 的 DevOps 配套——讓企業可以把 agent 配置 commit 進 git。這是 Anthropic 在「Claude Code 之外還需要哪些 CLI」這個問題上的第一個答案。
+
 這一個月的反擊是精心安排的。用產品更新和模型能力把話題從 source leak 拉回來，讓市場看到「Anthropic 的技術護城河還在繼續拉大」。SWE-bench 87.6% 這個數字在 4 月下旬被到處引用，是 Claude Code 在 Codex CLI 的一波話題攻勢後拿回敘事主導權的關鍵一擊。
 
 到 2026 年 Q1 結束，根據 Constellation Research 的數據，**Claude Code 的 ARR 從 2026 年 1 月 1 日到 4 月份翻倍**，對 Anthropic 整體營收的貢獻超過一半。Claude Code 已經不是 Anthropic 的一個產品線，它是 Anthropic 的主戰場。
 
-### 2.15 階段總結：六個時期
+### 2.16 Claude Managed Agents：把 Claude Code 的 runtime 打包賣（2026-04-08）
+
+如果說 SDK 改名（2025-09-29）是 Anthropic「從 coding 工具走向 agent 平台」的口號，那 2026 年 4 月 8 日推出的 **Claude Managed Agents** 才是真正交出來的「貨」。
+
+這個產品在 Claude Platform 上以 public beta 形態推出，beta header 是 `managed-agents-2026-04-01`，官方定位是「a suite of composable APIs for building and deploying cloud-hosted agents at scale」。它不是新模型、也不是新對話 API——它是把 Claude Code 內部那套 agent harness（query loop、tool execution、sandbox、checkpoint、tracing、credential vault）整個從 CLI 裡剝出來，包成 RESTful API 賣。
+
+**定價極具侵略性**：$0.08 / session-hour（active runtime 才收，閒置不算），加上標準 token 計費。一個 30 分鐘任務的 runtime 成本約 $0.04——對比企業自己用 LangGraph + EKS + gVisor sandbox + Vault + Langfuse 拼出同樣的 stack，這個價碼接近免費。
+
+四個核心抽象構成整個 API：**Agent**（model + system prompt + tools + MCP servers + skills 的綁定）、**Environment**（容器模板：Python/Node/Go 預裝、network rules、mounted files）、**Session**（Agent 在 Environment 裡的一次執行實例）、**Events**（user turn、tool result、status update 的訊息流）。寫法上是 `client.beta.agents.create(...)` → `client.beta.environments.create(...)` → `client.beta.sessions.create(...)`，然後 SSE 訂閱輸出。
+
+最關鍵的是 **session 可斷線重連**——`sessions.outputs.list(since_sequence=N)` 從上次看到的 sequence 之後繼續拉，event history 全部 server-side 持久化。這解決了 long-running agent 最痛的「客戶端崩潰怎麼辦」問題，也把 Claude Code 的 `--resume` 機制升級成了 platform primitive。
+
+早期客戶名單講出 Anthropic 想要的故事：**Notion**（內部 Custom Agents 的 alpha 後端）、**Rakuten**（一週內把 product / sales / marketing / finance 的 specialist agents 上線）、**Sentry**（自動寫 patch 的 agent，「shipped in weeks instead of months」）、Asana、Atlassian、Vibecode、BlockIt 都報「10x faster development cycles」。內部測試聲稱 Outcomes API 比標準 prompting loop「task success 提升 up to 10 percentage points」。
+
+Branding guideline 透露了戰略意圖：合作夥伴可以用「Claude Agent」「Claude」「{YourAgentName} Powered by Claude」，但**不可以用**「Claude Code」「Claude Cowork」這些旗艦品牌。換言之 Anthropic 想保留旗艦產品名，但鼓勵客戶把自己的 agent 包裝成「自有品牌 powered by Claude」——這是典型的 cloud platform 玩法（類似 AWS 鼓勵 ISV 在 Bedrock 上掛自己的招牌），不是 chatbot 玩法。
+
+Outcomes API、Multi-Agent Orchestration、Persistent Memory 三個進階功能還在 research preview，要單獨 request access。但骨架已經 GA（beta），這意味著 2026 Q2 開始，「自己寫 agent loop」這件事對企業而言就跟 2015 年「自己寫 container orchestrator」一樣——技術上做得到，但完全沒必要。
+
+**Advisor Tool（同月 4 月 9 日）**
+
+Managed Agents 公測隔天，Anthropic 又上一個直接相關的 beta：**Advisor Tool**（beta header `advisor-tool-2026-03-01`）。它的設計是「executor + advisor」雙模型配對——executor 跑工具呼叫、advisor 在關鍵 step 上提供 second opinion。內部 benchmark 顯示**長 horizon agent 任務的 outcome quality 接近 advisor-solo 配置，但 token 成本顯著下降**。這條 beta 跟 Managed Agents、Cowork 是同一個技術方向：把 multi-agent 從「實驗性玩法」轉成「企業能 SLA 的 production primitive」。Claude Code v2.1 後續的 sub-agent 與 Auto mode 的智能切換邏輯，與 Advisor Tool 的設計哲學是同根的。
+
+### 2.17 Claude Design：Anthropic Labs 的非編碼支線（2026-04-17）
+
+Managed Agents 上線九天後，Anthropic 開了一條截然不同方向的戰線。
+
+2026 年 4 月 17 日，**Anthropic Labs**（在 1 月 13 日 Mike Krieger 接任後正式擴編、但實際從 2024 年中就在孵化 Claude Code / MCP / Skills / Cowork 的內部單位）推出了第一個明確掛上 Labs 品牌對外宣傳的新品——**Claude Design**：一個用對話生成 prototype、slides、one-pager、wireframe、pitch deck 的視覺工具，**Opus 4.7 vision** 驅動，研究預覽形式包進 Pro / Max / Team / Enterprise 訂閱（沒有額外加價，吃既有訂閱的 quota，超出後支援 extra usage）。
+
+它最差異化的能力，是可以「**讀你的 codebase，自動套用你的 design system**」——如果你倉庫裡有 design tokens、有 component library、有 Figma export，Claude Design 會解析這些並讓所有產出視覺一致。這不是「templates」級別的差異，是「automated brand compliance」級別的差異。
+
+輸出格式齊全：PDF、PPTX、HTML、standalone folder，並且**首發整合 Canva**——Claude Design 的稿件可以一鍵推到 Canva 繼續編輯與協作。客戶 Brilliant 提供的 case quote 是「複雜頁面在其他工具要 20+ prompts 重建，在 Claude Design 只要 2 prompts」。除標準輸出外還支援「code-powered prototypes with voice, video, shaders, 3D and built-in AI」——這個列表透露 Claude Design 不只想做靜態設計工具，而是想覆蓋互動 prototype 的場景。
+
+更妙的是它與 Claude Code 的銜接：「Seamless handoff to Claude Code with bundled design specifications」——designer 把視覺敲定後，可以把 design spec 一起 export 成 Claude Code 能讀的格式，工程師在 Claude Code 裡直接基於這份 spec 寫 component。這是 Anthropic 第一次讓「設計→工程」的 handoff 完全跑在自家工具鏈裡，繞開 Figma 的 Dev Mode。
+
+市場反應劇烈——當天 **Figma 股價下跌超過 7%**。考慮 Claude Design 還只是 research preview、還沒有公開定價、還沒進入 Figma 的核心精細編輯場景，這個跌幅更多反映「Anthropic 證明它有跨領域擴張能力」這個敘事，而不是 Figma 真的丟了多少業務。The Register 寫了一篇酸文「because who needs designers?」，捕捉到 Claude Design 引發的另一種焦慮——這是 AI 第一次明確把「視覺設計」這個被認為是「右腦工作」的職能拉進 commodity 化的射程內。
+
+對 Claude Code 報告而言，Claude Design 的意義不在它本身的設計能力，而在它具體展示了 **Anthropic Labs 在「非 coding 垂直工具」方向的擴張節奏**。Cowork（2026-01）證明了 Labs 能把 Claude Code 的能力打包給「桌面知識工作者」、Managed Agents（2026-04-08）證明了能打包給「企業 agent 開發者」、Claude Design 則是第一個明確走「面向特定創意職能（designer）的 SaaS 工具」路線。後面大概率還會有 Claude Research、Claude Slides 完整版、Claude Sheets、Claude Forms 這類「Opus 驅動的單一垂直工具」陸續從 Labs 出貨——Labs 已經不再低調。
+
+### 2.18 階段總結：七個時期
 
 回頭看這 18 個月的軌跡，Claude Code 的發展可以劃分為六個階段：
 
@@ -242,8 +319,11 @@ Schedule task 的實現有幾個刻意的限制：session-scoped（關閉 termin
 | **平台化** | 2025 Q3-Q4 | v2.0、Sub-agents、SDK 改名、Plugins、Skills、Web | 「做產品還是做平台」 |
 | **規模化** | 2025 Q4 - 2026 Q1 | Opus 4.5 降價 66%、Opus 4.6 1M context、CronCreate | 「scale 與成本的張力」 |
 | **地震期** | 2026 Q1 末 | Source leak、安全事件、品質爭議、Opus 4.7 反擊 | 「信任 vs 領先」 |
+| **平台輸出期** | 2026 Q1- | Labs 擴編（Krieger 領軍）、Cowork 公開、Managed Agents 公測、Claude Design 上線、Routines GA | 「旗艦產品 vs 能力孵化器」 |
 
-每個階段的時長在壓縮——從第一階段的四個月，到第五階段的兩個月。這說明 Claude Code 已經進入「季度級別的戰略節奏」：每兩三個月必須推出一個能改變敘事的新功能，否則對手就會趕上。2026 年 Q2 的節奏只會繼續加速。
+每個階段的時長在壓縮——從第一階段的四個月，到第六階段的兩個月，到第七階段在 2026 Q1-Q2 連續出 Cowork、Managed Agents、Claude Design 三條全新產品線。這說明 Claude Code 已經進入「**月度級別的戰略節奏**」：每兩三週必須推出一個能改變敘事的新動作，否則對手就會搶話語權。2026 年 Q2 的節奏只會繼續加速。
+
+第七階段的核心矛盾是新的：**Claude Code 不再只是「自己長大」，它要同時當「Anthropic 平台矩陣的能力源頭」**——Cowork 用的是它的 computer use + 兩週自舉開發、Managed Agents 用的是它的 harness、Claude Design 用的是它的 vision + codebase reading 能力、Routines 用的是它的 task queue 機制。Claude Code 從一個產品變成一個「能力庫」，這個轉變對它的迭代節奏與工程取捨會帶來根本影響（在第五節 5.6 詳述）。
 
 ---
 
@@ -470,6 +550,102 @@ REPL.tsx 在 mount 時 `registerGlobalBridge()` 把 React 的 state ref 交給 a
 
 最驚人的細節是：Claude Code 沒用 Zustand 或 Jotai，而是自己寫了一個 **34 行的 store**。`getState` 回傳 state 物件本身（非 deep copy），消費者可以直接 mutate——Claude Code 靠程式碼紀律防止 mutation，所有更新都透過 spread operator。這在團隊規模小的場景下可行，但若用於開源大型團隊，建議加 `Object.freeze()`。
 
+### 3.11 Claude Managed Agents：託管 harness 的架構
+
+Claude Code 是「跑在使用者機器上的 agent runtime」，2026-04-08 推出的 Claude Managed Agents 是「同樣的 runtime 跑在 Anthropic 雲端」。把這兩者並排剖析，能看出 Anthropic 對 agent infra 的整套世界觀。
+
+**Brain / Hands / Orchestration / Logic 的四層分層**
+
+Managed Agents 的官方架構表，比 Claude Code 的「七層架構」更精煉：
+
+| 層 | 擁有者 | 職責 |
+|---|---|---|
+| **Brain** | Claude 模型 | 工具選擇與決策 |
+| **Hands** | Managed runtime | 沙盒化的 tool execution |
+| **Orchestration** | Managed harness | Context、retries、checkpoint |
+| **Logic** | 開發者 | Agent 宣告與任務指派 |
+
+對比 Claude Code 七層（Entry / Screens / Pipeline / Agents / Tools / MCP / Extensibility），Managed Agents 把「Screens」這層整個切掉（沒有終端 UI），把 Pipeline + Agents + Tools 三層收成「Orchestration + Hands」由 Anthropic 託管，把 Extensibility 簡化為「Agent 宣告時掛 MCP server / skill」。剩下開發者要寫的只有 Logic——「我這個 agent 是幹嘛、要哪些 MCP、哪些 skill」這幾行 declarative 配置。
+
+**四個 API 抽象**
+
+整套 SDK 圍繞四個資源：**Agent**、**Environment**、**Session**、**Events**。實際使用大致長這樣：
+
+```python
+agent = client.beta.agents.create(
+    name="Code Review Agent",
+    model="claude-opus-4-6",
+    system="You are an expert code reviewer...",
+    tool_choice={"type": "agent_toolset", "version": "20260401"},
+)
+
+env = client.beta.environments.create(
+    name="code-review-env",
+    compute={"cpu": 2, "memory_gb": 4},
+    secrets=[{"name": "GITHUB_TOKEN", "value": "ghp_xxxx"}],
+)
+
+session = client.beta.sessions.create(
+    agent_id=agent.id,
+    environment_id=env.id,
+)
+
+with client.beta.sessions.stream(session.id) as stream:
+    for event in stream:
+        if event.type == "content_block_delta":
+            print(event.delta.text, end="", flush=True)
+```
+
+`agent_toolset_20260401` 這個版本化的 toolset 預設給 bash、file ops（read/write/edit/glob/grep）、web search、web fetch、Python/JS code execution——就是 Claude Code 內建那 40+ 工具的「精華六件套」。這是個值得注意的選擇：Anthropic 沒有把 Claude Code 的全套工具公開，而是挑了「企業 agent 任務最常用的最小集合」推出。剩下的工具如果要用，自己寫 MCP server 接上。
+
+**Sandbox 與憑證隔離**
+
+每個 session 跑在獨立 container 裡，filesystem 與 network namespace 獨立。`secrets` 在 environment 創建時放進加密 vault，runtime 注入給 container 但 agent **不能讀回原始值**——這個設計直接對標「LLM agent 把 GITHUB_TOKEN 寫進 markdown 然後上傳到公開 issue」這類已經在 GitHub Copilot Workspace 等產品上發生過的事故。
+
+不過缺一個關鍵能力：**目前沒有 VPC peering、沒有 private endpoint**。所有流量走 Anthropic 的公網 infra。這對受監管行業（金融、醫療、政府）是直接的 dealbreaker，也是 Bedrock AgentCore 後續可以打的點。
+
+**Checkpoint 與斷線重連**
+
+Managed Agents 在每次 major tool execution step 之後自動 checkpoint。長任務跑到一半客戶端斷了，重連後 `sessions.outputs.list(since_sequence=N)` 從第 N 個 sequence 之後繼續拉 events。這是 Claude Code 的 `--resume` 與 Routines 的伺服器側同等機制——Anthropic 把「task durability」這件事從 Claude Code 內部優化升級成了一個 platform primitive。Dev community 有人實測指出，**sub-agent 在 parallel fan-out 下的 checkpoint 隔離行為官方文件沒寫清楚**——一個 sub-agent 失敗時，是只重啟它還是整個 fan-out 重來？這個細節未來會影響 multi-agent 的可靠性設計。
+
+**Pricing Anatomy**
+
+$0.08 / session-hour 只計 active runtime（agent 真正在跑工具的時間），閒置 session 不收 runtime 費（但占資源額度）。一個常見誤區是把多個任務塞進同一個 session 攤分 runtime 成本——官方文件警告 session state 會 contamination，跨任務 batching 會引入難 debug 的污染。Rate limits 也很慷慨：create endpoints 60 RPM、read endpoints 600 RPM，per-organization。
+
+**與 Claude Agent SDK 的關係**
+
+Claude Agent SDK（2025-09-29 改名後的同一個 SDK）是「在你自己的 process 裡跑 agent loop」，Managed Agents 是「在 Anthropic 雲上跑同樣的 agent loop」。兩者的關係類似 Kubernetes self-hosted 與 GKE / EKS 的關係。對開發者而言，選 SDK 還是 Managed 的判斷標準是：
+
+- 有強 data residency / on-prem / private network 要求 → SDK + 自建
+- 任務跑分鐘到小時級、需要 sandbox + checkpoint + tracing → Managed
+- 任務超短（秒級）、純對話 → 直接 Messages API（官方文件明確把這三條路並列）
+
+到 2026 Q2 為止，Managed Agents 還沒有 Bedrock AgentCore / Vertex AI Agent Builder / OpenAI Assistants 那麼成熟的 enterprise 配套（VPC、KMS、IAM 整合都缺），但它有 Claude 模型本身的能力優勢，加上 Claude Code 兩年累積的 harness know-how——這是其他 hosted agent 平台短期內補不上的核心資產。
+
+### 3.12 Anthropic 自己對 Claude Code 方法論的官方論述（2026 Q1-Q2 工程 blog 系列）
+
+3.1 ~ 3.11 的剖析建立在源碼洩漏的逆向工程上，但 Anthropic 自己在 2026 Q1-Q2 也密集發了一系列 Engineering blog，把 Claude Code 內部的設計哲學寫成可被引用的官方論述。把這些並讀，能補完源碼看不出的「為什麼這樣設計」的理由。
+
+**核心系列（按時間排序）**
+
+| 日期 | 文章 | 核心論點 |
+|---|---|---|
+| 2026-02-05 | *Building a C compiler with a team of parallel Claudes* | 用 4 個並行 Claude 寫 C compiler，揭示 Agent Teams 的實戰 pattern |
+| 2026-03-06 | *Eval awareness in Claude Opus 4.6's BrowseComp performance* | 模型「知道自己在被評測」的行為偏移問題 |
+| 2026-03-24 | *Harness design for long-running application development* | Claude Code harness 為什麼這樣設計：long task 的失敗模式分類 |
+| 2026-03-25 | *Claude Code auto mode: a safer way to skip permissions* | Auto mode 的權限分級邏輯——不是 yolo，是 risk-tier 化 |
+| 2026-04-10 | *Multi-agent coordination patterns* | sub-agent 與 Agent Teams 的選擇判斷與失敗模式 |
+| 2026-04-10 | *Seeing like an agent* | computer use 的「視覺」如何不同於人類眼睛——element grounding、partial observability |
+| 2026-04-10 | *Security program for AI-accelerated offense* | Claude Code 在攻擊面上的設計取捨，部分回應 3 月源碼洩漏後的安全質疑 |
+| 2026-04-15 | *Using Claude Code: session management and 1M context* | 1M context 為什麼仍要做 compaction、session 切分策略 |
+| 2026-04-22 | *Building agents that reach production systems with MCP* | MCP 在 production agent 的實戰 pattern |
+
+這個密度（2 個月 9 篇深度技術文）本身就是訊號——Anthropic 在用「自己寫官方權威論述」的方式，**搶在源碼洩漏被外部研究者過度解讀前，建立自己的方法論話語權**。3 月 31 日源碼洩漏後出現的多份「逆向工程白皮書」，到 4 月中已經被官方 blog 的論述蓋過——對企業客戶而言，「Anthropic 自己怎麼說」比「外部還原推測」更有引用價值。
+
+特別值得一提的是 **3 月 25 日的 Auto mode 文**——它正面回應了「Auto mode 是不是 yolo 的安全外衣」這個社群質疑。文章公開了 Auto mode 內部的 risk-tier 分類：read-only 動作完全自動、可逆寫入動作（檔案、git）需要 risk score 超過 threshold 才放行、不可逆動作（rm、deploy、財務交易）永遠 ask。這套分級不是 prompt engineering，是 Claude Code 內部 hard-coded 的 permission cascade 在 Auto mode 下的特化——直接呼應 3.5 八層 cascade 的設計。
+
+對 Claude Code 報告而言，這批 blog 補上了「Anthropic 自己怎麼定位 Claude Code」的官方論述層。3.1 ~ 3.11 是「what they built」的逆向描述，3.12 是「why they built it that way」的正向詮釋——兩者並讀才完整。
+
 ---
 
 ## 四、橫向分析：2026 Q2 的競爭圖譜
@@ -653,6 +829,43 @@ Gemini CLI 在 2026 年上半年的每個新功能都能找到對應的 Claude C
 
 Anthropic 2026 年 Q1 的戰略顯然在修正前者：4 月的 Opus 4.7 Max Plan 配 Auto mode、1-hour prompt cache、更寬鬆的 weekly quota。這些都是為了讓「重度用戶不再每週末 rage-quit」。
 
+### 4.10 跨界對手：Claude Design 闖入設計工具市場
+
+2026-04-17 Claude Design 上線當天 Figma 跌 7%，這個股價反應比 Claude Design 的真實業務威脅大——但它精準反映了「Anthropic 不再是單純 AI infra 公司」的市場敘事轉變。
+
+Claude Design 的對手可以分成三圈：
+
+| 圈層 | 代表產品 | 重疊度 | Claude Design 的相對位置 |
+|---|---|---|---|
+| **核心設計工具** | Figma、Sketch、Adobe XD | 部分重疊 | 不打精細編輯，主打「對話到 prototype」這段 |
+| **AI 設計新貴** | Galileo AI、Uizard、Magician for Figma | 直接重疊 | Opus 4.7 vision + 讀 codebase 套 design system 是差異化 |
+| **AI 前端生成** | v0 (Vercel)、Lovable、Bolt.new | 高度重疊 | v0 / Lovable 直接出 React；Claude Design 出 visual + spec 再交棒 Claude Code |
+
+最有意思的對位是 **Claude Design vs v0**。v0 的故事是「prompt → React component → ship」一條龍；Claude Design 的故事是「prompt → visual + design spec → handoff to Claude Code → ship」。前者更短，後者更分工。Anthropic 押的劇本是「設計與工程是不同職能、需要不同工具但同一個 AI 大腦」——在 2-3 人 startup 上 v0 贏，在 50+ 人有 designer / dev 分工的組織上 Claude Design 贏。
+
+對 Figma 的真實威脅在於 **design system enforcement**——Figma 自己花了 3 年推 Variables、Tokens、Library 這套，目的就是「讓設計輸出符合品牌規範」。Claude Design 用 Opus 4.7 直接讀 codebase 自動推導出 design system 並套用，這把 Figma 的長期投資直接 commodity 化了。如果 Claude Design 的這個能力真的 work，Figma 的 enterprise tier（最賺錢的那塊）會被打到。
+
+**Canva 是 Anthropic 選擇的盟友而非對手**——首發整合就是 export to Canva。這個策略很聰明：Canva 的核心使用者（marketer、SMB）跟 Claude Design 的核心使用者（PM、engineer）幾乎不重疊，反而 Canva 的編輯能力、collaboration、template 庫剛好補完 Claude Design 缺的那塊。Anthropic 用 Canva 補齊最後一哩，順便讓 Canva 的 1.7 億 MAU 成為 Claude Design 的潛在分發通路。
+
+對 Claude Code 而言，Claude Design 的存在改變了它在「前端開發」這條 use case 上的競爭位置——Cursor / v0 / Lovable 過去打 Claude Code 的痛點是「設計 / 視覺能力弱」，現在 Anthropic 直接把「Claude Design 出設計 → Claude Code 寫程式」這條 pipeline 補完，這條痛點被堵上了。
+
+### 4.11 雲端 Agent 託管市場：Managed Agents 入場
+
+雲端 hosted agent 平台這個市場在 2025 年下半開始熱起來，2026 Q2 已經是巨頭混戰。Managed Agents 入場的時機，對手都已經就位：
+
+| 平台 | 廠商 | 推出 | 模型 | 計價 | 強項 | 弱項 |
+|---|---|---|---|---|---|---|
+| **Claude Managed Agents** | Anthropic | 2026-04 | Claude 系列 | $0.08 / sess-hr + tokens | 模型品質、Claude Code 累積的 harness know-how、4 概念 API 簡潔 | 無 VPC、無 on-prem、模型鎖 Claude |
+| **Bedrock AgentCore** | AWS | 2025-Q2 GA | Claude / Llama / Mistral / Titan | 完全 token + infra | VPC、IAM、KMS、多模型、IAM 整合 | API 複雜、agent runtime 較弱 |
+| **OpenAI Agents Platform** | OpenAI | 2025-Q4 | GPT-5 系列 | tokens（runtime 不單獨計） | Assistants / Threads 概念成熟、tool 生態廣 | sandbox 偏弱、long-running 經驗少 |
+| **Vertex AI Agent Builder** | Google | 2025-Q3 | Gemini / Claude / Llama | 混合計價 | GCP 整合、grounding 強 | Agent loop 邏輯較死板 |
+
+Claude Managed Agents 在這個市場的賣點不是「最便宜」也不是「最 enterprise」，是「**在 Claude 模型上拿到 Claude Code 級別的 runtime 體驗，但不用自己跑**」。Sentry、Notion、Rakuten 這幾個早期客戶都是「已經是 Claude 重度用戶、agent 任務又多又複雜」的型態——這個 niche 上其他三家平台都沒有同等競爭力。
+
+但企業客戶的決策邏輯往往是「把所有 AI 流量收斂到一個 cloud provider」，不是「用最強的工具」。這意味著 Managed Agents 在純技術上的領先很容易被 Bedrock 的「我跟你既有 AWS 帳單一起結」打消。Anthropic 接下來 6-12 個月最關鍵的動作會是：補上 VPC、private endpoint、SOC 2 / HIPAA / FedRAMP 級別的合規 stamp，把「最好的 agent runtime」這個技術領先轉換成「企業敢押的 platform」。
+
+對 Claude Code 而言，Managed Agents 的存在是雙刃劍。**正面**是它把「Claude Code 的 harness 是業界最強」這個敘事變成了一個有商業背書的事實——以前只有 Claude Code 自己能證明，現在 Sentry / Notion 的 case study 也在證明同一件事。**負面**是它分流了 Anthropic 的工程資源——同一批人要同時維護 Claude Code 自己的 runtime 和 Managed Agents 的託管 runtime，未來新功能可能會優先進 Managed Agents（因為更賺錢），Claude Code 的 CLI 體驗可能會出現「停滯期」。這個張力在 2026 下半年會很值得觀察。
+
 ---
 
 ## 五、橫縱交匯洞察
@@ -761,6 +974,28 @@ Cursor 會繼續是第三極，在「Day 1 生產力」和「IDE 粘著度」上
 
 三個劇本裡，我覺得**最可能的劇本概率最高**（60%）、**最危險的次之**（25%）、**最樂觀的最少**（15%）。無論哪個成真，2026-2027 這兩年都會是 AI 編碼工具類別最關鍵的戰場。對開發者來說，現在不是「要不要用 Claude Code」的問題——是「用 Claude Code 來做什麼」的問題。Terminal agent 這個新品類已經贏了，剩下的是看這個品類能擴張到多大。
 
+### 5.6 三條新支線揭示的 Anthropic Labs 棋局
+
+2026 Q1-Q2 短短四個月內，Anthropic Labs 連推 Cowork、Managed Agents、Claude Design 三條完全不同方向的新產品線，加上 4 月的 Opus 4.7 + Desktop App + Routines，密度高得反常。這個密度本身就是訊號——Anthropic 進入了「**用 Claude Code 累積的勢能，做平台級擴張**」的階段。
+
+要看清這個棋局，得先把 Anthropic Labs 的真實面目擺正：**Labs 不是 2026 年才成立的單位**，它從 2024 年中就以小團隊形式運作，**Claude Code 本身就是它的第一代旗艦**，MCP、Skills 也都是同一個孵化器的產物。2026 年 1 月 Mike Krieger 從 CPO 退到 IC 角色去領 Labs，意味著 Anthropic 把這個原本內部的單位升級為「明牌的前緣產品引擎」——後面所有新支線都會掛 Labs 品牌出來。
+
+三條新支線各自代表一個方向不同的賭注：
+
+**Cowork 是「橫向 + 同源」的賭注**——同樣的 Claude Code 引擎，換上 macOS 桌面 UI，鎖定非工程師知識工作者。它最妙的不是產品本身，是「**由 Claude Code 在兩週內自舉開發完成**」這個 origin story——Anthropic 用 Cowork 同時證明三件事：Claude Code 的工程能力強到可以兩週寫出新產品、computer use 這個能力可以被打包到非 CLI UI、Anthropic 有能力同時維護兩條面向不同使用者的 agent 產品。
+
+**Managed Agents 是「向下」的賭注**——把 Claude Code 的核心引擎（agent harness）抽象成基礎設施，賣給所有要做 agent 的企業。這個方向把 Anthropic 從「賣 token」推向「賣 platform」，跟 Snowflake、Databricks 走的是同一條路。它直接連結到 5.5 的最樂觀劇本（Agent SDK 起飛）——Managed Agents 是這個劇本的 commercialization layer，沒有它，Agent SDK 永遠只是免費工具。它也回答了一個曾被質疑的問題：「Anthropic 怎麼把 Claude Code 的成功從 coding agent 擴展到所有 agent？」——答案是 Managed Agents 把「Claude Code 級的 runtime 體驗」變成 API。
+
+**Claude Design 是「向外」的賭注**——證明 Opus 模型的能力可以拓寬到 coding 之外的單一垂直工具上，並且 handoff 機制讓「設計」與「開發」這兩條線在 Anthropic 工具鏈內閉環。Design 是第一個明確掛 Labs 品牌的「面向特定創意職能的 SaaS」，後續可能有 Research、Slides 完整版、Sheets、Forms 陸續從 Labs 出貨。每個都不會像 Claude Code 那樣巨大，但合起來能覆蓋 ChatGPT 的 horizontal 用例，又能用 Anthropic 的 enterprise 銷售通路出貨。
+
+三條支線的共同點是：**它們都建立在 Claude Code 證明過的能力上**。Cowork 用的是 Claude Code 的 computer use；Managed Agents 用的是 Claude Code 的 sandbox / harness / checkpoint 設計；Claude Design 用的是 Claude Code 的 vision + 讀 codebase 能力。Claude Code 對 Anthropic 不只是一個營收主力，它是整個產品矩陣的「能力證明場」——任何新產品都可以說「我們在 Claude Code 上跑了兩年，現在把這個能力換一套 UI 獨立出來」。
+
+這也意味著未來 12 個月，**Claude Code 本身的角色會微妙轉變**：從「Anthropic 的旗艦產品」變成「Anthropic Labs 全產品矩陣的能力源頭」。它會繼續快速迭代——但它的存在意義會更多是「為其他產品打地基、為新產品做 R&D 平台」，而不是「自己單點長大」。
+
+對使用者而言這是好事（Claude Code 會越來越深、越穩、越聰明，因為它要服務的不只是自己，還是 Cowork、Managed Agents 客戶與 Claude Design 的工程接棒）；對競爭對手而言這意味著 Cursor / Codex CLI 競爭的不再只是 Claude Code 本身，是整個 Labs 矩陣的 cross-pollination 速度。Cursor 要追上 Claude Code，得同時追上 Cowork、Managed Agents、Claude Design、Routines、Skills 整個體系——這個工作量比追單一產品大一個數量級，而且 Cursor 沒有等量的「孵化器組織」可以對標。
+
+從這個視角回看 5.5 的三劇本：**Cowork + Managed Agents + Claude Design 同時上線本身，就讓最樂觀劇本（Agent SDK 起飛）的概率從 15% 上修到 25-30%**。Anthropic 不只是嘴上說「我們是 agent platform」，它把 commercialization 機制（Managed Agents）、horizontal expansion 樣本（Claude Design）、與「同一引擎服務不同使用者群」的存在證明（Cowork）三件事都放上桌了。剩下的問題是：6-12 個月內，Managed Agents 能不能從 Notion / Rakuten / Sentry 的 alpha 用戶池擴展到「100+ 個有名字的企業 case」、Claude Design 能不能從 research preview 走到 GA 並出第二、第三個 Labs 產品、Cowork 能不能在企業端站穩。如果這三個都做到，第七階段「平台輸出期」會在 2027 年正式坐實 Anthropic Labs 作為 agent platform 龍頭的位置。
+
 ---
 
 ## 六、資訊來源
@@ -781,6 +1016,11 @@ Cursor 會繼續是第三極，在「Day 1 生產力」和「IDE 粘著度」上
 - [Anthropic: Claude Code on the web (2025-10-20)](https://www.anthropic.com/news/claude-code-on-the-web)
 - [Claude blog: 1M context GA (2026-03-13)](https://claude.com/blog/1m-context-ga)
 - [Claude blog: Redesigning Claude Code on desktop (2026-04-14)](https://claude.com/blog/claude-code-desktop-redesign)
+- [Claude blog: Claude Managed Agents — get to production 10x faster (2026-04-08)](https://claude.com/blog/claude-managed-agents)
+- [Anthropic: Introducing Claude Design by Anthropic Labs (2026-04-17)](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [Anthropic: Introducing Anthropic Labs (2026-01-13, Krieger 擴編公告)](https://www.anthropic.com/news/introducing-anthropic-labs)
+- [Anthropic Product: Claude Cowork](https://www.anthropic.com/product/claude-cowork)
+- [Claude blog: Cowork research preview (2026-01-12)](https://claude.com/blog/cowork-research-preview)
 - [Claude: Skills 頁面](https://claude.com/skills)
 - [Claude Product: Claude Code](https://claude.com/product/claude-code)
 
@@ -794,6 +1034,9 @@ Cursor 會繼續是第三極，在「Day 1 生產力」和「IDE 粘著度」上
 - [Claude Code Docs: Skills](https://code.claude.com/docs/en/skills)
 - [Claude Code Docs: VS Code](https://code.claude.com/docs/en/vs-code)
 - [Claude Code Docs: Desktop](https://code.claude.com/docs/en/desktop)
+- [Claude Platform Docs: Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview)
+- [Claude Platform Docs: Managed Agents quickstart](https://platform.claude.com/docs/en/managed-agents/quickstart)
+- [Claude Platform Docs: Managed Agents sessions API](https://platform.claude.com/docs/en/managed-agents/sessions)
 - [GitHub: anthropics/claude-code releases](https://github.com/anthropics/claude-code/releases)
 - [npm: @anthropic-ai/claude-code](https://www.npmjs.com/package/@anthropic-ai/claude-code)
 - [Claude Help Center: Release notes](https://support.claude.com/en/articles/12138966-release-notes)
@@ -830,6 +1073,31 @@ Cursor 會繼續是第三極，在「Day 1 生產力」和「IDE 粘著度」上
 - [VentureBeat: Claude Code 2.1.0](https://venturebeat.com/orchestration/claude-code-2-1-0-arrives-with-smoother-workflows-and-smarter-agents)
 - [VentureBeat: Redesigned desktop app and Routines](https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know)
 - [MacRumors: Anthropic Rebuilds Claude Code Desktop (2026-04-15)](https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/)
+- [TechCrunch: Anthropic launches Claude Design (2026-04-17)](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/)
+- [VentureBeat: Claude Design challenges Figma (2026-04-17)](https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma)
+- [SiliconANGLE: Claude Design speed graphic design (2026-04-17)](https://siliconangle.com/2026/04/17/anthropic-launches-claude-design-speed-graphic-design-projects/)
+- [The Register: Anthropic debuts Claude Design (2026-04-17)](https://www.theregister.com/2026/04/17/anthropic_debuts_claude_design/)
+- [InfoWorld: Anthropic rolls out Claude Managed Agents (2026-04-08)](https://www.infoworld.com/article/4156852/anthropic-rolls-out-claude-managed-agents.html)
+- [SiliconANGLE: Claude Managed Agents speed AI agent dev (2026-04-08)](https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/)
+- [Help Net Security: Managed Agents bring execution and control (2026-04-09)](https://www.helpnetsecurity.com/2026/04/09/claude-managed-agents-bring-execution-and-control-to-ai-agent-workflows/)
+- [The New Stack: Anthropic wants to run your AI agents for you (2026-04)](https://thenewstack.io/with-claude-managed-agents-anthropic-wants-to-run-your-ai-agents-for-you/)
+- [DEV Community: Claude Managed Agents Deep Dive (2026-04)](https://dev.to/bean_bean/claude-managed-agents-deep-dive-anthropics-new-ai-agent-infrastructure-2026-3286)
+- [VentureBeat: Anthropic launches Cowork (2026-01)](https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no)
+- [TechCrunch: Anthropic brings agentic plugins to Cowork (2026-01-30)](https://techcrunch.com/2026/01/30/anthropic-brings-agentic-plugins-to-cowork/)
+- [ADTmag: Anthropic expands Claude Computer Agent with Cowork](https://adtmag.com/articles/2026/01/20/anthropic-expands-claude-computer-agent-with-cowork.aspx)
+- [TechBuzz: Anthropic Reshuffles Leadership to Expand AI Labs Unit](https://www.techbuzz.ai/articles/anthropic-reshuffles-leadership-to-expand-ai-labs-unit)
+- [TechCrunch: Anthropic CPO leaves Figma's board (2026-04-16)](https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/)
+- [Anthropic: Claude Sonnet 4.6 (2026-02-17)](https://www.anthropic.com/news/claude-sonnet-4-6)
+- [Anthropic Engineering: Building a C compiler with a team of parallel Claudes (2026-02-05)](https://www.anthropic.com/engineering)
+- [Anthropic Engineering: Eval awareness in Claude Opus 4.6 (2026-03-06)](https://www.anthropic.com/engineering)
+- [Anthropic Engineering: Harness design for long-running application development (2026-03-24)](https://www.anthropic.com/engineering)
+- [Anthropic Engineering: Claude Code auto mode — a safer way to skip permissions (2026-03-25)](https://www.anthropic.com/engineering)
+- [Claude blog: Multi-agent coordination patterns (2026-04-10)](https://claude.com/blog)
+- [Claude blog: Seeing like an agent (2026-04-10)](https://claude.com/blog)
+- [Claude blog: Security program for AI-accelerated offense (2026-04-10)](https://claude.com/blog)
+- [Claude blog: Using Claude Code — session management and 1M context (2026-04-15)](https://claude.com/blog)
+- [Claude blog: Building agents that reach production systems with MCP (2026-04-22)](https://claude.com/blog)
+- [Claude API release notes: Compaction API, Automatic Caching, Fast Mode, Advisor Tool, Effort GA](https://platform.claude.com/docs/en/release-notes/api)
 - [SD Times: Anthropic releases Claude 3.7 Sonnet and Claude Code](https://sdtimes.com/ai/anthropic-releases-claude-3-7-sonnet-and-claude-code/)
 - [Winbuzzer: Claude Code cron scheduling (2026-03)](https://winbuzzer.com/2026/03/09/anthropic-claude-code-cron-scheduling-background-worker-loop-xcxwbn/)
 - [Constellation Research: Claude Code revenue doubled since Jan 1](https://www.constellationr.com/insights/news/anthropics-claude-code-revenue-doubled-jan-1)

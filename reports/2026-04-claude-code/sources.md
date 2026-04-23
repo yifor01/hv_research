@@ -1,6 +1,6 @@
 # Sources — Claude Code 橫縱分析報告
 
-研究時間：2026-04-20 ~ 2026-04-21
+研究時間：2026-04-20 ~ 2026-04-21（v1）/ 2026-04-23（v2 補入 Claude Managed Agents 與 Claude Design / v3 補入 Anthropic Labs + Cowork / v4 補入 Q1 平台基礎設施輪 + Engineering blog 系列）
 訪問日期：同上（除特別標註）
 
 ## 本地素材（Claude Code v2.1.88 逆向分析）
@@ -30,14 +30,24 @@
 ### Claude.com 部落格（2026 年之後官方改用此網址）
 - https://claude.com/blog/1m-context-ga
 - https://claude.com/blog/claude-code-desktop-redesign
+- https://claude.com/blog/claude-managed-agents  （Managed Agents 公測，2026-04-08）
 - https://claude.com/skills
 - https://claude.com/product/claude-code
+
+### Anthropic Labs（2026-04 新增；v3 補入 Labs 擴編與 Cowork）
+- https://www.anthropic.com/news/introducing-anthropic-labs  （Anthropic Labs 擴編公告，Krieger 領軍，2026-01-13）
+- https://www.anthropic.com/news/claude-design-anthropic-labs  （Claude Design 發布，2026-04-17）
+- https://www.anthropic.com/product/claude-cowork  （Cowork 產品頁）
+- https://claude.com/blog/cowork-research-preview  （Cowork research preview，2026-01-12）
 
 ### 官方文檔
 - https://code.claude.com/docs/en/hooks
 - https://code.claude.com/docs/en/sub-agents
 - https://code.claude.com/docs/en/checkpointing
 - https://code.claude.com/docs/en/scheduled-tasks
+- https://platform.claude.com/docs/en/managed-agents/overview
+- https://platform.claude.com/docs/en/managed-agents/quickstart
+- https://platform.claude.com/docs/en/managed-agents/sessions
 - https://code.claude.com/docs/en/discover-plugins
 - https://code.claude.com/docs/en/skills
 - https://code.claude.com/docs/en/vs-code
@@ -102,6 +112,29 @@
 - https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know
 - https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/
 - https://sdtimes.com/ai/anthropic-releases-claude-3-7-sonnet-and-claude-code/
+- https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/  （Claude Design 發布）
+- https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma  （Claude Design 對 Figma 的衝擊）
+- https://siliconangle.com/2026/04/17/anthropic-launches-claude-design-speed-graphic-design-projects/
+- https://www.theregister.com/2026/04/17/anthropic_debuts_claude_design/  （酸文視角）
+- https://www.infoworld.com/article/4156852/anthropic-rolls-out-claude-managed-agents.html  （Managed Agents 公測）
+- https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/
+- https://www.helpnetsecurity.com/2026/04/09/claude-managed-agents-bring-execution-and-control-to-ai-agent-workflows/
+- https://thenewstack.io/with-claude-managed-agents-anthropic-wants-to-run-your-ai-agents-for-you/
+- https://dev.to/bean_bean/claude-managed-agents-deep-dive-anthropics-new-ai-agent-infrastructure-2026-3286  （技術深度剖析、含程式碼範例）
+- https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no  （Cowork 公開報導）
+- https://techcrunch.com/2026/01/30/anthropic-brings-agentic-plugins-to-cowork/  （Cowork plugins 系統）
+- https://adtmag.com/articles/2026/01/20/anthropic-expands-claude-computer-agent-with-cowork.aspx
+- https://www.techbuzz.ai/articles/anthropic-reshuffles-leadership-to-expand-ai-labs-unit  （Krieger 接任 Labs）
+- https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/  （Krieger 退 Figma 董事會、Claude Design 對 Figma 的衝擊背景）
+
+### 2026 Q1 模型/平台更新（v4 補入）
+- https://www.anthropic.com/news/claude-sonnet-4-6  （Sonnet 4.6 發布，2026-02-17）
+- https://platform.claude.com/docs/en/release-notes/api  （Claude API release notes，含 Opus 4.6、Compaction API、Automatic Caching、Fast Mode、Advisor Tool、Effort GA、1M context GA、Structured Outputs GA、`ant` CLI 等所有 Q1-Q2 平台更新）
+- https://www.anthropic.com/research  （Anthropic research blog 入口，Eval awareness 等）
+
+### Anthropic Engineering blog 系列（v4 補入；Q1-Q2 Claude Code 方法論官方論述）
+- https://www.anthropic.com/engineering  （Engineering blog 入口）
+- https://claude.com/blog  （Claude blog 入口；4/10 三連發、4/15 session management、4/22 production MCP 等深度技術文）
 - https://winbuzzer.com/2026/03/09/anthropic-claude-code-cron-scheduling-background-worker-loop-xcxwbn/
 - https://www.constellationr.com/insights/news/anthropics-claude-code-revenue-doubled-jan-1
 - https://tech-insider.org/cursor-60-billion-valuation-anysphere-ai-coding-2026/
