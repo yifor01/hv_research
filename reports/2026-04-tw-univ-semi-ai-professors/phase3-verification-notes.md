@@ -128,6 +128,13 @@
   - https://www.iis.sinica.edu.tw/en/page/ResearchOverview/Publications/2025.html
 
 ### 彭文志（NYCU 資工）
+
+⚠️ **2026-04-23 緊急更正（業界內部消息）**：彭文志已借調至 TSMC 擔任處長職。原「自由身」標記作廢。**已從 v3 Top 15 名單完全移除**（Top 15 由 16 人回歸 15 人）。
+
+**能力限制備註**：此類企業內部借調/任命公開 web 不可見，WebSearch 無法驗證；今後補強須倚靠業界管道或電話確認。
+
+--- 以下為原 WebSearch 結果（已作廢）---
+
 - 確認無誤：NYCU 資工正教授；Data Mining / ML / Time Series / FinTech；**SIGIR 2025 "Template-Based Financial Report Generation in Agentic and Decomposed IR"**（與 Tian、Tang、Wang、Yen 合著）
 - 可能有誤：無
 - 未驗證：ADSL Lab 2026 實際在籍人數（profile 寫 15 人，WebSearch 未返回確切數字）
@@ -139,7 +146,8 @@
 
 ## 驗證摘要
 
-- **16 位中**：15 位主要資訊（職位 + 代表實績 + 機構）**完全確認無誤**
+- **16 位中**：14 位主要資訊（職位 + 代表實績 + 機構）**完全確認無誤**
+- **職位失效**：1 位（彭文志：已借調 TSMC 為內部員工，從名單移除）
 - **疑似需更正**：
   - **江國寧**：「國家高速網路與計算中心主任」職銜 WebSearch 無直接證據，建議 PDF 改為「兼任國家高速網路研究中心合作項目主持 / 清華講座教授 + 先進封裝研究中心主任」較為保守
   - **林嘉文**：「半導體學院特聘教授（合聘）」WebSearch 未確認，PDF 改為「NTHU 電機特聘教授 + AI 研發中心副主任」即可，不強調半導體學院合聘

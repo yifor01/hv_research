@@ -1,6 +1,6 @@
 # Top 15 一覽大表
 
-> **說明**：下表共 16 位（含並列），依 5 維度總分降序排列。「長期投資」欄依接觸優先順序分為第一波（3-6 月啟動）/ 第二波（6-12 月）/ 第三波（12-18 月）。大廠綁定欄位僅記錄「可能影響合作開放度」者；空白代表無相關綁定紀錄。
+> **說明**：下表共 15 位（含並列），依 5 維度總分降序排列。「長期投資」欄依接觸優先順序分為第一波（3-6 月啟動）/ 第二波（6-12 月）/ 第三波（12-18 月）。大廠綁定欄位僅記錄「可能影響合作開放度」者；空白代表無相關綁定紀錄。
 
 | # | 教授 | 校系 | 專長領域 | 代表實績（近 3 年） | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 補充備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,7 +19,6 @@
 | 13 | 林嘉文 | NTHU 電機特聘 + AI 研發中心副主任 | Vision Transformer / Computer Vision / Video | IEEE Fellow 2018；2024 NSTC 傑出研究獎；2021 K.T. Li Breakthrough；h-69 / 總引用 17.4k | 無企業獨佔綁定；研發 EDA tool 基於電腦視覺做 IC 製程模擬與光罩修正 | EDA 原型級（待產業化） | 光刻失真預測 / 光罩修正 EDA / AOI 缺陷檢測 | 國際一流發表量；8-12 人 Lab | 第三波 | 無 | 多媒體核心轉向半導體；需 12 個月 PoC |
 | 14 | 蔡銘峰 | NCCU 資科正教授 + AS CITI 合聘 | Learning-to-Rank / RAG / Conversational Search | SIGIR 2025 DMCL；TREC iKAT 2025；AIF 講師（已離開）；MS Research Asia Best Intern（2005-06） | 金融業（國泰、玉山）；Profet AI（生態相關）；KKBOX 系 | 純方法論（製程 domain 零先例） | 製程文件 RAG / Bug Ticket 檢索 / 內部 KB QA | CLIP Lab 5-8 人 + AS CFDA Lab 協作 | 第二波 | 無 | 需配 TSMC 端 domain 專家合作 |
 | 14 | 黃瀚萱 | Academia Sinica 資訊所副研究員 | CAG / RAG / LLM Eval / Discourse / Chinese NLP | WWW 2025 "Don't Do RAG: CAG"（81 引用）；AAAI 2025；NAACL 2025；ACL 2024 Findings（57 引用） | TAIDE 顧問（政府 AI 生態，非競爭大廠） | 2025 RAG 新範式提出者 | 封閉 SOP 語料 CAG（免 retrieval 基建） | AS 精英 Lab（跨校共指導 5 人）；Google 早年實習（已過時效） | 第二波 | 無 | AS 機構本就鼓勵企業 Joint Lab |
-| 16 | 彭文志 | NYCU 資工正教授（前系主任 / 前 E.SUN Fintech Director 已卸任 2024） | Data Mining / Agentic IR / Time Series / Tabular ML | SIGIR 2025 Agentic Decomposed IR 財報生成；AAAI 2025 APAR；ACL 2025 MedPlan；EMNLP 2025；CIKM 2025；WSDM 2026 | 前 E.SUN Fintech Center Director（2021-24 卸任） | 企業共建 Lab 制度有先例 | 製程月報 / 良率週報 Agentic 自動生成 | ADSL Lab 5 博 + 10 碩（15 人）；KT Li Award 2019 | 第三波 | 無 | 與蔡銘峰 / 黃瀚萱 方法論部分重疊 |
 
 ---
 
@@ -31,11 +30,11 @@
 - **8.3-8.5**：3 位（銀慶剛、陳智、詹寶珠）
 - **8.0-8.1**：4 位（江國寧、宋振銘、李家岩、鄭桂忠）
 - **7.5-7.7**：2 位（蔡佩璇、林嘉文）
-- **7.0-7.2**：3 位（蔡銘峰、黃瀚萱、彭文志）
+- **7.0-7.2**：2 位（蔡銘峰、黃瀚萱）
 
 ### 校系分佈
 - NTU × 2（胡璧合、李家岩）
-- NYCU × 3（陳冠能、陳智、彭文志）
+- NYCU × 2（陳冠能、陳智）
 - NTHU × 4（銀慶剛、江國寧、鄭桂忠、林嘉文）
 - NSYSU × 2（王俊明、馬誠佑）
 - NCKU × 2（詹寶珠、蔡佩璇）
@@ -43,10 +42,10 @@
 - NCCU × 1（蔡銘峰）
 - Academia Sinica × 1（黃瀚萱）
 
-避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 11 位）。
+避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 10 位）。
 
 ### 隱形綁定風險分佈
-- **🟢 完全自由**：11 位
+- **🟢 完全自由**：10 位
 - **🟡 需確認但非致命**：4 位（王俊明 TSMC 前職年數、鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
 - **🔴 法務 check 後定案**：1 位（王俊明）
 
@@ -57,4 +56,4 @@
 - **AI 晶片 / CIM / Neuromorphic**：胡璧合 + 鄭桂忠（2 位 device-circuit 完整鏈）
 - **Digital Twin / 排程**：蔡佩璇 + 李家岩 （2 位）
 - **光刻 / EDA**：王俊明 + 林嘉文（2 位）
-- **工程師 RAG / 效率工具**：蔡銘峰 + 黃瀚萱 + 彭文志（3 位方法論互補）
+- **工程師 RAG / 效率工具**：蔡銘峰 + 黃瀚萱（2 位方法論互補）

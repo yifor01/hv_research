@@ -2,7 +2,7 @@
 
 ## 研究方法
 
-本研究從 150+ 台灣「AI × 半導體」交叉領域 PI 候選池出發，系統盤點其近 3 年頂會論文（IEDM / VLSI / ISSCC / ISCA / SIGIR / WWW / AAAI / JASA 等）、產業合作紀錄、實驗室學生產出與獎項認可。針對每位候選人以 **5 維度評分**（技術契合 / 產業落地 / 學生素養 / 合作開放性 / 長期可持續）逐項打分並交叉驗證，最終篩出 **Top 15（並列 1 位，共 16 位）** 優先合作對象。針對公司兩個策略題目——**CoWoS/先進封裝**與**工程師人員效率**——各自盤點「材料 / 系統 / AI 方法論」三層的互補 PI 組合，避免單點依賴。
+本研究從 150+ 台灣「AI × 半導體」交叉領域 PI 候選池出發，系統盤點其近 3 年頂會論文（IEDM / VLSI / ISSCC / ISCA / SIGIR / WWW / AAAI / JASA 等）、產業合作紀錄、實驗室學生產出與獎項認可。針對每位候選人以 **5 維度評分**（技術契合 / 產業落地 / 學生素養 / 合作開放性 / 長期可持續）逐項打分並交叉驗證，最終篩出 **Top 15** 優先合作對象。針對公司兩個策略題目——**CoWoS/先進封裝**與**工程師人員效率**——各自盤點「材料 / 系統 / AI 方法論」三層的互補 PI 組合，避免單點依賴。
 
 ---
 
@@ -12,7 +12,7 @@
 
 - **CoWoS/先進封裝題目從 1 位擴充到 4 位互補**：陳冠能（系統整合層，IEDM/VLSI 2024 Hyper RDL 頂會領袖）+ 陳智（材料層，Science 2012 nt-Cu 發現人，Chemleader 技轉量產）+ 江國寧（AI 方法論層，ASME EPPD Excellence 最高獎 + ML × FEA 疲勞預測）+ 宋振銘（線上量測層，Cu-Cu bonding 感測 AI）四位 PI，覆蓋「CoWoS-L / SoIC / HBM」三大題目
 
-- **工程師人員效率題目從 1 位擴充到 4 位平行啟動**：蔡銘峰（傳統 RAG + Learning-to-Rank，SIGIR 主場）+ 黃瀚萱（CAG 新範式，WWW 2025 論文 81 citations）+ 彭文志（Agentic Decomposed IR，SIGIR 2025 財報生成範式可直接改裝為製程月報/良率週報自動生成）+ 鄭桂忠（Neuromorphic/CIM 硬體層互補）
+- **工程師人員效率題目從 1 位擴充到 3 位平行啟動**：蔡銘峰（傳統 RAG + Learning-to-Rank，SIGIR 主場）+ 黃瀚萱（CAG 新範式，WWW 2025 論文 81 citations）+ 鄭桂忠（Neuromorphic/CIM 硬體層互補）
 
 - **統計方法論最深端未被識別但至關重要**：銀慶剛（NTHU 清華講座，2025 IMS Fellow 台灣唯一入選）在 Model Selection / 時間序列 Knockoffs / 高維變數選擇方法論上有 2014 TSMC 落地先例（不良率降 11-14%）及 2025 JCGS 論文明確標示「識別半導體製程缺陷機台」應用場景，為 fab SPC / VM / 異常追因的方法論金礦
 
@@ -34,7 +34,7 @@
 - 銀慶剛（統計方法論）為 fab SPC/VM 異常追因的底層工具，可平行開啟「數據整備與初步 PoC」
 - 王俊明前職綁定法務 check 完成後再簽正式合約；若有阻礙則由馬誠佑獨佔 #1
 
-### 第二波（7 位，6-12 個月補上）
+### 第二波（8 位，6-12 個月補上）
 
 **陳智 / 詹寶珠 / 宋振銘 / 李家岩 / 鄭桂忠 / 蔡佩璇 / 蔡銘峰 / 黃瀚萱**（8 位並列第二波）
 
@@ -43,13 +43,12 @@
 - AOI / Digital Twin / Reinforcement Learning（詹寶珠、蔡佩璇、李家岩、鄭桂忠）為 fab 應用層主力
 - 工程師效率（蔡銘峰 + 黃瀚萱）在第二波啟動「傳統 RAG vs CAG」雙軌 PoC 對照實驗
 
-### 第三波（2 位，12-18 個月補位）
+### 第三波（1 位，12-18 個月補位）
 
-**林嘉文 / 彭文志**
+**林嘉文**
 
 理由：
 - 林嘉文（光刻 EDA 原型）需 12 個月 PoC 驗證可行性後再正式擴大
-- 彭文志（Agentic IR）與蔡銘峰 / 黃瀚萱方法論有部分重疊，等第二波對照實驗結果決定是否深化
 
 ---
 
@@ -59,12 +58,12 @@
 |---|---|---|---|
 | 第一波 | 6 位 | **2,000 - 3,500 萬** | Joint Lab 或院級合作 2 位（陳冠能、江國寧）單點 500-800 萬，其他 4 位個人級 300-500 萬 |
 | 第二波 | 7-8 位 | **1,500 - 2,500 萬** | 個人級專案 200-350 萬/位 × 7-8 位 |
-| 第三波 | 2 位 | **500 - 1,000 萬** | PoC 先導 100-200 萬/位 + 成功後擴大 |
-| **總計** | **15-16 位** | **4,000 - 7,000 萬 NTD / 5 年** | 不含學生獎學金、設備 CapEx、實習員工薪資 |
+| 第三波 | 1 位 | **300 - 500 萬** | PoC 先導 100 萬/位 + 成功後擴大 |
+| **總計** | **15 位** | **3,800 - 6,500 萬 NTD / 5 年** | 不含學生獎學金、設備 CapEx、實習員工薪資 |
 
 **預算配置原則**：
 - 封裝 4 人組（陳冠能 + 陳智 + 江國寧 + 宋振銘）建議合併為一個「封裝 AI 中心」統籌預算，約 1,500 萬 / 5 年
-- 工程師效率 4 人組（蔡銘峰 + 黃瀚萱 + 彭文志 + 鄭桂忠周邊）合併為「RAG PoC 對照實驗計畫」，約 800 萬 / 5 年
+- 工程師效率 3 人組（蔡銘峰 + 黃瀚萱 + 鄭桂忠周邊）合併為「RAG PoC 對照實驗計畫」，約 600 萬 / 5 年
 - 其餘個別 PI 以專案制委案或 JDP 計畫辦理
 
 ---
@@ -73,19 +72,15 @@
 
 | 章節 | 內容 |
 |---|---|
-| §01 | Top 15 一覽大表（16 位並列）—— 11 欄綜覽、排序可快速比較 |
+| §01 | Top 15 一覽大表 —— 11 欄綜覽、排序可快速比較 |
 | §02 | Top 1-8 教授深度檔案 —— 5 維度評分 + 學生素養 + 合作優缺點 + 建議預算 / KPI |
-| §03 | Top 9-16 教授深度檔案 —— 同上格式 |
-| §04 | 關鍵字矩陣 —— 16 位 × 20 個技術關鍵字，快速查找專長對應 |
+| §03 | Top 9-15 教授深度檔案 —— 同上格式 |
+| §04 | 關鍵字矩陣 —— 15 位 × 20 個技術關鍵字，快速查找專長對應 |
 | §05 | 附錄 —— 接觸策略詳表、預算分配明細、法務 pre-flight check list、5 維度評分框架說明 |
-
-
----
-
 
 # Top 15 一覽大表
 
-> **說明**：下表共 16 位（含並列），依 5 維度總分降序排列。「長期投資」欄依接觸優先順序分為第一波（3-6 月啟動）/ 第二波（6-12 月）/ 第三波（12-18 月）。大廠綁定欄位僅記錄「可能影響合作開放度」者；空白代表無相關綁定紀錄。
+> **說明**：下表共 15 位（含並列），依 5 維度總分降序排列。「長期投資」欄依接觸優先順序分為第一波（3-6 月啟動）/ 第二波（6-12 月）/ 第三波（12-18 月）。大廠綁定欄位僅記錄「可能影響合作開放度」者；空白代表無相關綁定紀錄。
 
 | # | 教授 | 校系 | 專長領域 | 代表實績（近 3 年） | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 補充備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -104,7 +99,6 @@
 | 13 | 林嘉文 | NTHU 電機特聘 + AI 研發中心副主任 | Vision Transformer / Computer Vision / Video | IEEE Fellow 2018；2024 NSTC 傑出研究獎；2021 K.T. Li Breakthrough；h-69 / 總引用 17.4k | 無企業獨佔綁定；研發 EDA tool 基於電腦視覺做 IC 製程模擬與光罩修正 | EDA 原型級（待產業化） | 光刻失真預測 / 光罩修正 EDA / AOI 缺陷檢測 | 國際一流發表量；8-12 人 Lab | 第三波 | 無 | 多媒體核心轉向半導體；需 12 個月 PoC |
 | 14 | 蔡銘峰 | NCCU 資科正教授 + AS CITI 合聘 | Learning-to-Rank / RAG / Conversational Search | SIGIR 2025 DMCL；TREC iKAT 2025；AIF 講師（已離開）；MS Research Asia Best Intern（2005-06） | 金融業（國泰、玉山）；Profet AI（生態相關）；KKBOX 系 | 純方法論（製程 domain 零先例） | 製程文件 RAG / Bug Ticket 檢索 / 內部 KB QA | CLIP Lab 5-8 人 + AS CFDA Lab 協作 | 第二波 | 無 | 需配 TSMC 端 domain 專家合作 |
 | 14 | 黃瀚萱 | Academia Sinica 資訊所副研究員 | CAG / RAG / LLM Eval / Discourse / Chinese NLP | WWW 2025 "Don't Do RAG: CAG"（81 引用）；AAAI 2025；NAACL 2025；ACL 2024 Findings（57 引用） | TAIDE 顧問（政府 AI 生態，非競爭大廠） | 2025 RAG 新範式提出者 | 封閉 SOP 語料 CAG（免 retrieval 基建） | AS 精英 Lab（跨校共指導 5 人）；Google 早年實習（已過時效） | 第二波 | 無 | AS 機構本就鼓勵企業 Joint Lab |
-| 16 | 彭文志 | NYCU 資工正教授（前系主任 / 前 E.SUN Fintech Director 已卸任 2024） | Data Mining / Agentic IR / Time Series / Tabular ML | SIGIR 2025 Agentic Decomposed IR 財報生成；AAAI 2025 APAR；ACL 2025 MedPlan；EMNLP 2025；CIKM 2025；WSDM 2026 | 前 E.SUN Fintech Center Director（2021-24 卸任） | 企業共建 Lab 制度有先例 | 製程月報 / 良率週報 Agentic 自動生成 | ADSL Lab 5 博 + 10 碩（15 人）；KT Li Award 2019 | 第三波 | 無 | 與蔡銘峰 / 黃瀚萱 方法論部分重疊 |
 
 ---
 
@@ -116,11 +110,11 @@
 - **8.3-8.5**：3 位（銀慶剛、陳智、詹寶珠）
 - **8.0-8.1**：4 位（江國寧、宋振銘、李家岩、鄭桂忠）
 - **7.5-7.7**：2 位（蔡佩璇、林嘉文）
-- **7.0-7.2**：3 位（蔡銘峰、黃瀚萱、彭文志）
+- **7.0-7.2**：2 位（蔡銘峰、黃瀚萱）
 
 ### 校系分佈
 - NTU × 2（胡璧合、李家岩）
-- NYCU × 3（陳冠能、陳智、彭文志）
+- NYCU × 2（陳冠能、陳智）
 - NTHU × 4（銀慶剛、江國寧、鄭桂忠、林嘉文）
 - NSYSU × 2（王俊明、馬誠佑）
 - NCKU × 2（詹寶珠、蔡佩璇）
@@ -128,10 +122,10 @@
 - NCCU × 1（蔡銘峰）
 - Academia Sinica × 1（黃瀚萱）
 
-避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 11 位）。
+避免單一校系集中風險；南北地緣均衡（NSYSU / NCKU / NCHU 南部 5 位；NTU / NYCU / NTHU / NCCU / AS 北部 10 位）。
 
 ### 隱形綁定風險分佈
-- **🟢 完全自由**：11 位
+- **🟢 完全自由**：10 位
 - **🟡 需確認但非致命**：4 位（王俊明 TSMC 前職年數、鄭桂忠 TSMC-JDP 研究經費依賴、胡璧合 美光 Chair 非排他、陳智 Chemleader 技轉）
 - **🔴 法務 check 後定案**：1 位（王俊明）
 
@@ -142,11 +136,7 @@
 - **AI 晶片 / CIM / Neuromorphic**：胡璧合 + 鄭桂忠（2 位 device-circuit 完整鏈）
 - **Digital Twin / 排程**：蔡佩璇 + 李家岩 （2 位）
 - **光刻 / EDA**：王俊明 + 林嘉文（2 位）
-- **工程師 RAG / 效率工具**：蔡銘峰 + 黃瀚萱 + 彭文志（3 位方法論互補）
-
-
----
-
+- **工程師 RAG / 效率工具**：蔡銘峰 + 黃瀚萱（2 位方法論互補）
 
 # 教授深度檔案（Top 1-8）
 
@@ -527,11 +517,7 @@
 
 ---
 
-
----
-
-
-# 教授深度檔案（Top 9-16）
+# 教授深度檔案（Top 9-15）
 
 ---
 
@@ -878,63 +864,9 @@
 
 ---
 
-## #16. 彭文志 Wen-Chih Peng（NYCU 資工正教授）
-
-**分數**：7.0 | **接觸建議**：第三波
-
-### (1) 教授技術領域的契合度
-
-- **AI 架構能力**：**Data Mining、Deep Learning、Time Series、Agentic AI、Decomposed Information Retrieval、Tabular Regression、Multi-Granularity Segmentation、Test-Time Expert Aggregation**
-- **半導體 AI 相關計畫**：NYCU 資工正教授（2022 起）；前資工系主任（2019-2022）、前電資學院副院長、**前 E-SUN-NCTU Fintech and AI Center Director（2021-2024 卸任）**；KT Li Award 2019
-- **產業合作**：前 E.SUN Bank Fintech Center Director（2024 卸任，企業共建 Lab 制度有先例）；無當前半導體廠綁定
-- **研究成果與貢獻**：**Agentic Decomposed IR、Financial Report Generation、MedPlan RAG、Tabular Pre-training (APAR)、Time Series Segmentation (PromptTSS)、Book-Length Document MT Evaluation、Test-Time Expert Aggregation for Imbalanced Regression、Sports Data Analysis**
-- **落地使用**：**SIGIR 2025 Template-Based Financial Report Generation in Agentic and Decomposed IR**（可直接改裝為「製程異常報告自動生成」、「良率週報自動產生」）；**ACL 2025 Industry Track MedPlan Two-Stage RAG**（可對應個人化製程調機建議 / Per-tool Recipe）；AAAI 2025 APAR Tabular Regression（對應 VM / 良率預測）
-- **獲得肯定**：**2025 年單年 SIGIR + AAAI + ACL + EMNLP + CIKM main conference 各 1 篇**（本批次會議深度最深 PI）；2019 KT Li Award；WSDM 2026 Expert Aggregation
-
-### (2) 學生工程素養與實驗室文化
-
-- **系統化能力**：ADSL Lab（Advanced Database System Laboratory，2003 成立）；**15 人中大型 Lab（5 博 + 10 碩 + 0 博後）**
-- **團隊合作**：5 位博生中 3 位為東南亞/國際學生（越南背景），國際化程度高
-- **產學合作經驗**：E.SUN Fintech Center Director（企業共建 AI Center 實戰經驗）；雲端運算協會顧問（2014-2016 已過期）
-- **獲得肯定**：KT Li Award 2019；前 NYCU 資工系主任 + 電資副院長行政資歷；h-index 高（research.com 資料）
-
-### (3) 合作分析
-
-**優點**
-- **唯一一位已操盤過 E.SUN 企業共建 AI Center 的候選人**（制度面最容易複製）
-- SIGIR 2025 Agentic Decomposed IR 直接就是 TSMC 要的範式（財報 → 製程報告）
-- Lab 規模 15 人大（4x 蔡銘峰）
-- 2025 單年 5 篇 main conference 會議深度最深
-- 0 大廠綁定 + 2024 年剛卸任 E.SUN 的窗口黃金期
-- 與李家岩有互動（社群關係近）
-
-**缺點 / 風險**
-- 無半導體 domain 先例
-- 年齡推估 ~55 歲，黃金期剩 10 年
-- 與蔡銘峰 / 黃瀚萱方法論部分重疊（需等第二波對照結果再決定是否深化）
-- 金融業與半導體不競爭但 fintech 合作慣性可能延續 1-2 年
-- 學生非硬體背景，進 TSMC 需經過軟體 / IT 職缺
-
-**建議合作方式**
-- 合作類型：**Agentic + Decomposed IR for Fab Report Generation**
-- 預算區間：5 年 500-800 萬 NTD（比蔡銘峰 / 黃瀚萱高，因 Lab 規模大可支撐 3-4 位全職博生）
-- 期程：12-18 個月 PoC（等第二波對照結果）→ 成功後擴大
-- **KPI**：
-  - 把 SIGIR 2025 財報範式改裝成「TSMC 月度良率報告自動生成 + 根因追查」
-  - SIGIR / AAAI / ACL / EMNLP 共著 2-3 篇/年
-  - 5 位博生中鎖定 1-2 位 2028 畢業 → TSMC FIT / 良率部門
-  - APAR Tabular + LLM 在 VM 應用 benchmark
-- 交付物：Agentic 報告生成系統 + 論文 + 學生通道
-
----
-
-
----
-
-
 # 關鍵字矩陣
 
-> **用法**：橫向 16 位教授、縱向 20 個技術關鍵字。✅ 代表該教授在此關鍵字上有 2023-2026 期間的代表性發表或產業落地。方便主管根據特定技術需求快速查找對應 PI。
+> **用法**：橫向 15 位教授、縱向 20 個技術關鍵字。✅ 代表該教授在此關鍵字上有 2023-2026 期間的代表性發表或產業落地。方便主管根據特定技術需求快速查找對應 PI。
 
 ## 關鍵字分群
 
@@ -944,7 +876,7 @@
 - **fab 方法論**：Virtual Metrology、R2R / SPC、Reinforcement Learning for Scheduling、Digital Twin、Multi-Armed Bandit / Bayesian
 - **LLM / 軟體**：LLM / RAG、Agentic AI、Vision Transformer
 
-## 矩陣（16 位 × 20 關鍵字）
+## 矩陣（15 位 × 20 關鍵字）
 
 | 教授 \ 關鍵字 | FeFET | GAA / CFET | CIM / Neuromorphic | AI-EDA / 光刻 | DTCO | TCAD | AOI / Vision | Domain Adaptation | Yield Prediction | CoWoS / 3D-IC | Hybrid Bonding | nt-Cu / 材料 | Warpage / FEA | Virtual Metrology | SPC / Knockoffs | RL Scheduling | Digital Twin | LLM / RAG | Agentic AI | Vision Transformer |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -963,7 +895,6 @@
 | **林嘉文**（#13）| | | | ✅ | | | ✅ | | | | | | | | | | | | | ✅ |
 | **蔡銘峰**（#14）| | | | | | | | | | | | | | | | | | ✅ | | |
 | **黃瀚萱**（#14）| | | | | | | | | | | | | | | | | | ✅ | | |
-| **彭文志**（#16）| | | | | | | | | ✅ | | | | | | | | | ✅ | ✅ | |
 
 ## 補充：每個關鍵字對應的 PI 快速索引
 
@@ -978,7 +909,7 @@
 ### AOI / 缺陷
 - **AOI / Computer Vision 缺陷**：詹寶珠、蔡佩璇（SOP）、林嘉文
 - **Domain Adaptation**：詹寶珠（醫療 → AOI 方法論遷移）
-- **Yield Prediction**：銀慶剛、江國寧、李家岩、彭文志（tabular ML）
+- **Yield Prediction**：銀慶剛、江國寧、李家岩
 
 ### 封裝
 - **CoWoS / 3D-IC / SoIC**：陳冠能、陳智、江國寧、胡璧合（M3D）
@@ -990,12 +921,11 @@
 - **Virtual Metrology（VM）**：銀慶剛、宋振銘（線上量測）
 - **SPC / Knockoffs / 統計異常追因**：銀慶剛
 - **Reinforcement Learning for Scheduling**：李家岩
-- **Digital Twin**：蔡佩璇、彭文志（Agentic Report 類比）
+- **Digital Twin**：蔡佩璇
 - **Multi-Armed Bandit / Bayesian**：銀慶剛（JASA 2024 MAB）、鄭桂忠（Bayesian NN CIM）
 
 ### LLM / 軟體層
-- **LLM / RAG**：蔡銘峰、黃瀚萱、彭文志
-- **Agentic AI / Tool Use**：彭文志（SIGIR 2025 Agentic Decomposed IR）
+- **LLM / RAG**：蔡銘峰、黃瀚萱
 - **Vision Transformer / Multimodal**：林嘉文、黃瀚萱（IJCAI 2024 VLM + Text-to-Image）
 
 ---
@@ -1021,14 +951,9 @@
 | 林嘉文 | Vision Transformer + AI-EDA + AOI |
 | 蔡銘峰 | LLM / RAG |
 | 黃瀚萱 | LLM / RAG |
-| 彭文志 | LLM / RAG + Agentic AI + Yield Prediction |
 
 ### 關鍵字覆蓋完整性
 所有 20 個關鍵字皆有至少 1 位 PI ✅；部分熱門題目（CIM、3D-IC、Hybrid Bonding、Yield Prediction、LLM/RAG）有 3-4 位 PI 覆蓋，適合做 PoC 對照實驗或多 PI 互補合作。
-
-
----
-
 
 # 附錄
 
@@ -1064,14 +989,13 @@
 
 **第二波合計**：**2,800 - 4,500 萬 NTD / 5 年**
 
-### A.3 第三波（2 位，12-18 個月補位）
+### A.3 第三波（1 位，12-18 個月補位）
 
 | 教授 | 接觸 owner 建議 | 優先合作題目 | 預估預算 5 年（NTD）| 關鍵 KPI |
 |---|---|---|---|---|
 | 林嘉文（NTHU 電機）| EDA 部門 | 電腦視覺 EDA 工具（IC 製程模擬 + 光刻失真預測）| 300-500 萬（第一年 100 萬 PoC）| PoC vs 現有 OPC 工具 benchmark；IEEE TIP/CVPR 共著 |
-| 彭文志（NYCU 資工）| IT / FIT（等第二波對照結果）| Agentic + Decomposed IR for Fab Report Generation | 500-800 萬 | 月度良率報告自動生成 PoC；SIGIR/ACL 2-3 篇/年 |
 
-**第三波合計**：**800 - 1,300 萬 NTD / 5 年**
+**第三波合計**：**300 - 500 萬 NTD / 5 年**
 
 ---
 
@@ -1083,7 +1007,7 @@
 |---|---|---|---|
 | 第一波 | 6 位 | 2,700 - 4,200 萬 NTD | 2,700 - 4,200 萬 |
 | 第二波 | 7-8 位 | 2,800 - 4,500 萬 NTD | 5,500 - 8,700 萬 |
-| 第三波 | 2 位 | 800 - 1,300 萬 NTD | **6,300 - 10,000 萬 NTD / 5 年** |
+| 第三波 | 1 位 | 300 - 500 萬 NTD | **5,800 - 9,200 萬 NTD / 5 年** |
 
 **實務保守估計**：主要預算約 **4,000 - 7,000 萬 NTD / 5 年**（不含院級 / 中心級擴大 option）
 
@@ -1095,9 +1019,9 @@
 | 封裝 AI 中心合併預算（陳冠能、陳智、江國寧、宋振銘）| 4 位 | 2,100 - 3,100 萬 | 建議合併為單一中心運作 |
 | fab SPC/VM/OR 方法論（銀慶剛、李家岩、詹寶珠、蔡佩璇）| 4 位 | 1,300 - 2,100 萬 | 其中銀慶剛需 fab 資料提供 |
 | AI 晶片 / CIM（鄭桂忠）| 1 位 | 500 - 800 萬 | tape-out 成本較高 |
-| 工程師效率 RAG 對照實驗合併（蔡銘峰、黃瀚萱、彭文志）| 3 位 | 1,100 - 1,800 萬 | 建議合併為單一 PoC 計畫 |
+| 工程師效率 RAG 對照實驗合併（蔡銘峰、黃瀚萱）| 2 位 | 800 - 1,300 萬 | 建議合併為單一 PoC 計畫 |
 | 光刻 EDA PoC（林嘉文）| 1 位 | 300 - 500 萬 | 先 PoC 成功再擴大 |
-| **總計** | **16 位** | **6,400 - 10,100 萬** | **保守估計 4,000 - 7,000 萬** |
+| **總計** | **15 位** | **5,900 - 9,300 萬** | **保守估計 3,800 - 6,500 萬** |
 
 ### B.3 學生獎學金 / CapEx 不含項目
 
@@ -1143,12 +1067,11 @@
 
 ### C.5 通用檢查
 
-- [ ] 所有 16 位 PI 當前產業顧問身分清點（conflict of interest）
+- [ ] 所有 15 位 PI 當前產業顧問身分清點（conflict of interest）
   - 李家岩 Profet AI 顧問（2023-）→ 是否與 TSMC 合作方向衝突
   - 詹寶珠 IEEE CIS VP-Education 義務角色 → 無衝突
   - 蔡銘峰 AIF 講師（已離開）→ 無衝突
   - 黃瀚萱 TAIDE 顧問 → 政府 AI 生態非競爭大廠，中性偏加分
-  - 彭文志 前 E.SUN Fintech Center Director（2024 卸任）→ 無衝突
 
 - [ ] NTU / NTHU / NSYSU / NYCU / NCKU / NCHU / NCCU / AS 各校產學合作 overhead 比例確認
   - NTU：約 15-20%
