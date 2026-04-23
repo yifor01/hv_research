@@ -24,6 +24,6 @@ cc hv-research
 - `reports/` — PDF 研究報告（hv-analysis / PI 盡職調查等）
 - `articles/` — 公眾號文章版本
 - `raw-materials/` — 研究前素材
-- `scripts/` — 工具（含 `md_to_pdf.py`）
+- `scripts/` — 工具（含 `md_to_pdf.py`,支援 SVG 區塊保護、多 MD 合併、封面目錄、emoji → 樣式化標記）
 - `templates/` — 跨題目復用的方法論 template（如 `pi-due-diligence-framework.md`）
 - `CHANGELOG.md` — 變更紀錄

@@ -4,6 +4,11 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-24]
+
+### Fixed
+- **痘痘肌橫縱分析報告圖 5 箭頭重繪** — 原本 8 條順時針箭頭使用 quadratic Bezier 曲線（`Q` 控制點）造成視覺上「甩尾」彎曲不自然、端點也漂在方框外。改為直線 + 精算多邊形箭頭端（每條 `<line>` 從前一方框邊緣連到下一方框邊緣，箭頭尾端落在方框邊界上），視覺連線乾淨、方向明確。已重新生成 PDF（1419.9 KB / 41 頁），圖 5 位於第 33 頁。
+
 ## [2026-04-23]
 
 ### Added

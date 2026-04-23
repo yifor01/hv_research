@@ -60,6 +60,20 @@ hv-research/
 
 累積案例：`reports/2026-04-tw-univ-semi-ai-professors/`（TSMC Top 15 + 38 位備選）
 
+### 區域市場 / 決策等級研究（新增類別）
+
+不動產、消費市場、投資標的等「買賣決策」類題目，除 hv-analysis 縱橫結構外,建議多一層「**審視意見書回應版**」流程:
+
+1. v1:照 hv-analysis 標準流程產出
+2. v2:用「房仲盡調 / 投資盡調」標準自審或外請審，補上:
+   - 租金投報率(Cap Rate) / 持有成本 / 稅負試算
+   - 風險揭露(地質 / 淹水 / 嫌惡設施 / 耐震)
+   - 平台均價差異解釋(樂居/591/實登差距的結構性原因)
+   - 三劇本推演去除無依據機率數字,改定性排序
+3. v3:加入 SVG 示意圖降低閱讀門檻(歷時折線、對比條、決策樹、金字塔)
+
+累積案例:`reports/2026-04-hsinchu-east-guanpu-housing/`(關埔/光埔購屋 v1/v2/v3 + 6 張示意圖)
+
 ## 命名規則
 
 - `<topic>`：英文小寫，連字號分隔（`claude-code`、`tsmc-2nm`、`ai-coding-agent`）
@@ -77,8 +91,16 @@ pip install weasyprint markdown --break-system-packages
 - **每份研究獨立資料夾**，不要把多份研究的檔案混在同一層
 - **素材溯源**：`sources.md` 記錄所有引用 URL + 訪問日期，方便日後驗證
 - **PDF 產物連同 Markdown 原稿一併追蹤進 git**（方便遠端直接下載/分享給主管）；若單份 PDF > 50 MB 再個案討論
-- **產 PDF 工具**：`scripts/md_to_pdf.py`（weasyprint + markdown），支援多 MD 合併、封面、目錄、emoji → 樣式化標記替換
+- **產 PDF 工具**：`scripts/md_to_pdf.py`（weasyprint + markdown），支援多 MD 合併、封面、目錄、emoji → 樣式化標記替換、**SVG 區塊保護**（抽出 → markdown 渲染 → 重插，避免 `nl2br` 破壞 shapes）
 - **PDF 寬表格上限**：A4 頁寬下約 10-11 欄；超過會被切斷，改用「標籤列」或分段表
+- **SVG 示意圖慣例**（抽象概念視覺化用）：
+  - 直接在 Markdown 內嵌 `<svg viewBox="0 0 580 XXX" ...>`（寬度 580 剛好貼合 A4 頁寬扣除 margin）
+  - **圖片編號依章節先後順序排列**，不是設計順序（讀者看圖 1 在 §2 比圖 2 在 §3 自然）
+  - **箭頭/對比色必須與底色反差足夠**（深藍底 + 灰色箭頭 = 看不見；改用亮黃 #f1c40f 或白色）
+  - 箭頭終點需落在目標形狀 **外緣**；若進入填色區會被同色遮蔽
+  - **多邊形寬度需容納最長中文字串**：頂部梯形 / 徽章若有 10+ 字的名單，頂寬 ≥ 180px；否則會被 clip
+  - WeasyPrint 的 `<marker>` 渲染纖細，重要箭頭建議改用顯式 `<polygon>` 箭頭頭(見 acne 報告圖 5/6 修正)
+  - 累積案例：關埔購屋研究(6 張)、痘痘肌報告(6 張)
 - **主管報告必附 Reference URL**：Due diligence 類交付，每位 PI 至少 2-3 個公開連結（學校頁 / Scholar / Lab）
 - **Companion PDF 結構要跟主 PDF 一致**：同 session 出多份 PDF 時，結構對齊降低閱讀成本
 - **跨領域學習**：研究過程中遇到的方法論心得寫進 `~/vault/projects/hv-research/lessons.md`
