@@ -99,6 +99,11 @@ tr:nth-child(even) td { background: #f7f9fc; }
 ul, ol { margin: 6pt 0; padding-left: 20pt; }
 li { margin: 2pt 0; }
 
+img { max-width: 100%; height: auto; display: block; margin: 10pt auto; page-break-inside: avoid; }
+figure { page-break-inside: avoid; margin: 10pt 0; text-align: center; }
+figcaption { font-size: 9pt; color: #666; font-style: italic; margin-top: 3pt; text-align: center; }
+p > em:only-child { display: block; text-align: center; font-size: 9pt; color: #666; margin-top: -6pt; }
+
 a { color: #2a5aa0; text-decoration: none; }
 
 .cover { text-align: center; padding-top: 80mm; page-break-after: always; }
@@ -144,9 +149,24 @@ def build_toc(files_meta: list[tuple[str, str]]) -> str:
     return f'<div class="toc"><h2>目錄</h2><ol>{items}</ol></div>'
 
 
+SVG_BLOCK_RE = re.compile(r"<svg\b[\s\S]*?</svg>", re.IGNORECASE)
+
+
 def convert_md(path: Path) -> str:
     text = path.read_text(encoding="utf-8")
-    html = markdown.markdown(text, extensions=MD_EXTENSIONS, output_format="html5")
+    # Extract SVG blocks BEFORE markdown so nl2br doesn't inject <br> inside them,
+    # then re-insert after. Also strip any <p>...</p> wrapper markdown may add.
+    svgs: list[str] = []
+
+    def _stash(m: re.Match) -> str:
+        svgs.append(m.group(0))
+        return f"\n\n@@SVG_PLACEHOLDER_{len(svgs) - 1}@@\n\n"
+
+    stashed = SVG_BLOCK_RE.sub(_stash, text)
+    html = markdown.markdown(stashed, extensions=MD_EXTENSIONS, output_format="html5")
+    for i, svg in enumerate(svgs):
+        token = f"@@SVG_PLACEHOLDER_{i}@@"
+        html = html.replace(f"<p>{token}</p>", svg).replace(token, svg)
     return replace_emojis(html)
 
 
