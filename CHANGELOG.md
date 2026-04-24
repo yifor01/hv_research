@@ -4,7 +4,36 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
-## [2026-04-24] (TSMC Top 15 v3.4 + Backup v1.4 — Phase 4 補強重排)
+## [2026-04-24] (v4.0 — 統一大表 71 位 + Rubric v2.0 披露規則)
+
+### Added
+- `templates/scoring-rubric-v2.md` — 新版 5 維度評分標準；**維度 4 改漸進打分**（0-10）取代 v1 排除規則；新增「與外部公司合作狀況」專欄
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_00_封面與執行摘要.md` — v4.0 關鍵變更、S 級 15 位摘要、第一波 8 位建議
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_01_統一大表.md` — **71 位統一大表**（取代 Top 15 / Backup 二分）
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_05_合作狀況披露附錄.md` — 🚩 12 位完整披露（A/B/C/D/E 5 池 + 決策矩陣）
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_06_方法論與版本差異.md` — Rubric v2.0、v3.4→v4.0 差異表、題目軸覆蓋對比
+- `reports/2026-04-tw-univ-semi-ai-professors/phase5-haiku-scan/` — **16 位 Haiku 快掃新增**（4 組並行）：
+  - G1 NCKU（4 位）：游濟華 6.9 / 羅裕龍 6.8 / 劉禹辰 6.4 / 謝旻甫 5.6
+  - G2 NYCU（4 位）：王蒞君 7.3 / 吳添立 6.9 🚩 / 郭浩中 6.9 🚩 / 陳柏宏 6.9
+  - G3 NCU（4 位）：陳以錚 6.6 / 林錦德 6.15 / 杜長慶 5.75 / 鄭永斌 4.95 🚩
+  - G4 技職/其他（4 位）：**楊哲化 8.1 ⭐⭐** / 陸元平 5.1 / 羅明琇 4.7 / 林清安 4.0
+- `TSMC_PI_彙整大表_v4.0.pdf`（976 KB）— 單一交付 PDF
+
+### Changed
+- **取消 Top 15 / Backup 二分**：所有 71 位併入單一大表，依分數 S/A/B/C 四級
+- **取消 E ❌ 剔除類**：張耀文、張孟凡、彭文志、水野潤、林勇志 5 位重新納入大表；合作狀況欄披露
+- **取消 D 類媒體熱度獨立歸類**：依 5 維度加權降至 C 級
+- **藍啓航 → 藍俊宏**（NTU 工工副教授正名；Jakey Blue）
+- **高宏宇 NTHU 正教授 → NTHU 助理教授**（2024/8 從 NCKU 轉校後重建 Lab）
+- **蔡佩璇 S → A**（降至 A 級；Fulbright 2024-2025 Pittsburgh 期間）
+- **陳朝鈞移出主表**（勘誤：主軸實為豬隻飼養/ADAS）
+
+### Lessons
+- 漸進打分優於二元排除：決策權還給主管 + 狀況可動態追蹤
+- 技職院校不應扣分：NTUT 楊哲化 8.1 S 是本 refactor 最大發現（3D 封裝雷射超音波）
+- Haiku 跨組偏差：G2 NYCU 組 -0.3 校準必要
+
+## [2026-04-24 earlier] (TSMC Top 15 v3.4 + Backup v1.4 — Phase 4 補強重排)
 
 ### Added
 - `reports/2026-04-tw-univ-semi-ai-professors/` Phase 4 補強：14 位新 profile（10 完整 + 5 mini）+ 3 位 Top 15 退場移到 Backup
