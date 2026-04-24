@@ -409,3 +409,184 @@
 **補位建議**：T4 先進封裝軸主名單由 **#4 陳冠能**、**#6 陳智**、**#8 江國寧**、**#9 宋振銘** 4 位覆蓋，封裝是主名單最厚的題目。無需備選池補強。
 
 ---
+
+# §2B Phase 4 補強候選個別內容（v1.4 新增）
+
+> 本節為 v1.4 新增。涵蓋 Phase 4 補強的 14 位 + Top 15 退場 3 位 = 17 位個別內容（每位 5-15 行）。詳細 profile 請參閱 `phase4-profile-*.md` / `phase4-mini-*.md` 檔案。
+
+---
+
+## A 類 — Top 15 退場 3 位（首選遞補）
+
+### A5. 林嘉文 Chia-Wen Lin（NTHU 電機特聘 + AI 研發中心副主任）
+
+**原 Top 15 #13** | **退出時間**：v3.4
+**原專長**：`Vision Transformer` · `光刻 EDA` · `Mamba`
+**退出理由**：光刻 EDA 需 12 個月 PoC 驗證，被陳亮嘉（NTU 機械）「立即可用 + AOIEC 聯盟 43 家」優先取代。
+**遞補前提**：若主管偏好 12 個月 PoC 路線，可隨時遞補；IEEE Fellow 2018 + 2024 NSTC 傑出研究獎背書仍強。
+**簡述**：h-69 / 17.4k 引用；多媒體核心轉向半導體；AI Research Center 副主任 + Multimedia Center 主任。
+
+---
+
+### A6. 蔡銘峰 Ming-Feng Tsai（NCCU 資科正教授 + AS CITI 合聘）
+
+**原 Top 15 #14** | **退出時間**：v3.4
+**原專長**：`Learning-to-Rank` · `RAG` · `Conversational Search`
+**退出理由**：工程師 RAG 軸退場（純方法論製程 domain 零先例）；謝昱銘 IYM 直接命中 fab 取代為更高優先度。
+**遞補前提**：若 IT/FIT 部門啟動 RAG PoC 計畫，可遞補。
+**簡述**：SIGIR 2025 DMCL；TREC iKAT 2025；MS Research Asia Best Intern；金融業 + Profet AI 生態。
+
+---
+
+### A7. 黃瀚萱 Hen-Hsen Huang（Academia Sinica 資訊所副研究員）
+
+**原 Top 15 #14**（並列）| **退出時間**：v3.4
+**原專長**：`CAG` · `RAG` · `LLM Eval`
+**退出理由**：CAG 範式提出者但同樣 domain 零先例；與蔡銘峰配套退場（保留 RAG 軸於 Backup 隨時遞補）。
+**遞補前提**：若工程師效率 RAG/CAG 對照實驗啟動，可同時遞補與蔡銘峰。
+**簡述**：WWW 2025 "Don't Do RAG: CAG"（81 引用）；AAAI 2025；NAACL 2025；TAIDE 顧問。
+
+---
+
+## A+ 類 — Phase 4 高分新增 7 位
+
+### A+1. 張國浩 Kuo-Hao Chang（NTHU IEEM 特聘教授）
+
+**分數**：7.8 | **建議**：邊際 0.1 差於蔡佩璇 7.7；列首選遞補
+**專長**：`Simulation Optimization` · `Stochastic Programming` · `RL for Manufacturing`
+**簡述**：模擬最佳化國際大師；IEEE T-SM Best Paper；Powerchip 連 2 年 CVD APC 案；TSMC/UMC/VisEra 過往顧問實績。
+**綁定** 🟡：Micron Chair 傳聞待核實 + Powerchip 連 2 年案（與 TSMC 是否 conflict 待確認）。
+**差異化**：補強「OR 方法論基底（simulation optimization、stochastic models）」這條簡禎富、李家岩都不主打的軸線。
+**遞補前提**：Micron Chair 證偽 + Powerchip 不 conflict 後可進 Top 15。
+**詳細 profile**：`phase4-profile-chang-kuo-hao.md`
+
+---
+
+### A+2. 范書愷 Shu-Kai S. Fan / Morris Fan（NTUT 工管系 特聘教授兼管理學院院長）
+
+**分數**：7.5 | **建議**：A+ 高分首選遞補
+**專長**：`SPC × ML` · `Virtual Metrology` · `工業統計` · `Process Optimization`
+**簡述**：Phase 1 標 ⭐⭐⭐⭐⭐ 待核實 → Phase 4 確認職等高於預期（管院院長 + Engineering Optimization 首位亞洲主編）；2022 CIE 論文明確致謝「a leading semiconductor manufacturing company in Taiwan」。
+**綁定** 🟢：無強隱形綁定；可能私下與某 fab 有 VM 案（首談時直接問清）。
+**對 TSMC 的價值**：VM/APC 演算法外部第二意見 + 工管系大量 IE 工程師輸送源；補強「製造資料科學」缺口。
+**詳細 profile**：`phase4-profile-fan-shu-kai.md`
+
+---
+
+### A+3. 郭鴻飛 Hung-Fei Kuo（NTUST 自動化及控制研究所 教授；曾任所長 / 高階製造研發中心主任 / 工程學院副院長）
+
+**分數**：7.5 | **建議**：A+ 高分首選遞補
+**專長**：`Mask Optimization` · `光罩演算` · `對準誤差量測` · `Deep Learning Mask Optimization`
+**簡述**：Phase 4 最大驚喜 — 公開資訊明文「學生畢業後進入台積電、南亞科及應材」；2019 ASP-DAC 論文「Deep Learning-Based Framework for Comprehensive Mask Optimization」直接命中 TSMC litho 痛點。
+**綁定**：無公開頭銜，但學生大量進 TSMC + 產學案打對準誤差量測，**極可能已有 TSMC NDA 案**。
+**對 TSMC 的價值**：**填補 phase 1-2 Top 15 在 OPC/ILT/overlay 議題的覆蓋空白**；可與王俊明（OPC AI）形成互補組合。
+**詳細 profile**：`phase4-profile-kuo-hung-fei.md`
+
+---
+
+### A+4. 李淑敏 Katherine Shu-Min Li（NSYSU 資工系 教授，EDA Lab）
+
+**分數**：8.0 | **建議**：A+ 高分；南台灣戰略稀缺位
+**專長**：`AI-EDA` · `HDL Automation` · `EDA × ML`
+**簡述**：南台灣 EDA 代表，與 Synopsys/Cadence 弱綁定 🟡；T2+T7b AI-EDA 軸。
+**對 TSMC 的價值**：**南台灣 EDA 對口；TSMC 高雄 2nm 卡位戰略稀缺**；與江蕙如（NTU）形成南北 EDA 雙軸。
+**詳細 profile**：`phase4-mini-li-shu-min.md`
+
+---
+
+### A+5. 李建模（NTU EE / GIEE 教授）
+
+**分數**：7.5 | **建議**：A+ 高分；NTU Test 旗手
+**專長**：`AI-EDA Yield/Testing` · `Vmin Prediction`
+**簡述**：MediaTek Vmin prediction 共著（非 phase 1 誤填的緯創）；T2+T3 雙軸但偏 IC Design 端。
+**對 TSMC 的價值**：Test 領域 NTU 旗手；可與江蕙如（Physical Design）形成 NTU EDA 雙軌。
+**詳細 profile**：`phase4-mini-lee-chien-mo.md`
+
+---
+
+### A+6. 許嘉裕 Chia-Yu Hsu（NTHU IEEM 教授）
+
+**分數**：6.5 | **建議**：A+ 但 Lab 重建空窗 1-2 年
+**專長**：`SPC` · `FDC` · `Yield` · `Smart Manufacturing`
+**簡述**：智慧製造中生代代表，h-index 24；近期從 NTUST 轉至 NTHU IEEM（Lab 重建空窗 1-2 年是主要風險）。
+**綁定** 🟢：無大廠綁定。
+**差異化**：與簡禎富、李家岩同題（智慧製造）但定位是「無大廠綁定的純粹 yield/FDC 專家」，可形成 NTHU IEEM 智慧製造三人組互補。
+**遞補前提**：等 Lab 站穩後 6-12 月評估再啟動。
+**詳細 profile**：`phase4-profile-hsu-chia-yu.md`
+
+---
+
+### A+7. 鄭芳田 Fan-Tien Cheng（NCKU IMIS 名譽講座教授 / iMRC 執行長）— **戰略顧問特殊類**
+
+**分數**：6.5 | **建議**：**不擠 Top 15，列戰略顧問特殊類**（搭配謝昱銘師徒包）
+**專長**：`AVM 自動虛擬量測` · `IYM 智慧良率管理` · `KSA Golden Path`
+**簡述**：1953-09-12 生（72 歲）；2025 IMIS 系所頁標「**名譽講座教授**」（已退休），但仍掛 iMRC 執行長 + 工學院副院長 + 計畫總召；2024 國家產業創新獎個人類產學貢獻獎；2025/07 仍任 TPCA 智慧製造大師講座。
+**累計實績**：63 件技術移轉、NT$2.7 億授權金；橫跨半導體 / 面板 / 碳纖維三產業；AVM 自 2000 年代初即在台積電、聯電、力晶等 fab 部署。
+**綁定** 🟢：純台灣根、無外國大廠綁定；US12354122B2 共同發明人（與銀慶剛）。
+**為何不擠 Top 15**：維度 5（黃金期剩餘）誠實打 0 — **5 年回收期不足**；72 歲名譽講座不適合作為「TSMC 投入未來 5 年新合作」主標的。
+**建議合作模式**：戰略顧問費 100-200 萬/年 × 5 年（500-1000 萬）+ 推薦/連結 IMIS 體系合作（特別是搭配謝昱銘執行 PI 的師徒包）。
+**詳細 profile**：`phase4-profile-cheng-fan-tien.md`
+
+---
+
+## B 類補強 — Phase 4 新增 2 位
+
+### B11. 蕭宏章（NCKU 系所待確認）
+
+**分數**：7.0 | **建議**：B 類；FDC 平台單點極強
+**簡述**：FDC（Fault Detection & Classification）單點技術強，廣度窄；可作為 fab FDC 平台專項合作。
+**詳細 profile**：`phase4-mini-hsiao-hong-chang.md`
+
+---
+
+### B12. 黃乾怡 Chien-Yi (Jay) Huang（NTUT 工管系 教授兼系主任）
+
+**分數**：6.5 | **建議**：B 類；後段封裝 (CoWoS/SoIC) 供應鏈端
+**專長**：`PCB Gold Finger 缺陷檢測` · `陶瓷基板 AOI` · `半導體 wafer dies wavelet 缺陷檢測（2010）`
+**簡述**：h-21 / 1500 引用 / i10=41；強項在 SMT、PCB、ceramic substrate、solder paste 印刷 — 對應對象是 ASE/SPIL/欣興/南電/楠梓電。
+**對 TSMC 的價值**：間接 — 透過 TSMC 後段封裝 (CoWoS/SoIC) 供應鏈或 ASE 子公司觸及。
+**詳細 profile**：`phase4-profile-huang-chien-yi.md`
+
+---
+
+## B' 類設備合作獨立分類 — 1 位
+
+### B'1. 曾釋鋒 Shih-Feng Tseng（NTUT 機械工程系 教授兼系主任）
+
+**分數**：5.5 | **建議**：B' 設備合作獨立分類（**非 AI 軌**）
+**專長**：`雷射 wafer dicing` · `stealth dicing` · `微孔加工` · `TGV Through-Glass Via`
+**簡述**：交大機械所博士；141 篇 / 1,686 引用；屬「應用物理 / 雷射工程」社群，不在 TSMC AI Top 15 主流戰場。
+**對 TSMC 的價值**：對 wafer dicing / stealth dicing / 微孔加工 / TGV 等先進封裝工序有直接技術切入點，**設備合作而非 AI 合作**。
+**詳細 profile**：`phase4-profile-tseng-shih-feng.md`
+
+---
+
+## C 類補強 — Phase 4 新增 3 位
+
+### C14. 蔡坤諭 Kuen-Yu Tsai（NTU EE / GIEE）
+
+**分數**：6.0 | **建議**：C 類；研究方向錯位修正
+**重大修正**：本 PI 真實研究方向為 **Nanolithography / EUV / DFM / e-beam direct-write**，不是原任務假設的 VLSI Test／DFT。題目假設來自系所人事表的命名相近誤判。
+**簡述**：Stanford 航太博士 + Intel 193nm / EUV 缺陷檢測 (2002-2005)；TSMC-NTU Research Center Faculty member（2013-至今 13 年但非主導 PI）；副教授 13 年未升等；H-index 12 / 總引用 503，學術活力下滑。
+**獨家價值**：唯一具 Stanford EUV + Intel 193nm 雙背景的台灣學者。
+**詳細 profile**：`phase4-profile-tsai-kun-yu.md`
+
+---
+
+### C15. 丁顥 Hao Tieng（中山或成大 應數）
+
+**分數**：6.0 | **建議**：C 類 ESG 軸；非主流半導體
+**重要澄清**：丁顥（鄭芳田 2015 PhD 弟子，IIM 助理教授）**≠ Hau-Tieng Wu**（Duke 數學系，wave-shape function 發明人）— 使用者 brief 懷疑兩者關連已證偽。
+**簡述**：已從 fab VM 轉向 AI 節能 / 智慧醫療 / 小提琴機器人，**研究路線分散**；唯一甜蜜點：數位孿生 + Fab 能耗。
+**建議對接**：TSMC ESG 部門（非 AI 部門）。
+**詳細 profile**：`phase4-profile-tieng-hao.md`
+
+---
+
+### C16. 陳朝鈞 Chao-Chun Chen（NCKU 製造資訊系）
+
+**分數**：6.0 | **建議**：C 類；phase 1 誤收應移出主表
+**Phase 1 誤收**：列為 NCKU 主表是 **wide net 雜訊**；核實後其主軸是豬隻飼養 / ADAS / 物理治療，**非 IYM 或半導體**。
+**詳細 profile**：`phase4-mini-chen-chao-chun.md`
+
+---

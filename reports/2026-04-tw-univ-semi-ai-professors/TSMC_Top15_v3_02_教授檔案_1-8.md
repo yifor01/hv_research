@@ -1,4 +1,4 @@
-# 教授深度檔案（Top 1-8）
+# 教授深度檔案（Top 1-8，v3.4）
 
 ---
 
@@ -48,7 +48,52 @@
 
 ---
 
-## #2. 馬誠佑 William Cheng-Yu Ma（NSYSU 電機 + SAT 合聘）
+## #1 ⭐ 江蕙如 Iris Hui-Ru Jiang（NTU EE / GIEE 教授，IRIS Lab 主持人）
+
+**分數**：9.0 | **接觸建議**：第一波 | **v3.4 Phase 4 補強新進**  
+**專長標籤**：`AI-EDA` · `GNN for Placement & Routing` · `Timing Macro Modeling` · `SRAF Generation` · `DFM`
+
+### (1) 教授技術領域的契合度
+
+- **AI 架構能力**：**Graph Neural Networks for EDA、Variational Adversarial Active Learning、Reinforcement Learning + Transfer Learning for Mask Optimization、Neural Collaborative Filtering for timing macro modeling**；ML × EDA 雙棲深度
+- **半導體 AI 相關計畫**：ML-based Physical Design 系列；ML-driven SRAF generation 對接 TSMC OPC / DFM；Macro Modeling NCF cross-domain 應用
+- **產業合作**：與 Synopsys / Cadence 有研究合作（非顧問身份，無利益衝突）；NTU EDA 體系合作網絡
+- **研究成果與貢獻**：**Multi-Corner Timing Macro Modeling with Neural Collaborative Filtering**（IEEE TCAD）；**Timing Macro Modeling with Graph Neural Networks**（DAC 2022）；**Subresolution Assist Feature Insertion via Variational Adversarial Active Learning**（DAC 2021）；**RL & Transfer Learning for Assist Feature Generation**（ICCAD 2022）
+- **落地使用**：DAC/ICCAD/TCAD 三大頂會頂刊穩定產出；研究路線可直接對接 TSMC CAD/DFM 部門需求
+- **獲得肯定**：跨校歷練（NCTU 14 年 → NTU），EDA 圈頂會穩定發表；學生競賽 / TSMC CAD 直送管線
+
+### (2) 學生工程素養與實驗室文化
+
+- **系統化能力**：DAC/ICCAD 頂會一作訓練體系；ML × EDA 跨領域學生培養
+- **團隊合作**：IRIS Lab（NTU 電二館 BL-407），推測 8-12 位研究生（NTU EDA 組典型規模）
+- **產學合作經驗**：NTU EDA 組畢業生流向：TSMC（CAD/DFM 部門）、Synopsys、Cadence、聯發科 IC Design Service
+- **獲得肯定**：近 3 年至少 3-4 位學生在 DAC/ICCAD/TCAD 一作發表
+
+### (3) 合作分析
+
+**優點**
+- **張耀文 MediaTek 失效後 NTU 體系內 AI-EDA Physical Design 唯一無縫接棒人選**
+- 學界純血，無 TSMC/MediaTek/Synopsys 顧問或借調紀錄 → 利益衝突低
+- DAC/ICCAD/TCAD 三大頂會穩定產出
+- ML × EDA 跨領域題目（NCF、GNN、VAE+Active Learning、RL+Transfer Learning）方法論完整
+- SRAF 系列對接 TSMC 製造端 OPC/DFM 強需求
+- NTU 體系合作友善度高
+
+**缺點 / 風險**
+- Lab 中型（不及 NCKU 大型 AOIEC 規模），輸出速度受限
+- 沒有顧問頭銜暗示重視學術獨立性，TSMC 接觸時應走「研究合作」而非「顧問挖角」路線
+- 張耀文失效後預期成為 TSMC 必爭對象，競爭升溫
+
+**建議合作方式**
+- 合作類型：**單一專題合作試水（建議 DFM 端切入）→ 中期 Joint Lab（IRIS-TSMC Joint Lab on AI-DFM）**
+- 預算區間：5 年 500-800 萬 NTD
+- 期程：短期（6 月）TSMC CAD/DFM invited talk → 中期（1-2 年）SRAF / Mask Optimization 專題 → 長期（3-5 年）Joint Lab
+- **KPI**：(1) DAC/ICCAD 一作共著 2-3 篇/年；(2) SRAF/OPC ML 工具 TSMC 內部 benchmark 落地；(3) NTU CAD/DFM 學生 2-3 名/年通道至 TSMC
+- 交付物：ML × EDA 方法 + 論文 + 學生通道
+
+---
+
+## #3. 馬誠佑 William Cheng-Yu Ma（NSYSU 電機 + SAT 合聘）
 
 **分數**：8.9 | **接觸建議**：第一波  
 **專長標籤**：`FeFET` · `R2R` · `FDC` · `Virtual Metrology` · `GAA FET`
@@ -94,9 +139,60 @@
 
 ---
 
-## #3. 胡璧合 Vita Pi-Ho Hu（NTU 電機正教授 + 美光 Chair Professor）
+## #3 ⭐ 陳亮嘉 Liang-Chia Chen（NTU 機械 特聘教授 + NTU AOIEC 聯盟主持人）
 
-**分數**：8.7 | **接觸建議**：第一波  
+**分數**：8.9 | **接觸建議**：第一波 | **v3.4 Phase 4 補強新進**  
+**專長標籤**：`OCD scatterometry` · `HAR TSV 量測` · `AI metrology` · `共焦干涉` · `3D AOI` · `光學量測`
+
+### (1) 教授技術領域的契合度
+
+- **AI 架構能力**：AI metrology（深度學習應用於 OCD / scatterometry inverse problem）、自動光學檢測影像辨識、scatterometry data inversion 神經網路
+- **半導體 AI 相關計畫**：NTU AOIEC 聯盟主持（43 家企業 + 4 校跨機構合作平台）；多項 NSTC 計畫
+- **產業合作**：致茂（Chroma）、均豪（Gallant Precision Machining）等量測設備商長期合作（**設備商屬 TSMC 上下游中性，不扣分**）；OCD/AOI 量測技術直接對應 fab 量測需求
+- **研究成果與貢獻**：**OCD scatterometry、High-Aspect-Ratio TSV 量測、3D AOI、共焦干涉量測 (Confocal Interferometry)、AI-assisted metrology**；SPIE MIPC（Modeling Aspects in Optical Metrology）2023-2026 連發；SPIE Optical Metrology Symposium 多篇
+- **落地使用**：**量測設備量產級**（OCD/HAR TSV/3D AOI 全套技術已可在量測設備上落地）；CoWoS 量測補位
+- **獲得肯定**：**2022 NSTC 未來科技獎**；**2021 科技部傑出研究獎**；NTU 特聘教授；NTU AOIEC 聯盟（Advanced Optical Inspection & Metrology Engineering Consortium）主持人
+
+### (2) 學生工程素養與實驗室文化
+
+- **系統化能力**：機械工程 + 光學工程 + AI 跨領域訓練；OCD scatterometry / HAR TSV 量測學生專業素養
+- **團隊合作**：**Lab 21 人大型團隊**（NTU 機械系大規模）；NTU AOIEC 聯盟運作 4 校 + 43 家企業跨機構合作經驗
+- **產學合作經驗**：致茂、均豪畢業生通道；AOIEC 聯盟 43 家企業合作 + 4 校（NTU/NTHU/NCU/NTUST）跨校合作；SPIE MIPC 國際頂會學生一作
+- **獲得肯定**：Lab 規模 21 人為機械系前段班；SPIE 國際頂會年發表
+
+### (3) 合作分析
+
+**優點**
+- **完全補完原 Top 15 在 T0 製程量測 / 光學檢測軸的零覆蓋**
+- OCD/HAR TSV/3D AOI 全套技術命中 fab 量測即時需求
+- NTU AOIEC 聯盟 43 家企業 + 4 校 = 跨機構合作運作經驗豐富，TSMC 易整合
+- 設備商合作為 TSMC 上下游中性（致茂、均豪非競爭對手）
+- 與宋振銘形成「材料 + 量測」雙人組合補強 T4 封裝
+- 替代既已淡出 AOI 的連震杰、補強偏 DL 演算法的詹寶珠
+- 2022 NSTC 未來科技獎 + 2021 科技部傑出研究獎背書
+- SPIE MIPC 2023-2026 連發證明研究持續活躍
+
+**缺點 / 風險**
+- AOIEC 聯盟主持身份意味行政負擔（但屬「資源型」非「行政空轉型」）
+- AI / ML 為輔（核心仍為光學物理 + 量測），若需深 ML 模型需協同 NTU EE 體系
+- 光學設備合作為主，IC Design 端關聯較弱（屬中性）
+
+**建議合作方式**
+- 合作類型：**NTU AOIEC 聯盟下 fab 量測案 + TSMC 自研量測設備技術支援 JDP**
+- 預算區間：5 年 600-1000 萬 NTD
+- 期程：3 年主計畫 + 2 年延伸
+- **KPI**：
+  - 題目 A：2nm GAA 之 HAR scatterometry inversion AI 模型
+  - 題目 B：CoWoS 翹曲 / TSV 對準 3D AOI 量測解決方案
+  - 題目 C：AI metrology data inversion 演算法授權
+  - 共著 SPIE MIPC / Measurement Science 論文 3-4 篇/年
+- 交付物：AI 量測演算法 + 設備整合 + 學生 TSMC 量測部門通道
+
+---
+
+## #5. 胡璧合 Vita Pi-Ho Hu（NTU 電機正教授 + 美光 Chair Professor）
+
+**分數**：8.8 | **接觸建議**：第一波  
 **專長標籤**：`FeFET` · `CIM` · `CFET SRAM` · `GAA FET` · `DTCO`
 
 ### (1) 教授技術領域的契合度
@@ -142,9 +238,9 @@
 
 ---
 
-## #3. 陳冠能 Kuan-Neng Chen（NYCU ICST Dean + 電子所講座教授）
+## #5. 陳冠能 Kuan-Neng Chen（NYCU ICST Dean + 電子所講座教授）
 
-**分數**：8.7 | **接觸建議**：第一波  
+**分數**：8.8 | **接觸建議**：第一波  
 **專長標籤**：`Hybrid Bonding` · `3D-IC` · `CoWoS` · `TSV` · `Heterogeneous Integration`
 
 ### (1) 教授技術領域的契合度
@@ -190,7 +286,7 @@
 
 ---
 
-## #5. 銀慶剛 Ching-Kang Ing（NTHU 清華講座教授 統計所）
+## #7. 銀慶剛 Ching-Kang Ing（NTHU 清華講座教授 統計所）
 
 **分數**：8.5 | **接觸建議**：第一波  
 **專長標籤**：`Virtual Metrology` · `SPC` · `Time Series` · `Anomaly Detection` · `Causal AI`
@@ -240,9 +336,9 @@
 
 ---
 
-## #6. 陳智 Chih Chen（NYCU 材料系主任 + 特聘教授）
+## #8. 陳智 Chih Chen（NYCU 材料系主任 + 特聘教授）
 
-**分數**：8.3 | **接觸建議**：第二波  
+**分數**：8.4 | **接觸建議**：第二波  
 **專長標籤**：`Hybrid Bonding` · `TSV` · `3D-IC` · `CoWoS` · `Advanced Packaging Process Control`
 
 ### (1) 教授技術領域的契合度
@@ -286,101 +382,5 @@
   - 透過 Chemleader 技轉路徑做 TSMC 材料客製化
   - Nano Letters / JMRT 共著 2-3 篇/年
 - 交付物：TSMC-fab-compatible nt-Cu 配方 + 量測流程 + 學生 TSMC 直送
-
----
-
-## #6. 詹寶珠 Pau-Choo Chung（NCKU 電機特聘 + 電資學院院長）
-
-**分數**：8.3 | **接觸建議**：第二波  
-**專長標籤**：`Automated Defect Classification (ADC)` · `AOI` · `Transfer Learning` · `Domain Adaptation` · `CNN`
-
-### (1) 教授技術領域的契合度
-
-- **AI 架構能力**：**GAN、CycleGAN、Feature Disentanglement、Annotation Consistency、Self-Supervised Learning、Domain Generalization**；深度學習方法論深厚
-- **半導體 AI 相關計畫**：NSTC 一般型計畫（全部政府補助，無廠商資助）；前教育部資訊及科技教育司司長；IEEE CIS Vice President of Education
-- **產業合作**：**零半導體廠綁定**（完全自由）；醫療機構、放射科醫師為主合作對象
-- **研究成果與貢獻**：**Pathology Image Segmentation、Cross-Scanner Robustness、Domain Adaptation (Medical → Industrial)、No-Label / Weak-Label Segmentation、Feature Disentanglement**；ACC-GAN 2024 JISE；A-ReSEUnet 2024 Knowledge-Based Systems；Domain Generalization 2023
-- **落地使用**：醫療 domain 成熟方法論（跨掃描器魯棒性）；半導體 AOI 應用為方法論遷移而非直接先例
-- **獲得肯定**：**IEEE Fellow**；台灣醫學影像 DL 先驅；NCKU 電機系主任（2011-2014）→ 電資副院長 → 電資院長（2021/08 起）+ 敏求智慧運算學院院長；傑出資訊人才獎 2021
-
-### (2) 學生工程素養與實驗室文化
-
-- **系統化能力**：IEEE Fellow 級別方法論訓練；Intelligent Computing Lab（智慧運算實驗室）+ NCKU 明沺計算與網路中心（Miin Wu School of Computing）
-- **團隊合作**：Lab 8-12 位（3-4 博 + 4-6 碩）；院長身份可動員全電資學院資源
-- **產學合作經驗**：跨醫療 / 政府 / 校內（教育部司長經驗）；半導體 domain 無先例
-- **獲得肯定**：院長 / 特聘教授；110 年傑出資訊人才獎；IEEE CIS 國際服務角色
-
-### (3) 合作分析
-
-**優點**
-- IEEE Fellow 級別深度 DL 方法論
-- 跨掃描器 / 跨機構 domain adaptation 是半導體 AOI 跨製程魯棒性的直接類比
-- 零半導體廠綁定 → TSMC 獨占窗口
-- 院長身份 → 可建立院級合作（NCKU 電資學院整體）
-- 國際 IEEE CIS 服務角色（聲望加分）
-
-**缺點 / 風險**
-- 無半導體 domain 先例（條件式可行，需 PoC 驗證遷移效果）
-- 行政負擔重（院長 + 敏求學院院長雙院長）
-- 需 TSMC 端提供應用場景定義 + domain 專家配合
-- Lab 規模中等
-
-**建議合作方式**
-- 合作類型：**半導體 AOI Cross-Process Domain Adaptation PoC**
-- 預算區間：5 年 300-500 萬 NTD
-- 期程：第一年 PoC 驗證遷移可行性（6-12 月）→ 續約擴大
-- **KPI**：
-  - 題目：「N7 → N5 → N3 AOI 缺陷檢測模型」跨節點遷移 PoC
-  - 跨 Line 驗證（Line A 訓練 → Line B 無需重新標籤）準確率 ≥ 90%
-  - Knowledge-Based Systems / Pattern Recognition 共著 1-2 篇/年
-- 交付物：模型 + 論文 + 2-3 名學生進 TSMC AOI 部門
-
----
-
-## #8. 江國寧 Kuo-Ning Chiang（NTHU PME 清華講座 + 先進封裝研究中心主任）
-
-**分數**：8.1 | **接觸建議**：第一波  
-**專長標籤**：`CoWoS` · `Warpage Prediction` · `Thermal Management Optimization` · `Physics-Informed Neural Networks (PINN)` · `Digital Twin`
-
-### (1) 教授技術領域的契合度
-
-- **AI 架構能力**：**K-medoids clustering + ANN + ensemble learning、Random Forest、Polynomial Regression + Unsupervised ML、Deep Learning metamodel**；FEA × ML metamodel 雙棲能力
-- **半導體 AI 相關計畫**：NTHU 先進封裝研究中心主任（校級平台）
-- **產業合作**：**完全無 TSMC JDP / OSAT / 大廠深度綁定 = 最自由 PI**；ASME / iMAPS 體系國際合作
-- **研究成果與貢獻**：**Solder Joint Fatigue Life Prediction、Small Database Adaptive Data Selection、Wafer-Level Packaging ML Reliability Prediction、3D IC Deep Learning Reliability、MEMS、Electronic Packaging、TSV**
-- **落地使用**：Materials 2024 AI × 封裝疲勞壽命論文（直接對應 TSMC 良率 AI）；Journal of Mechanics 2024 wafer-level packaging ML；Scientific Reports 2022 3D IC × DL（Nature 子刊）
-- **獲得肯定**：**ASME EPPD Excellence in Mechanics Award 2021**（ASME 電子封裝領域最高學術獎）；ASME Fellow 2004；iMAPS Fellow 2019；兩次 NSC 傑出研究獎（2003-2006、2010-2013）；350+ 論文 + 43 項國際專利（TW 31 + US 9 + CN 2 + JP 1 + KR 1 + SG 1）；清華講座教授（NTHU 最高榮譽）
-
-### (2) 學生工程素養與實驗室文化
-
-- **系統化能力**：CSML Lab（Computational Solid Mechanics Lab）@ PME NTHU，2000 年代建立大 Lab；FEA + ML 雙棲訓練（fab data scientist 最稀缺的 profile）
-- **團隊合作**：推估 15-25 人；先進封裝研究中心主任 → 跨系資源整合（材料系、電機系、資工系學生可跨 Lab 合作）
-- **產學合作經驗**：NTHU PME 傳統學生流向 TSMC、聯電、日月光、台達電；先進封裝研究中心主任身份擴大影響範圍
-- **獲得肯定**：350+ 論文；43 項國際專利；ASME EPPD Excellence 2021；ASME + iMAPS 雙 Fellow
-
-### (3) 合作分析
-
-**優點**
-- **完全無 TSMC JDP 記錄 = 零既有綁定 + 最佳 TSMC 新合作 first mover advantage**
-- AI × 封裝 FEA 方法論 100% 命中 TSMC 良率 AI 原題目
-- 先進封裝研究中心主任 → 可建立中心級合作（非單一 PI）
-- ASME EPPD Excellence 最高學術獎背書
-- 學生 FEA + ML 雙棲 = TSMC 良率工程師稀缺 profile
-
-**缺點 / 風險**
-- 年齡約 65+ 歲（1985 博士），**時間風險高**，黃金期估算剩 5-8 年
-- 少 ISSCC/IEDM 頂會（但 ASME/iMAPS 頂刊量大）
-- 不涉及 Cu-Cu bonding 材料層（需配陳智補強材料端）
-
-**建議合作方式**
-- 合作類型：**先進封裝研究中心級 Joint Lab + TSMC 冠名年度技術獎**
-- 預算區間：5 年 600-1000 萬 NTD（中心級預算）
-- 期程：5 年滾動；年度 review
-- **KPI**：
-  - TSMC CoWoS / HBM 疲勞壽命 AI 預測 JDP（小樣本學習 + FEA metamodel）
-  - 每年 FEA × ML 博士生 3-5 人直送 TSMC 良率工程師
-  - 冠名封裝年度獎項（類似 Micron Chair 模式）
-  - 共著 ASME / iMAPS / Materials 論文 3-4 篇/年
-- 交付物：FEA + ML metamodel 工具 + 論文 + 學生通道
 
 ---

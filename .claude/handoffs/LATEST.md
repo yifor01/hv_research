@@ -1,78 +1,103 @@
-# Handoff: TSMC Top 15 v3.3 + Backup v1.3 定版（雙 PDF 加「建議合作方式」欄）
-Generated: 2026-04-24 11:50 Asia/Taipei
+# Handoff: TSMC Top 15 v3.4 + Backup v1.4 — Phase 4 補強重排（3 進 3 出）
+Generated: 2026-04-24 17:00 Asia/Taipei
 Branch: master
-Status: Ready for Review（等主管圈選第一波 6 位）
-Progress: 100% — 兩份 PDF 已 push
+Status: Ready for Review（等主管圈選第一波 8 位 + 鄭芳田顧問）
+Progress: 100% — 兩份 PDF 已重出，文件全部同步
 
 ## 目標
-交付主管決策用雙 PDF：Top 15 主名單（15 位完整盡調）+ 備選候選池（38 位 FAQ / Plan B）。v3.3 補齊「建議合作方式」欄後結構完整。
+回應主管 18 位「為何沒選」追問清單。Phase 4 啟動 14 位新 profile（10 完整 + 5 mini）+ 嚴格按分排序原則 3 進 3 出 Top 15。產出 v3.4 主名單 + v1.4 備選 兩份新 PDF + 4 條新 lessons + template v1.1。
 
 ## 已完成（本 session 迭代）
-- [x] v3.0 初版重排版（移除 Phase/Batch/Wave 內部術語）— `TSMC_Top15_v3_*.md`
-- [x] v3.1 移除彭文志（業界內部消息：已借調 TSMC 當處長）
-- [x] v3.2 移除關鍵字矩陣（PDF 表太寬被切）+ 王俊明 TSMC 綁定釐清 + 新增附錄 E（76 URL）
-- [x] v3.3 大表新增「建議合作方式」欄（13 欄）— commit `e0c75fc`
-- [x] Backup PDF v1.0 → v1.3 五輪迭代（最終 38 位統一大表 10 欄）
-- [x] `templates/pi-due-diligence-framework.md` v1.0
-- [x] `phase3-verification-notes.md`（16 位 WebSearch 驗證）
-- [x] 文件同步：CLAUDE.md / README.md / CHANGELOG.md / vault lessons.md + status.md
+- [x] 5 個 research agent 並行盡調 14 位 PI（NCKU IYM 三人組、NTHU IEEM 兩位、NTU 補位兩位、技職 4 位、類別 B 五位）
+- [x] 嚴格按分排序原則 3 進 3 出（江蕙如/陳亮嘉/謝昱銘 進；林嘉文/蔡銘峰/黃瀚萱 退）
+- [x] Top 15 v3.4 重排（13 欄含建議合作方式 + ⭐ 標記新進）
+- [x] 教授檔案 1-8 / 9-15 重組（江蕙如、陳亮嘉、謝昱銘 完整 profile section；林嘉文/蔡銘峰/黃瀚萱 移走）
+- [x] 主管摘要更新（第一波 6 → 8 位 + NCKU IYM 學派叢一次串聯）
+- [x] 附錄更新（接觸策略 / 預算 5 年 7300-11600 萬 / 法務 IYM 三人組 / Phase 4 補強說明 §F + Reference URL §G）
+- [x] Backup v1.4 擴增（38 → 55 位；§1B Phase 4 17 位大表 + §2B 個別內容 + §4 補強說明）
+- [x] Top 15 v3.4 PDF 產出（832 KB）
+- [x] Backup v1.4 PDF 產出（1017 KB）
+- [x] CHANGELOG / vault lessons.md +4 條 / template v1.1（§8 防漏 checklist）
+- [x] 主管校準原則：「**不因主管點到名而上推**」嚴格遵守
 
 ## 未完成
-- [ ] [P1] 主管圈選第一波 6 位（王俊明 / 馬誠佑 / 胡璧合 / 陳冠能 / 銀慶剛 / 江國寧）— 等外部
-- [ ] [P2] 法務 check 精簡版：銀慶剛 US12354122B2 / 鄭桂忠 TSMC-JDP / 胡璧合 美光 Chair
-- [ ] [P2] Agentic IR 方向補位（彭文志失效後空缺）
-- [ ] [P3] 把本 session 5 條 lessons 寫入 `templates/pi-due-diligence-framework.md` v1.1
-- [ ] [P3] 跨領域驗證 template（HBM 材料 / 國際比較）
+- [ ] [P1] 主管圈選第一波 8 位（王俊明/江蕙如/馬誠佑/陳亮嘉/胡璧合/陳冠能/銀慶剛/謝昱銘）+ 鄭芳田顧問費批准
+- [ ] [P2] 法務 check NCKU IYM 學派叢三人組（銀慶剛 + 謝昱銘 + 鄭芳田顧問）：US12354122B2 IP 共有狀態（影響三人合作範圍）
+- [ ] [P2] 張國浩 (Backup A+1) Powerchip 排擠 + Micron Chair 釐清；若無誤可遞補 Top 15 替換蔡佩璇
+- [ ] [P3] 陳亮嘉 Reference URL 補完（NTU 機械系教師頁、SPIE Profile、2022 NSTC 未來科技獎公告）
+- [ ] [P3] 謝昱銘 Lab 規模獨立性核實（業界 visibility 偏低需 TSMC 主動 due diligence）
 
 ## 失敗的方法（不要重複）
-- **遠端 CCR routine `trig_01AZxxiaUMQesDAbDaL9htad`**：觸發後無任何動靜（usage 面板無紀錄），40 分內無 commit 出現；改本地執行成功。原因不明，疑雲端環境啟動失敗。routine 仍存在但 next_run 為 2027-04-22，可到 https://claude.ai/code/routines/trig_01AZxxiaUMQesDAbDaL9htad disable
-- **`run_once_at` API**：後端已停用 → HTTP 400 `run_once_at disabled`。改用 cron `0 19 22 4 *`（一年只觸發一次）
-- **關鍵字矩陣表 15×20**：weasyprint 無法渲染 > 10-11 欄；第 12 欄起會被切斷。改用每位教授 section 頂部「專長標籤列」
-- **WebSearch 查彭文志借調 TSMC**：2 次不同查詢都返回「仍是 NYCU 教授」；企業內部借調不進 search index。必須靠業界內部管道 double-check
+- **agent 給分不可全信**：陳亮嘉 agent 報 10/10、江蕙如 agent 報 9.0、謝昱銘 agent 報 8.5 — 校準後 8.9 / 9.0 / 8.3。校準原則：年齡未確認 / Lab 規模未明應扣 0.2-1.0
+- **誘惑：4 進 4 出**（張國浩 7.8 vs 蔡佩璇 7.7 邊際 0.1 差）— 改為 3 進 3 出，張國浩列首選遞補。理由：張有 🟡 待釐清，蔡 Fulbright 即將回國
+- **誘惑：因主管點到名而加分**（用戶明確要求不要這樣做）— 嚴格按分排序執行
 
 ## 關鍵決策
-- **王俊明取消法務 check** — 理由：NSYSU SAT 中心本身是 TSMC 支持設立，王為體制內合作方（≠ 離職自由身）。法務顧慮不適用
-- **Backup PDF 改用同 Top 15 兩層結構** — 理由：主管看四章四格式 confuse；對齊主報告節奏降低閱讀成本
-- **E 類失效案例加進統一大表（類別標 ❌）** — 理由：主管看一張表最清楚；獨立 §3 會切割
-- **D 類名人池（20 位）也進統一表 + 個別內容** — 理由：主管常問「為何沒選李宏毅/陳蘊儂」，FAQ 應答池不放出來對話都會卡
+- **嚴格按分排序，不因主管點到名而上推 Top 15**（用戶原話：「不用因為點出來而特意上升到 top15，依評分 & 排序原則來排」）
+- **3 進 3 出而非 4 進 4 出**：邊際 0.1 差用「綁定風險」打破平局
+- **鄭芳田列「戰略顧問特殊類」而非主名單**：72 歲已退休，5 年回收期不足，但戰略價值大（IYM 系統創始人 + TSMC 終生合作對象）
+- **NCKU IYM 學派叢一次串聯**：銀慶剛（Top 15 #7）+ 謝昱銘（Top 15 #9 ⭐）+ 鄭芳田（戰略顧問 100-200 萬/年）= 跨校學派合作（共 1500-2500 萬 / 5 年）
+- **RAG 軸退場到 Backup A 類**：蔡銘峰、黃瀚萱配套退場；保留 RAG 軸隨時遞補
+- **林嘉文光刻 EDA 退場**：被陳亮嘉「立即可用 + AOIEC 聯盟 43 家」的優先度取代；可遞補
+- **陳亮嘉補完 T0 製程量測軸**：原 Top 15 零覆蓋，OCD/HAR TSV/AI metrology 全套
+- **江蕙如補張耀文 EDA 空缺**：張耀文 2024-05 MediaTek 獨董失效後 EDA 軌道唯一無縫接棒人選
 
 ## 程式碼上下文
 
-**PDF 生成命令**（省略參數展開，完整見 bash history）:
+**PDF 生成命令**:
 ```bash
+# Top 15 v3.4
 python3 scripts/md_to_pdf.py \
   reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_00_封面與摘要.md \
   reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_01_大表.md \
   reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_02_教授檔案_1-8.md \
-  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_03_教授檔案_9-16.md \
+  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_03_教授檔案_9-15.md \
   reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_v3_05_附錄.md \
-  --title "..." --subtitle "..." --author "盡職調查團隊" \
-  --section-titles ... --section-descs ... \
-  -o reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_長期投資分析_v3.pdf
+  --title "TSMC × 台灣學界 PI 長期投資分析 v3.4" \
+  --subtitle "Top 15 主名單 — Phase 4 補強重排版（3 進 3 出，新增 NCKU IYM 學派叢 + AI-EDA + 製程量測軸）" \
+  --author "盡職調查團隊" \
+  --section-titles ... \
+  --section-descs ... \
+  -o reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_長期投資分析_v3.4.pdf
+
+# Backup v1.4
+python3 scripts/md_to_pdf.py \
+  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_v1_00_封面與說明.md \
+  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_v1_01_統一大表.md \
+  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_v1_02_個別內容.md \
+  reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_v1_03_附錄.md \
+  -o reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_備選候選名單_v1.4.pdf
 ```
 
-**大表 13 欄**（Top 15）:
+**Top 15 v3.4 排序**:
 ```
-| # | 教授 | 校系 | 專長領域 | 代表實績 | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 建議合作方式 | 補充備註 |
+1.  王俊明 9.0       | 1. 江蕙如 ⭐ 9.0
+3.  馬誠佑 8.9       | 3. 陳亮嘉 ⭐ 8.9
+5.  胡璧合 8.8       | 5. 陳冠能 8.8
+7.  銀慶剛 8.5
+8.  陳智 8.4
+9.  詹寶珠 8.3       | 9. 謝昱銘 ⭐ 8.3
+11. 江國寧 8.1
+12. 宋振銘 8.0       | 12. 李家岩 8.0       | 12. 鄭桂忠 8.0
+15. 蔡佩璇 7.7
 ```
 
-**備選表 10 欄**:
-```
-| 類別 | # | 教授 | 校/系 | 專長 | 分數 | 未入選主因 | 可取代主名單 | 建議合作方式 | 備註 |
-```
+**Backup v1.4 結構**: 55 位 = v1.0 38 位 (5 類: A 4 + B 6 + C 3 + D 20 + E 5) + Phase 4 14 位 (A+ 7 + B 2 + B' 1 + C 3) + Top 15 退場 3 位 (進 A 類 → A5/A6/A7) + 鄭芳田特殊類 1 位
 
 ## 下一步（可直接執行）
-1. **等主管圈選** → 收到後啟動第一波接觸 briefing 包（每位 3-5 KB，含合作題目 × 預算 × KPI × Email 模板）
-2. **P3 template 迭代**：把 5 條 lessons 併入 `templates/pi-due-diligence-framework.md` → 驗證指令：`grep -c "能力限制聲明\|體制內合作方\|10 欄\|Reference URL" templates/pi-due-diligence-framework.md` 應 >= 4
-3. **Disable 舊 routine**：到 https://claude.ai/code/routines/trig_01AZxxiaUMQesDAbDaL9htad 手動關閉
+1. **等主管圈選第一波 8 位 + 鄭芳田顧問**（每位 3-5 KB briefing 包，含合作題目 × 預算 × KPI × Email 模板）
+2. **法務 NCKU IYM 三人組 IP check**：銀慶剛 + 謝昱銘 + 鄭芳田顧問均涉 US12354122B2 共有狀態
+3. **張國浩 Backup 遞補釐清**：Powerchip 排擠 + Micron Chair 兩項；若無誤可換蔡佩璇
 
 ## 需要載入的檔案（恢復時）
 - `.claude/handoffs/LATEST.md`（本檔副本）
-- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_長期投資分析_v3.pdf`（主交付，38 頁 / 694 KB）
-- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_備選候選名單_v1.pdf`（備選交付，23 頁 / 912 KB）
-- `reports/2026-04-tw-univ-semi-ai-professors/phase3-verification-notes.md`（驗證紀錄含能力限制）
-- `templates/pi-due-diligence-framework.md`（方法論 v1.0）
-- `~/vault/projects/hv-research/lessons.md`（10 條 lessons，本 session 新增 5 條）
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_Top15_長期投資分析_v3.4.pdf`（主交付，832 KB）
+- `reports/2026-04-tw-univ-semi-ai-professors/TSMC_Backup_備選候選名單_v1.4.pdf`（備選交付，1017 KB）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase4-补强說明.md`（補強動機與決策原則）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase4-profile-*.md`（10 份完整 profile）
+- `reports/2026-04-tw-univ-semi-ai-professors/phase4-mini-*.md`（5 份 mini profile）
+- `templates/pi-due-diligence-framework.md` v1.1（含 §8 Phase 4 防漏 checklist）
+- `~/vault/projects/hv-research/lessons.md`（14 條 lessons，本 session 新增 4 條）
 
 ## Resume Prompt
-恢復 hv-research：TSMC Top 15 v3.3（38 頁 / 13 欄含建議合作方式）+ Backup v1.3（23 頁 / 38 位）已 push 到 master；等主管圈選第一波 6 位。若等待期優先做 template v1.1 迭代（5 條 lessons 寫入 framework）。
+恢復 hv-research：TSMC Top 15 v3.4（3 進 3 出 + 832 KB）+ Backup v1.4（55 位 + 1017 KB）已重出 push 到 master；等主管圈選第一波 8 位 + 鄭芳田顧問；下一步法務 NCKU IYM 三人組 IP check + 張國浩 Powerchip/Micron Chair 釐清。

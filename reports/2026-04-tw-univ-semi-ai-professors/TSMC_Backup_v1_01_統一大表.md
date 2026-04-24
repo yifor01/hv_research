@@ -1,6 +1,8 @@
-# §1 備選候選統一大表（38 位）
+# §1 備選候選統一大表（v1.4：55 位）
 
-本表涵蓋 Top 15 主名單外的**所有 38 位評估候選**，分 5 類：
+本表涵蓋 Top 15 主名單外的**所有 55 位評估候選**：v1.0 既有 38 位 + Phase 4 補強 14 位 + Top 15 v3.3→v3.4 退場 3 位。
+
+> **v1.0 既有 38 位**分 5 類；**Phase 4 補強 14 位**獨立列於表末；**Top 15 退場 3 位**併入 A 類首選遞補。
 
 - **A. 差一點的候選**（4 位，分數 5.3-6.4；主名單婉拒時首選遞補）
 - **B. 方向對但待觀察**（6 位，分數 2.9-4.3）
@@ -96,3 +98,50 @@
 - **已失效特殊案例**：5 位（E ❌ 類；大表末端）
 
 ---
+
+## §1B Phase 4 補強候選（14 位 + Top 15 退場 3 位 = 17 位）
+
+> 本節為 v1.4 新增。Phase 4 補強 14 位 + Top 15 v3.3→v3.4 退場 3 位（林嘉文、蔡銘峰、黃瀚萱）。
+
+| 類別 | # | 教授 | 校/系 | 專長 | 分數 | 未入選主因 | 可取代主名單 | 建議合作方式 | 備註 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Top 15 退場** | A5 | 林嘉文 | NTHU 電機特聘 + AI 中心副主任 | Vision Transformer / 光刻 EDA / Mamba | 7.5 | 光刻 EDA 需 12 月 PoC，被陳亮嘉量測「立即可用」優先取代 | 陳亮嘉（v3.4 進）| 主管確認後 PoC 路線可遞補 | IEEE Fellow 2018 / h-69 / 17.4k 引用 |
+| **Top 15 退場** | A6 | 蔡銘峰 | NCCU 資科 + AS CITI 合聘 | Learning-to-Rank / RAG | 7.0 | 工程師 RAG 軸退場（純方法論製程 domain 零先例） | 謝昱銘（v3.4 進，IYM 直接命中）| 若 IT/FIT 啟動 RAG PoC 可遞補 | SIGIR 2025；TREC iKAT 2025 |
+| **Top 15 退場** | A7 | 黃瀚萱 | Academia Sinica 資訊所 | CAG / RAG / LLM Eval | 7.0 | 同 RAG 軸退場，CAG 範式提出但 domain 零先例 | 謝昱銘 | 同上 | WWW 2025 "Don't Do RAG: CAG"（81 引用） |
+| **A+ 高分新增** | A+1 | 張國浩 Kuo-Hao Chang | NTHU IEEM 特聘 | Simulation Optimization / OR / RL for Manufacturing | 7.8 | 維度 4 🟡 Powerchip 連 2 年案 + Micron Chair 待核實；vs 蔡佩璇 7.7 邊際 0.1 差 | 蔡佩璇（若 Micron Chair 證偽且 Powerchip 不 conflict）| Powerchip 釐清後可遞補 Top 15 | IEEE T-SM Best Paper；TSMC/UMC/VisEra 顧問實績 |
+| **A+ 高分新增** | A+2 | 范書愷 Shu-Kai S. Fan | NTUT 工管 特聘 + 院長 | SPC × ML / Virtual Metrology / 工業統計 | 7.5 | 院長行政重；技職體系 Lab 規模略小於 NTU | — | NTUT 工管院長級合作 | Engineering Optimization 首位亞洲主編；CIE 2022 VM 論文已落地半導體大廠 |
+| **A+ 高分新增** | A+3 | 郭鴻飛 Hung-Fei Kuo | NTUST 自動化所 教授（前所長 + 副院長）| Mask Optimization / 光罩演算 / 對準誤差量測 | 7.5 | 副院長 + 所長雙行政；Mask AI 補位非主流 | 王俊明（補強而非取代）| Mask Optimization 共研 + TSMC 招募管道延伸 | Georgia Tech 電機博士；學生流向 TSMC/南亞科/應材公開背書 |
+| **A+ 高分新增** | A+4 | 李淑敏 Katherine Shu-Min Li | NSYSU 資工 EDA Lab | AI-EDA / HDL Automation | 8.0 | Synopsys/Cadence 弱綁定 🟡；南台灣戰略性高 | 江蕙如（補強而非取代）| 南台灣 EDA 對口；TSMC 高雄 2nm 卡位 | NSYSU EDA 旗手 |
+| **A+ 高分新增** | A+5 | 李建模 | NTU EE / GIEE | AI-EDA Yield/Testing | 7.5 | MediaTek Vmin 合作（非緯創）；方向偏 IC Design 端 | 江蕙如（補強）| Test 領域 NTU 旗手 | T2+T3 雙軸 |
+| **A+ 高分新增** | A+6 | 許嘉裕 Chia-Yu Hsu | NTHU IEEM | SPC / FDC / Yield | 6.5 | NTHU 轉任 Lab 重建空窗 1-2 年 | — | 等 Lab 站穩後 6-12 月評估 | 智慧製造中生代 |
+| **A+ 戰略顧問** | A+7 | 鄭芳田 Fan-Tien Cheng | NCKU IMIS 名譽講座 + iMRC 執行長 | AVM / IYM 系統發明人 | 6.5 | **已退休（72 歲）黃金期 0；不適合 5 年新合作主標的** | — | **戰略顧問定位**：年費 100-200 萬 × 5 年（搭配謝昱銘執行 PI 師徒包）| 累計 63 件技術移轉 / NT$2.7 億授權金；US12354122B2 共同發明人 |
+| **B 補強** | B11 | 蕭宏章 | NCKU 系所待確認 | FDC 平台單點 | 7.0 | FDC 單點極強，廣度窄 | — | 單點專案合作 | 待校系核實 |
+| **B 補強** | B12 | 黃乾怡 Chien-Yi Huang | NTUT 工管 系主任 | PCB Gold Finger 缺陷 / 陶瓷基板 AOI | 6.5 | 主軸 PCB 後段，非 fab 直接 | — | 後段封裝 (CoWoS/SoIC) 供應鏈端 | h-21 / 1500 引用；強項在 SMT/PCB |
+| **B' 設備合作** | B'1 | 曾釋鋒 Shih-Feng Tseng | NTUT 機械 系主任 | 雷射 wafer dicing / stealth dicing | 5.5 | AI 命中度低；屬「應用物理 / 雷射工程」社群 | — | **設備合作獨立分類**（非 AI 軌）；TGV/TSV 加工技術切入 | 141 篇 / 1,686 引用 |
+| **C 補強** | C14 | 蔡坤諭 Kuen-Yu Tsai | NTU EE / GIEE | EUV / DFM / e-beam direct-write | 6.0 | **brief 假設錯位**（非 Test 而是 EUV/DFM）；副教授 13 年未升等學術活力下滑 | — | 微影/DFM 補位 | Stanford 航太博士 + Intel 193nm/EUV 經驗；TSMC-NTU Center 13 年 |
+| **C 補強** | C15 | 丁顥 Hao Tieng | 中山或成大 應數 | Wave-shape function / 數位孿生節能 | 6.0 | **重要澄清**：≠ Hau-Tieng Wu (Duke)；研究路線分散，主軸非半導體 | — | TSMC ESG 部門對接（非 AI 部門）| 鄭芳田 2015 PhD 弟子；數位孿生 + Fab 能耗甜蜜點 |
+| **C 補強** | C16 | 陳朝鈞 Chao-Chun Chen | NCKU 製造資訊 | 廣域智慧製造 | 6.0 | phase 1 誤收 NCKU 主表；核實後主軸豬隻飼養 / ADAS / 物理治療 | — | **建議移出主表** | wide net 雜訊 |
+
+---
+
+## §1C Phase 4 變動結構說明
+
+### 與 Top 15 v3.4 的對應關係
+
+| Top 15 v3.4 變動 | Backup v1.4 對應動作 |
+|---|---|
+| 江蕙如、陳亮嘉、謝昱銘 進 Top 15 | 從 Phase 4 候選池移出（未列入本 Backup）|
+| 林嘉文、蔡銘峰、黃瀚萱 退 Top 15 | 進 Backup A 類（編號 A5/A6/A7）|
+| 鄭芳田 不擠 Top 15（已退休）| 進 Backup A+ 戰略顧問定位（與謝昱銘師徒包配套）|
+
+### 「可替代主名單誰」更新映射（含 Phase 4 補強）
+
+| 主名單 PI | 可遞補備選（依優先） | 題目 |
+|---|---|---|
+| 蔡佩璇（#15）| **張國浩（A+1）** → 簡禎富（A4）| Digital Twin / OR |
+| 江蕙如（#1 ⭐）| 李淑敏（A+4） → 李建模（A+5）| AI-EDA |
+| 陳亮嘉（#3 ⭐）| **無直接 1:1 替代**（製程量測軸獨特）| 製程量測 |
+| 謝昱銘（#9 ⭐）| 鄭芳田顧問（A+7）+ 銀慶剛（已在 Top 15） | IYM/AVM |
+| 王俊明（#1）| 郭鴻飛（A+3）光罩 AI 補位 | OPC / Mask |
+| 銀慶剛（#7）| 范書愷（A+2） + 楊素芬（B7） + 張國浩（A+1）| 工業統計 / VM |
+| 鄭桂忠（#12）| 楊佳玲（A3）| CIM |

@@ -1,23 +1,25 @@
-# 附錄
+# 附錄（v3.4）
 
 ---
 
-## 附錄 A：接觸策略詳表
+## 附錄 A：接觸策略詳表（v3.4 重排）
 
-### A.1 第一波（6 位，3-6 個月內啟動）
+### A.1 第一波（8 位，3-6 個月內啟動）
 
 | 教授 | 接觸 owner 建議 | 優先合作題目（1-2 個）| 預估預算 5 年（NTD）| 關鍵 KPI |
 |---|---|---|---|---|
 | 王俊明（NSYSU SAT）| R&D Director 接觸（SAT 中心現有合作深化）| (1) 2nm EUV OPC ML hotspot prediction；(2) Curvilinear mask + RET 協同最佳化 | 300-500 萬（個人級）→ 若 ISMID 院級擴大 800-1200 萬 | SPIE 一作 1-2 篇/年；TSMC 製程 data 上 hotspot prediction ≥ 95% |
+| **江蕙如 ⭐**（NTU EE）| EDA / DFM 部門 | (1) DFM SRAF + Mask Optimization 共研；(2) Timing Macro Modeling NCF 應用；(3) 中期 IRIS-TSMC AI-DFM Joint Lab | 500-800 萬 | DAC/ICCAD 一作共著 2-3 篇/年；SRAF/OPC ML benchmark 落地；NTU CAD/DFM 學生 2-3 名/年通道 |
 | 馬誠佑（NSYSU ADDA）| Device R&D 接觸 | (1) FeFET compact model SPICE 產業級釋出；(2) HfZrO cycling reliability 物理模型 | 300-500 萬 | IEEE TED / IEDM 共著 1-2 篇/年；SPICE model 交付 |
+| **陳亮嘉 ⭐**（NTU 機械）| Metrology R&D（量測技術主管）+ AOIEC 聯盟對接 | (1) 2nm GAA HAR scatterometry inversion AI；(2) CoWoS 翹曲 / TSV 對準 3D AOI；(3) AI metrology data inversion 演算法授權 | 600-1000 萬（聯盟級）| SPIE MIPC / Measurement Science 共著 3-4 篇/年；學生 TSMC 量測部門通道 |
 | 胡璧合（NTU）| Device R&D + 美光關係確認後接觸 | (1) BEOL HZO FeFET 可靠性 SPICE；(2) M3D CIM Macro 功耗-精度-面積協同；(3) 2D CFET × FeFET A7/A5 NV-SRAM | 500-800 萬 | VLSI 2026 / ISSCC 2027；PhD Scholarship 3 位續約 |
 | 陳冠能（NYCU ICST）| VP-level / Dean-to-Dean 接觸（ICST 院級合作需高層主導）| CoWoS-L 下一代層轉移 JDP；Hyper RDL 升級路徑 | 800-1200 萬（院級）| IEDM/VLSI 共著 4-6 篇/年；每年 6+ 位頂會一作學生通道至 TSMC |
 | 銀慶剛（NTHU 統計）| 數據科學 R&D + 法務（IP 共有 check）雙管 | (1) 2nm sensor feature selection 高維異方差迴歸；(2) TSKI sensor trace 異常監控；(3) 缺陷機台識別 2nm 升級（延續 2014 成果）| 300-500 萬 + fab sensor log 匿名化資料 | JCGS / Statistica Sinica / JASA 共著；fab 可落地 feature selection 工具 |
-| 江國寧（NTHU PME）| VP 封裝 R&D 接觸（先進封裝研究中心級合作）| (1) CoWoS/HBM 疲勞壽命 AI 預測（小樣本學習 + FEA metamodel）；(2) wafer-level packaging ML | 600-1000 萬（中心級）| 每年 FEA + ML 博士生 3-5 人直送 TSMC 良率；ASME/iMAPS/Materials 共著 3-4 篇/年 |
+| **謝昱銘 ⭐**（NCKU IMIS / 半導體封測學程）| FIT / VM R&D（搭配鄭芳田顧問費組成師徒包）| (1) 跨 fab/跨製程 VM 模型 TL 平台；(2) CP 多變量時序 AI 良率預警；(3) CNN-AVM Keep-Important-Samples 線上版 | 800-1500 萬（執行 PI）+ 鄭芳田 100-200 萬/年顧問費 | IEEE RA-L/TASE 共著 2-3 篇/年；5 年 5-8 名學生流向 TSMC fab AI |
 
-**第一波合計**：**2,700 - 4,200 萬 NTD / 5 年**（視 ICST 院級、先進封裝中心級是否正式成立）
+**第一波合計**：**4,400 - 7,300 萬 NTD / 5 年**（含江蕙如/陳亮嘉/謝昱銘三位 v3.4 新進）
 
-### A.2 第二波（7-8 位，6-12 個月補上）
+### A.2 第二波（5 位，6-12 個月補上）
 
 | 教授 | 接觸 owner 建議 | 優先合作題目（1-2 個）| 預估預算 5 年（NTD）| 關鍵 KPI |
 |---|---|---|---|---|
@@ -26,45 +28,56 @@
 | 宋振銘（NCHU 研發長）| 封裝 R&D + 校級研發長 | (1) Cu-Cu 線上感測器 TRL 6；(2) AI 預測平台（接合強度）整合 | 300-500 萬 | 感測器硬體 + AI 軟體交付；學生進 TSMC AP / 日月光暑期 |
 | 李家岩（NTU 資管）| Manufacturing Science 接觸 | (1) fab reticle DRL 排程；(2) chiller MARL 能源 | 400-600 萬 | MILP baseline 改善 ≥ 10%；IEEE TASE / TSM / IJPE 2 篇/年 |
 | 鄭桂忠（NTHU 電機）| IC R&D（確認 TSMC-JDP 現任題目不 conflict）| 22→7nm CIM macro tape-out；邊緣 AI 加速器 | 500-800 萬 | tape-out 晶片 + ISSCC/VLSI 2-3 篇/年 |
-| 蔡佩璇（NCKU IMIS）| FIT / IE R&D（等 Fulbright 結束 2025）| fab Edge DT 原型；SOP 視覺驗證系統 | 300-500 萬 | SOP 驗證準確率 ≥ 95%；IEEE IoT J 共著 |
-| 蔡銘峰（NCCU 資科）| IT / FIT（RAG PoC 主導部門）| 製程文件 LTR 檢索基準；Defect Ticket 檢索 | 300-500 萬 | TSMC Wiki/Confluence Top-5 Accuracy ≥ 85%；SIGIR/CIKM 共著 |
-| 黃瀚萱（AS 資訊所）| IT / FIT（與蔡銘峰對照組） | CAG vs 傳統 RAG 對照實驗（2-day workshop kickoff）| 300-500 萬 + 去敏感化資料集 | Accuracy/Latency/Cost 對照；WWW/AAAI 共著 |
 
-**第二波合計**：**2,800 - 4,500 萬 NTD / 5 年**
+**第二波合計**：**1,900 - 3,000 萬 NTD / 5 年**
 
-### A.3 第三波（1 位，12-18 個月補位）
+### A.3 第二/三波（1 位，待 Fulbright 2025 結束）
 
 | 教授 | 接觸 owner 建議 | 優先合作題目 | 預估預算 5 年（NTD）| 關鍵 KPI |
 |---|---|---|---|---|
-| 林嘉文（NTHU 電機）| EDA 部門 | 電腦視覺 EDA 工具（IC 製程模擬 + 光刻失真預測）| 300-500 萬（第一年 100 萬 PoC）| PoC vs 現有 OPC 工具 benchmark；IEEE TIP/CVPR 共著 |
+| 蔡佩璇（NCKU IMIS）| FIT / IE R&D（等 Fulbright 結束 2025）| fab Edge DT 原型；SOP 視覺驗證系統 | 300-500 萬 | SOP 驗證準確率 ≥ 95%；IEEE IoT J 共著 |
 
-**第三波合計**：**300 - 500 萬 NTD / 5 年**
+**第二/三波合計**：**300 - 500 萬 NTD / 5 年**
+
+### A.4 退場至 Backup A 類首選遞補（3 位 — 主管確認後可隨時遞補）
+
+| 教授 | 退場理由 | Backup 編號 | 遞補前提 |
+|---|---|---|---|
+| 林嘉文（NTHU 電機，原 #13）| 光刻 EDA 需 12 個月 PoC，被陳亮嘉量測「立即可用」優先度取代 | A4 | 若主管偏好 12 個月 PoC 路線，可遞補 |
+| 蔡銘峰（NCCU 資科，原 #14）| 工程師 RAG 軸退場（純方法論製程 domain 零先例）| A5 | 若 IT/FIT 部門啟動 RAG PoC 計畫 |
+| 黃瀚萱（AS 資訊所，原 #14）| CAG 範式提出者但同樣 domain 零；與蔡銘峰配套退場 | A6 | 同上 |
 
 ---
 
-## 附錄 B：5 年預算分配明細
+## 附錄 B：5 年預算分配明細（v3.4）
 
 ### B.1 總預算彙總
 
 | 階段 | PI 人數 | 預算區間（5 年）| 累積合計 |
 |---|---|---|---|
-| 第一波 | 6 位 | 2,700 - 4,200 萬 NTD | 2,700 - 4,200 萬 |
-| 第二波 | 7-8 位 | 2,800 - 4,500 萬 NTD | 5,500 - 8,700 萬 |
-| 第三波 | 1 位 | 300 - 500 萬 NTD | **5,800 - 9,200 萬 NTD / 5 年** |
+| 第一波 | 8 位 | 4,400 - 7,300 萬 NTD | 4,400 - 7,300 萬 |
+| 第二波 | 5 位 | 1,900 - 3,000 萬 NTD | 6,300 - 10,300 萬 |
+| 第二/三波 | 1 位（蔡佩璇）| 300 - 500 萬 NTD | **6,600 - 10,800 萬 NTD / 5 年** |
 
-**實務保守估計**：主要預算約 **4,000 - 7,000 萬 NTD / 5 年**（不含院級 / 中心級擴大 option）
+**實務保守估計**：主要預算約 **5,000 - 8,000 萬 NTD / 5 年**（不含院級 / 中心級擴大 option）
 
-### B.2 分類別預算分配（5 年保守估計）
+### B.2 分類別預算分配（5 年保守估計，v3.4）
 
 | 類別 | PI 人數 | 合計（5 年）| 備註 |
 |---|---|---|---|
-| 前段 Device / 製程（王俊明、馬誠佑、胡璧合）| 3 位 | 1,100 - 1,800 萬 | 胡璧合預算佔大頭（頂會密度高）|
-| 封裝 AI 中心合併預算（陳冠能、陳智、江國寧、宋振銘）| 4 位 | 2,100 - 3,100 萬 | 建議合併為單一中心運作 |
-| fab SPC/VM/OR 方法論（銀慶剛、李家岩、詹寶珠、蔡佩璇）| 4 位 | 1,300 - 2,100 萬 | 其中銀慶剛需 fab 資料提供 |
+| 前段 Device / 製程（王俊明、馬誠佑、胡璧合）| 3 位 | 1,100 - 1,800 萬 | 胡璧合預算佔大頭 |
+| **AI-EDA（江蕙如 ⭐）** | 1 位 | 500 - 800 萬 | v3.4 新軸；建議 IRIS-TSMC Joint Lab |
+| **製程量測（陳亮嘉 ⭐）** | 1 位 | 600 - 1,000 萬 | v3.4 新軸；NTU AOIEC 聯盟級 |
+| 封裝 AI 中心合併預算（陳冠能、陳智、江國寧、宋振銘）| 4 位 | 2,100 - 3,100 萬 | 建議合併為單一中心運作；陳亮嘉量測補位互補 |
+| **NCKU IYM 學派叢（謝昱銘 ⭐ + 鄭芳田顧問 + 銀慶剛跨校）**| 3 位 | 1,500 - 2,500 萬 | v3.4 學派合作；含鄭芳田顧問費 500-1000 萬 |
+| fab SPC/VM/OR 方法論（李家岩、詹寶珠、蔡佩璇）| 3 位 | 1,000 - 1,600 萬 | 銀慶剛已含於 IYM 叢 |
 | AI 晶片 / CIM（鄭桂忠）| 1 位 | 500 - 800 萬 | tape-out 成本較高 |
-| 工程師效率 RAG 對照實驗合併（蔡銘峰、黃瀚萱）| 2 位 | 800 - 1,300 萬 | 建議合併為單一 PoC 計畫 |
-| 光刻 EDA PoC（林嘉文）| 1 位 | 300 - 500 萬 | 先 PoC 成功再擴大 |
-| **總計** | **15 位** | **5,900 - 9,300 萬** | **保守估計 3,800 - 6,500 萬** |
+| **總計** | **15 位 + 1 顧問** | **7,300 - 11,600 萬** | **保守估計 5,000 - 8,000 萬** |
+
+**重大預算結構變化**：
+- v3.3 中的「工程師效率 RAG 對照實驗（蔡銘峰 + 黃瀚萱）800-1300 萬」**退至 Backup A 類**，省下 800-1300 萬可用於 v3.4 新增的 AI-EDA + 製程量測 + NCKU IYM 學派叢
+- 「光刻 EDA PoC（林嘉文）300-500 萬」退至 Backup A 類；陳亮嘉「製程量測 600-1000 萬」立即可用，TRL 更高
+- 鄭芳田作為「戰略顧問」非主名單，年費 100-200 萬，5 年共 500-1000 萬
 
 ### B.3 學生獎學金 / CapEx 不含項目
 
@@ -78,11 +91,13 @@
 
 ## 附錄 C：法務 Pre-flight Check List
 
-### C.1 銀慶剛（第一波）
+### C.1 銀慶剛 + 謝昱銘 + 鄭芳田顧問（NCKU IYM 學派叢，第一波）
 
-- [ ] **US12354122B2 與 NCKU 鄭芳田 IP 共有狀態**確認（此為關鍵 blocker）
+- [ ] **US12354122B2 與 NCKU 鄭芳田 IP 共有狀態**確認（此為關鍵 blocker）— 影響三人合作範圍
 - [ ] 若共有 → 合作範圍界定（避免 TSMC 新合作成果又自動授權給鄭芳田 / IYM 系統生態）
 - [ ] 鄭芳田與 TSMC 的 AVM 系統合作條款確認（雇主若非 TSMC 或為 TSMC 競爭方特別重要）
+- [ ] 鄭芳田顧問費角色之利益申報（72 歲已退休，名譽講座 + iMRC 執行長身份合理）
+- [ ] 謝昱銘論文體系與鄭芳田高度綁定（多數一作仍由鄭做通訊）— TSMC 需確認他能獨立帶大型計畫
 - [ ] 清華講座教授（校方冠名非企業）無 NDA 風險，但建議文件化
 
 ### C.2 鄭桂忠（第二波）
@@ -334,5 +349,100 @@
 
 ---
 
-**本報告完成時間**：2026-04-23  
-**下一步**：主管圈選第一波 6 位後啟動正式 outreach 流程；法務同步 C.1 / C.2 pre-flight check
+**本報告完成時間**：v3.0 → v3.4 共 5 輪迭代；v3.4 完成於 2026-04-24  
+**下一步**：主管圈選第一波 8 位後啟動正式 outreach 流程；法務同步 C.1 / C.2 pre-flight check（含新增的 NCKU IYM 學派叢三人組）
+
+---
+
+## 附錄 F：Phase 4 補強說明（v3.0 → v3.4）
+
+### F.1 補強動機
+
+主管於 v3.3 + v1.3 雙 PDF 定版後列出 18 位「為何沒入選」追問清單。經盤點：
+
+| 已在 Backup（含失效 / 降級理由） | Phase 1 已掃但 Phase 2 未深入 | Phase 1 完全沒掃到（盲點） |
+|---|---|---|
+| 陳正剛（B9 已轉生醫）<br>張耀文（E4 MediaTek 獨董） | 江蕙如、李建模、范書愷<br>李淑敏、陳朝鈞、蕭宏章 | **鄭芳田**、謝昱銘、丁顥<br>張國浩、許嘉裕、蔡坤諭<br>陳亮嘉、郭鴻飛、黃乾怡<br>曾釋鋒 |
+
+第三類為盲點，**鄭芳田尤其嚴重**（IYM/AVM 創始人、TSMC 終生合作對象，原報告僅當「銀慶剛橋接人物」順便提及）。本次 Phase 4 啟動補強，產出 14 份新 profile（10 完整 + 5 mini，其中 1 份 mini 與李建模合併於同 mini batch；實際為 10 + 5 = 15 但江蕙如已在 phase 1 列名計為複用）。
+
+### F.2 Phase 4 校準後評分總表
+
+| PI | Tier | 校準分 | 處置 | 主要扣分點 |
+|---|---|---|---|---|
+| **江蕙如** ⭐ | 1 | 9.0 | **進 Top 15** | 5 維度均強 |
+| **陳亮嘉** ⭐ | 1 | 8.9 | **進 Top 15** | agent 給 10 過高，校準 -1.1（維度 5 年齡未確認）|
+| **謝昱銘** ⭐ | A | 8.3 | **進 Top 15** | 維度 2 助理教授 Lab 規模未明 |
+| 張國浩 | A | 7.8 | **Backup A 首選** | Micron Chair 🟡 + Powerchip 排擠 |
+| 范書愷 | A | 7.5 | **Backup A** | 院長行政重 |
+| 郭鴻飛 | A- | 7.5 | **Backup A** | 副院長 + 所長雙行政；Mask AI 為補位 |
+| 李淑敏 | 2 | 8.0 | **Backup A** | Synopsys/Cadence 弱綁定 🟡 |
+| 李建模 | 2 | 7.5 | **Backup A** | 方向偏 IC Design；MediaTek Vmin 合作 |
+| 鄭芳田 | A | 6.5 | **Backup A 戰略顧問定位** | 已退休（72 歲），黃金期 0 |
+| 許嘉裕 | A- | 6.5 | **Backup A** | NTHU 轉任 Lab 重建空窗 1-2 年 |
+| 蕭宏章 | B | 7.0 | **Backup B** | FDC 單點極強，廣度窄 |
+| 黃乾怡 | B+ | 6.5 | **Backup B** | 主軸 PCB 後段，非 fab |
+| 蔡坤諭 | 2 | 6.0 | **Backup B** | 副教授 13 年未升等，學術活力下滑 |
+| 丁顥 | B | 6.0 | **Backup C** | 研究路線分散，主軸非半導體 |
+| 陳朝鈞 | 3 | 6.0 | **Backup C** | phase 1 誤收，主軸非半導體 |
+| 曾釋鋒 | B | 5.5 | **Backup B（設備合作獨立分類）** | AI 命中度低，雷射加工派 |
+
+### F.3 v3.3 → v3.4 變動（3 進 3 出，嚴格按分排序）
+
+- **進入 Top 15（3 位）**：江蕙如 9.0 / 陳亮嘉 8.9 / 謝昱銘 8.3
+- **退出 Top 15（3 位）**：林嘉文 7.5 / 蔡銘峰 7.0 / 黃瀚萱 7.0 → 移至 Backup A 類首選
+- **未動位置（12 位）**：王俊明、馬誠佑、胡璧合、陳冠能、銀慶剛、陳智、詹寶珠、江國寧、宋振銘、李家岩、鄭桂忠、蔡佩璇
+
+**邊際決策說明（為何張國浩 7.8 未進 Top 15 而蔡佩璇 7.7 留任）**：
+- 張國浩維度 4 有 🟡：Powerchip 連 2 年 CVD APC 案 + Micron Chair 傳聞待核實 → 短期實際可投入度可能不如蔡佩璇
+- 蔡佩璇 Fulbright 2025 結束回國，5 年期 fab DT PoC 可即時銜接
+- 張國浩列 Backup A 首選，待兩項釐清後可隨時遞補
+
+### F.4 Phase 4 系統性盲點根因分析
+
+對照原 phase2-final-summary 自承的「Phase 1 標籤偏見」，再追加 4 條：
+
+1. **過度集中 NTU/NTHU/NYCU 三校**：NTUT、NTUST、NSYSU、NCKU 製造資訊系等系所掃描深度不足
+2. **Training-data agent 偏愛「半導體 AI」明確關鍵字**：工業統計、機械量測、自動化所這些「跨領域到半導體」的 PI 容易漏
+3. **沒做 NCKU 製造資訊系系祖追溯**：漏掉鄭芳田這種最該被列入主名單的元老級 PI
+4. **NTHU IEEM 只看簡禎富/李家岩**：同系其他工業統計教授沒順藤摸瓜
+
+對應修正寫入 `templates/pi-due-diligence-framework.md` v1.1。
+
+---
+
+## 附錄 G：v3.4 新進 Top 15 三位 + Phase 4 補強 14 位 Reference URL
+
+### G.1 v3.4 新進 Top 15 三位
+
+#### #1 ⭐ 江蕙如 Iris Hui-Ru Jiang（NTU EE / GIEE 教授，IRIS Lab）
+- NTU EE 教師頁：<https://www.ee.ntu.edu.tw/profile1.php?id=1060726>
+- NTU GIEE EDA 組教師頁：<https://giee.ntu.edu.tw/eda_faculty.php>
+- NCTU 歷史學術紀錄：<https://ir.lib.nycu.edu.tw/scholar/info?type=professor&number=618&parent=U1130802&locale=en>
+
+#### #3 ⭐ 陳亮嘉 Liang-Chia Chen（NTU 機械 特聘 + AOIEC 聯盟主持）
+- NTU 機械系教師頁（待補；NTU AOIEC 聯盟主持人公開資訊）
+- 2022 NSTC 未來科技獎公告（待補）
+- SPIE Profile / Optical Metrology Symposium 個人頁（待補）
+- 詳細 profile：`reports/2026-04-tw-univ-semi-ai-professors/phase4-profile-chen-liang-chia.md`
+
+#### #9 ⭐ 謝昱銘 Yu-Ming Hsieh（NCKU 半導體封測學程 助理 + IMIS 合聘）
+- NCKU researchoutput Yu-Ming Hsieh：<https://researchoutput.ncku.edu.tw/zh/persons/yu-ming-hsieh/>
+- NCKU IMIS 師資頁（合聘確認）：<https://imis.ncku.edu.tw/p/412-1156-21888.php?Lang=zh-tw>
+- dblp Yu-Ming Hsieh：<https://dblp.org/pid/24/177.html>
+- IEEE TASE 2022 Golden Path Search KSA：<https://ieeexplore.ieee.org/document/9629308/>
+- IYM 章節（謝昱銘掛名一作）：<https://researchoutput.ncku.edu.tw/zh/publications/intelligent-yield-management-iym/>
+- 2022 RA-L CAE+TL：<https://researchoutput.ncku.edu.tw/zh/publications/convolutional-neural-networks-for-automatic-virtual-metrology>
+
+### G.2 Phase 4 補強候選（其餘 11 位 / 移至 Backup PDF）
+
+詳細 Reference URL 請參見 Backup PDF v1.4 附錄 G，或直接讀取以下 phase4 profile 檔：
+
+- **NCKU IYM 三人組**：`phase4-profile-cheng-fan-tien.md`（鄭芳田）/ `phase4-profile-tieng-hao.md`（丁顥）
+- **NTHU IEEM 兩位**：`phase4-profile-chang-kuo-hao.md`（張國浩）/ `phase4-profile-hsu-chia-yu.md`（許嘉裕）
+- **NTU 補位**：`phase4-profile-tsai-kun-yu.md`（蔡坤諭）
+- **技職院校**：`phase4-profile-fan-shu-kai.md`（范書愷）/ `phase4-profile-huang-chien-yi.md`（黃乾怡）/ `phase4-profile-tseng-shih-feng.md`（曾釋鋒）/ `phase4-profile-kuo-hung-fei.md`（郭鴻飛）
+- **類別 B 五位（mini）**：`phase4-mini-chiang-hui-ju.md`（江蕙如，已升 Top 15）/ `phase4-mini-lee-chien-mo.md`（李建模）/ `phase4-mini-li-shu-min.md`（李淑敏）/ `phase4-mini-chen-chao-chun.md`（陳朝鈞）/ `phase4-mini-hsiao-hong-chang.md`（蕭宏章）
+
+每份 phase4 profile 內含 ≥ 2-3 個 Reference URL（含訪問日期 2026-04-24）。
+

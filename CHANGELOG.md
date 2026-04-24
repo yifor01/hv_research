@@ -4,6 +4,33 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-24] (TSMC Top 15 v3.4 + Backup v1.4 — Phase 4 補強重排)
+
+### Added
+- `reports/2026-04-tw-univ-semi-ai-professors/` Phase 4 補強：14 位新 profile（10 完整 + 5 mini）+ 3 位 Top 15 退場移到 Backup
+  - **NCKU IYM 三人組**：phase4-profile-cheng-fan-tien.md（鄭芳田，戰略顧問）/ phase4-profile-hsieh-yu-ming.md（謝昱銘，⭐ 進 Top 15）/ phase4-profile-tieng-hao.md（丁顥，C 類）
+  - **NTHU IEEM 兩位**：張國浩（A 類首選遞補，7.8 分）/ 許嘉裕（A 類，6.5 分）
+  - **NTU 補位兩位**：蔡坤諭（C 類，EUV/DFM 而非 Test）/ 陳亮嘉（⭐ 進 Top 15，8.9 分）
+  - **技職院校四位**：范書愷（A+ 類，7.5）/ 郭鴻飛（A+ 類，7.5 / Mask AI 補位）/ 黃乾怡（B+，6.5）/ 曾釋鋒（B' 設備合作獨立，5.5）
+  - **類別 B 五位 mini**：江蕙如（⭐ 進 Top 15，9.0）、李建模、李淑敏、陳朝鈞、蕭宏章
+- `phase4-补强說明.md` — 補強動機 + 系統盲點根因 + 重排決策原則
+- `TSMC_Top15_長期投資分析_v3.4.pdf`（832 KB） — Top 15 主名單 v3.4 重排，3 進 3 出
+- `TSMC_Backup_備選候選名單_v1.4.pdf`（1017 KB） — Backup 擴至 55 位（v1.0 38 + Phase 4 14 + Top 15 退場 3）
+
+### Changed
+- Top 15 主名單 v3.3 → v3.4：嚴格按 5 維度評分，3 進 3 出
+  - **進入**：江蕙如 9.0（NTU EE，AI-EDA 補張耀文空缺）/ 陳亮嘉 8.9（NTU 機械，光學量測補空白）/ 謝昱銘 8.3（NCKU IMIS，IYM 接班人）
+  - **退出**：林嘉文 7.5（光刻 EDA 需 12 月 PoC）/ 蔡銘峰 7.0（RAG 軸退場）/ 黃瀚萱 7.0（CAG 同樣退場）
+  - **邊際決策**：張國浩 7.8 vs 蔡佩璇 7.7 邊際 0.1 差，因張國浩 Powerchip + Micron Chair 🟡 待釐清，最終留任蔡佩璇
+- 主管摘要：第一波從 6 位 → 8 位；NCKU IYM 學派叢一次串聯（謝昱銘執行 PI + 鄭芳田顧問 + 銀慶剛跨校）
+- 5 年預算：v3.3 約 5,800-9,200 萬 → v3.4 約 7,300-11,600 萬（保守估計 5,000-8,000 萬）
+- Backup 結構：v1.0 38 位 5 類 → v1.4 擴增 §1B Phase 4 補強 17 位 + §2B 個別內容 + §4 補強說明
+- vault `lessons.md` 新增 4 條：系祖追溯法、跨校合作叢識別、技職院校 quota、Phase 1 標籤偏見再 4 條
+
+### Fixed
+- 重大盲點：v1.0 完全沒掃到 NCKU 製造資訊系系祖鄭芳田（IYM/AVM 創始人 + TSMC 終生合作對象）；v1.4 補上戰略顧問定位 + 弟子謝昱銘進 Top 15
+- 主管原則嚴格遵守：「**不因主管點到名而上推 Top 15**」，依 5 維度校準後評分排序
+
 ## [2026-04-24]
 
 ### Added
