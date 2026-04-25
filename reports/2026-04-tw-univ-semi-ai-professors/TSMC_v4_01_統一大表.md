@@ -51,7 +51,7 @@
 | B44 | 楊素芬 | NCCU 統計 | AEWMA / CUSUM 非參數 / Bayesian EWMA | 2025 Sci Reports AEWMA Gamma；150+ 論文 | 經濟部標準局品管委員 | 純統計方法論 | SPC 方法論諮詢 | NCCU 統計 | 第三波 | 無 | SPC 方法論諮詢 | 6.2 分 |
 | B45 | 藍俊宏（Jakey Blue）| NTU 工工 副教授 | Physics-Informed APC / HMM 設備劣化 / XAI | 2010-11 TSMC Principal Engineer；2020 ESWA/TASE | 前 TSMC Principal Engineer；Mines-NTU 2022 | 原型級 APC | 設備健康監控 / R2R Control | NTU 工工 Lab 中型 | 第三波 | 無 | APC 短期 PoC 6 月 | 6.1 分 |
 | B46 | 蔡坤諭 | NTU EE/GIEE | EUV / DFM / e-beam direct-write | Stanford 航太博士 + Intel 193nm/EUV 經驗；TSMC-NTU Center 13 年 | TSMC-NTU Center 13 年 | 微影/DFM 補位 | EUV / DFM 補強 | NTU EE Lab | 第三波 | 無 | 微影/DFM 補位 | 6.1 分 |
-| B47 | 李宏毅 | NTU EE | 語音 / NLP / 自監督學習 | YouTube 教學頻道 100+ 萬訂閱 | Appier 共同創辦人 | 無半導體論文 | 無明確應用點 | NTU EE Lab | 不啟動 | Appier 共同創辦人 | 無明確接觸點 | 6.1 分；AI 通識教育家 |
+| B47 | 李宏毅 | NTU EE | 語音 / NLP / 自監督學習 / LALM | YouTube 教學頻道 100+ 萬訂閱；ICLR 2026 兩篇 | 無公開可見業界綁定 | 無半導體論文 | 無明確應用點 | NTU EE Lab | 不啟動 | 無 | 無明確接觸點 | 6.1 分；AI 通識教育家 |
 | B48 | 許嘉裕 | NTHU IEEM 副教授 | SPC / FDC / Yield | 智慧製造中生代；2020 國科會學術獎 | 無綁定；Lab 重建中 | Lab 重建 | SPC / FDC / Yield | NTHU IEEM 新 Lab | 觀察 | 無 | Lab 站穩後 6-12 月評估 | 5.9 分 |
 | B49 | 吳凱強 | NYCU 資工 正教授（已升等）| LLM 量化 / FPGA AI 加速 / DfT / Trojan / SSM 量化 | ICLR 2025 Palu / Quamba；**ICML 2025 Quamba2**；ICCAD 2025 Contest 命題人 | Neuchips 顧問（排他性待核實）| 原型級 EDA+LLM | AI 晶片硬體安全驗證 Trojan/DfT | NYCU 資工 Lab | 第二波 | Neuchips 顧問（排他性待核實）| ICCAD Contest 題目共同設計 | 6.0 分（升等 +0.3）|
 | B50 | 丁顥 | 成大 應數 | Wave-shape function / 數位孿生節能 | 鄭芳田 2015 PhD 弟子；數位孿生 + Fab 能耗 | iMRC 體系 | 方法論遷移 | fab 能耗 / ESG | 應數 Lab | 第三波 | 無 | TSMC ESG 部門（非 AI 部門）| 5.7 分；澄清 ≠ Hau-Tieng Wu (Duke) |
