@@ -1,6 +1,6 @@
-# §1 統一大表（67 位）
+# §2 統一大表（66 位）
 
-> **欄位說明**：依總分降序排列。`#` 欄以 S/A/B/C 前綴標示優先級。**競爭大廠綁定**欄整合所有與 TSMC 合作可能有影響的外部身份（競業獨董 / Chair / 顧問 / Director / JDP / 技轉 / 商秘），標記「無」代表完全自由 PI。
+> **欄位說明**：依總分降序排列，編號採 S / A / B / C 前綴標示優先級。**競爭大廠綁定**欄整合所有與 TSMC 合作可能有影響的外部身份（競業獨董 / Chair / 顧問 / Director / JDP / 技轉 / 商秘），標記「無」代表完全自由 PI。
 > **長期投資**欄：第一波（3-6 月啟動）/ 第二波（6-12 月）/ 第三波（12-18 月）/ 觀察（條件釐清後）/ 不啟動。
 
 | # | 教授 | 校系 | 專長領域 | 代表實績（近 3 年） | 合作企業紀錄 | 落地程度 | 製程/封裝應用點 | 學生素養 | 長期投資 | 競爭大廠綁定 | 建議合作方式 | 補充備註 |
@@ -25,61 +25,90 @@
 | A18 | 林嘉文 | NTHU EE 特聘 + AI 中心副主任（PhD: NTHU 電機 2000）| Vision Transformer / 光刻 EDA / Mamba | IEEE Fellow 2018（multimedia coding & editing）；h-70；17,453 引用 | 清大 AI 中心副主任（無外綁）| 光刻 EDA 原型級 | 光刻 hotspot 預測 / OPC 替代 | AI 中心資源 | 觀察 | 無 | 光刻 EDA（12 月 PoC）| 7.5 分 |
 | A19 | 范書愷 | NTUT 工管 特聘 + 管院 Dean（PhD: UT Arlington IE 1996）| SPC × ML / Virtual Metrology / 工業統計 | CIE 2022 VM 論文已落地半導體大廠；Engineering Optimization 首位亞洲主編 | 多家半導體大廠落地合作（未具名）| 工業統計方法論 + ML 落地 | VM / SPC / 工業統計 | NTUT 工管院長級資源 | 第二波 | 無 | NTUT 工管院級合作 | 7.5 分 |
 | A20 | 郭鴻飛 | NTUST 自動化所 教授（PhD: Georgia Tech ECE 2004）| Mask Optimization / EUV / 光罩演算 / 對準誤差量測 | EUV lithography / 光學系統整合；學生流向 TSMC/南亞科/應材公開背書 | 無具體業界合作紀錄 | Mask AI 補位 | OPC 補強 / 對準量測 | NTUST 學生流向清晰 | 第二波 | 無 | Mask Optimization 共研 + 招募管道 | 7.5 分 |
-| A21 | 李建模 | NTU EE/GIEE 副教授（PhD: Stanford ECE 2002）| 2nm/先進封裝 DFT / Test / Diagnosis / Yield | VTS 2025 ML-based Adaptive Wafer Sort + Multi-core Vmin Prediction；ASP-DAC 2025 3D-IC 熱預測；ITC 2024 量子 FD | MediaTek Vmin 合作（研究主題連結，非正式聲明）| IC Design 端 | Test 領域 NTU 旗手 | LaDS 聯合 Lab（黃俊良/黃鐘揚共設）| 第二波 | MediaTek Vmin（非獨家）| 產學共同主持 / 委託研究 | 7.5 分 |
-| A22 | 王蒞君 | NYCU 電機 終身講座 + 電機資訊學院院長（2023/02-；PhD: Georgia Tech EE 1996）| **AI for 6G 無線 / UAV-RIS / ISAC**（**非半導體製造**；前次 AOI 描述為誤植）| h-54 / 引用 10,729；IEEE Fellow 2011；2023 有庠科技獎；2025 潘文淵傑出研究獎；NSTC 傑出研究獎 ×2（2012/2017）；163 期刊 + 200+ 會議 + 26 美國專利 | 無綁定；前 AT&T Labs Research 1996-2000 | 通訊系統層 | **與 fab/封裝無直接連結**；可橋：TSMC 廠區 5G 私網 / ISAC 智慧工廠 | Intelligent Communication and Computing Lab（11 博 + 22-25 碩 + 1 博後）| 觀察 | 無 | **精省/低度合作**：5G 私網 + ISAC 顧問；院長身分帶來 NYCU 制度合作價值 > 直接技術合作 | 6.5 分（修正研究領域 -0.8）|
-| A23 | 張耀文 | NTU EE 特聘（PhD: UT Austin CS 1996；2024 EECS 院長卸任）| EDA / Placement / Routing 世界級 | h-58 / 引用 12,544；IEEE Fellow 2013；ACM Fellow 2020；2024 ICCAD CAD Contest 冠軍；2023 ICCAD 3D Placement 冠軍；DAC 全球累積 95 篇第一 | NTU EDA 中心前主任；NTUplace4 已被 Synopsys 收購（MaxPlace）| EDA 世界級 | Placement & Routing / DFM | NTU 大型 Lab | 觀察 | MediaTek 獨立董事（2024/05-，任期至 2027）| 任期內暫不適用；卸任後立即第一波 | 7.3 分；江蕙如已接棒軌道 |
-| A24 | 李淑敏 | NSYSU 資工 教授（2015 升等）+ IICD 兼聘（PhD: NCTU 電子）| AI-EDA / HDL Automation / Microfluidic Biochips | IEEE Senior Member 2014；2016 IEEE Education Society VanValkenburg Award；TCAD 2024 RL DDQN 紙基微流體；TSM 2022 晶圓缺陷 ML × 2 | Synopsys/Cadence 弱綁定（工具合作）| 南台灣 EDA 對口 | AI-EDA / 高雄 2nm 卡位 | EDA&T Lab | 第二波 | Synopsys/Cadence 工具合作（非人事）| 南台灣 EDA 合作 | 7.3 分 |
-| A25 | 鄭芳田 | NCKU IMIS 名譽教授 + iMRC 執行長（PhD: Ohio State EE 1989）| AVM / IYM 系統發明人 | h-41 / 引用 6,074；IEEE Life Fellow（2008→2021）；US12354122B2；63 件技轉 / NT$2.7 億授權金；2024 國家發明創作獎銀牌；《Industry 4.1》專書 | TSMC 終生合作夥伴（1998-）| 技轉量產級 | AVM / IYM 系統架構諮詢 | iMRC 執行長；顧問職 | 觀察 | 2024/01/31 退休；iMRC 名譽教授 | 戰略顧問：年費 100-200 萬 × 5 年（搭配謝昱銘執行 PI）| 7.3 分；退休戰略顧問定位 |
+| A21 | 高宏宇 | NTHU ISA 正教授（2024/8 從 NCKU 轉校；PhD: NTU EE 2003）| Retrieval Domain Adaptation / RAG | h-31 / 引用 5,106；ACL 2025 main；EMNLP 2023 Findings；TAICA 跨校 NLP 課程 400 人 | 無綁定；NTHU 資工 1994 首屆畢業 | 跨 domain 遷移方法論 | 工程師 RAG / 製程文件檢索 | IKMLab @ NTHU ISA | 第二波 | 無 | 2026 上線後即可啟動 | 7.3 分（重新核實後從 B 級調升）|
+| A22 | 張耀文 | NTU EE 特聘（PhD: UT Austin CS 1996；2024 EECS 院長卸任）| EDA / Placement / Routing 世界級 | h-58 / 引用 12,544；IEEE Fellow 2013；ACM Fellow 2020；2024 ICCAD CAD Contest 冠軍；2023 ICCAD 3D Placement 冠軍；DAC 全球累積 95 篇第一 | NTU EDA 中心前主任；NTUplace4 已被 Synopsys 收購（MaxPlace）| EDA 世界級 | Placement & Routing / DFM | NTU 大型 Lab | 觀察 | MediaTek 獨立董事（2024/05-，任期至 2027）| 任期內暫不適用；卸任後立即第一波 | 7.3 分；江蕙如已接棒軌道 |
+| A23 | 李淑敏 | NSYSU 資工 教授（2015 升等）+ IICD 兼聘（PhD: NCTU 電子）| AI-EDA / HDL Automation / Microfluidic Biochips | IEEE Senior Member 2014；2016 IEEE Education Society VanValkenburg Award；TCAD 2024 RL DDQN 紙基微流體；TSM 2022 晶圓缺陷 ML × 2 | Synopsys/Cadence 弱綁定（工具合作）| 南台灣 EDA 對口 | AI-EDA / 高雄 2nm 卡位 | EDA&T Lab | 第二波 | Synopsys/Cadence 工具合作（非人事）| 南台灣 EDA 合作 | 7.3 分 |
+| A24 | 鄭芳田 | NCKU IMIS 名譽教授 + iMRC 執行長（PhD: Ohio State EE 1989）| AVM / IYM 系統發明人 | h-41 / 引用 6,074；IEEE Life Fellow（2008→2021）；US12354122B2；63 件技轉 / NT$2.7 億授權金；2024 國家發明創作獎銀牌；《Industry 4.1》專書 | TSMC 終生合作夥伴（1998-）| 技轉量產級 | AVM / IYM 系統架構諮詢 | iMRC 執行長；顧問職 | 觀察 | 2024/01/31 退休；iMRC 名譽教授 | 戰略顧問：年費 100-200 萬 × 5 年（搭配謝昱銘執行 PI）| 7.3 分；退休戰略顧問定位 |
+| A25 | 李建模 | NTU EE/GIEE 副教授（PhD: Stanford ECE 2002）| 2nm/先進封裝 DFT / Test / Diagnosis / Yield | VTS 2025 ML-based Adaptive Wafer Sort + Multi-core Vmin Prediction；ASP-DAC 2025 3D-IC 熱預測；ITC 2024 量子 FD | MediaTek Vmin 合作（研究主題連結，非正式聲明）| IC Design 端 | Test 領域 NTU 旗手 | LaDS 聯合 Lab（黃俊良/黃鐘揚共設）| 第二波 | MediaTek Vmin（非獨家）| 產學共同主持 / 委託研究 | 7.2 分（職級從教授修正為副教授後 -0.3）|
 | A26 | 張孟凡 | NTHU EE 特聘 + TSMC Director of Corporate Research（PhD: NCTU 電機）| CIM / ReRAM / STT-MRAM / Neuromorphic | h-79 / 引用 21,849；**IEEE Fellow Class of 2026**；ISSCC 2025 三篇（14.1 STT-MRAM CIM / 14.2 Gain-Cell CIM / 2.9 STEP）；2025 Chenming Hu Award | 歷年 TSMC 合作；2025 升 Senior Fellow（傳） | 內部戰略資產 | CIM / ReRAM / Neuromorphic | Memory Design Lab；TSMC 內部資源 | 不啟動 | TSMC Director / Senior Fellow（2025-）| 內部資源協調，不對外合作 | 7.2 分；TSMC Senior Fellow |
 | A27 | 水野潤 | NCKU 智慧與永續製造學位學程（PSSM）正職教授（PhD: Tohoku Univ 工博）| 異質整合 / 3D TSV 封裝 / Hybrid Bonding / Microfluidic Cooling | h-27 / 引用 2,671；296 件研究產出；2025 Cu/Polyimide Hybrid Bonding；2025 Microfluidic Cooling for ASIC；ICEP 2024 | NCKU × NARLabs TSRI 合作（2025；Tokyo Tech 正式連結待確認）；Waseda 上級研究員（雙重身份）| 量產驗證級 | 3D TSV 封裝 / Hybrid Bonding | Mizuno Lab @ NCKU 9 人 + Waseda 體系 | 第二波 | NCKU 正職教授（前誤記為客座）| NCKU 一般產學合約；可洽三方合作框架 | 7.2 分；NCKU 正職 |
-| A28 | 陳柏宏 | NYCU 電子所所長（PhD: 東京大學 EE 2012）| PMIC / 無線電力傳輸 / **AI Server PSU** | h-22 / 引用 1,864；IEEE Senior Member；JSSC 2024 Quad-Mode 整流；TCAS-I 2025 Buck-Boost；**IPEMC-ECCE Asia 2025 Best Paper**；VLSIC TPC since 2020 | 無綁定 | 原型級 IC 設計 | AI Server PSU / N3/N2 I/O PD 優化 | Green Power Electronics Lab 約 16 人 | 第二波 | 無 | 單點技術合作；可順應所長行政檔期 | 6.9 分；AI Server 電源新方向 |
-| A29 | 吳添立 | NYCU EE 正教授（2026/02 升等；PhD: KU Leuven EE 2016）| GaN/SiC/Ga₂O₃ 功率半導體可靠度 / 功率 IC 設計 | h-28 / 引用 3,077；**2023 NSTC 吳大猷紀念獎** + CIEE 傑出青年；2025 IEEE Senior Member；imec Leuven 6 年（2011-2017）；NYCU-Keysight WISER 創辦人 | MediaTek Junior Chair（2017-，獨家 7 年）；ITRI Distinguished Research Fellow；TSRI Joint Researcher | 原型級可靠性 | GaN/SiC 功率可靠度（非 MediaTek 產品線）| WLab 200+ 論文 | 觀察 | MediaTek Junior Chair 7 年（獨家）| 需資訊牆協議；限制合作範疇 | 7.2 分（升等 +0.3）|
-| A30 | 郭浩中 | NYCU 光電 Distinguished Professor（特聘 since 2013）+ 鴻海 HHRI 半導體中心主任（PhD: UIUC ECE 1999）| Micro-LED / 化合物半導體 / Ga₂O₃ MOSFET / ALD / QRNG | h-85 / 引用 34,160；五料 Fellow（IEEE 2015 / Optica 2011 / SPIE 2012 / IET 2012 / IAAM 2021）；NSTC 傑出獎 2020；Research.com TW EE Leader 2022-2025 | HHRI 半導體中心主任；Picosun 2022 結束（被 Applied Materials 收購）| 晶片設計量產級 | Micro-LED / Ga₂O₃ 晶片設計 | AESNL Lab + HHRI | 法務先檢 | HHRI 競業 + Picosun→應材 範疇 | 法務先檢 HHRI 競業；範疇限制 | 7.2 分（HHRI 待法務）|
-| B31 | 高宏宇 | NTHU ISA **正教授**（2024/8 從 NCKU 轉校；PhD: NTU EE 2003）| Retrieval Domain Adaptation / RAG | h-31 / 引用 5,106；ACL 2025 main；EMNLP 2023 Findings；TAICA 跨校 NLP 課程 400 人 | 無綁定；NTHU 資工 1994 首屆畢業 | 跨 domain 遷移方法論 | 工程師 RAG / 製程文件檢索 | IKMLab @ NTHU ISA | 第二波 | 無 | 2026 上線後即可啟動 | 7.3 分（職級從助理修正為正教授 +0.2）|
-| B32 | 蔡銘峰 | NCCU 資科 正教授（2025/08 升等）+ AS CITI 合聘（PhD: NTU CSIE 2009，Hsin-Hsi Chen）| Learning-to-Rank / RAG | h-23 / 引用 5,393；最高引論文 ICML 2007 Listwise（3,005 引）；SIGIR 2025；TREC iKAT 2025；WSDM Cup 2016 冠軍 | AS CITI 兼任副研究員 since 2020/06；MSRA 2006 Best Intern；KKBOX、金融機構合作 | 方法論原型 | 工程師 RAG PoC | CLIP Lab | 第三波 | 無 | IT/FIT RAG PoC | 7.0 分 |
-| B33 | 黃瀚萱 | Academia Sinica 資訊所 副研究員（2024 升等；PhD: NTU CSIE ~2013-2014）| CAG / RAG / LLM Eval | h-25 / 引用 2,209；WWW 2025 "Don't Do RAG: CAG"（82 引）；SIGIR 2023 General Co-Chair；ROCLING 2024 General Co-Chair | 無綁定 | 方法論原型 | 工程師 RAG 配套 | AS IIS 副研究員 | 第三波 | 無 | 與蔡銘峰配套 | 6.9 分 |
-| B34 | 游濟華 | NCKU 工科系 **副教授**（PhD: NTU 土木 2013；MIT postdoc）| AI 多尺度模擬 / 新材料預測 | h-22 / 引用 2,339 / 62 件研究產出；2025 Materials and Design 編織複合 RL；2025 microfluidic thermal | 無綁定 | 方法論軸向前瞻 | SiO2/HfO2 工藝參數優化 | LAiMM Lab | 第二波 | 半導體學院合聘待核實 | 材料資訊學 PoC | 6.9 分 |
-| B35 | 羅裕龍 | NCKU 機械 **講座教授（Chair Professor）兼工學院副院長 + 儀器中心主任**（PhD: U Maryland ME 1995）| 高深寬比結構關鍵尺寸預測 / 光學量測 | h-46 / 引用 6,918；SEM Fellow / CSME Fellow；2026 EV motor 藍光雷射焊接；transfer learning grating；SiC 雷射切割模擬 | 無綁定；亞洲實驗力學會主席 | 理論相符；無 PoC | GAA 奈米片光學量測 | MOEMS Lab + 儀器中心 | 第二波 | 無 | 高深寬比量測 PoC | 6.9 分（行政升級 +0.1）|
-| B36 | 陳以錚 | NCU 資管 教授 + 系主任（PhD: NCTU 資工 2012）| 智慧製造 / I4.0 / 缺陷預測 | h-22 / 引用 1,728；IEEE TETC 2025 虛擬 RL 缺陷預測；TKDE 2026；TCSS 2024 transformer recommendation | 無綁定 | 方法論應用級 | fab 製程缺陷預測 | ADML Lab | 第二波 | 無 | fab 缺陷預測 PoC（3 月）| 6.6 分 |
-| B37 | 蕭宏章 | NCKU 資工 教授（2012 升正；PhD: NTHU 資工 2000）| 分散式系統 / 聯邦學習 / 大數據平台 | h-17 / 引用 1,270；2022 IEEE TASE 數位孿生容器雲（76 引）；2018 IEEE ICTC 與聯電合作半導體大數據平台；2026 IEEE TSC | 日月光 / 華邦 / **聯電**（2018 合作論文）/ 工研院 / 資策會 | 大數據平台應用級 | 機台數據分散式儲存 / 聯邦學習 | 分散式系統研究實驗室 | 第三波 | 無 | 大數據平台 PoC | 6.6 分 |
+| A28 | 吳添立 | NYCU EE 正教授（2026/02 升等；PhD: KU Leuven EE 2016）| GaN/SiC/Ga₂O₃ 功率半導體可靠度 / 功率 IC 設計 | h-28 / 引用 3,077；**2023 NSTC 吳大猷紀念獎** + CIEE 傑出青年；2025 IEEE Senior Member；imec Leuven 6 年（2011-2017）；NYCU-Keysight WISER 創辦人 | MediaTek Junior Chair（2017-，獨家 7 年）；ITRI Distinguished Research Fellow；TSRI Joint Researcher | 原型級可靠性 | GaN/SiC 功率可靠度（非 MediaTek 產品線）| WLab 200+ 論文 | 觀察 | MediaTek Junior Chair 7 年（獨家）| 需資訊牆協議；限制合作範疇 | 7.2 分（升等 +0.3）|
+| A29 | 郭浩中 | NYCU 光電 Distinguished Professor（特聘 since 2013）+ 鴻海 HHRI 半導體中心主任（PhD: UIUC ECE 1999）| Micro-LED / 化合物半導體 / Ga₂O₃ MOSFET / ALD / QRNG | h-85 / 引用 34,160；五料 Fellow（IEEE 2015 / Optica 2011 / SPIE 2012 / IET 2012 / IAAM 2021）；NSTC 傑出獎 2020；Research.com TW EE Leader 2022-2025 | HHRI 半導體中心主任；Picosun 2022 結束（被 Applied Materials 收購）| 晶片設計量產級 | Micro-LED / Ga₂O₃ 晶片設計 | AESNL Lab + HHRI | 法務先檢 | HHRI 競業 + Picosun→應材 範疇 | 法務先檢 HHRI 競業；範疇限制 | 7.2 分（HHRI 待法務）|
+| A30 | 陳柏宏 | NYCU 電子所所長（PhD: 東京大學 EE 2012）| PMIC / 無線電力傳輸 / **AI Server PSU** | h-22 / 引用 1,864；IEEE Senior Member；JSSC 2024 Quad-Mode 整流；TCAS-I 2025 Buck-Boost；**IPEMC-ECCE Asia 2025 Best Paper**；VLSIC TPC since 2020 | 無綁定 | 原型級 IC 設計 | AI Server PSU / N3/N2 I/O PD 優化 | Green Power Electronics Lab 約 16 人 | 第二波 | 無 | 單點技術合作；可順應所長行政檔期 | 6.9 分；AI Server 電源新方向 |
+| B31 | 蔡銘峰 | NCCU 資科 正教授（2025/08 升等）+ AS CITI 合聘（PhD: NTU CSIE 2009，Hsin-Hsi Chen）| Learning-to-Rank / RAG | h-23 / 引用 5,393；最高引論文 ICML 2007 Listwise（3,005 引）；SIGIR 2025；TREC iKAT 2025；WSDM Cup 2016 冠軍 | AS CITI 兼任副研究員 since 2020/06；MSRA 2006 Best Intern；KKBOX、金融機構合作 | 方法論原型 | 工程師 RAG PoC | CLIP Lab | 第三波 | 無 | IT/FIT RAG PoC | 7.0 分 |
+| B32 | 黃瀚萱 | Academia Sinica 資訊所 副研究員（2024 升等；PhD: NTU CSIE ~2013-2014）| CAG / RAG / LLM Eval | h-25 / 引用 2,209；WWW 2025 "Don't Do RAG: CAG"（82 引）；SIGIR 2023 General Co-Chair；ROCLING 2024 General Co-Chair | 無綁定 | 方法論原型 | 工程師 RAG 配套 | AS IIS 副研究員 | 第三波 | 無 | 與蔡銘峰配套 | 6.9 分 |
+| B33 | 游濟華 | NCKU 工科系 副教授（PhD: NTU 土木 2013；MIT postdoc）| AI 多尺度模擬 / 新材料預測 | h-22 / 引用 2,339 / 62 件研究產出；2025 Materials and Design 編織複合 RL；2025 microfluidic thermal | 無綁定 | 方法論軸向前瞻 | SiO2/HfO2 工藝參數優化 | LAiMM Lab | 第二波 | 半導體學院合聘待核實 | 材料資訊學 PoC | 6.9 分 |
+| B34 | 羅裕龍 | NCKU 機械 講座教授（Chair Professor）兼工學院副院長 + 儀器中心主任（PhD: U Maryland ME 1995）| 高深寬比結構關鍵尺寸預測 / 光學量測 | h-46 / 引用 6,918；SEM Fellow / CSME Fellow；2026 EV motor 藍光雷射焊接；transfer learning grating；SiC 雷射切割模擬 | 無綁定；亞洲實驗力學會主席 | 理論相符；無 PoC | GAA 奈米片光學量測 | MOEMS Lab + 儀器中心 | 第二波 | 無 | 高深寬比量測 PoC | 6.9 分（行政升級 +0.1）|
+| B35 | 陳以錚 | NCU 資管 教授 + 系主任（PhD: NCTU 資工 2012）| 智慧製造 / I4.0 / 缺陷預測 | h-22 / 引用 1,728；IEEE TETC 2025 虛擬 RL 缺陷預測；TKDE 2026；TCSS 2024 transformer recommendation | 無綁定 | 方法論應用級 | fab 製程缺陷預測 | ADML Lab | 第二波 | 無 | fab 缺陷預測 PoC（3 月）| 6.6 分 |
+| B36 | 蕭宏章 | NCKU 資工 教授（2012 升正；PhD: NTHU 資工 2000）| 分散式系統 / 聯邦學習 / 大數據平台 | h-17 / 引用 1,270；2022 IEEE TASE 數位孿生容器雲（76 引）；2018 IEEE ICTC 與聯電合作半導體大數據平台；2026 IEEE TSC | 日月光 / 華邦 / **聯電**（2018 合作論文）/ 工研院 / 資策會 | 大數據平台應用級 | 機台數據分散式儲存 / 聯邦學習 | 分散式系統研究實驗室 | 第三波 | 無 | 大數據平台 PoC | 6.6 分 |
+| B37 | 許嘉裕 | NTHU IEEM 教授（歷程：NTUT → NTUST → NTHU；PhD: NTHU IEEM）| SPC / FDC / Yield / 半導體良率 | h-24 / 引用 2,549 / i10-42；2020 吳大猷紀念獎；NVIDIA 訪問研究員；中工會陳樹勛紀念講座 | 無綁定 | 方法論應用級 | SPC / FDC / Yield | NTHU IEEM Lab | 第二波 | 無 | SPC/FDC PoC | 6.5 分（職級從副升至教授 +0.6）|
 | B38 | 彭文志 | NYCU 資工 正教授 → TSMC 借調處長（內部已確認；PhD: NTU EE 2001）| Agentic Decomposed IR / SIGIR | h-47 / 引用 8,214；SIGIR 2025 Agentic IR；LLM4TS 時序預測（490 引）；前 NYCU 資訊學院院長 2019-2022；前 E.SUN-NCTU 金融 AI 中心主任 2021-2024 | 2025 借調 TSMC（內部）；前工研院借調 2023/8-2024/1 | 內部員工 | Agentic IR 應用 | 前瞻資料庫系統實驗室 | 不啟動 | TSMC 借調處長 2025- | 內部資源協調；返校可重評 | 6.4 分；已內部化 |
 | B39 | 連震杰 | NCKU 電資學院副院長 + 多媒體博士學程主任（PhD: U Pittsburgh EE 1998）| CNN/YOLO 缺陷分類 / 3D 結構光 / 人臉辨識 | h-20 / 引用 3,051；Sensors 2023 缺陷檢測 YoloV4；Measurement 2025；2000/2002 FERET 人臉辨識競賽冠軍；前 Identix DARPA 監控 | Intel/Qisda 2022（待核實具體文件）| 原型級 AOI | 3D 結構光 AOI | 機器人實驗室；南科 20 分鐘 | 第三波 | 無 | 3D 結構光 PoC 6-12 月 | 6.4 分 |
 | B40 | 劉禹辰 | NCKU 機械系 助理教授（PhD: NCKU 材料 2019）| ML 材料熱力學 / 電遷移 / 焊接可靠性 | h-16 / 引用 690；Materials Characterization 2025/10 EM 臨界格變；2026 不鏽鋼熱穩定；2023 npj Computational Materials 輻照脆化 ML | 無綁定 | 新銳 Lab 原型 | 3D IC EM / 封裝散熱 | LIU LAB **20 人**（博 3 + 碩 12 + 大學 5）| 第二波 | 半導體學院合聘待核實 | 封裝 EM 可靠性 PoC | 6.4 分 |
 | B41 | 林勇志 | NSYSU SAT 副教授級專業技術人員（2024/8 起；雙所合聘：先進封測 + 創新製造；PhD: NCKU 機械）| 3D 晶圓接合 / 異質整合封裝 | TSMC 2010-2023（特殊模組處經理/技術副理）；2021 TSMC 第 9 屆金牌保密獎銀獎；專長：Hybrid Bond / CoWoS / InFO / SoIC | 前 TSMC 13 年（商秘綁定）| 量產驗證 | 3D 晶圓接合 | NSYSU SAT LA7004 | 觀察 | 前 TSMC 13 年 + 商秘綁定 | 法務先檢 IP 邊界 | 6.3 分 |
-| B42 | 林錦德 | NCU 機械 助理教授（PhD: NTU 機械 ~2012；前工研院智慧機械中心副主任 2017-2019）| AI 決策 / 可見光定位 VLP / AMR | h-6 / 引用 187；2025 IEEE Sensors Journal VLP+KAN；2025 Sci Reports 區塊鏈 Shop Floor；2024 IEEE Access；2016 RD100 Award | 透明牙套業 / 迅得機械 / 宏致電子；前工研院 | 原型級 PoC | AMHS 室內定位 / AMR | E2-218 IoT 製造 Lab | 第三波 | 無 | AMHS 定位試點 12 月 | 6.15 分 |
-| B43 | 黃乾怡 | NTUT 工管 系主任 + 教授（PhD: SUNY Binghamton IE 1996）| PCB Gold Finger AOI / 陶瓷基板 AOI / 智慧製造 | h-21 / 引用 1,503 / i10-41；2022 陶瓷基板 DL 缺陷檢測（33 引）；2022 5G 數位孿生（30 引）；2024 Smart TOPSIS NN 供應商（117 引）| 無綁定 | 後段供應鏈應用 | PCB Gold Finger / 陶瓷基板 | Advanced Process Technology and Quality Lab | 第三波 | 無 | CoWoS/SoIC 供應鏈端 | 6.2 分 |
-| B44 | 楊素芬 | NCCU 統計 **特聘教授**（PhD: UC Riverside 統計）| AEWMA / CUSUM 非參數 / Bayesian EWMA | h-22 / 引用 2,015；2025 Sci Reports AEWMA Gamma；2024 QREI Birnbaum-Saunders 控制圖；2023 CIE 多變量 EWMA | 經濟部標準局品管委員；中華品質學會委員 | 純統計方法論 | SPC 方法論諮詢 | NCCU 統計 | 第三波 | 無 | SPC 方法論諮詢 | 6.2 分 |
-| B45 | 藍俊宏（Jakey Blue）| NTU 工工 副教授（2022/8 升等；PhD: **NTU 機械 2010**）| Physics-Informed APC / HMM 設備劣化 / XAI | h-13 / 引用 632；2010-11 TSMC Principal Engineer；2011-2018 法國 Mines Saint-Étienne（Postdoc → 助理教授；非學位授予校）；LAKE Lab | 前 TSMC Principal Engineer；Mines-NTU 2022 | 原型級 APC | 設備健康監控 / R2R Control | LAKE Lab | 第三波 | 無 | APC 短期 PoC 6 月 | 6.1 分 |
+| B42 | 黃乾怡 | NTUT 工管 系主任 + 教授（PhD: SUNY Binghamton IE 1996）| PCB Gold Finger AOI / 陶瓷基板 AOI / 智慧製造 | h-21 / 引用 1,503 / i10-41；2022 陶瓷基板 DL 缺陷檢測（33 引）；2022 5G 數位孿生（30 引）；2024 Smart TOPSIS NN 供應商（117 引）| 無綁定 | 後段供應鏈應用 | PCB Gold Finger / 陶瓷基板 | Advanced Process Technology and Quality Lab | 第三波 | 無 | CoWoS/SoIC 供應鏈端 | 6.2 分 |
+| B43 | 楊素芬 | NCCU 統計 特聘教授（PhD: UC Riverside 統計）| AEWMA / CUSUM 非參數 / Bayesian EWMA | h-22 / 引用 2,015；2025 Sci Reports AEWMA Gamma；2024 QREI Birnbaum-Saunders 控制圖；2023 CIE 多變量 EWMA | 經濟部標準局品管委員；中華品質學會委員 | 純統計方法論 | SPC 方法論諮詢 | NCCU 統計 | 第三波 | 無 | SPC 方法論諮詢 | 6.2 分 |
+| B44 | 林錦德 | NCU 機械 助理教授（PhD: NTU 機械 ~2012；前工研院智慧機械中心副主任 2017-2019）| AI 決策 / 可見光定位 VLP / AMR | h-6 / 引用 187；2025 IEEE Sensors Journal VLP+KAN；2025 Sci Reports 區塊鏈 Shop Floor；2024 IEEE Access；2016 RD100 Award | 透明牙套業 / 迅得機械 / 宏致電子；前工研院 | 原型級 PoC | AMHS 室內定位 / AMR | E2-218 IoT 製造 Lab | 第三波 | 無 | AMHS 定位試點 12 月 | 6.15 分 |
+| B45 | 藍俊宏（Jakey Blue）| NTU 工工 副教授（2022/8 升等；PhD: NTU 機械 2010）| Physics-Informed APC / HMM 設備劣化 / XAI | h-13 / 引用 632；2010-11 TSMC Principal Engineer；2011-2018 法國 Mines Saint-Étienne（Postdoc → 助理教授；非學位授予校）；LAKE Lab | 前 TSMC Principal Engineer；Mines-NTU 2022 | 原型級 APC | 設備健康監控 / R2R Control | LAKE Lab | 第三波 | 無 | APC 短期 PoC 6 月 | 6.1 分 |
 | B46 | 蔡坤諭 | NTU EE 副教授 + GIEE 兼聘（PhD: Stanford 航太 2002，副修 EE）| EUV / DFM / 多電子束微影 / OPC | h-12 / 引用 505；前 Intel 193nm 微影製程工程師（2002-2005）；TSMC-NTU Center 兼聘 since 2013；三個 Lab：NDFSL / PBPPIL / HPSSL | TSMC-NTU Center 13 年 | 微影/DFM 補位 | EUV / DFM 補強 | NTU EE Lab × 3 | 第三波 | 無 | 微影/DFM 補位 | 6.1 分 |
-| B47 | 李宏毅 | NTU EE **正教授**（2023 升等；PhD: NTU 通訊所 2012）| 語音 / NLP / 自監督學習 / LALM | h-62 / 引用 17,964；SUPERB benchmark（1,312 引）；Can LLMs Replace Human Evaluators（1,092 引）；YouTube 教學頻道 400+ 萬觀看；MIT CSAIL 訪問 2013-2014 | 無公開可見業界綁定（已確認非 Appier 共同創辦人）| 無半導體論文 | 無明確應用點 | Speech Processing and ML Lab | 不啟動 | 無 | 無明確接觸點 | 6.1 分；AI 通識教育家 |
-| B48 | 許嘉裕 | NTHU IEEM **教授**（歷程：NTUT → NTUST → NTHU；PhD: NTHU IEEM）| SPC / FDC / Yield / 半導體良率 | h-24 / 引用 2,549 / i10-42；2020 吳大猷紀念獎；NVIDIA 訪問研究員；中工會陳樹勛紀念講座 | 無綁定 | 方法論應用級 | SPC / FDC / Yield | NTHU IEEM Lab | 第二波 | 無 | SPC/FDC PoC | 6.5 分（職級從副升至教授 +0.6）|
-| B49 | 吳凱強 | NYCU 資工 正教授 + CS 所長（2025/8/1 起；PhD: CMU ECE 2011）| LLM 量化 / FPGA AI 加速 / DfT / Trojan / SSM 量化 | h-16 / 引用 973；ICLR 2025 Palu / Quamba；ICML 2025 Quamba2；ICCAD 2025 Contest 命題人；2018 TSIA 新秀；ICCD 2008 Best Paper | 前 Intel CAD 工具軟體工程師 2011-2013；Neuchips 顧問（排他性待核實）| 原型級 EDA+LLM | AI 晶片硬體安全驗證 Trojan/DfT | GREAT Lab 約 14 人 | 第二波 | Neuchips 顧問（排他性待核實）| ICCAD Contest 題目共同設計 | 6.0 分（升等 +0.3）|
-| B51 | 杜長慶 | **NYCU ICST 副教授**（2026/02 從 NCU EE 轉入；PhD: U Washington Seattle EE 2011，Lih Y. Lin）| 矽量子點（SiQD）+ 功率電子（SiC/GaN）並存 | h-17 / 引用 1,157；2024 Nature Reviews Electrical Engineering 電動車功率展望；2022 LSC 共識聲明（145 引）；2022 β-Ga2O3 FET（100 引）；2022 SiC CMP review（86 引）| Foxconn 合作背景；上海交大密西根學院兼任 | 硬體應用 | 資料中心 PSU 能效 + Ga2O3 邊界探索 | NYCU ICST Lab（從 NCU 轉入）| 第三波 | 無 | 資料中心能效顧問 | 5.75 分 |
-| B52 | 謝旻甫 | NCKU 電機 **特聘教授**（since 2022）+ 電機馬達技術中心（PhD: U Liverpool 機械 2000）| 馬達驅動 AI / 廠務風機預測維護 | h-36 / 引用 4,240；**2025 IET Fellow**；IEEE Magnetics Society Distinguished Lecturer 2025-2026；Stanford Top 2% Scientists 2022-2024；2022 李國鼎金質獎；2024 國科會傑出研究獎；前 NCKU 研發副校長 2023-2025 | 台達電 Chair 2019-2024；中鋼/國太中心合作 | 廠務應用 | 廠務風機預測維護（非 fab）| 電機與驅動系統實驗室 約 30 人 | 不啟動 | 台達電 Chair 2019-2024 | 轉給 Fab 設施部門 | 4.4 分；廠務非 AI 軸 |
-| B53 | 曾釋鋒 | NTUT 製造科技所教授 + 機械系主任（PhD: NCTU 機械）| 雷射加工 / 表面處理 / 雷射感測器 | h-22 / 引用 1,310；141 篇 / 1,686 引（ResearchGate）；雷射誘導石墨烯感測器；MXene/ZnO 氣體感測器；2019-2020 NSTC 研究獎 | 無綁定 | 設備合作軌 | TGV/TSV 雷射加工 | 光製造與檢測實驗室 | 第三波 | 無 | 設備合作獨立分類（非 AI 軌）| 5.5 分 |
-| B54 | 簡禎富 | NTHU 工工 清華講座教授（**副校長 2024/07/31 屆滿；2025/02 任臻鼎科技總經理**；PhD: U Wisconsin-Madison Decision Sciences/OR 1996）| DRL + Digital Twin 晶圓廠 / AIMS 中心 / Industry 3.5 | h-61 / 引用 13,636；Stanford Top 2% 連 3 年；MOST 最具影響力出版獎；經濟部金書獎 | NTHU-TSMC Center 主任；前臻鼎獨董 5 年（2019-2024）；**2025-02-27 起任臻鼎科技 GM** | 已轉業界 | fab DRL+DT / VAE 缺陷 | NTHU DALab；博生稀少 | **不啟動** | **2025/02 任臻鼎總經理；NTHU 教職可能留職停薪** | 不建議獨家；返校前不啟動 | 6.0 分（離校風險）|
-| B57 | 陳朝鈞 | NCKU CSIE / IMIS 教授（since 2011/08；PhD: NCKU 資工 2004，Chiang Lee）| 智慧計算 / IoT / Edge Computing | h-16 / 引用 870；2025 IEEE RA-L；2025 Computing 期刊分散式 C4.5；IEEE CASE 2017 最佳應用論文獎；ICRA 2018 最佳論文入圍 | 無綁定 | 跨領域應用級 | fab 製程資料 IoT / Edge | NCKU.IMIS.CIoT Lab | 第三波 | 無 | 跨域應用 PoC | 5.5 分（核實後上修）|
-| B59 | 陳正剛（Argon Chen）| NTU 工工 教授（PhD: Rutgers IE）| SPC (2009 前) / 超音波/OSA (2009 後) / 工程資料探勘 | h-22 / 引用 1,813 / i10-41；Optimal levels of process parameters（258 引，1993）；台大醫院甲狀腺超音波 CAD 合作；自 2009 轉生醫 | Jakey Blue 之師 | 歷史方法論顧問 | 無直接應用 | NTU 工工 Lab 3 人 | 不啟動 | 無 | 方法論顧問池 | 4.5 分 |
-| B60 | 洪英超 | **NTU 工工**教授（2022/8 從 NCCU 統計轉入；前 NCCU 統計系主任；PhD: U Michigan 統計 1995）| SVR Profile Monitoring / EV/Granger / 統計機器學習 | 42 篇論文 / 引用 370（ResearchGate）；2024 Granger 因果統計頂刊；2025 IEEE T-ITS EV 充電；曾訪 U Florida / MSR / 日本統計數理研究所 | 無綁定 | 方法論已漂移 | 無直接應用 | NTU IE Ying-Chao Hung Lab | 不啟動 | 無 | 方法論顧問池 | 4.2 分 |
-| C61 | 林清安 | NTUST 機械 | 機械視覺 / 機械手臂 | 論文透明度低；曾列未入選 | 無 | 方向偏；不建議進階 | 傳統自動化系統整合 | — | 不啟動 | 無 | 不建議進階 | 4.0 分 |
-| C62 | 柏林 Berlin Chen | NTNU 資工 | Mandarin ASR / BERT reranking | ASR 專家而非 LLM；半導體需 6-12 月橋接 | 無 | ASR 專項 | 台灣普通話語音 → 製程文件檢索 | NTNU 資工 Lab | 不啟動 | 無 | ASR 專項 PoC（非主線）| 3.8 分 |
-| C63 | 王振興 | NCKU EE | Neuro-fuzzy / AIoT / 生醫 | 半導體契合僅 5%；主軸生醫訊號 | 無 | AIoT 邊緣 | AIoT 穿戴邊緣需求可考慮 | NCKU EE Lab | 不啟動 | 無 | 不建議；AIoT 邊緣另案 | 3.0 分 |
-| C64 | 楊佳玲 | NTU 資工（借調中）| CIM + NAS / Memristor | IEEE Fellow 2026；2024 NSTC 傑出 | IEEE Fellow；政務次長借調 | 借調中 | CIM 架構 / Memristor | NTU 資工 Lab | 不啟動 | 2026/02 借調政務次長 1-2 年 | 2027 借調結束後重評 | 3.0 分（借調期降級）|
-| C65 | 鄭少為 | NTHU 統計 副教授 | Gaussian Process / DoE | 近 5 年無頂期刊；副教授 17 年未升等 | 無 | 理論配套 | 高維 GP 實驗設計 | 無獨立 Lab | 不啟動 | 無 | 理論 PoC 配套 | 2.9 分 |
-| C66 | 李祈均 | NTHU EE | Multimodal DL / Speech Affective | 0% 半導體；雙企業 COI 需先簽約 | NVIDIA 副主任 + 京元電子顧問 | 情感語音 | 無半導體應用 | BIIC Lab 12-18 人 | 不啟動 | NVIDIA 副主任 + 京元電子顧問 | COI 需簽約後考慮 | 2.6 分 |
-| C67-80 | 陳蘊儂 / 蔡宗翰 / 陳信希 / 孫民 / 鄭文皇 / 陳銘憲 / 莊永裕 / 洪一平 / 林軒田 / 徐宏民 / 張智星 / 傅立成 / 王傑智 / 許永真 / 簡仁宗 / 林守德 / 鄭卜壬 / 古倫維 / 馬偉雲 | 各校 NTU/AS/NCU 等 | NLP / CV / IR / 多媒體 | domain 不符或商業綁定 | 多位 Appier 綁定 | 方向偏 | 無半導體應用 | — | 不啟動 | 多位 Appier 綁定 | 方向不符；不啟動 | < 4.0 分 |
+| B47 | 李宏毅 | NTU EE 正教授（2023 升等；PhD: NTU 通訊所 2012）| 語音 / NLP / 自監督學習 / LALM | h-62 / 引用 17,964；SUPERB benchmark（1,312 引）；Can LLMs Replace Human Evaluators（1,092 引）；YouTube 教學頻道 400+ 萬觀看；MIT CSAIL 訪問 2013-2014 | 無公開可見業界綁定（已確認非 Appier 共同創辦人）| 無半導體論文 | 無明確應用點 | Speech Processing and ML Lab | 不啟動 | 無 | 無半導體題目可接觸 | 6.1 分；研究軌與半導體無交集 |
+| B48 | 吳凱強 | NYCU 資工 正教授 + CS 所長（2025/8/1 起；PhD: CMU ECE 2011）| LLM 量化 / FPGA AI 加速 / DfT / Trojan / SSM 量化 | h-16 / 引用 973；ICLR 2025 Palu / Quamba；ICML 2025 Quamba2；ICCAD 2025 Contest 命題人；2018 TSIA 新秀；ICCD 2008 Best Paper | 前 Intel CAD 工具軟體工程師 2011-2013；Neuchips 顧問（排他性待核實）| 原型級 EDA+LLM | AI 晶片硬體安全驗證 Trojan/DfT | GREAT Lab 約 14 人 | 第二波 | Neuchips 顧問（排他性待核實）| ICCAD Contest 題目共同設計 | 6.0 分（升等 +0.3）|
+| B49 | 杜長慶 | NYCU ICST 副教授（2026/02 從 NCU EE 轉入；PhD: U Washington Seattle EE 2011，Lih Y. Lin）| 矽量子點（SiQD）+ 功率電子（SiC/GaN）並存 | h-17 / 引用 1,157；2024 Nature Reviews Electrical Engineering 電動車功率展望；2022 LSC 共識聲明（145 引）；2022 β-Ga2O3 FET（100 引）；2022 SiC CMP review（86 引）| Foxconn 合作背景；上海交大密西根學院兼任 | 硬體應用 | 資料中心 PSU 能效 + Ga2O3 邊界探索 | NYCU ICST Lab（從 NCU 轉入）| 第三波 | 無 | 資料中心能效顧問 | 5.75 分 |
+| B50 | 陳朝鈞 | NCKU CSIE / IMIS 教授（since 2011/08；PhD: NCKU 資工 2004，Chiang Lee）| 智慧計算 / IoT / Edge Computing | h-16 / 引用 870；2025 IEEE RA-L；2025 Computing 期刊分散式 C4.5；IEEE CASE 2017 最佳應用論文獎；ICRA 2018 最佳論文入圍 | 無綁定 | 跨領域應用級 | fab 製程資料 IoT / Edge | NCKU.IMIS.CIoT Lab | 第三波 | 無 | 跨域應用 PoC | 5.55 分 |
+| B51 | 曾釋鋒 | NTUT 製造科技所教授 + 機械系主任（PhD: NCTU 機械）| 雷射加工 / 表面處理 / 雷射感測器 | h-22 / 引用 1,310；141 篇 / 1,686 引（ResearchGate）；雷射誘導石墨烯感測器；MXene/ZnO 氣體感測器；2019-2020 NSTC 研究獎 | 無綁定 | 設備合作軌 | TGV/TSV 雷射加工 | 光製造與檢測實驗室 | 第三波 | 無 | 設備合作獨立分類（非 AI 軌）| 5.5 分 |
+| B52 | 王蒞君 | NYCU 電機 終身講座 + 電機資訊學院院長（2023/02-；PhD: Georgia Tech EE 1996）| **AI for 6G 無線 / UAV-RIS / ISAC**（**非半導體製造**）| h-54 / 引用 10,729；IEEE Fellow 2011；2023 有庠科技獎；2025 潘文淵傑出研究獎；NSTC 傑出研究獎 ×2（2012/2017）；163 期刊 + 200+ 會議 + 26 美國專利 | 無綁定；前 AT&T Labs Research 1996-2000 | 通訊系統層 | **與 fab/封裝無直接連結**；可橋：TSMC 廠區 5G 私網 / ISAC 智慧工廠 | Intelligent Communication and Computing Lab（11 博 + 22-25 碩 + 1 博後）| 觀察 | 無 | **精省/低度合作**：5G 私網 + ISAC 顧問；院長身分帶來 NYCU 制度合作價值 | 5.4 分（研究主軸與半導體製造非直接相關，重評降級）|
+| B53 | 陳正剛（Argon Chen）| NTU 工工 教授（PhD: Rutgers IE）| SPC (2009 前) / 超音波/OSA (2009 後) / 工程資料探勘 | h-22 / 引用 1,813 / i10-41；Optimal levels of process parameters（258 引，1993）；台大醫院甲狀腺超音波 CAD 合作；自 2009 轉生醫 | Jakey Blue 之師 | 歷史方法論顧問 | 無直接應用 | NTU 工工 Lab 3 人 | 不啟動 | 無 | 方法論顧問池 | 4.5 分 |
+| B54 | 謝旻甫 | NCKU 電機 特聘教授（since 2022）+ 電機馬達技術中心（PhD: U Liverpool 機械 2000）| 馬達驅動 AI / 廠務風機預測維護 | h-36 / 引用 4,240；**2025 IET Fellow**；IEEE Magnetics Society Distinguished Lecturer 2025-2026；Stanford Top 2% Scientists 2022-2024；2022 李國鼎金質獎；2024 國科會傑出研究獎；前 NCKU 研發副校長 2023-2025 | 台達電 Chair 2019-2024；中鋼/國太中心合作 | 廠務應用 | 廠務風機預測維護（非 fab）| 電機與驅動系統實驗室 約 30 人 | 不啟動 | 台達電 Chair 2019-2024 | 轉給 Fab 設施部門 | 4.4 分；廠務非 AI 軸 |
+| B55 | 洪英超 | NTU 工工 教授（2022/8 從 NCCU 統計轉入；前 NCCU 統計系主任；PhD: U Michigan 統計 1995）| SVR Profile Monitoring / EV/Granger / 統計機器學習 | 42 篇論文 / 引用 370（ResearchGate）；2024 Granger 因果統計頂刊；2025 IEEE T-ITS EV 充電；曾訪 U Florida / MSR / 日本統計數理研究所 | 無綁定 | 方法論已漂移 | 無直接應用 | NTU IE Ying-Chao Hung Lab | 不啟動 | 無 | 方法論顧問池 | 4.2 分 |
+| C56 | 林清安 | NTUST 機械 | 機械視覺 / 機械手臂 | 論文透明度低；曾列未入選 | 無 | 方向偏；不建議進階 | 傳統自動化系統整合 | — | 不啟動 | 無 | 不建議進階 | 4.0 分 |
+| C57 | 柏林 Berlin Chen | NTNU 資工 | Mandarin ASR / BERT reranking | ASR 專家而非 LLM；半導體需 6-12 月橋接 | 無 | ASR 專項 | 台灣普通話語音 → 製程文件檢索 | NTNU 資工 Lab | 不啟動 | 無 | ASR 專項 PoC（非主線）| 3.8 分 |
+| C58 | 王振興 | NCKU EE | Neuro-fuzzy / AIoT / 生醫 | 半導體契合僅 5%；主軸生醫訊號 | 無 | AIoT 邊緣 | AIoT 穿戴邊緣需求可考慮 | NCKU EE Lab | 不啟動 | 無 | 不建議；AIoT 邊緣另案 | 3.0 分 |
+| C59 | 楊佳玲 | NTU 資工（借調中）| CIM + NAS / Memristor | IEEE Fellow 2026；2024 NSTC 傑出 | IEEE Fellow；政務次長借調 | 借調中 | CIM 架構 / Memristor | NTU 資工 Lab | 不啟動 | 2026/02 借調政務次長 1-2 年 | 2027 借調結束後重評 | 3.0 分（借調期降級）|
+| C60 | 鄭少為 | NTHU 統計 副教授 | Gaussian Process / DoE | 近 5 年無頂期刊；副教授 17 年未升等 | 無 | 理論配套 | 高維 GP 實驗設計 | 無獨立 Lab | 不啟動 | 無 | 理論 PoC 配套 | 2.9 分 |
+| C61 | 李祈均 | NTHU EE | Multimodal DL / Speech Affective | 0% 半導體；雙企業 COI 需先簽約 | NVIDIA 副主任 + 京元電子顧問 | 情感語音 | 無半導體應用 | BIIC Lab 12-18 人 | 不啟動 | NVIDIA 副主任 + 京元電子顧問 | COI 需簽約後考慮 | 2.6 分 |
+
+---
+
+### 大表附註
+
+**A. C 級延伸候選池（C62-C75，14 位，列附名單）**
+
+下列 14 位於初篩時納入候選池，但因研究領域與本案題目（先進製程 / 封裝 / fab 應用 / 工程師效率）契合度 < 4 分（domain 不符 / 商業綁定 / 無半導體論文等），不建議啟動：
+
+| 區段 | 教授 | 校系 | 主要研究 | 不啟動原因 |
+|---|---|---|---|---|
+| C62-C75 | 陳蘊儂 / 蔡宗翰 / 陳信希 / 孫民 / 鄭文皇 / 陳銘憲 / 莊永裕 / 洪一平 / 林軒田 / 徐宏民 / 張智星 / 傅立成 / 王傑智 / 許永真 / 簡仁宗 / 林守德 / 鄭卜壬 / 古倫維 / 馬偉雲 | NTU / AS / NCU 等 | NLP / CV / IR / 多媒體 | 多位 Appier 綁定；domain 不符；無半導體應用 |
+
+**B. 業界轉任池（1 位，已離開學界 PI 軌道）**
+
+| 教授 | 動向 | 處置 |
+|---|---|---|
+| 簡禎富 | 原 NTHU 工工清華講座；2024/07 副校長屆滿；2025/02 起任**臻鼎科技總經理** | 已轉業界，本盤點不列入；返校前不啟動 |
+
+**C. ranking 微調說明（基於公開資料二次核實）**
+
+下列 6 處異動於本次盤點完成：
+
+- **A21 高宏宇**：原列 B 級；NTHU ISA 正教授（h-31 / NLP RAG）為 A 級分數段，調升
+- **A25 李建模**：原 7.5（教授）；公開頁顯示**副教授**，分數修正 -0.3 → 7.2
+- **B37 許嘉裕**：機構 NTUT → NTHU IEEM 教授（職級 +0.6 → 6.5）；SPC/FDC/Yield 直接題目
+- **B47 李宏毅**：研究軸與半導體無交集，分類不啟動，但公眾教育影響力為 AI 人才漏斗
+- **B52 王蒞君**：原 6.5（A22）；研究主軸實為 6G/UAV/RIS（非 AOI），降至 B 級 5.4
+- **業界轉任池**：B54 簡禎富已任臻鼎 GM，從本盤點移除
 
 ---
 
 ## 大表解讀
 
-### 分數分佈
+### 分數分佈（66 位 S+A+B+C 級）
+
 - **S 級（≥ 8.0）**：15 位
 - **A 級（7.0-7.9）**：15 位
-- **B 級（5.5-6.9）**：30 位
-- **C 級（< 5.5）**：12+ 位
+- **B 級（5.0-6.9）**：25 位
+- **C 級（< 5.0）**：6 位（C56-C61）+ 14 位延伸候選池（C62-C75）
 
 ### 校系分佈（S + A 級 30 位）
+
 - NTU：6 位
 - NYCU：6 位
 - NTHU：5 位
@@ -88,16 +117,24 @@
 - NTUT：2 位（楊哲化 S / 范書愷 A）
 - NCHU：1 位
 - NTUST：1 位
-- Waseda：1 位（國際）
+- Waseda（NCKU 雙重身份）：1 位
 
 ### 題目軸覆蓋
-- **製程量測**：陳亮嘉（S04）、詹寶珠（S09）
-- **APC / SPC / VM**：銀慶剛（S07）、謝昱銘（S10）、李家岩（S14）、范書愷（A19）、張國浩（A16）
-- **AI-EDA / Placement & Routing**：江蕙如（S02）、張耀文（A23，觀察）、李建模（A21）、李淑敏（A24）、林嘉文（A18）
-- **AOI / 缺陷檢測**：詹寶珠（S09）、王蒞君（A22）、陳以錚（B36）、連震杰（B39）
-- **3D 封裝 / Hybrid Bonding**：陳冠能（S06）、陳智（S08）、江國寧（S12）、宋振銘（S13）、楊哲化（S11）、劉禹辰（B40）
-- **Device / 新材料 / CIM**：馬誠佑（S03）、胡璧合（S05）、鄭桂忠（S15）、游濟華（B34）
-- **Digital Twin / 排程**：蔡佩璇（A17）、李家岩（S14）、陳以錚（B36）
-- **光刻 OPC / Mask**：王俊明（S01）、郭鴻飛（A20）
-- **功率半導體 / 光電**：吳添立（A29）、郭浩中（A30）、陳柏宏（A28）
-- **IYM / AVM（戰略顧問）**：鄭芳田（A25，師徒包搭配 S10 謝昱銘）
+
+- **製程量測 / OCD / 3D AOI**：陳亮嘉（S04）、詹寶珠（S09）
+- **APC / SPC / VM**：銀慶剛（S07）、謝昱銘（S10）、李家岩（S14）、范書愷（A19）、張國浩（A16）、許嘉裕（B37）
+- **AI-EDA / Placement & Routing**：江蕙如（S02）、張耀文（A22，觀察）、李建模（A25）、李淑敏（A23）、林嘉文（A18）
+- **AOI / 缺陷檢測**：詹寶珠（S09）、陳以錚（B35）、連震杰（B39）
+- **3D 封裝 / Hybrid Bonding**：陳冠能（S06）、陳智（S08）、江國寧（S12）、宋振銘（S13）、楊哲化（S11）、水野潤（A27）、劉禹辰（B40）
+- **Device / 新材料 / CIM**：馬誠佑（S03）、胡璧合（S05）、鄭桂忠（S15）、游濟華（B33）
+- **Digital Twin / 排程**：蔡佩璇（A17）、李家岩（S14）、陳以錚（B35）
+- **光刻 OPC / Mask**：王俊明（S01）、郭鴻飛（A20）、蔡坤諭（B46）
+- **功率半導體 / 光電**：吳添立（A28）、郭浩中（A29）、陳柏宏（A30）
+- **IYM / AVM（戰略顧問）**：鄭芳田（A24，師徒包搭配 S10 謝昱銘）
+- **工程師效率 / RAG**：高宏宇（A21）、蔡銘峰（B31）、黃瀚萱（B32）、彭文志（B38，內部）
+
+### 隱形綁定風險分佈
+
+- **不啟動（內部 / 已轉業）**：張孟凡（A26 TSMC Senior Fellow）、彭文志（B38 借調）
+- **觀察 / 法務先檢**：張耀文（A22 MediaTek 獨董）、吳添立（A28 MediaTek Chair）、郭浩中（A29 HHRI）、林勇志（B41 前 TSMC 商秘）、張國浩（A16 力晶/Micron 待核）
+- **完全自由 PI（無任何綁定）**：S 級 15 位中 9 位、A 級 15 位中 7 位
