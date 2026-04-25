@@ -552,58 +552,75 @@ def fig8_freeze_decision_tree():
 # Figure 9 — OOM 排查 7 步法
 # ============================================================
 def fig9_oom_flowchart():
-    fig, ax = plt.subplots(figsize=(13, 7))
-    ax.set_xlim(0, 13); ax.set_ylim(0, 7); ax.set_aspect("equal"); ax.axis("off")
+    fig, ax = plt.subplots(figsize=(13, 7.2))
+    ax.set_xlim(0, 13); ax.set_ylim(-0.1, 7.3); ax.set_aspect("equal"); ax.axis("off")
 
-    # start
-    box(ax, 5.5, 5.9, 2.8, 0.7, "CUDA OOM ⚠",
-        fc="#fadbd8", ec=C_RED, fontsize=10, weight="bold", color=C_RED)
+    # === Header bar: CUDA OOM prompt ===
+    box(ax, 0.2, 6.3, 12.6, 0.6, "⚠  CUDA OOM — 按效果順序嘗試 7 步；每步後重試，OK 即退出",
+        fc="#fadbd8", ec=C_RED, fontsize=11, weight="bold", color=C_RED)
 
-    # steps
-    steps = [
+    # Header down-arrow into step 1 (step 1 at x=0.2, w=2.8 → top-center 1.6)
+    arrow(ax, 1.6, 6.3, 1.6, 5.81, color=C_GRAY, lw=1.4)
+
+    # === Group label: 配置級 (row 1) ===
+    ax.text(0.2, 6.02, "【配置級】不改 model 結構，先試這 4 招",
+            fontsize=9, color=C_ORANGE, weight="bold", style="italic")
+
+    # === Row 1 steps (aligned: x = 0.2, 3.4, 6.6, 9.8 — 4 cols width 2.8, gap 0.4) ===
+    row1 = [
         (0.2, 4.6, "1. 降 max_pixels\n(VLM 特有，省最多)"),
-        (3.5, 4.6, "2. batch=1\n+ grad_accum ↑"),
-        (6.8, 4.6, "3. 開 gradient\ncheckpointing"),
-        (10.1, 4.6, "4. 開 FlashAttn 2/3"),
-        (2.0, 2.3, "5. LoRA → QLoRA\n(4-bit)"),
-        (5.5, 2.3, "6. 降 LoRA rank\n(64→32→16)"),
-        (9.0, 2.3, "7. Vision encoder\n全凍 (last resort)"),
+        (3.4, 4.6, "2. batch=1\n+ grad_accum ↑"),
+        (6.6, 4.6, "3. 開 gradient\ncheckpointing"),
+        (9.8, 4.6, "4. 開 FlashAttn 2/3"),
     ]
-    colors = ["#fdebd0", "#fdebd0", "#fdebd0", "#fdebd0", "#d6eaf8", "#d6eaf8", "#fadbd8"]
-    for i, ((x, y, text), fc) in enumerate(zip(steps, colors)):
-        edge = C_ORANGE if i < 4 else (C_BLUE if i < 6 else C_RED)
-        box(ax, x, y, 2.8, 1.2, text, fc=fc, ec=edge, fontsize=9, weight="bold")
+    for x, y, text in row1:
+        box(ax, x, y, 2.8, 1.2, text, fc="#fdebd0", ec=C_ORANGE, fontsize=9, weight="bold")
 
-    # arrows
-    # Start to step 1
-    # Start left center: (5.5, 6.25). Step 1 top center: (1.6, 5.8)
-    ax.plot([5.5, 1.6], [6.25, 6.25], color=C_GRAY, lw=1.3)
-    arrow(ax, 1.6, 6.25, 1.6, 5.8, color=C_GRAY, lw=1.3)
+    # Row 1 horizontal arrows (between right-edge and next left-edge, at y=5.2 = middle of box)
+    for x_right in [3.0, 6.2, 9.4]:
+        arrow(ax, x_right, 5.2, x_right + 0.4, 5.2, color=C_GRAY, lw=1.4)
 
-    # Horizontal arrows for row 1
-    arrow(ax, 3.0, 5.2, 3.5, 5.2, color=C_GRAY, lw=1.3)
-    arrow(ax, 6.3, 5.2, 6.8, 5.2, color=C_GRAY, lw=1.3)
-    arrow(ax, 9.6, 5.2, 10.1, 5.2, color=C_GRAY, lw=1.3)
+    # === Wrap-around: step 4 → step 5 ===
+    # Step 4 bottom-center (11.2, 4.6) → down to 3.9 → left to 1.6 → down to step 5 top (1.6, 3.1)
+    ax.plot([11.2, 11.2], [4.6, 3.9], color=C_GRAY, lw=1.4)
+    ax.plot([11.2, 1.6], [3.9, 3.9], color=C_GRAY, lw=1.4)
+    arrow(ax, 1.6, 3.9, 1.6, 3.1, color=C_GRAY, lw=1.4)
 
-    # from row 1 down to row 2 (Step 4 to Step 5)
-    # Box 4 bottom center: 11.5, 4.6. Box 5 top center: 3.4, 3.5
-    ax.plot([11.5, 11.5], [4.6, 4.05], color=C_GRAY, lw=1.3)
-    ax.plot([11.5, 3.4], [4.05, 4.05], color=C_GRAY, lw=1.3)
-    arrow(ax, 3.4, 4.05, 3.4, 3.5, color=C_GRAY, lw=1.3)
+    # White-bg condition label on wrap arrow (lesson: 分支標籤白底小框蓋在箭頭上)
+    # zorder=5 > ax.plot default 2, otherwise line shows through label
+    cond = FancyBboxPatch((5.4, 3.75), 2.2, 0.3,
+                          boxstyle="round,pad=0.02,rounding_size=0.05",
+                          linewidth=0.9, facecolor="white", edgecolor=C_GRAY,
+                          zorder=5)
+    ax.add_patch(cond)
+    ax.text(6.5, 3.9, "仍 OOM ↓ 進第二層", ha="center", va="center",
+            fontsize=9, color=C_GRAY, weight="bold", zorder=6)
 
-    # row 2
-    arrow(ax, 4.8, 2.9, 5.5, 2.9, color=C_GRAY, lw=1.3)
-    arrow(ax, 8.3, 2.9, 9.0, 2.9, color=C_GRAY, lw=1.3)
+    # === Group label: 架構級 (row 2) ===
+    ax.text(0.2, 3.32, "【架構級】改 model 包裝 / 參數規模",
+            fontsize=9, color=C_BLUE, weight="bold", style="italic")
 
-    # final
-    box(ax, 5.5, 0.3, 3.0, 0.8, "✓ 還 OOM 就換更大 GPU",
-        fc="#d5f5e3", ec=C_GREEN, fontsize=9.5, weight="bold", color=C_GREEN)
-    
-    # 7 down to Final
-    # Box 7 bottom center: 10.4, 2.3. Final top center: 7.0, 1.1
-    ax.plot([10.4, 10.4], [2.3, 1.7], color=C_GREEN, lw=1.5)
-    ax.plot([10.4, 7.0], [1.7, 1.7], color=C_GREEN, lw=1.5)
-    arrow(ax, 7.0, 1.7, 7.0, 1.1, color=C_GREEN, lw=1.5)
+    # === Row 2 steps (same alignment as row 1, 3 boxes) ===
+    row2 = [
+        (0.2, 1.9, "5. LoRA → QLoRA\n(4-bit)"),
+        (3.4, 1.9, "6. 降 LoRA rank\n(64→32→16)"),
+        (6.6, 1.9, "7. Vision encoder\n全凍 (last resort)"),
+    ]
+    edges2 = [C_BLUE, C_BLUE, C_RED]
+    fills2 = ["#d6eaf8", "#d6eaf8", "#fadbd8"]
+    for (x, y, text), ec, fc in zip(row2, edges2, fills2):
+        box(ax, x, y, 2.8, 1.2, text, fc=fc, ec=ec, fontsize=9, weight="bold")
+
+    # Row 2 horizontal arrows at y=2.5 (middle)
+    for x_right in [3.0, 6.2]:
+        arrow(ax, x_right, 2.5, x_right + 0.4, 2.5, color=C_GRAY, lw=1.4)
+
+    # === Final box: centered below step 7 (step 7 bottom-center at 8.0, 1.9) ===
+    box(ax, 6.2, 0.3, 3.6, 0.8, "✓ 仍 OOM → 換更大 GPU",
+        fc="#d5f5e3", ec=C_GREEN, fontsize=10, weight="bold", color=C_GREEN)
+
+    # Step 7 → Final arrow (consistent gray, not green — green reserved for success box)
+    arrow(ax, 8.0, 1.9, 8.0, 1.1, color=C_GRAY, lw=1.4)
 
     ax.set_title("VLM Fine-tune OOM 排查 7 步法（按省 VRAM 效果排序）",
                  fontsize=13, weight="bold", pad=15)

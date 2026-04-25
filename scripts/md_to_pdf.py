@@ -33,6 +33,23 @@ EMOJI_MAP = {
     "🆕": '<span class="tag">新</span>',
     "🔍": "🔎",
     "⚡": '<span class="bolt">⚡</span>',
+    "🎯": '<span class="target">◎</span>',
+    "📌": '<span class="pin">▎</span>',
+    "📍": '<span class="pin">▎</span>',
+    "🚩": '<span class="flag">!</span>',
+    "🟠": '<span class="dot orange">●</span>',
+    "📊": '<span class="chart">▦</span>',
+    "📈": '<span class="chart">↗</span>',
+    "📉": '<span class="chart">↘</span>',
+    "🔔": '<span class="bell">⌬</span>',
+    "💡": '<span class="idea">✦</span>',
+    "🏆": '<span class="trophy">♛</span>',
+    "📞": '<span class="phone">☎</span>',
+    "🇯🇵": '<span class="flag-jp">(JP)</span>',
+    "✨": '<span class="sparkle">✦</span>',
+    "👉": '→',
+    "✓": '<span class="check ok">✓</span>',
+    "✗": '<span class="check no">✗</span>',
 }
 EMOJI_RE = re.compile("|".join(re.escape(k) for k in EMOJI_MAP))
 
@@ -181,6 +198,10 @@ def main() -> int:
                     help="Per-file section titles for TOC (same count as files)")
     ap.add_argument("--section-descs", nargs="*", default=None,
                     help="Per-file short descriptions for TOC")
+    ap.add_argument("--landscape", action="store_true",
+                    help="Use A3 landscape page (for wide tables)")
+    ap.add_argument("--no-cover", action="store_true",
+                    help="Skip cover and TOC (useful for single-file companion PDFs)")
     args = ap.parse_args()
 
     paths = [Path(p).resolve() for p in args.files]
@@ -195,11 +216,13 @@ def main() -> int:
         print("ERROR: --section-titles / --section-descs count mismatch", file=sys.stderr)
         return 2
 
-    parts = [replace_emojis(build_cover(args.title, args.subtitle, args.author))]
-    parts.append(replace_emojis(build_toc(list(zip(titles, descs)))))
+    parts = []
+    if not args.no_cover:
+        parts.append(replace_emojis(build_cover(args.title, args.subtitle, args.author)))
+        parts.append(replace_emojis(build_toc(list(zip(titles, descs)))))
 
     for i, path in enumerate(paths):
-        break_class = "section-break" if i > 0 else ""
+        break_class = "section-break" if i > 0 and not args.no_cover else ""
         parts.append(f'<div class="{break_class}">{convert_md(path)}</div>')
 
     html_body = "\n".join(parts)
@@ -208,8 +231,14 @@ def main() -> int:
     out = Path(args.output).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
 
+    page_css = CSS_STYLE
+    if args.landscape:
+        page_css = page_css.replace("size: A4;", "size: A3 landscape;").replace(
+            "font-size: 7.5pt;", "font-size: 8.5pt;"
+        )
+
     HTML(string=full_html, base_url=str(paths[0].parent)).write_pdf(
-        str(out), stylesheets=[CSS(string=CSS_STYLE)]
+        str(out), stylesheets=[CSS(string=page_css)]
     )
     print(f"OK: wrote {out}  ({out.stat().st_size/1024:.1f} KB)")
     return 0
