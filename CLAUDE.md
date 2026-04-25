@@ -14,17 +14,22 @@ This file provides guidance to Claude Code when working in this project.
 hv-research/
 ├── reports/                    # hv-analysis / PI 盡職調查產出的 PDF
 │   └── YYYY-MM-<topic>/        # 每份研究自成一個資料夾
-│       ├── *.md                # Markdown 原稿（分檔 + 合併檔）
-│       ├── *.pdf               # 最終 PDF
+│       ├── *.md                # Markdown 原稿（分檔 research_NN_*.md + 合併檔）
+│       ├── *.pdf               # 最終 PDF（多版本時加 _vN 後綴）
+│       ├── *.html              # weasyprint 中介產物（選擇性保留）
 │       └── sources.md          # 引用資料來源清單
-├── articles/                   # khazix-writer 產出的公眾號文章
-│   └── YYYY-MM-<topic>.md
+│   # 大型多版本研究（≥3 版本或 ≥30 檔）建議分層：
+│   #   vX.Y-final/ + archive/{pdfs-old-versions,md-superseded}/ +
+│   #   process/ + planning/ + README.md（索引）
+│   # 案例：reports/2026-04-tw-univ-semi-ai-professors/
+├── articles/                   # khazix-writer 產出的公眾號文章（目前未啟用）
 ├── raw-materials/              # 研究前蒐集的原始素材（PDF、截圖、筆記）
-│   └── YYYY-MM-<topic>/
 ├── scripts/                    # PDF 生成等工具
 │   └── md_to_pdf.py
-├── templates/                  # 研究方法論 template（跨題目復用）
-│   └── pi-due-diligence-framework.md
+├── templates/                  # 跨題目復用的方法論 template
+│   ├── pi-due-diligence-framework.md
+│   └── scoring-rubric-v2.md   # PI 盡職調查 5 維度評分標準
+├── CHANGELOG.md                # 版本紀錄（每份研究交付後追加）
 └── README.md
 ```
 
@@ -74,11 +79,24 @@ hv-research/
 
 累積案例:`reports/2026-04-hsinchu-east-guanpu-housing/`(關埔/光埔購屋 v1/v2/v3 + 6 張示意圖)
 
+### 健康 / 個人領域研究（分檔結構）
+
+與使用者個人健康/情境綁定的研究（如 PCOS 飲食、皮膚問題），建議採「分檔 research → 合併報告」結構：
+
+1. `research_01_<sub-topic>.md` ~ `research_NN_<sub-topic>.md`：每章獨立深查（病史 / 比較 / 在地化）
+2. 合併輸出：`<topic>_橫縱分析報告.md` + `.pdf`
+3. 因素材高度個人化（年齡、地點、現有體質），素材放 `raw-materials/<topic>/`
+
+案例：`reports/2026-04-tsmc-pcos-low-gi-diet/`（4 章 research + 合併報告）、`reports/2026-04-acne-dehydrated-skincare/`（含 6 張 SVG）
+
 ## 命名規則
 
 - `<topic>`：英文小寫，連字號分隔（`claude-code`、`tsmc-2nm`、`ai-coding-agent`）
 - 日期：ISO 8601（2026-04）
-- PDF 檔名：`<topic>_橫縱分析報告.pdf`（skill 預設格式）
+- PDF 檔名（三種常見格式）：
+  - 標準：`<topic>_橫縱分析報告.pdf`（hv-analysis skill 預設）
+  - 多版本：`<topic>_橫縱分析報告_vN.pdf`（v1/v2/v3 流程，如關埔購屋）
+  - 自訂主題：`<自訂中文名>_v<X.Y>.pdf`（PI 盡調等大型研究，如 `TSMC_PI_彙整大表_v4.2.pdf`）
 
 ## 前置依賴
 
@@ -104,3 +122,5 @@ pip install weasyprint markdown --break-system-packages
 - **主管報告必附 Reference URL**：Due diligence 類交付，每位 PI 至少 2-3 個公開連結（學校頁 / Scholar / Lab）
 - **Companion PDF 結構要跟主 PDF 一致**：同 session 出多份 PDF 時，結構對齊降低閱讀成本
 - **跨領域學習**：研究過程中遇到的方法論心得寫進 `~/vault/projects/hv-research/lessons.md`
+- **大型研究多版本清理**：研究歷經 ≥3 版本或 ≥30 檔案時，用 `git mv` 重組為 `vX-final/ + archive/{pdfs-old-versions,md-superseded}/ + process/ + planning/ + README.md` 分層；舊 PDF 搬移不刪除（保留版本對比能力）
+- **CHANGELOG.md 維護**：每次研究交付（PDF push）或重大改版（如 v4.0 → v4.2），於 root `CHANGELOG.md` 追加 `## [YYYY-MM-DD]` 條目，依 Added/Changed/Fixed 分類
