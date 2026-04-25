@@ -1,97 +1,84 @@
-# Handoff — TSMC PI v4.2 主管反饋落地完成 — 2026-04-26
+# Handoff — Agentic AI 報告 v2 評審修訂 + SVG 視覺修正 — 2026-04-26
 
 ## Goal
+針對 2026-04-24 產出的 Agentic AI 橫縱分析報告 v1（7.4/10）做評審 → v2 全面修訂，並補 6 張 SVG 示意圖視覺化關鍵概念。
 
-回應主管對 v4.1 的 5 項反饋，產出 v4.2 雙 PDF 並完成 commit & push。
-
-## Current State — v4.2 已交付（commit 6643fc6, pushed）
-
-### 主管反饋 5 項全部落地
-
-1. **移除內容版本字眼**（檔名保留 v4.2）
-   - 全檔無 v4.x 字樣；移除「v4.1 重大修正」整章
-
-2. **大表 C67-80 移到備註**
-   - 大表重編號 + 重排 66 位
-   - C67-80 從單行移到「大表附註 A」段獨立列表
-
-3. **Profile 排版改善**（採方案 C：8 區塊壓 4 區塊）
-   - 4 區塊：基本卡（含 5 維評分）/ 專長×實績 / 合作紀錄×狀況 / 建議×連結
-   - 55 位完整保留（S15 + A15 + B25），255 條公開 URL 全保留
-   - 2947 → 1382 行（壓 53%）
-
-4. **Ranking 重排 6 處**
-   - A21 高宏宇（原 B31）升 A 級
-   - A25 李建模（原 A21）副教授職級 -0.3 → 7.2
-   - B37 許嘉裕（原 B48）機構修正後升至 6.5
-   - B47 李宏毅 改原因註記為「研究軸與半導體無交集」
-   - B52 王蒞君（原 A22）降 B 級 5.4（研究軸 6G/UAV 非半導體）
-   - 簡禎富（原 B54）移除 → 業界轉任池（已任臻鼎 GM）
-
-5. **新增主管摘要章節**（§1，仿 v3.4 結構）
-   - 研究目的扣回兩個合作策略：(1) 製程合作（2nm 前段 + 後段封裝）(2) 學生人才漏斗
-   - 五軸 15 位優先名單：前段 Device / 後段封裝 / VM-SPC / 工程師效率 / DT-DRL
-   - 三波接觸順序（第一波 6 位 / 第二波 8 位 / 第三波 1 位）
-   - 5 年預算估算 3,800-6,500 萬 NTD
-   - 學生招募欄位 pass（避免「教授不公開 Lab 頁面 → 低估」偏誤）
-
-### 產出檔案
-
-| 檔案 | 大小 | 用途 |
-|---|---|---|
-| `TSMC_PI_彙整大表_v4.2.pdf` | 875 KB | 直向主檔（主管摘要 + 大表 + Profile + 附錄）|
-| `TSMC_PI_統一大表_橫式_v4.2.pdf` | 557 KB | A3 橫式速查 |
-| `TSMC_v4_00_封面與執行摘要.md` | — | 主管摘要章節 |
-| `TSMC_v4_01_統一大表.md` | — | 66 位大表（重編號 + 重排 + 附註）|
-| `TSMC_v4_03_統一Profile.md` | — | 55 位 4 區塊 Profile |
-| `TSMC_v4_07_合作狀況披露附錄.md` | — | §4 附錄（新編號 + 加入王蒞君/簡禎富/HHRI）|
-
-## Pending（下一個 session 待辦）
-
-### 已知尚未驗證項目（從 v4.1 handoff 延續）
-
-1. **A20 郭鴻飛**：所長/副院長現任狀態待 NTUST GSAC 確認
-2. **PhD 年份未公開**：B41 林勇志 / B43 黃乾怡（已查到 1996）/ B44 楊素芬 / B53 曾釋鋒 / B59 陳正剛
-3. **B54 簡禎富 NTHU 教職留職停薪**狀態待人事室確認
-4. **B38 彭文志**：TSMC 借調 2025 為內部已確認
-
-### 主管反饋待處理
-
-5. **舊 PDF 清理**：v4.0 / v4.1 PDF 是否刪除避免主管混淆（destructive action 待用戶確認）
-6. **第一波 6 位接洽 owner 圈選**：王俊明 / 馬誠佑 / 胡璧合 / 陳冠能 / 銀慶剛 / 江國寧
-7. **法務先檢池並行查證**（5 位）：張耀文 MediaTek 獨董 IP / 吳添立 MediaTek Chair 排他 / 郭浩中 HHRI 競業 / 林勇志 TSMC 商秘 / 銀慶剛 US12354122B2 IP 共有
+## Current State
+✅ **已交付**：v2 完整版本 + PDF 已生成（1.29 MB / 35 頁），三輪 SVG 修正完成
 
 ## Key Decisions Made
 
-1. **Profile 採方案 C 而非 B 的兩層結構**（用戶選擇）— 不省略資訊，不分層；4 區塊壓縮但完整
-2. **學生招募欄位 pass**（用戶決策）— 因「教授是否公開 Lab 頁面」是個人習慣，會造成系統性偏誤
-3. **完整重編號 vs 保留編號**（自決）— 採完整重編號（S01-S15 / A16-A30 / B31-B55 / C56-C61 + 14 延伸候選池），讓 ranking 與 ID 對齊；舊版 ID 跨版本追蹤性犧牲，但主管報告以姓名為主可接受
-4. **檔名保留 v4.2 版號**（用戶要求）— 主管看不到，但內部追蹤需要
-5. **主管摘要按題目軸而非分數分組**（自決，新核心教訓）— 主管要快速判斷「哪個軸誰負責」而非「誰最強」
+### 評審視角
+以「Anthropic AI 技術總監」身分自審 v1，發現 3 處事實錯誤 + 7 處重大內容缺漏。打分 7.4/10。
 
-## How to Resume
+### v2 修訂優先序（按 ROI）
+**必修三件（出 v2 必須做）**：
+1. Opus 4.7 定價修正：v1 寫 `$15+/M input` → 實際 `$5/M input、$25/M output`、no long-context premium
+2. Agentic Misalignment 研究時間修正：v1 標 2024 → 實際 2025-06（arXiv 2510.05179）
+3. 補 Agent Skills 章節（agentskills.io 2025-12 開放標準，當前完全缺席）
 
-打開新 session 後：
+**強烈建議**：
+- 補 Claude Managed Agents（2026-04-08 發布）
+- 補 Agentic RL 訓練範式（§3.7.1.5 全新章節）
+- 擴展 Computer Use API 2026 Q1 變更
+- 補新世代 evals（SWE-Lancer / AgentBench-2 / LiveSWEBench）
+- 安全章節從 3 威脅擴為 4 威脅（補 tool poisoning、memory poisoning、multi-agent collusion）
 
-```
-讀 .claude/handoffs/LATEST.md，繼續處理 v4.2 後續清理（舊 PDF 刪除確認 + 6 位首波接洽 + 法務先檢池）
-```
+**錦上添花**：
+- 加附錄 A：起手套件三層
+- §4.6 三個未定賭注
+- Memory 框架對比表
+- Sub-agent 實作層細節
 
-## Verification
+### 視覺化策略
+6 張 SVG 示意圖（依章節順序編號）：
+1. 圖 1（§2.6）：五條演化線匯流到 2026 Q2
+2. 圖 2（§3.1）：三陣營 + 三協議 bus 格局
+3. 圖 3（§3.7）：七層工程棧 + 成熟度漸變
+4. 圖 4（§3.7.3）：Context Lifecycle 四階段
+5. 圖 5（§3.7.4）：Multi-agent 四種編排模式拓撲
+6. 圖 6（§4.6）：三個未定賭注
 
-```bash
-# 確認 v4.2 PDFs
-ls -la reports/2026-04-tw-univ-semi-ai-professors/TSMC_PI_*v4.2.pdf
+## Files Modified
 
-# 確認無 v4.x 內容字眼
-grep -l "v4\.\|v4 " reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_0[0137]_*.md
-# 應無輸出
+### Agentic AI v2 報告
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v2.md`（108 KB，~1100 行）
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v2.pdf`（1.29 MB，35 頁）
+- `reports/2026-04-agentic-ai-tech/sources.md`（補 11 條 v2 新增來源）
 
-# 確認 Profile 55 位
-grep -c "^### " reports/2026-04-tw-univ-semi-ai-professors/TSMC_v4_03_統一Profile.md
-# 應顯示 55
+### 跨專案文件
+- `CHANGELOG.md`（新增 `[2026-04-26] Agentic AI v2` 條目，含 lessons learnt）
+- `~/vault/projects/hv-research/lessons.md`（追加 3 條 [PDF 排版] [研究方法] lessons）
+- `~/vault/projects/hv-research/status.md`（Last updated + Completed + Next Steps）
+- `~/vault/daily-notes/2026-04-26.md`（hv-research section 從 5 項擴為 11 項）
 
-# Commit & push 確認
-git log --oneline -3
-# 6643fc6 feat: PI 盡職調查 v4.2 — 主管摘要五軸 15 位 + Profile 4 區塊壓縮
-```
+## Blockers / Issues
+無。但有一個工作流改進建議：把本次學到的 SVG 規則寫進 `~/.claude/skills/hv-analysis/` skill 內的 SVG 慣例（目前只在 lessons.md，下次別的專案可能還會再撞）。
+
+## Next Steps (priority order)
+1. **`git add . && git commit && git push`**（v2 + sources + CHANGELOG + 跨 vault 同步）
+2. **舊 v1 PDF 是否保留**：reports/ 內目前 v1 + v2 並存，保留 v1 以利版本對比 vs 刪除避免主管混淆——待用戶決定
+3. **更新 hv-analysis skill 的 SVG 慣例**：把 `font:` shorthand 禁令、polygon apex 規則、event bus pill 設計寫進 skill（避免下次別的專案再撞）
+4. **TSMC PI 主管圈選**（既有 next step）
+
+## Lessons Learnt（已寫入 vault lessons.md）
+
+### [PDF 排版] WeasyPrint SVG `font:` shorthand 不渲染
+- 問題：`font: bold 11px sans-serif` cairosvg 解析 OK，WeasyPrint 把整條規則丟掉
+- 修法：拆成 `font-weight: bold; font-size: 11px; font-family: sans-serif`
+- 教訓：SVG → PDF pipeline **一律用顯式 font-* 屬性**，不用 shorthand
+
+### [PDF 排版] SVG 箭頭 / event bus / 對抗徽章三條視覺規則
+- 箭頭 polygon：apex 點偏離另兩點最遠的方向 = 指向；base 兩點 y 對稱於 line
+- Event bus：用 `<rect rx>` pill 形 channel，所有 publisher/subscriber 實線連到上下緣，不用 dashed line
+- VS 對抗徽章：直徑 24-26px 圓 badge + 11px 粗體文字，不用 28px 大字（會溢界）
+
+### [研究方法] 評審 → v2 ROI 排序
+- 在快速演進領域（AI / 加密貨幣 / 政治），hv-analysis 需要多一道「事實校驗 pass」
+- 訂閱式服務的定價、近 30 天內發布的產品必須再 WebSearch 核實
+- 橫向時間切面要明確標出「截止日」而非空泛寫「2026 Q1」
+
+### AI 繪 SVG 三步驗證 SOP
+1. 寫完先用 cairosvg 抽 PNG 看排版（無中文 OK，但抓得出重疊 / 溢界）
+2. 灌進 PDF 後用 pdftoppm 200dpi 抽頁看實際渲染（中文 + WeasyPrint quirks）
+3. Read tool 視覺核驗（人眼抓 high-level 視覺隱喻是否直觀，例如箭頭方向、bus 是否懸空）

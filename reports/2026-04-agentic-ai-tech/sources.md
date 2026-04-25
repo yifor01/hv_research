@@ -1,7 +1,8 @@
 # Sources — 最新 Agentic AI 技術細節與實現方式
 
-研究時間：2026-04-24
+研究時間：2026-04-24（v1）／2026-04-26（v2 評審修訂）
 研究方法：橫縱分析法（hv-analysis skill），三路並行子 agent 收集（縱向時間線 / 橫向框架對比 / 技術實現深潛）
+v2 修訂補充：5 條 WebSearch 核實 2026 Q1-Q2 最新事實（Opus 4.7 定價、Agent Skills 開放、Claude Managed Agents、Agentic RL）
 
 ---
 
@@ -21,8 +22,26 @@
 | MemGPT (Packer et al., 2023) | https://arxiv.org/abs/2310.08560 | 技術 §3.7.3 |
 | SWE-bench (Jimenez et al., 2023) | https://arxiv.org/abs/2310.06770 | 縱向 2024、技術 §3.7.6 |
 | LATS (Zhou et al., 2023) | https://arxiv.org/abs/2310.04406 | 技術 §3.7.1 |
-| Agentic Misalignment (Anthropic, 2025) | https://arxiv.org/abs/2510.05179 | 技術 §3.7.7、交匯 §4.5 |
+| Agentic Misalignment (Anthropic, 2025-06) | https://arxiv.org/abs/2510.05179 | 技術 §3.7.7、交匯 §4.5（v2 修正：v1 誤標 2024）|
 | Agentic Reasoning Survey (2026) | https://arxiv.org/abs/2601.12538 | 技術 §3.7.1 |
+| **ARTIST: Agentic RL with Tool Integration (2025-05)** | https://arxiv.org/abs/2505.01441 | **v2 §3.7.1.5 新增** |
+| **Agentic RL Landscape Survey (2025-09)** | https://arxiv.org/abs/2509.02547 | **v2 §3.7.1.5 新增** |
+
+## v2 新增來源（2026 Q1-Q2 最新動態）
+
+| 來源 | URL | 用於 |
+|------|-----|------|
+| Anthropic Opus 4.7 release | https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7 | v2 §2.5 修正定價 $5/$25 |
+| Opus 4.7 in Bedrock (AWS 2026-04-20) | https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/ | v2 §2.5 |
+| Opus 4.7 Pricing 解析 (Finout) | https://www.finout.io/blog/claude-opus-4.7-pricing-the-real-cost-story-behind-the-unchanged-price-tag | v2 §2.5、§4.4 |
+| Agent Skills (Anthropic Engineering) | https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills | **v2 §2.4、§3.5.3 全新章節** |
+| Agent Skills API Docs | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview | v2 §3.5.3 |
+| Agent Skills 開放標準 (The New Stack) | https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/ | v2 §2.4、§4.3 |
+| Claude Managed Agents (SiliconANGLE 2026-04-08) | https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/ | **v2 §2.5、§3.2 新增託管層** |
+| Anthropic Release Notes April 2026 | https://releasebot.io/updates/anthropic | v2 §2.5 |
+| Agent Lightning (Microsoft Research) | https://www.microsoft.com/en-us/research/blog/agent-lightning-adding-reinforcement-learning-to-ai-agents-without-code-rewrites/ | **v2 §3.7.1.5 Agentic RL** |
+| OpenAI Agents SDK Sandboxing 升級 | https://devops.com/openai-upgrades-its-agents-sdk-with-sandboxing-and-a-new-model-harness/ | v2 §3.2 |
+| Prompt Injection 學術調查 (MDPI 2026) | https://www.mdpi.com/2078-2489/17/1/54 | **v2 §3.7.7 安全章節擴展** |
 
 ## Anthropic 官方
 

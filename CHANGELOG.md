@@ -4,6 +4,40 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-26] (Agentic AI v2 — 評審修訂 + 6 張 SVG 示意圖)
+
+### Added
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v2.md` — 大幅修訂版（從 960 行擴至 ~1100 行）
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v2.pdf`（1.26 MB）
+- 新增 6 張 SVG 示意圖：五條演化線匯流（圖 1）、三陣營三協議格局（圖 2）、七層工程棧（圖 3）、Context Lifecycle（圖 4）、Multi-agent 四模式（圖 5）、三個未定賭注（圖 6）
+- 新增 §2.4「Agent Skills 開放標準」（agentskills.io 2025-12 開源）+ 第三層協議完整化
+- 新增 §3.7.1.5「Agentic RL 訓練範式革命」（ARTIST、Agent Lightning、Kimi K2.5、LiteResearcher）
+- 新增 §4.5「訓練 vs Scaffold 派分歧」+ §4.6「三個未定的賭注」
+- 新增 附錄 A「2026 Q2 Agent Stack 起手套件」三層
+
+### Changed
+- 修正 Opus 4.7 定價：v1 寫 $15+/M，正確為 **$5/M input、$25/M output**（與 4.6 同價，no long-context premium）
+- 修正 Agentic Misalignment 研究時間：v1 標 2024，正確為 **2025-06**
+- 補上 Claude Managed Agents（2026-04-08 發布）作為官方託管 runtime
+- 擴展 Computer Use API 2026 Q1 變更：vision + a11y fallback、action batching（延遲 -60%）、Native Windows
+- 擴展 Evals：補 SWE-Lancer / AgentBench-2 / LiveSWEBench 三個新世代 benchmark
+- 擴展 §3.7.7 安全章節：從 3 威脅擴為 4 威脅（補 tool poisoning、memory poisoning、multi-agent collusion）
+
+### Fixed
+- 全 SVG `font: bold ...` 縮寫改為 `font-weight + font-size + font-family` 顯式三屬性，解決 WeasyPrint 不渲染粗體標題問題
+- 修正 SVG 內 `&` 需轉義為 `&amp;` 才能通過 cairosvg / WeasyPrint XML parsing
+- 圖 1 Lane 5（訓練）與 Lane 4（編排）節點重疊：節點重新分散
+- 圖 3 L5 / L6 layer-name + layer-desc 過長超出 280px 框：精簡用 `·` 連接
+
+### Lessons Learnt（追加 lessons.md）
+- **WeasyPrint SVG 字型 quirk**：`font: bold 11px sans-serif` 縮寫不被 WeasyPrint 正確解析，導致粗體 `<text>` 元素完全不渲染。必須拆成 `font-weight: bold; font-size: 11px; font-family: sans-serif` 三個顯式屬性。cairosvg 本機渲染卻 OK，所以本機 PNG 預覽能看到、PDF 卻消失，極易漏抓
+- **SVG 在 Markdown 內須 escape `&`**：`L3 Memory & Context` 會破壞 cairosvg/lxml XML parsing；改 `&amp;`。WeasyPrint 對寬鬆 HTML 容忍度較高但仍不應依賴
+- **視覺驗證流程**：cairosvg 抽 SVG 預覽（檢測排版重疊）+ pdftoppm 抽 PDF 頁（檢測字型/中文渲染）兩步缺一不可——前者沒 CJK font 但版面準、後者中文準但無法 isolate SVG bug
+- **SVG 箭頭 polygon apex 方向**：`<polygon points="x1,y1 x2,y2 x3,y3" />` 的 apex 看哪個點偏離其他兩點最遠的那個方向。例如 `points="180,75 170,70 170,80"` 三點中 (180,75) 是右側單獨一點、(170,70)/(170,80) 是左側兩點 → apex 在右、base 在左 → 箭頭指右。畫錯極易反向（v2 第一版圖 4 整批箭頭反向，因為原寫成「base 兩點在右」的順序）。**規則：apex 要朝目標、base 兩點 y 座標應對稱於 line 的 y 座標**
+- **Event bus 視覺化**：用 dashed line 表達 bus 不直觀（讀者讀不出 pub/sub）；應畫成清晰的 pill 形 `<rect rx>` channel，所有 publisher/subscriber 用實線連接到 bus 上下緣。Enterprise integration patterns 的標準視覺化即如此
+- **VS / 對抗徽章不要直接用大字**：28px 文字會佔 50px 寬，常溢出鄰近 box；改用直徑 24-26px 的圓 badge 配 11px 白色粗體文字，對比強且不溢界
+- **AI 繪 SVG 三步驗證 SOP**：(1) 寫完先在 head 用 cairosvg 抽看排版（無中文 OK）→ (2) 改 PDF 後用 pdftoppm 200dpi 抽圖頁→ (3) 用 Read tool 視覺核驗 — 三步至少各做一次再交付
+
 ## [2026-04-24] (v4.0 — 統一大表 71 位 + Rubric v2.0 披露規則)
 
 ### Added
