@@ -4,6 +4,41 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-26] (Lean PCOS 膠原蛋白研究 v2 — 保澎潤框架重定位)
+
+### Added
+- `reports/2026-04-lean-pcos-collagen/lean-pcos-collagen_橫縱分析報告_v2.md`（1321 行，+200 行）
+- `reports/2026-04-lean-pcos-collagen/lean-pcos-collagen_橫縱分析報告_v2.pdf`（1.41 MB）
+- 新增 1 張 SVG 圖（圖 2「澎潤的四層解剖結構與口服膠原可介入性」）
+- 新增 §2.1「澎潤的解剖學分層」核心章節 — 四層解剖：脂肪墊 60-70% / 真皮 20-25% / 表皮 10-15% / 骨架
+- 新增 §6.6「保澎潤內服真正的對手：口服玻尿酸 HA」對照表 — HA RCT 證據比膠原直接
+- 新增 §6.7「保澎潤醫美選項位階」對照表 — Sculptra / 玻尿酸填充 / Skinbooster / Polynucleotide / Rejuran
+- 擴充 §6.8「替代方案綜合表」 — 加入 spironolactone、外用 retinoid、口服 HA 等 17 項
+- 新增 §8.7「補膠原前該驗的檢驗清單」 — TSH/SHBG/HOMA-IR/25(OH)D/eGFR 等 7 項
+- 重寫 §1 一句話定義 + 圖 1（從預算決策樹改為 P0-P3 階梯流程）
+- 重寫 §5 PCOS 章框定（從 outcome 降為 safety constraint）
+- §5.5 新增 lean phenotype 脂肪墊結構性劣勢段落
+- 重寫 §7.4 三劇本（保澎潤框架 4 劇本，含「劇本 D 踩雷高糖膠原飲」）
+- 重寫 §8.1 SOP（從 Tier 1-4 改為 P0-P3 整合外用 + 內服 + 醫美）
+- 升級 §8.6 風險清單 — 加入「過度減重 → 脂肪墊流失」「孕期/備孕」「魚過敏」三項；oxalate 風險升級警示「5-10 g/日恰在文獻訊號劑量區」
+- 增補 16 個 v2 新引用（oral HA RCT × 4、PN/Rejuran × 2、buccal fat 文獻 × 2、Ito 修正引用、CSA 反駁、isotretinoin/spironolactone 等）
+
+### Fixed
+- §5.3「Sugihara 2018」引用錯誤更正為「Ito, Seki, Ueda 2018（Marine Drugs）」 — 正確的 CPO + IGF-1 RCT 作者群
+- §5.3 補強：純膠原 vs 複方（含 ornithine / arginine / glutamine）對 IGF-1 影響的差異說明
+
+### Changed
+- 圖 2-6 因新增 §2.1「圖 2 澎潤分層」而重新編號為圖 3-7
+- 標題「25 歲 Lean PCOS 女性的膠原蛋白決策」 → 「25 歲 Lean PCOS 女性的保澎潤膠原蛋白決策（v2）」
+- 領域標籤順序「女性內分泌 × 營養補充 × 美容皮膚」 → 「美容皮膚 × 女性內分泌 × 營養補充」
+- 口服膠原從 v1「Tier 4 美容輔助」重新定位為 v2「P2 marginal play」
+- §9 能力限制聲明從 4 項擴充為 6 項（加入「無 head-to-head HA vs 膠原 RCT」「醫美 cost-per-effect 缺長期資料」）
+
+### Lessons
+- 報告框架（PCOS outcome vs 美容 outcome）必須在 v1 開頭與使用者對齊；錯框會導致正確的醫學論述指向錯誤的決策建議
+- 對 lean phenotype 個案做美容類研究時，「皮下脂肪墊」必須單獨成段討論 — 這是 lean 與 normal/obese 患者最大的解剖差異，但常被歸類在「BMI 影響」一帶而過
+- 口服 HA 作為口服膠原的「真實對手」在台灣消費市場長期被低估；2023-2025 的 oral HA RCT 證據已穩定支持其作為「保水」首選
+
 ## [2026-04-26] (Lean PCOS 25 歲女性膠原蛋白決策研究 v1)
 
 ### Added

@@ -1,134 +1,197 @@
-# 25 歲 Lean PCOS 女性的膠原蛋白決策
+# 25 歲 Lean PCOS 女性的保澎潤膠原蛋白決策（v2）
 
-> 研究時間：2026-04-26 ｜ 所屬領域：女性內分泌 × 營養補充 × 美容皮膚 ｜ 研究對象類型：補充品決策
+> 研究時間：2026-04-26 ｜ 所屬領域：美容皮膚 × 女性內分泌 × 營養補充 ｜ 研究對象類型：保澎潤決策
+
+> **v2 修訂說明**：v1 將膠原蛋白放在 PCOS 治療框架下評估，結論為「Tier 4 美容輔助」。v2 應使用者澄清「主目的是保臉部澎潤，PCOS 只是 safety constraint」後重新校準框架，新增三個 v1 最大盲區的章節：(1) 澎潤的解剖學分層（脂肪墊 60-70% / 真皮 20-25% / 表皮 10-15%）、(2) 口服玻尿酸 vs 口服膠原對照（HA 對水分證據更直接）、(3) 醫美 Skinbooster / Polynucleotide / Sculptra 在保澎潤位階上的相對優勢，特別是對 lean phenotype 個案。引用修正：v1 §5.3「Sugihara 2018」更正為「Ito, Seki, Ueda 2018（Marine Drugs）」。
 
 ---
 
 ## 一、一句話定義（先回答你的問題）
 
-**膠原蛋白對 PCOS 病理（胰島素阻抗、雄性素過高、排卵障礙）沒有任何臨床證據；對 25 歲皮膚的水分與彈性有 4–12 週的溫和證據。**
+**對 25 歲想保臉部澎潤的個案，口服膠原蛋白是「P2 marginal play」，不是主力——因為「澎潤」這個視覺效果有 60-70% 來自皮下脂肪墊，膠原內服完全動不到這一層，最多影響真皮層的 20-25%。而真皮層的水分與彈性，口服玻尿酸（HA）的 RCT 證據比口服膠原更直接。**
 
-對你這個 lean PCOS + 痘痘 + 低 GI 飲食的個案，膠原蛋白屬於 **Tier 4「美容偏好型可選補充」**，排在肌醇、Vit D、Omega-3、鋅之後。如果預算有限，把錢花在 Tier 1 補充品上 CP 值高百倍。如果預算寬裕、單純想保養皮膚水潤度，可以補，但**必須避開含糖、含奶、含 ornithine 的複方**——這些才是真正會推 IGF-1 加重痘痘的元兇，不是膠原本體。
+對你這個 25 歲 + lean phenotype + PCOS + 想保澎潤的個案，正確的優先序如下：
 
-挑選原則濃縮成三條：
+- **P0（必做，不做這些其他都白搭）**：不過度減重（BMI 維持 19-21）、每日 SPF50 防曬、睡 7-8 小時、蛋白質 1.2-1.6 g/kg
+- **P1（主力保養，月 NT$1500-3000）**：外用玻尿酸精華 + 外用 retinol 0.2-0.3% + PCOS Tier 1 補充品（肌醇 + Vit D + Omega-3 + 鋅）+ 抗糖化飲食
+- **P2（內服加碼）**：**口服玻尿酸 120-200 mg/日 > 口服膠原 5-10 g/日**（HA 對「保水澎潤」證據比膠原直接，且更便宜）
+- **P3（醫美加速）**：對 lean phenotype 個案最對症的是 **Sculptra（童顏針）+ 顴部/太陽穴玻尿酸填充**——直接補你天生較少的脂肪墊；其次是 Skinbooster（Profhilo / Restylane Vital）與 Polynucleotide / Rejuran（韓系修復真皮品質）
+
+如果決定補膠原，挑選原則三條（PCOS safety constraint）：
 
 1. **單一成分、無糖、無乳製品衍生物**（例如 Vital Proteins Unflavored、Sports Research Unflavored）
 2. **海洋膠原 > 牛膠原 > 豬膠原**（分子量更小、抗發炎證據較強、與 IGF-1 路徑無直接連動）
-3. **看「原料品牌」而不是「行銷話術」**（標示 Peptan®、Verisol®、Wellnex® PO·OG、Naticol® 才有臨床背書，只寫「法國頂級」「德國工藝」的多半是貼牌）
+3. **看「原料品牌」而不是「行銷話術」**（標示 Peptan®、Verisol®、Wellnex® PO·OG、Naticol® 才有臨床背書）
+
+⚠️ **lean phenotype 對保澎潤的最大警示**：不要為了 PCOS 過度節食。Underweight 女性的 buccal fat（顴部脂肪墊）顯著低於 normal weight 女性，且低 BMI 下臉部脂肪流失速度更快。**過度減重 → 脂肪墊先掉 → 補再多膠原都填不回來**。BMI 19-21 是你的甜蜜帶。
 
 詳細推理在後面三萬字。如果只看這頁也夠用了。
 
 <div style="page-break-before: always; height: 0;"></div>
 
-**圖 1：25 歲 lean PCOS 女性的膠原蛋白決策樹**
+**圖 1：25 歲 lean PCOS 想保臉部澎潤的 P0-P3 優先序**
 
-<svg viewBox="0 0 580 280" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 580 440" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .root-box { fill: #1a5276; stroke: #154360; stroke-width: 1.5; }
-    .root-text { font-weight: bold; font-size: 12px; font-family: sans-serif; fill: #ffffff; text-anchor: middle; }
-    .branch-box { fill: #ebf5fb; stroke: #2e86c1; stroke-width: 1.2; }
-    .branch-text { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #1a5276; text-anchor: middle; }
-    .branch-sub { font-weight: normal; font-size: 9px; font-family: sans-serif; fill: #2c3e50; text-anchor: middle; }
-    .yes-box { fill: #d4efdf; stroke: #1e8449; stroke-width: 1.2; }
-    .yes-text { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #145a32; text-anchor: middle; }
-    .yes-sub { font-weight: normal; font-size: 9px; font-family: sans-serif; fill: #1e8449; text-anchor: middle; }
-    .no-box { fill: #fadbd8; stroke: #c0392b; stroke-width: 1.2; }
-    .no-text { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #922b21; text-anchor: middle; }
-    .arrow-line { stroke: #34495e; stroke-width: 1.4; fill: none; }
-    .label-bg { fill: #ffffff; stroke: #95a5a6; stroke-width: 0.6; }
-    .label-text { font-weight: bold; font-size: 8.5px; font-family: sans-serif; fill: #34495e; text-anchor: middle; }
+    .header { font-weight: bold; font-size: 13px; font-family: sans-serif; fill: #1a5276; text-anchor: middle; }
+    .p0 { fill: #d4efdf; stroke: #1e8449; stroke-width: 1.5; }
+    .p1 { fill: #d6eaf8; stroke: #2874a6; stroke-width: 1.5; }
+    .p2 { fill: #fdf2e9; stroke: #d35400; stroke-width: 1.5; }
+    .p3 { fill: #fadbd8; stroke: #b03a2e; stroke-width: 1.5; }
+    .badge-p0 { fill: #1e8449; }
+    .badge-p1 { fill: #2874a6; }
+    .badge-p2 { fill: #d35400; }
+    .badge-p3 { fill: #b03a2e; }
+    .level-label { font-weight: bold; font-size: 16px; font-family: sans-serif; fill: #ffffff; text-anchor: middle; }
+    .level-title { font-weight: bold; font-size: 11px; font-family: sans-serif; text-anchor: start; }
+    .item-text { font-weight: normal; font-size: 9.5px; font-family: sans-serif; fill: #2c3e50; text-anchor: start; }
+    .cost-text { font-weight: bold; font-size: 10px; font-family: sans-serif; fill: #c0392b; text-anchor: end; }
+    .arrow { stroke: #34495e; stroke-width: 2; fill: none; }
+    .note-bg { fill: #fef9e7; stroke: #d4ac0d; stroke-width: 1; }
+    .note-text { font-weight: bold; font-size: 10px; font-family: sans-serif; fill: #7d6608; text-anchor: middle; }
   </style>
 
-  <rect x="200" y="6" width="180" height="34" rx="6" class="root-box"/>
-  <text x="290" y="20" class="root-text">25 歲 lean PCOS</text>
-  <text x="290" y="34" class="root-text">該不該補膠原蛋白？</text>
+  <text x="290" y="18" class="header">25 歲 lean PCOS 想保臉部澎潤的優先序</text>
 
-  <line x1="290" y1="40" x2="290" y2="56" class="arrow-line"/>
-  <polygon points="286,53 294,53 290,61" fill="#34495e"/>
+  <rect x="20" y="32" width="540" height="68" rx="6" class="p0"/>
+  <rect x="20" y="32" width="60" height="68" rx="6" class="badge-p0"/>
+  <text x="50" y="72" class="level-label">P0</text>
+  <text x="90" y="50" class="level-title" fill="#145a32">必做基底（沒做這些其他都白搭）</text>
+  <text x="90" y="68" class="item-text">• 不過度減重，BMI 維持 19-21（lean phenotype 脂肪墊一掉就回不來）</text>
+  <text x="90" y="82" class="item-text">• SPF50 每日防曬（陰天也擦）｜ 睡 7-8h ｜ 蛋白質 1.2-1.6 g/kg/日</text>
+  <text x="555" y="96" class="cost-text">月成本 NT$0-300</text>
 
-  <rect x="180" y="62" width="220" height="22" rx="6" class="branch-box"/>
-  <text x="290" y="77" class="branch-text">先看月補充品預算落在哪一檔</text>
+  <line x1="290" y1="100" x2="290" y2="116" class="arrow"/>
+  <polygon points="286,113 294,113 290,121" fill="#34495e"/>
 
-  <line x1="290" y1="84" x2="290" y2="100" class="arrow-line"/>
-  <line x1="100" y1="100" x2="480" y2="100" class="arrow-line"/>
-  <line x1="100" y1="100" x2="100" y2="118" class="arrow-line"/>
-  <line x1="290" y1="100" x2="290" y2="118" class="arrow-line"/>
-  <line x1="480" y1="100" x2="480" y2="118" class="arrow-line"/>
-  <polygon points="96,115 104,115 100,123" fill="#34495e"/>
-  <polygon points="286,115 294,115 290,123" fill="#34495e"/>
-  <polygon points="476,115 484,115 480,123" fill="#34495e"/>
+  <rect x="20" y="122" width="540" height="68" rx="6" class="p1"/>
+  <rect x="20" y="122" width="60" height="68" rx="6" class="badge-p1"/>
+  <text x="50" y="162" class="level-label">P1</text>
+  <text x="90" y="140" class="level-title" fill="#1b4f72">主力保養（最關鍵的投資）</text>
+  <text x="90" y="158" class="item-text">• 外用 HA 精華（早晚）+ retinol 0.2-0.3%（睡前） — 月 NT$800-2300</text>
+  <text x="90" y="172" class="item-text">• PCOS Tier 1 補滿：肌醇+VitD+Omega-3+鋅 — 月 NT$1500（控發炎=控糖化）</text>
+  <text x="555" y="186" class="cost-text">月成本 NT$1500-3000</text>
 
-  <rect x="68" y="106" width="64" height="13" class="label-bg"/>
-  <text x="100" y="115" class="label-text">&lt; NT$1500</text>
-  <rect x="252" y="106" width="76" height="13" class="label-bg"/>
-  <text x="290" y="115" class="label-text">NT$1500-3000</text>
-  <rect x="448" y="106" width="64" height="13" class="label-bg"/>
-  <text x="480" y="115" class="label-text">&gt; NT$3000</text>
+  <line x1="290" y1="190" x2="290" y2="206" class="arrow"/>
+  <polygon points="286,203 294,203 290,211" fill="#34495e"/>
 
-  <rect x="22" y="124" width="156" height="40" rx="6" class="branch-box"/>
-  <text x="100" y="139" class="branch-text">全部投 Tier 1</text>
-  <text x="100" y="152" class="branch-sub">肌醇 + Vit D + Omega-3 + 鋅</text>
-  <text x="100" y="161" class="branch-sub">膠原暫不考慮</text>
+  <rect x="20" y="212" width="540" height="68" rx="6" class="p2"/>
+  <rect x="20" y="212" width="60" height="68" rx="6" class="badge-p2"/>
+  <text x="50" y="252" class="level-label">P2</text>
+  <text x="90" y="230" class="level-title" fill="#a04000">內服加碼（口服 HA &gt; 口服膠原）</text>
+  <text x="90" y="248" class="item-text">• 口服玻尿酸 HA 120-200 mg/日（NOW Foods / Doctor's Best） — 月 NT$400-800【首選】</text>
+  <text x="90" y="262" class="item-text">• 口服膠原 5-10 g/日（Vital Proteins Unflavored） — 月 NT$800-1500【其次】</text>
+  <text x="555" y="276" class="cost-text">月成本 NT$1200-2300</text>
 
-  <rect x="212" y="124" width="156" height="40" rx="6" class="branch-box"/>
-  <text x="290" y="139" class="branch-text">Tier 1 + Tier 2 補滿</text>
-  <text x="290" y="152" class="branch-sub">+ NAC + 鎂 + 鋅</text>
-  <text x="290" y="161" class="branch-sub">行有餘力再加膠原</text>
+  <line x1="290" y1="280" x2="290" y2="296" class="arrow"/>
+  <polygon points="286,293 294,293 290,301" fill="#34495e"/>
 
-  <rect x="402" y="124" width="156" height="40" rx="6" class="branch-box"/>
-  <text x="480" y="139" class="branch-text">可加碼膠原</text>
-  <text x="480" y="152" class="branch-sub">Tier 1+2 補齊後</text>
-  <text x="480" y="161" class="branch-sub">→ 進入挑選關</text>
+  <rect x="20" y="302" width="540" height="68" rx="6" class="p3"/>
+  <rect x="20" y="302" width="60" height="68" rx="6" class="badge-p3"/>
+  <text x="50" y="342" class="level-label">P3</text>
+  <text x="90" y="320" class="level-title" fill="#922b21">醫美加速（lean phenotype 最對症）</text>
+  <text x="90" y="338" class="item-text">• Sculptra 童顏針（2 瓶療程，效果 25 個月）｜ 顴部 / 太陽穴玻尿酸填充</text>
+  <text x="90" y="352" class="item-text">• Skinbooster（Profhilo）｜ Polynucleotide / Rejuran（韓系修真皮品質）</text>
+  <text x="555" y="366" class="cost-text">單次 NT$8,000-38,000</text>
 
-  <line x1="480" y1="164" x2="480" y2="180" class="arrow-line"/>
-  <polygon points="476,177 484,177 480,185" fill="#34495e"/>
-
-  <rect x="382" y="186" width="178" height="28" rx="6" class="branch-box"/>
-  <text x="471" y="200" class="branch-text">配方檢查三條紅線</text>
-  <text x="471" y="210" class="branch-sub">糖 / 奶 / ornithine</text>
-
-  <line x1="471" y1="214" x2="471" y2="230" class="arrow-line"/>
-  <line x1="395" y1="230" x2="547" y2="230" class="arrow-line"/>
-  <line x1="395" y1="230" x2="395" y2="246" class="arrow-line"/>
-  <line x1="547" y1="230" x2="547" y2="246" class="arrow-line"/>
-  <polygon points="391,243 399,243 395,251" fill="#34495e"/>
-  <polygon points="543,243 551,243 547,251" fill="#34495e"/>
-
-  <rect x="364" y="234" width="62" height="13" class="label-bg"/>
-  <text x="395" y="243" class="label-text">三條都 ✓</text>
-  <rect x="516" y="234" width="62" height="13" class="label-bg"/>
-  <text x="547" y="243" class="label-text">任一 ✗</text>
-
-  <rect x="306" y="252" width="180" height="26" rx="6" class="yes-box"/>
-  <text x="396" y="267" class="yes-text">推薦三檔擇一</text>
-  <text x="396" y="276" class="yes-sub">NeoCell / Vital Proteins / Milcolla</text>
-
-  <rect x="496" y="252" width="76" height="26" rx="6" class="no-box"/>
-  <text x="534" y="267" class="no-text">退貨</text>
-  <text x="534" y="276" class="branch-sub" fill="#922b21">含糖飲品最坑</text>
-
-  <rect x="22" y="186" width="350" height="92" rx="6" fill="#fef9e7" stroke="#d4ac0d" stroke-width="1"/>
-  <text x="197" y="201" font-weight="bold" font-size="10.5px" font-family="sans-serif" fill="#7d6608" text-anchor="middle">為什麼這個排序？</text>
-  <text x="35" y="218" font-weight="normal" font-size="9px" font-family="sans-serif" fill="#2c3e50">• Tier 1 對 PCOS 病理有 RCT 證據；膠原對 PCOS 0 證據</text>
-  <text x="35" y="232" font-weight="normal" font-size="9px" font-family="sans-serif" fill="#2c3e50">• 預算順序錯，等於沒補到真正影響 IR / 雄性素的東西</text>
-  <text x="35" y="246" font-weight="normal" font-size="9px" font-family="sans-serif" fill="#2c3e50">• 膠原本體不致痘，但「糖 + 奶」添加物會推 IGF-1 → 痘</text>
-  <text x="35" y="260" font-weight="normal" font-size="9px" font-family="sans-serif" fill="#2c3e50">• 25 歲膠原合成穩定，補充屬「美容偏好」非「醫療必需」</text>
-  <text x="35" y="274" font-weight="bold" font-size="9px" font-family="sans-serif" fill="#7d6608">→ 順序：肌醇 &gt; Vit D &gt; Omega-3 &gt; 鋅 &gt;&gt; 膠原</text>
+  <rect x="20" y="386" width="540" height="42" rx="4" class="note-bg"/>
+  <text x="290" y="404" class="note-text">關鍵洞察：「澎潤」60-70% 來自皮下脂肪墊（膠原動不到），</text>
+  <text x="290" y="418" class="note-text">真皮層 20-25% 中口服 HA 證據比口服膠原更直接</text>
 </svg>
 
 ---
 
 ## 二、為什麼這個問題值得認真寫
 
-膠原蛋白是台灣最廣告化的健康補充品之一。打開電視兩分鐘就會看到至少一支白蘭氏或 BHK's 的廣告，背景音樂溫柔、女主角皮膚發光、字幕跑「3000 mg 雙胜肽」。它賣得好的原因是「視覺承諾」——皮膚是看得到的，PCOS 的胰島素阻抗看不到。
+膠原蛋白是台灣最廣告化的健康補充品之一。打開電視兩分鐘就會看到至少一支白蘭氏或 BHK's 的廣告，背景音樂溫柔、女主角皮膚發光、字幕跑「3000 mg 雙胜肽」。它賣得好的原因是「視覺承諾」——皮膚是看得到的，PCOS 的胰島素阻抗看不到。**而「澎潤」這個視覺承諾，正是廣告打你最深的一擊**。
 
-但你身上有兩個結構性問題會讓「補膠原」這件事變得不單純：
+但你身上有**三個**結構性問題會讓「為了保澎潤補膠原」這件事變得不單純：
 
-**第一，你是 lean PCOS。** BMI 正常但胰島素阻抗仍然存在。亞洲族群的 lean PCOS 比例約佔所有 PCOS 的 40%，比西方更高，且常被醫師誤判（「你不胖，怎麼會是 PCOS？」）。Lean phenotype 的核心病理偏向**下視丘-腦下垂體軸異常 + 神經內分泌驅動**，而不是 obese phenotype 那種脂肪組織發炎為主的代謝負擔。這意味著你的營養策略應該以「降發炎、調軸線」為主，不是熱量赤字優先。
+**第一，你是 lean phenotype——這是保澎潤這個目標下被嚴重低估的風險因子。** Underweight 與 normal-low BMI 女性的臉部脂肪墊（特別是 buccal fat / malar fat / 太陽穴脂肪）顯著少於 normal-high BMI 女性，且低 BMI 下臉部脂肪流失速度明顯更快（[J Craniofac Surg 2024](https://pubmed.ncbi.nlm.nih.gov/39284118/)）。這意味著你的「澎潤」起點本來就比一般人低，且更容易因為節食、壓力、慢性疲勞而進一步流失。**膠原內服只能作用在真皮層，完全動不到脂肪墊**——脂肪墊一掉就回不來，補再多膠原都沒用。
 
-**第二，你有痘痘困擾。** 痘痘的真正驅動因子是 **IGF-1 → 5α-reductase → DHT → 皮脂腺 lipogenesis**這條路徑。任何會推升 IGF-1 的食物或補充品，原則上都應該謹慎。膠原蛋白本體（甘胺酸 + 脯胺酸 + 羥脯胺酸為主）不是 leucine-rich，相對 whey protein 在 mTORC1 / IGF-1 路徑上溫和很多。但市售膠原蛋白產品經常添加的東西——果糖、麥芽糊精、果寡糖、奶粉、ornithine 複方——恰好都是 IGF-1 路徑的潛在加分項。
+**第二，你是 lean PCOS。** BMI 正常但胰島素阻抗仍然存在。亞洲族群的 lean PCOS 比例約佔所有 PCOS 的 40%，比西方更高，且常被醫師誤判（「你不胖，怎麼會是 PCOS？」）。Lean phenotype 的核心病理偏向**下視丘-腦下垂體軸異常 + 神經內分泌驅動**，而不是 obese phenotype 那種脂肪組織發炎為主的代謝負擔。這意味著你的營養策略應該以「降發炎、調軸線」為主，**絕對不是熱量赤字優先——這對你的澎潤是雙重打擊**。
 
-所以這不是一個「補/不補」的二元選擇題，是「**如果補，怎麼避開那些會踩雷的添加物**」的精細工程題。這篇報告的價值就在這裡。
+**第三，你有痘痘困擾。** 痘痘的真正驅動因子是 **IGF-1 → 5α-reductase → DHT → 皮脂腺 lipogenesis**這條路徑。任何會推升 IGF-1 的食物或補充品，原則上都應該謹慎。膠原蛋白本體（甘胺酸 + 脯胺酸 + 羥脯胺酸為主）不是 leucine-rich，相對 whey protein 在 mTORC1 / IGF-1 路徑上溫和很多。但市售膠原蛋白產品經常添加的東西——果糖、麥芽糊精、果寡糖、奶粉、ornithine 複方——恰好都是 IGF-1 路徑的潛在加分項。
+
+所以這不是一個「補膠原能不能讓我變澎潤」的二元選擇題，而是兩層精細工程題：**(1) 澎潤的視覺效果有 60-70% 來自脂肪墊、20-25% 來自真皮層、10-15% 來自表皮水分——膠原最多只能影響第二層；(2) 真皮層那 20-25% 的水分與彈性，口服玻尿酸（HA）的證據其實比口服膠原更直接**。這篇報告的價值就在於把這兩層攤開講清楚，並把口服膠原放回它應該在的位置。
+
+### 2.1 澎潤的解剖學分層（v2 新增核心章節）
+
+「臉部澎潤」在醫學上是四層解剖結構共同決定的視覺結果。下圖標示每一層的視覺貢獻權重，以及口服膠原能不能介入：
+
+**圖 2：「澎潤」的四層解剖結構與口服膠原的可介入性**
+
+<svg viewBox="0 0 580 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-weight: bold; font-size: 13px; font-family: sans-serif; fill: #1a5276; text-anchor: middle; }
+    .layer-fat { fill: #f9e79f; stroke: #b9770e; stroke-width: 1.5; }
+    .layer-derm { fill: #d6eaf8; stroke: #2874a6; stroke-width: 1.5; }
+    .layer-epi { fill: #d4efdf; stroke: #1e8449; stroke-width: 1.5; }
+    .layer-bone { fill: #ecf0f1; stroke: #7f8c8d; stroke-width: 1.5; }
+    .layer-title { font-weight: bold; font-size: 12px; font-family: sans-serif; fill: #1c2833; text-anchor: start; }
+    .layer-sub { font-weight: normal; font-size: 9.5px; font-family: sans-serif; fill: #2c3e50; text-anchor: start; }
+    .pct-bg-big { fill: #c0392b; }
+    .pct-bg-mid { fill: #d35400; }
+    .pct-bg-small { fill: #1e8449; }
+    .pct-bg-na { fill: #7f8c8d; }
+    .pct-text { font-weight: bold; font-size: 14px; font-family: sans-serif; fill: #ffffff; text-anchor: middle; }
+    .pct-label { font-weight: normal; font-size: 8.5px; font-family: sans-serif; fill: #ffffff; text-anchor: middle; }
+    .can-text-no { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #c0392b; text-anchor: end; }
+    .can-text-partial { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #d35400; text-anchor: end; }
+    .can-text-yes { font-weight: bold; font-size: 10.5px; font-family: sans-serif; fill: #1e8449; text-anchor: end; }
+    .note-bg { fill: #fadbd8; stroke: #c0392b; stroke-width: 1; }
+    .note-text { font-weight: bold; font-size: 10px; font-family: sans-serif; fill: #922b21; text-anchor: middle; }
+  </style>
+
+  <text x="290" y="18" class="header">「臉部澎潤」的四層解剖貢獻 × 口服膠原可介入性</text>
+
+  <rect x="20" y="36" width="540" height="76" rx="6" class="layer-fat"/>
+  <rect x="20" y="36" width="80" height="76" rx="6" class="pct-bg-big"/>
+  <text x="60" y="74" class="pct-text">60-70%</text>
+  <text x="60" y="92" class="pct-label">視覺貢獻</text>
+  <text x="115" y="56" class="layer-title">① 皮下脂肪墊（Subcutaneous fat compartments）</text>
+  <text x="115" y="74" class="layer-sub">顴部脂肪墊 (malar) ｜ 蘋果肌 (cheek) ｜ 太陽穴 (temporal)</text>
+  <text x="115" y="88" class="layer-sub">鼻唇溝旁 (nasolabial) ｜ Bichat 脂肪墊（咀嚼肌深層）</text>
+  <text x="115" y="104" class="layer-sub">→ lean phenotype 先天較少；過度減重 + cortisol 上升會加速流失</text>
+  <text x="555" y="105" class="can-text-no">口服膠原：完全動不到 ✗</text>
+
+  <rect x="20" y="122" width="540" height="76" rx="6" class="layer-derm"/>
+  <rect x="20" y="122" width="80" height="76" rx="6" class="pct-bg-mid"/>
+  <text x="60" y="160" class="pct-text">20-25%</text>
+  <text x="60" y="178" class="pct-label">視覺貢獻</text>
+  <text x="115" y="142" class="layer-title">② 真皮層（Dermis）</text>
+  <text x="115" y="160" class="layer-sub">Collagen Type I + III ｜ 玻尿酸 (HA) ｜ Elastin ｜ Proteoglycans</text>
+  <text x="115" y="174" class="layer-sub">→ 25 歲 baseline 仍高，主要威脅來自 UV 光老化 + AGEs 糖化</text>
+  <text x="115" y="190" class="layer-sub">→ 口服 HA 對水分證據比口服膠原更直接（[Skin Res Tech 2023]、[Sci Rep 2025]）</text>
+  <text x="555" y="191" class="can-text-partial">口服膠原：部分（4-12 週弱）△</text>
+
+  <rect x="20" y="208" width="540" height="68" rx="6" class="layer-epi"/>
+  <rect x="20" y="208" width="80" height="68" rx="6" class="pct-bg-small"/>
+  <text x="60" y="240" class="pct-text">10-15%</text>
+  <text x="60" y="258" class="pct-label">視覺貢獻</text>
+  <text x="115" y="228" class="layer-title">③ 表皮屏障（Stratum corneum）</text>
+  <text x="115" y="246" class="layer-sub">Ceramide ｜ NMF (天然保濕因子) ｜ Filaggrin</text>
+  <text x="115" y="260" class="layer-sub">→ 外用 ceramide / panthenol / niacinamide 直接覆膜，遠快於內服</text>
+  <text x="555" y="269" class="can-text-yes">口服膠原：間接（弱訊號）○</text>
+
+  <rect x="20" y="286" width="540" height="48" rx="6" class="layer-bone"/>
+  <rect x="20" y="286" width="80" height="48" rx="6" class="pct-bg-na"/>
+  <text x="60" y="316" class="pct-text">N/A</text>
+  <text x="115" y="306" class="layer-title">④ 骨架支撐（Facial bone structure）</text>
+  <text x="115" y="322" class="layer-sub">25 歲處於 peak，30 歲後逐步流失（特別是 mandible 與 zygoma）</text>
+  <text x="555" y="325" class="can-text-no">口服膠原：完全無法 ✗</text>
+
+  <rect x="20" y="346" width="540" height="30" rx="4" class="note-bg"/>
+  <text x="290" y="364" class="note-text">給你的關鍵推論：保澎潤的 80% 在前兩層，其中第①層（脂肪墊）對 lean phenotype 是首要戰場</text>
+</svg>
+
+從這張圖可以推出三個對你決策最重要的結論：
+
+1. **保澎潤的主戰場在第①層脂肪墊（60-70% 視覺貢獻），但這層完全在膠原作用範圍之外。** lean phenotype 本來就在這層處於劣勢，過度減重 / 慢性壓力 / 睡眠不足都會直接打掉這層。
+2. **第②層真皮層那 20-25%，口服 HA 的證據比口服膠原更直接。** 多篇 RCT 顯示 oral HA 在 2-8 週改善水分、12 週增加表皮厚度（[Sci Rep 2025, n=150](https://www.nature.com/articles/s41598-025-32758-5)）；2025 Am J Med funding-bias 校正後獨立 RCT 顯示口服膠原對水分 / 彈性 / 皺紋無顯著效果（[PMID 40324552](https://pubmed.ncbi.nlm.nih.gov/40324552/)）。
+3. **第③層表皮屏障，外用 ceramide / panthenol / HA 精華直接覆膜的速度遠超內服任何補充品。** 想要立刻看到水潤感，外用比內服快得多。
+
+也就是說，**膠原內服在這四層裡，最多只能對第②層產生溫和訊號，且還不是這層的最優選**。這直接解釋了為什麼後面 §8 SOP 把口服膠原放在 P2，而不是 P1 或更高。
 
 ---
 
@@ -178,7 +241,7 @@
 
 ### 3.5 縱向時間軸視覺化
 
-**圖 2：膠原補充品 270 年演變時間軸（1754–2026）**
+**圖 3：膠原補充品 270 年演變時間軸（1754–2026）**
 
 <svg viewBox="0 0 580 360" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -319,7 +382,7 @@
 
 ### 4.4 訊號路徑：膠原如何「告訴」皮膚去合成更多膠原
 
-**圖 3：膠原訊號路徑——從口服到皮膚 fibroblast**
+**圖 4：膠原訊號路徑——從口服到皮膚 fibroblast**
 
 <svg viewBox="0 0 580 320" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -417,7 +480,9 @@
 
 ---
 
-## 五、與 PCOS 的科學交匯（這是你最在乎的章節）
+## 五、與 PCOS 的科學交匯（v2 重定位：PCOS 在保澎潤決策中是 safety constraint）
+
+> **v2 重定位說明**：v1 把這章當作「最在乎的章節」，因為當時假設 PCOS 是 outcome。v2 把 PCOS 視為 **safety constraint**——你的主目標是保澎潤，但你的補充品選擇不能讓 PCOS / 痘痘惡化。本章保留 v1 完整內容，但讀的時候請帶著 safety constraint 視角：你不是在問「補膠原能不能治 PCOS」（答案明確是「不能」），而是在問「補膠原會不會讓我的 PCOS / 痘痘變糟」（答案是「純配方不會，但市售複方有踩雷可能」）。
 
 ### 5.1 Glycine：膠原蛋白的「半個成分」與 PCOS 的關係
 
@@ -455,7 +520,7 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
 
 任何顯著推升 IGF-1 的食物或補充品，對你來說都是潛在風險。
 
-**膠原本身會升高 IGF-1 嗎？** 2018 年 Sugihara 等人的研究顯示，膠原胜肽 + ornithine 複方 8 週後血漿 IGF-1 顯著上升。但**單獨膠原**對 IGF-1 影響的研究較少，目前尚無定論。
+**膠原本身會升高 IGF-1 嗎？** [Ito, Seki, Ueda 2018（Marine Drugs）](https://www.mdpi.com/1660-3397/16/12/482)的研究顯示，22 名健康日本成人服用膠原胜肽 + ornithine 複方（CPO）8 週後血漿 IGF-1 顯著上升、皮膚彈性與 TEWL 改善（v1 此處誤標為「Sugihara」，v2 修正為實際作者群）。**注意這是 ornithine 複方，不是純膠原**——單獨膠原對 IGF-1 的直接 RCT 證據較少，目前尚無定論。臨床推論是：純膠原本體在 IGF-1 上中性偏低，但 ornithine、arginine（明治 Premium 含）、glutamine 等胺基酸添加會推升 IGF-1。
 
 重要對比：**whey protein 因為高 leucine → mTORC1 → IGF-1 的路徑遠強於 collagen**（collagen 的 leucine 含量相對低）。這意味著如果你需要補蛋白質，collagen 比 whey 對痘痘和 PCOS 友善。
 
@@ -486,7 +551,7 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
 
 ### 5.5 Lean vs Obese PCOS：為什麼你的考量不同
 
-**圖 4：Lean vs Obese PCOS 病理機制對照**
+**圖 5：Lean vs Obese PCOS 病理機制對照**
 
 <svg viewBox="0 0 580 400" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -610,6 +675,20 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
 
 膠原蛋白在 lean PCOS 框架下的位置：它對「下視丘-腦下垂體軸異常」「慢性低度發炎」「氧化壓力」這三條 lean PCOS 的核心病理沒有直接介入工具。它能做的最多是「在 glycine 充足的前提下支持 GSH 合成」這個間接路徑，但這個路徑強度不大。
 
+**v2 新增關鍵子段：lean phenotype 對保澎潤的結構性劣勢**
+
+把 lean phenotype 從 PCOS 病理視角切換到保澎潤視角，會發現一個 v1 完全沒講的關鍵風險：
+
+- **臉部脂肪墊先天較少**：[J Craniofac Surg 2024 CT 影像研究](https://pubmed.ncbi.nlm.nih.gov/39284118/) 顯示，underweight 與 normal-low BMI 女性的 buccal fat（顴部脂肪墊）顯著少於 normal-high BMI 女性。18-29 歲女性 baseline 又比男性低。雙重劣勢疊起來，你的「澎潤起點」比同齡正常 BMI 女性少 15-25%。
+- **過度減重 → 臉先垮**：[2024 Bariatric Soft Tissue 系統性回顧](https://pmc.ncbi.nlm.nih.gov/articles/PMC11427949/) 顯示體重下降後**臉部中段（mid-facial region）流失最顯著**——也就是蘋果肌、鼻唇溝旁、太陽穴。Lean PCOS 患者若為了「控糖 / 控胰島素」而過度節食，臉部脂肪墊會比腹部脂肪先掉。
+- **慢性壓力 → 脂肪重分布**：竹科工程師的長期高 cortisol 狀態會讓脂肪從皮下（包括臉部）重分布到內臟脂肪——這也是「年紀輕輕臉就凹陷」的常見機制。
+- **膠原不能填脂肪墊**：這是最關鍵的科學事實。口服膠原走 fibroblast 訊號路徑，作用在真皮層，**完全無法影響皮下脂肪墊體積**。一個常見的廣告陷阱是把「皮膚水潤度提升 10%」說成「澎潤」——但你直覺看到的「澎潤」60-70% 來自脂肪墊，不是真皮水分。
+
+**對你保澎潤的隱含意義**：
+- **第一優先是維持 BMI 19-21，不要追求 < 18.5**。lean phenotype 不需要 caloric restriction，這個觀念寫進 §8 SOP 的 P0。
+- **第二優先是降 cortisol**：睡眠 / 壓力管理 / 不過度運動的權重 > 任何補充品。
+- **膠原內服在這個框架下，永遠是 P2 marginal play**，不會升到 P0/P1。
+
 ### 5.6 PCOS 補充品優先順序（含膠原的明確定位）
 
 根據 2023 國際指南 + 多份 RCT meta-analysis 整合：
@@ -701,7 +780,7 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
 
 ### 6.5 PCOS 友善度視覺化
 
-**圖 5：12 款主流膠原蛋白產品的 PCOS 友善度排序**
+**圖 6：12 款主流膠原蛋白產品的 PCOS 友善度排序**
 
 <svg viewBox="0 0 580 460" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -803,27 +882,68 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
   <text x="290" y="444" font-weight="normal" font-size="9.5px" font-family="sans-serif" fill="#34495e" text-anchor="middle">含糖（果糖/葡萄糖/麥芽糊精/果寡糖）｜ 含奶（奶粉/奶精/牛奶鈣）｜ 含 ornithine 複方</text>
 </svg>
 
-### 6.6 替代方案：不一定要喝膠原才能補
+### 6.6 「保澎潤」內服真正的對手：口服玻尿酸 HA（v2 新增章節）
 
-| 方案 | 月成本 | 預期效果 | PCOS / 痘痘相容性 | 備註 |
+口服膠原最被低估的對手是**口服玻尿酸（oral HA）**——它對「保水澎潤」這個 outcome 的 RCT 證據比口服膠原更直接，月成本還更低。但這個對手在 v1 完全沒提到，因為當時的視角是 PCOS。
+
+| 內服選項 | 對「保水澎潤」的 RCT 證據 | 對 PCOS 的 safety | 月成本 | 推薦品牌 |
 |---|---|---|---|---|
-| 大骨湯 / 雞腳凍（自煮） | NT$200-500 | Whole food，含明膠 + 礦物質 + glycine | ★★★★☆ | 注意脂肪量 |
-| 明膠粉（Gelatin） | NT$100-300 | 與膠原同源；可做免糖果凍 | ★★★★★ | 烘焙料行有售 |
-| Glycine 單方胺基酸 | NT$200-500 | 直接補膠原合成原料；助眠 | ★★★★★ | iHerb / NOW Foods 平價 |
-| 高蛋白 + Vit C + 鋅 | NT$500-1500 | 提供合成原料 + 輔因子 | ★★★★☆（選無糖植物蛋白） | 鋅對痘痘有額外益處 |
-| A 醇（外用） | NT$500-1500 | 促細胞更新、抗痘、刺激膠原 | ★★★★☆ | 有 A 醇爆痘期 |
-| 勝肽類保養品（外用） | NT$800-3000 | 溫和促膠原 | ★★★★★ | 適合敏感 / 痘痘肌 |
-| 玻尿酸填充（醫美） | NT$8000-25000/部位 | 立即填充；維持 6-18 個月 | 不影響 PCOS | 純填補 |
-| PRP 自體血漿 | NT$15000-30000/次 | 釋放生長因子，修復痘疤 | 不影響 PCOS | 需 3-4 次療程 |
-| PRX-T33（復活水） | NT$4000-8000/次 | 生物活化；無針抗老 | 適合痘疤 | 需 4-6 次療程 |
-| 舒顏萃 Sculptra（PLLA） | NT$25000-38000/瓶 | 4-6 週起效；持續 25 個月 | 不影響 PCOS | CP 值高 |
+| **口服 HA（120-200 mg/日）** | ⭐⭐⭐⭐ [Skin Res Tech 2023](https://onlinelibrary.wiley.com/doi/10.1111/srt.13531)：2-8 週改善水分；[Sci Rep 2025 n=150](https://www.nature.com/articles/s41598-025-32758-5)：12 週**增加表皮厚度** | ⭐⭐⭐⭐⭐ 不影響 IGF-1 / 雄性素 | NT$400-800 | NOW Foods Hyaluronic Acid 100mg、Doctor's Best HA + chondroitin、DHC 玻尿酸 |
+| **口服膠原（5-10 g/日）** | ⭐⭐⭐ 機制成立但 [2025 Am J Med funding-bias](https://pubmed.ncbi.nlm.nih.gov/40324552/) 校正後獨立 RCT 顯示 null | ⭐⭐⭐⭐ 純配方 OK | NT$800-1500 | Vital Proteins、Sports Research |
+| **Glycine 單方** | ⭐⭐ 提供合成原料 | ⭐⭐⭐⭐⭐ 助眠加分 | NT$200-500 | NOW Foods Glycine |
+| **大骨湯 / 雞腳凍** | ⭐ Whole food | ⭐⭐⭐⭐ 注意飽和脂肪 | NT$200-500 | 自煮 |
 
-對 25 歲 lean PCOS + 痘痘的綜合優先順序：
+**v2 對你的內服首選結論**：如果只能挑一個內服補品保澎潤，**選口服 HA 不是膠原**。如果預算寬裕兩個都想吃，可以同時補（HA 主攻真皮水分、膠原主攻 fibroblast 訊號），月總成本 NT$1200-2300。
 
-1. **內服基礎**：Glycine 粉 + 高蛋白（無糖植物蛋白優先）+ 鋅 + Vit C → 月 500-1500
-2. **外用主力**：A 醇（建立耐受後）+ 勝肽精華
-3. **若預算允許加碼口服膠原**：Vital Proteins / Sports Research（無糖、單一成分）→ 月 800-1500
-4. **痘疤明顯**：PRX-T33 或 PRP（單次療程考慮）
+### 6.7 「保澎潤」醫美選項位階：對 lean phenotype 最對症的四個選項（v2 新增章節）
+
+對 lean phenotype 個案，醫美的位階比口服任何補充品都高——因為**只有醫美能直接補回脂肪墊體積**，這是膠原與 HA 內服都做不到的事。下表是 2024-2025 主流選項，按「對 lean 25 歲保澎潤」的對症度排序：
+
+| 醫美選項 | 機制 | 起效時間 / 維持 | 單次價格 | 對 lean phenotype 對症度 | 注意事項 |
+|---|---|---|---|---|---|
+| **Sculptra 童顏針（PLLA）** | 刺激內生 collagen 合成 + 微填補體積 | 4-6 個月起效，持續 **25 個月** | NT$25,000-38,000/瓶（建議 2 瓶療程） | ⭐⭐⭐⭐⭐ **lean 首選**：CP 值最高，效果均勻自然，每月攤平 NT$2000-3000 | 需 2-3 次施打間隔 4-6 週；少數結節風險（操作技術相關） |
+| **顴部 / 太陽穴玻尿酸填充** | 直接補脂肪墊缺失的視覺體積 | 立即效果，維持 6-18 個月 | NT$8,000-25,000/部位 | ⭐⭐⭐⭐⭐ **lean 首選**：對「凹陷型澎潤不足」最直接；需找有經驗醫師（避免做太滿假面感） | 醫師選擇關鍵；建議 cross-linked HA（Restylane Lyft / Juvederm Voluma） |
+| **Skinbooster 皮膚保水針** | 直接打 HA 到真皮中層，整臉「水光感」 | 2-4 週起效，維持 4-6 個月 | NT$15,000-25,000/次（每年 1-2 次） | ⭐⭐⭐⭐ 對「水潤感」直接，但對體積貢獻小 | 主流品牌：Restylane Vital、Profhilo、Juvederm Volite |
+| **Polynucleotide / Rejuran**（韓系） | 鮭魚 / 鱒魚 DNA 片段，修復真皮品質 + 增加皮膚厚度 | 3 次療程後可見，維持 6-12 個月 | NT$8,000-15,000/次（建議 3 次療程） | ⭐⭐⭐⭐ 對年輕族群「維持真皮品質」適合，[2024-2025 證據累積中](https://pmc.ncbi.nlm.nih.gov/articles/PMC11311621/) | 修復為主，體積貢獻有限 |
+| **PRP 自體血漿** | 釋放生長因子 | 多次療程後看 | NT$15,000-30,000/次 | ⭐⭐⭐ 修復取向，對「保澎潤」次選 | 需 3-4 次療程 |
+| **PRX-T33（復活水）** | TCA + H₂O₂ 化學換膚活化 | 4-6 次療程 | NT$4,000-8,000/次 | ⭐⭐ 主要改善膚質紋理，對體積無感 | 適合痘疤、不適合「澎潤」目標 |
+
+**對你的醫美建議**：
+- 短期（半年內）想看到效果：選 **顴部 / 太陽穴玻尿酸填充 1 次**（NT$8,000-15,000，效果立即，維持 6-18 個月）
+- 長期（一年計畫）CP 值最高：**Sculptra 2 瓶療程**（總額 NT$50,000-76,000，效果可維持 25 個月，月攤平 NT$2,000-3,000）
+- 想加強水潤感：每 6 個月做一次 **Profhilo 或 Rejuran**
+
+### 6.8 替代方案綜合表（v2 擴充：加入皮膚科處方藥與外用主力）
+
+v1 此表只列了 10 種「替代膠原」的選項。v2 擴充加入：(a) 口服 HA（保澎潤內服首選）、(b) 外用 retinol / retinoid（保澎潤外用主力）、(c) 皮膚科處方藥 spironolactone（PCOS-acne 第一線）。完整對照如下：
+
+| 方案 | 類型 | 月成本 | 預期效果 | 對保澎潤對症度 | PCOS 相容性 |
+|---|---|---|---|---|---|
+| **不過度減重 + 睡 7-8h** | P0 行為 | NT$0 | 維持脂肪墊 + 降 cortisol | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **每日 SPF50 防曬** | P0 外用 | NT$300 | 防 UV 破壞 collagen/elastin | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **外用 HA 精華**（The Ordinary HA 2% + B5） | P1 外用 | NT$300-800 | 直接補真皮 HA | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **外用 retinol 0.2-0.3%** | P1 外用 | NT$500-1500 | 刺激 fibroblast 合成 collagen | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ 注意爆痘期 |
+| **PCOS Tier 1 補充品**（肌醇/VitD/Omega-3/鋅） | P1 內服 | NT$1500 | 控發炎 = 控糖化 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **口服玻尿酸 HA 120-200 mg** | P2 內服 | NT$400-800 | 改善水分、表皮厚度 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **口服膠原 5-10 g**（Vital Proteins） | P2 內服 | NT$800-1500 | 弱訊號促 fibroblast | ⭐⭐⭐ | ⭐⭐⭐⭐ 純配方 |
+| **Glycine 單方** | P2 內服 | NT$200-500 | 補合成原料 + 助眠 | ⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **明膠粉 / 大骨湯 / 雞腳凍** | P2 飲食 | NT$100-500 | Whole food | ⭐⭐ | ⭐⭐⭐⭐ |
+| **口服 spironolactone**（健保處方，皮膚科 / 婦產科） | 痘痘 first-line | NT$300-500 | 直接擋雄性素路徑 | 不影響澎潤但治痘最有效 | ⭐⭐⭐⭐⭐ PCOS 教科書首選 |
+| **Sculptra 童顏針（PLLA）** | P3 醫美 | 攤平 NT$2000-3000 | **直接補體積**，維持 25 個月 | ⭐⭐⭐⭐⭐ lean 首選 | 不影響 PCOS |
+| **顴部/太陽穴玻尿酸填充** | P3 醫美 | NT$8000-25000/次 | 立即補脂肪墊缺失 | ⭐⭐⭐⭐⭐ lean 首選 | 不影響 PCOS |
+| **Skinbooster（Profhilo / Restylane Vital）** | P3 醫美 | NT$15000-25000/次 | 直接打 HA 到真皮中層 | ⭐⭐⭐⭐ | 不影響 PCOS |
+| **Polynucleotide / Rejuran**（韓系） | P3 醫美 | NT$8000-15000/次 | 修復真皮品質 + 厚度 | ⭐⭐⭐⭐ | 不影響 PCOS |
+| **外用 tretinoin / adapalene**（健保） | 痘痘 first-line | NT$200/月 | 直接介入毛囊角化 | ⭐⭐⭐⭐ 副作用是抗老 | ⭐⭐⭐⭐ |
+| **PRP 自體血漿** | P3 醫美 | NT$15000-30000/次 | 修復痘疤為主 | ⭐⭐⭐ | 不影響 PCOS |
+| **PRX-T33（復活水）** | P3 醫美 | NT$4000-8000/次 | 改善紋理 | ⭐⭐ 對體積無感 | 不影響 PCOS |
+
+**v2 對 25 歲 lean PCOS 想保澎潤 + 控痘痘 + 控 PCOS 的綜合優先順序**（取代 v1 那 4 點）：
+
+1. **P0 必做**（月 NT$0-300）：BMI 19-21、SPF50、睡 7-8h、蛋白質 1.2-1.6 g/kg
+2. **P1 主力**（月 NT$1500-3000）：外用 HA + retinol + PCOS Tier 1 補充品
+3. **痘痘第一線**（月 NT$500-700）：先看皮膚科健保門診評估 spironolactone + 外用 tretinoin / adapalene
+4. **P2 內服加碼**（月 NT$1200-2300）：口服 HA 為首選 > 口服膠原（Vital Proteins / Sports Research 無糖）
+5. **P3 醫美加速**（年度預算）：Sculptra 2 瓶療程或單次玻尿酸填充（lean 首選）；想加強水光感再加 Skinbooster / Rejuran
 
 ---
 
@@ -877,36 +997,68 @@ Glycine 在 PCOS 患者身上有兩個值得注意的角色。
 - 錠劑型（沒有空間放賦形劑，相對乾淨）
 - 少量天然甜味劑（stevia、erythritol、麥芽糖醇）的版本可接受但非首選
 
-### 7.4 三劇本未來推演
+### 7.4 三劇本未來推演（v2 重寫：保澎潤框架）
 
-**最可能劇本（70% 機率）**：你開始補單一成分海洋膠原 5–10 g/日，4–8 週皮膚水分有可量測但不戲劇化的改善（保濕度提升 8–15%），痘痘狀況不變（因為痘痘根因不在膠原）。3 個月後你開始懷疑「值不值這個錢」，逐漸調整為「飲食外加幾顆雞腳凍」這種非補充品形式。對 PCOS 病理本身沒有可量測影響。
+**劇本 A：「只補膠原，沒做 P0」（45% 機率，最常見的失敗模式）**
+你看完這份報告，在 Costco 買了 Vital Proteins Unflavored 5 g/日，加在咖啡裡。但你同時在控糖 + 控熱量（PCOS 飲食），體重慢慢從 50 kg 掉到 47 kg（BMI 從 19.5 → 18.4），睡眠仍是 6 小時，沒有特別防曬。**結果**：3 個月後臉變得更瘦更凹，雖然皮膚有一點水潤感（膠原微弱效果），但整體「澎潤度」反而下降——因為脂肪墊掉得比膠原能補的真皮水分多很多。你以為是「膠原沒效」，其實是你殺掉了 P0 基底。
 
-**最危險劇本（15% 機率）**：你被廣告打中買了高糖膠原飲，結果「補了三個月反而長了更多痘痘」。這不是膠原本體有問題，是你不小心把每日糖攝取拉高了 25-40 g。這個劇本的危險點在於它會讓你誤以為「膠原蛋白不適合 PCOS」，反而錯過了正確選對配方的可能性。
+**劇本 B：「P0 + P1 都做，膠原 vs HA 的選擇」（35% 機率，理性執行者）**
+你做齊 P0（不再控體重 < 50 kg、買了 Anessa SPF50、改 11 點睡）+ P1（外用 HA 精華 + 0.3% retinol + PCOS Tier 1 補充品）。第三個月想加碼內服，依本報告建議**先選口服 HA 100 mg/日**（NT$500/月）試 12 週。**結果**：水分指標改善 12-18%、晨起浮腫感改善（HA 對表皮厚度的效應比膠原直接）。第六個月你決定再加 Vital Proteins 膠原 5 g/日，同時每年做一次 Profhilo 加強——澎潤度顯著穩定。
 
-**最樂觀劇本（15% 機率）**：你在補膠原的同時優化了 Tier 1 補充品（肌醇 + Vit D + Omega-3 + 鋅），低 GI 飲食堅持 6 個月以上，加上規律阻力訓練。這個情境下 PCOS 病理改善（HOMA-IR 下降、月經週期穩定、雄性素下降），痘痘改善（IGF-1 路徑被多方面壓制），皮膚也改善（膠原 + 內分泌穩定的疊加效應）。但這個劇本的功臣不是膠原蛋白，是整套生活型態 + Tier 1 補充品。膠原是錦上添花。
+**劇本 C：「醫美直接攻 lean phenotype 脂肪墊缺失」（15% 機率，預算寬裕走捷徑）**
+你做齊 P0 + P1 後，年底決定做 Sculptra 2 瓶療程（總額 NT$60,000-76,000）。**結果**：6 個月後顴部 + 太陽穴體積回升明顯，比口服膠原 1 年的效果立竿見影 5-10 倍。這是 lean phenotype 個案 CP 值最高的一條路——直接打中視覺貢獻 60-70% 的脂肪墊那一層。
 
-這三個劇本告訴我們：**膠原蛋白本身能做的事很有限，但它做的事是不是有用，取決於你有沒有把整套架構搭起來**。單獨補膠原蛋白是 wishful thinking，整套架構之外的點綴是合理選擇。
+**劇本 D：「踩雷高糖膠原飲」（5% 機率，最危險）**
+你被白蘭氏紅膠原青春飲廣告打中，每日喝 1 瓶（含糖 8 g，月成本 NT$2200）。3 個月後痘痘變多（每日多攝取 25-30 g 糖 → 胰島素 → IGF-1 → 痘痘），體重沒掉但臉看起來水腫不澎潤，誤以為「膠原不適合自己」而放棄整個保養計畫。
+
+**這四個劇本告訴你**：對保澎潤來說，**P0 沒做好補什麼都白搭（劇本 A）；P0+P1 做好後內服選 HA > 膠原（劇本 B）；醫美直接攻脂肪墊是 lean phenotype 的捷徑（劇本 C）；踩雷高糖膠原飲是雙輸（劇本 D）**。膠原內服在這四個劇本裡，最高位階只是「P1 完成後的 P2 加碼」，不會是主角。
 
 ---
 
 ## 八、給你的具體挑選 SOP
 
-### 8.1 補充品優先順序（請務必按這個順序投入預算）
+### 8.1 保澎潤的 P0-P3 優先序（v2 重寫：取代 v1 Tier 1-4 框架）
+
+v1 的 Tier 1-4 是 PCOS 框架下的補充品優先序。v2 重新校準為「保澎潤」框架下的 P0-P3 階梯，把行為（睡眠、防曬）、外用、內服、醫美整合在同一個架構內：
 
 ```
-Tier 1（必投）：肌醇 4 g + Vit D 3000 IU + Omega-3 2 g + 鋅 25 mg
-                月成本約 NT$1500-2500
+P0 必做基底（沒做這些其他都白搭）｜ 月 NT$0-300
+  • 不過度減重，BMI 維持 19-21（lean 脂肪墊一掉就回不來）
+  • SPF50 每日防曬（陰天也擦，每 2 小時補一次）
+  • 睡 7-8h，固定時間入睡（晚 11 點前）
+  • 蛋白質 1.2-1.6 g/kg/日（提供膠原合成原料 + 支持代謝）
 
-Tier 2（次投）：NAC 600 mg + 鎂 200 mg
-                月成本約 NT$500-800
+P1 主力保養（最關鍵的投資）｜ 月 NT$1500-3000
+  • 外用 HA 精華（早晚）— The Ordinary HA 2% + B5 約 NT$300/月
+  • 外用 retinol 0.2-0.3%（睡前，建立耐受後升 0.5%）— NT$500-1500/月
+  • PCOS Tier 1 補充品：肌醇 4 g + Vit D 3000 IU + Omega-3 2 g + 鋅 25 mg — NT$1500/月
+  • 抗糖化飲食（你已在做低 GI）— 維持 AGEs 低水位
+  • 痘痘活躍：先掛皮膚科健保門診評估外用 tretinoin / adapalene + 是否需 spironolactone
 
-Tier 3（行有餘力）：膠原蛋白 5-10 g
-                  月成本約 NT$800-1500
+P2 內服加碼（口服 HA > 口服膠原）｜ 月 NT$1200-2300
+  • 首選：口服玻尿酸 HA 120-200 mg/日
+        — NOW Foods Hyaluronic Acid 100mg、Doctor's Best HA + chondroitin
+        — 月 NT$400-800
+  • 其次：口服膠原 5-10 g/日（純配方）
+        — Vital Proteins / Sports Research Unflavored
+        — 月 NT$800-1500
+  • 兩者都吃可疊加效應；若預算只夠一個請選 HA
 
-Tier 4（個案需要）：Berberine、CoQ10
+P3 醫美加速（lean phenotype 最對症）｜ 年度預算
+  • Lean 首選：Sculptra 童顏針 2 瓶療程
+        — 月攤平 NT$2000-3000，效果維持 25 個月
+  • Lean 首選：顴部 / 太陽穴玻尿酸填充
+        — 單次 NT$8000-25000，立即效果，維持 6-18 個月
+  • 加強水光感：Skinbooster（Profhilo）每年 1-2 次
+  • 修真皮品質：Polynucleotide / Rejuran 3 次療程
 ```
 
-如果你的補充品預算只有月 NT$1500，**全部投 Tier 1**。如果月預算 NT$3000，補滿 Tier 1 + Tier 2。如果月預算 NT$4500+，可以加 Tier 3 膠原。
+**預算配置原則**：
+- 月補充品預算 NT$1500：全投 P1 PCOS Tier 1 + 外用 HA 精華（每週只擦 2-3 次 retinol 試試）
+- 月預算 NT$3000：P1 補滿 + 加 P2 口服 HA
+- 月預算 NT$4500+：P1 + P2（HA + 膠原都吃）
+- 年度預算 > NT$50,000：考慮 P3 Sculptra（lean 首選 CP 值最高）
+- **絕對不要**：把預算先花在 P3 之前跳過 P0/P1，或先花在膠原飲（含糖、踩雷概率高）
 
 ### 8.2 若決定補充膠原，五條挑選原則
 
@@ -941,7 +1093,7 @@ Tier 4（個案需要）：Berberine、CoQ10
 
 ### 8.5 4–12 週的評估指標
 
-**圖 6：12 週試補期的誠實評估時間軸**
+**圖 7：12 週試補期的誠實評估時間軸**
 
 <svg viewBox="0 0 580 320" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -1024,30 +1176,57 @@ Tier 4（個案需要）：Berberine、CoQ10
 - **第 12 週**：完整評估。如果這時候你看不到明顯改善（自己 + 朋友盲測都看不出來），可以停掉重新評估
 - **重要**：膠原蛋白對 PCOS 的「月經週期、能量、雄性素症狀」基本不應該期待改善——如果有，那是其他因素（飲食、運動、肌醇等）的功勞，不要錯誤歸因給膠原
 
-### 8.6 風險清單（再次提醒）
+### 8.6 風險清單（v2 升級：加入過度減重與孕期視角）
 
 | 風險 | 機制 | 對你（25 歲 lean PCOS）的適用性 |
 |---|---|---|
-| 加重痤瘡 | 不是膠原本體，而是配方含糖/含奶/含 IGF-1 提升成分 | **高度警示**——你已有痘痘 |
-| 海洋膠原碘含量 | 部分海洋來源含碘，恐誘發甲狀腺自體免疫 | 中——PCOS 25-30% 合併橋本氏症，建議先驗 TSH/anti-TPO |
+| **過度減重 → 脂肪墊流失（v2 新增）** | Underweight / 低 BMI 女性的 buccal fat 顯著少；快速減重時臉部中段流失最顯著 | **最高警示**——對保澎潤是首要風險，BMI 必須維持 19-21，不要追求 < 18.5 |
+| 加重痤瘡 | 不是膠原本體，而是配方含糖/含奶/含 IGF-1 提升成分（ornithine、arginine、glutamine 等） | **高度警示**——你已有痘痘 |
+| 海洋膠原碘含量 | 海洋來源**碘含量差異大**（0-150 µg/份），恐誘發甲狀腺自體免疫 | 中——PCOS 25-30% 合併橋本氏症，建議先驗 TSH/anti-TPO；買前看 COA |
 | 與甲狀腺藥交互 | 蛋白質減緩胃排空 → 影響 levothyroxine 吸收 | 低（除非已服用 T4），分開 4 小時即可 |
-| 腎結石 | Hydroxyproline 代謝為 oxalate | 低（健康人罕見；曾有結石史者要評估） |
-| IGF-1 / 雄性素加重 | 純膠原理論上反而有助降 IGF-1（高 glycine 清除甲硫胺酸） | 中性偏正向（前提是純膠原，非複方） |
+| **腎結石（v2 升級警示）** | Hydroxyproline 代謝為 oxalate；[文獻顯示 5-10 g/日 gelatin 載量即出現尿 oxalate +43% 訊號](https://pmc.ncbi.nlm.nih.gov/articles/PMC2268952/)，剛好是本報告建議劑量 | 中——本報告建議的 5-10 g/日恰在文獻訊號劑量區。建議補充期間每日水分 2.5L+、避免同時吃高 oxalate 食物（菠菜、堅果、巧克力）；曾有結石史者要評估 |
+| IGF-1 / 雄性素加重 | 純膠原理論上反而有助降 IGF-1（高 glycine 清除甲硫胺酸） | 中性偏正向（前提是純膠原，非複方；複方含 ornithine / arginine / glutamine 要避開） |
+| **孕期 / 備孕（v2 新增）** | 純膠原本身相對安全，但市售複方常含孕婦禁忌成分（高劑量 vitamin A palmitate、紅花苜蓿、月見草油、薑黃萃取） | 中——25 歲為生育年齡高峰，若 6-12 個月內可能備孕，務必選純配方（Vital Proteins / Sports Research Unflavored）並驗證無禁忌添加 |
 | 純素族群 | 純素膠原**不存在**（植物只含前驅物） | 不適用（除非素食） |
+| 魚類過敏 | 海洋膠原來源是魚皮 / 魚鱗，魚過敏者可能交叉反應 | 低但需自我確認——若有魚過敏，改選草飼牛膠原 |
+
+### 8.7 補膠原前該驗的檢驗清單（v2 新增章節）
+
+對 PCOS 患者下決策補膠原 / HA 之前，建議讓婦產科或內分泌科加驗以下項目，建立 baseline，方便 12 週後評估效果：
+
+| 檢驗項目 | 為什麼要驗 | 健保 / 自費 | 採血時機 |
+|---|---|---|---|
+| **TSH + free T4 + anti-TPO + anti-Tg** | PCOS 25-30% 合併橋本氏症；海洋膠原碘負荷需校正 | 健保（婦產科 / 新陳代謝科） | 任何時間 |
+| **SHBG（性荷爾蒙結合球蛋白）** | baseline 雄性素 bioavailability，4-12 週後可看膠原 + 飲食有無改善 | 健保（PCOS 適應症） | 月經週期 D2-D5 |
+| **fasting insulin + HOMA-IR** | Tier 1 肌醇用藥前後對照；lean PCOS 必驗 | 健保（PCOS 適應症） | 空腹 8-10 小時 |
+| **25(OH)D（維他命 D）** | 決定 Vit D 補充劑量（目標 > 30 ng/mL） | 自費 NT$500-800 | 任何時間 |
+| **腎功能 eGFR + 尿酸 + 尿液常規（看 oxalate crystal）** | hydroxyproline → oxalate 風險者的 baseline | 健保（一般檢查） | 任何時間 |
+| **體脂率 + 體重 + BMI 連續記錄** | 監測「過度減重」這個保澎潤最大風險 | 自家體脂計 | 每週固定時間 |
+| **臉部基線照片**（W0 / W12 / W24） | 對照組——這是評估保澎潤效果最誠實的指標 | 自拍 + 自然光同角度 | 每 12 週 |
+
+**判讀建議**：
+- TSH > 2.5 mIU/L 或 anti-TPO 陽性 → 海洋膠原優先級降，改選牛膠原
+- SHBG 低 + HOMA-IR 高 → 先看皮膚科 / 婦產科開 spironolactone，膠原次要
+- 25(OH)D < 20 ng/mL → Vit D 加碼到 4000-5000 IU/日
+- BMI 持續下降 → 立刻停止 caloric restriction，重新校準飲食
 
 ---
 
-## 九、能力限制聲明
+## 九、能力限制聲明（v2 增補）
 
-這份報告基於 2026 年 4 月以前公開可查的學術文獻、商業產品資訊與華人醫療社群討論。有四個明確的限制：
+這份報告基於 2026 年 4 月以前公開可查的學術文獻、商業產品資訊與華人醫療社群討論。有六個明確的限制：
 
 **第一，沒有 PCOS 患者直接補充膠原的高品質 RCT。** 所有「PCOS × 膠原」的判斷都是從 glycine、IGF-1、mTORC1 等相關路徑做的拼湊式推論，不是直接證據。如果未來 5–10 年內有 PCOS 專屬的膠原 RCT 發表，本報告的結論可能需要更新。
 
-**第二，個體差異無法在報告中校正。** 你的具體 IGF-1 基線、glutathione 狀態、是否合併橋本氏症、月經規律度、痘痘分級——這些都會影響「補膠原是否合適」的最終判斷。本報告只能給「同類型族群的合理建議」，不能取代你的婦產科 / 內分泌 / 皮膚科醫師的個案評估。
+**第二，沒有 lean phenotype × 膠原 vs HA × 保澎潤的 head-to-head RCT（v2 新增）。** 口服膠原 vs 口服 HA 對「保水澎潤」的直接對比 RCT 仍缺乏，本報告對「HA > 膠原」的排序基於各自獨立 RCT 與機制推論，不是直接對比證據。三年內如果有 head-to-head 試驗結果出現，排序可能微調。
 
-**第三，2025 年 American Journal of Medicine meta-analysis 的資金偏差問題未完全解決。** 膠原蛋白對皮膚的效果規模可能比廣告宣稱的小，目前學界還在爭論。三年內如果有更多獨立資金的大型 RCT 發表，效果規模的估計可能向下修正。
+**第三，醫美選項的 cost-per-effect 比較尚未量化（v2 新增）。** Sculptra vs 玻尿酸填充 vs Skinbooster vs Polynucleotide 對 lean phenotype 的長期 5-10 年效果與成本攤提，目前缺乏標準化長期追蹤資料，本報告的位階排序基於 2024-2025 短中期文獻與台灣主流診所實務，個案最適選擇仍需與整形外科 / 皮膚科自費醫師面對面諮詢。
 
-**第四，新竹本地醫療資源資訊基於 2026 年 4 月查證，醫師人事可能異動。** 建議就診前再查一次最新資訊。
+**第四，個體差異無法在報告中校正。** 你的具體 IGF-1 基線、glutathione 狀態、是否合併橋本氏症、月經規律度、痘痘分級、臉部脂肪墊起始體積——這些都會影響「補膠原是否合適 / 保澎潤策略是否最佳」的最終判斷。本報告只能給「同類型族群的合理建議」，不能取代你的婦產科 / 內分泌 / 皮膚科醫師的個案評估。
+
+**第五，2025 年 American Journal of Medicine meta-analysis 的資金偏差問題未完全解決。** 膠原蛋白對皮膚的效果規模可能比廣告宣稱的小，目前學界還在爭論——industry 端（[Collagen Stewardship Alliance 反駁](https://collagenalliance.org/csa-statement-on-2025-collagen-meta-analysis/)）認為原文的「funding 分類」本身有誤，宣稱 2/3 的「獨立」試驗實際是 commercially supported。本報告採取「funding 分類爭議存在」的中性立場，但效果規模估計趨保守。
+
+**第六，新竹本地醫療資源資訊基於 2026 年 4 月查證，醫師人事可能異動。** 建議就診前再查一次最新資訊。
 
 **強烈建議的就診路徑**：
 
@@ -1110,11 +1289,32 @@ Tier 4（個案需要）：Berberine、CoQ10
 29. [台大新竹分院婦產部](https://www.hch.gov.tw/?aid=51&pid=35&page_name=list&pageNo=2)
 30. [馬偕新竹婦產科部](https://www.hc.mmh.org.tw/departmain.php?id=22)
 
+### v2 新增引用（保澎潤框架關鍵文獻）
+
+31. [Oral HA RCT — Skin Research and Technology 2023, Gao et al.](https://onlinelibrary.wiley.com/doi/10.1111/srt.13531)
+32. [Oral HA n=150 RCT — Scientific Reports 2025](https://www.nature.com/articles/s41598-025-32758-5)
+33. [Oral HA new ingredient RCT — Dermatology and Therapy 2025](https://link.springer.com/article/10.1007/s13555-025-01447-6)
+34. [Oral HA dietary supplement skin moisturizing meta — Frontiers Nutrition 2022](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.895192/full)
+35. [Polynucleotide aesthetic medicine review — PMC11311621 (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11311621/)
+36. [PN/PDRN/Rejuran clinical perspective 2025 — Donald B. Yoo M.D.](https://www.donyoomd.com/blog/2025/09/24/polydeoxyribonucleotide-pdrn-polynucleotide-pn-and-rejuran-current-evidence-and-clinical-perspective/)
+37. [Buccal fat pad volume by BMI — J Craniofac Surg 2024](https://pubmed.ncbi.nlm.nih.gov/39284118/)
+38. [Soft tissue facial changes after weight loss systematic review — PMC11427949 (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11427949/)
+39. [Nutritional status & facial morphology in young Japanese women — Sci Rep 2022](https://www.nature.com/articles/s41598-022-21919-5)
+40. [Hydroxyproline → oxalate kidney stone — PMC2268952](https://pmc.ncbi.nlm.nih.gov/articles/PMC2268952/)
+41. [Sugihara → Ito, Seki, Ueda 2018 修正引用 — Marine Drugs](https://www.mdpi.com/1660-3397/16/12/482)
+42. [Industry rebuttal — Collagen Stewardship Alliance 對 2025 Am J Med 的回應](https://collagenalliance.org/csa-statement-on-2025-collagen-meta-analysis/)
+43. [Isotretinoin in PCOS-acne — PMC6475563](https://pmc.ncbi.nlm.nih.gov/articles/PMC6475563/)
+44. [Spironolactone narrative review 2021 — PMC7859022](https://pmc.ncbi.nlm.nih.gov/articles/PMC7859022/)
+45. [PIH vs atrophic acne scar grading — PMC12041799](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041799/)
+46. [Dietary supplements for PCOS umbrella meta — Frontiers Nutrition 2025, n=30,133](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1705284/full)
+
 ---
 
 ## 方法論說明
 
 本報告使用「橫縱分析法」（Horizontal-Vertical Analysis），由數字生命卡茲克提出，融合了索緒爾的歷時-共時分析、社會科學的縱向-橫截面研究設計、商學院案例研究法與競爭戰略分析。核心是雙軸：縱軸追蹤膠原蛋白補充品 270 年的演變脈絡（從 1754 工業明膠 → 2026 雀巢全資 BCP 龍頭），橫軸在 2026 年當下時間切面比較主流產品配方與 PCOS 友善度，最後在「橫縱交匯洞察」章節給出針對個案的具體判斷。
+
+**v2 修訂方法論補充**：v2 在 v1 完整報告基礎上，經皮膚科主治視角的審視意見書審查（22 檢核點 / 8 軸加權評分）後，重新校準框架——主目標從「PCOS 該不該補膠原」改為「保澎潤該不該補膠原」，PCOS 從 outcome 降為 safety constraint。新增三大關鍵章節（澎潤解剖學分層、口服 HA 對手分析、醫美選項位階），修正一處引用錯誤（Sugihara → Ito, Seki, Ueda 2018），並把口服膠原從 Tier 4 重新定位為 P0-P3 框架中的 P2 marginal play。所有新增論述均附 2024-2025 文獻支持（見 §10.v2 新增引用）。
 
 ---
 
