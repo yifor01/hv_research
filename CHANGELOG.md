@@ -4,6 +4,47 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-26] (Lean PCOS 25 歲女性膠原蛋白決策研究 v1)
+
+### Added
+- `reports/2026-04-lean-pcos-collagen/lean-pcos-collagen_橫縱分析報告.md`
+- `reports/2026-04-lean-pcos-collagen/lean-pcos-collagen_橫縱分析報告.pdf`（1.29 MB，23 頁）
+- 6 張 SVG 示意圖：
+  - 圖 1「決策樹 + 為什麼這個排序」（§一）
+  - 圖 2「膠原補充品 270 年時間軸」（§3.5）
+  - 圖 3「訊號路徑：口服到 fibroblast」（§4.4）
+  - 圖 4「Lean vs Obese PCOS 病理對照」（§5.5）
+  - 圖 5「12 款主流產品 PCOS 友善度排序」（§6.5）
+  - 圖 6「12 週試補期評估時間軸」（§8.5）
+- 縱向：1754 工業明膠 → 2025 Am J Med 資金偏差爭議；橫向：12 款台/日/歐美品牌 PCOS 友善度評分；交匯：lean PCOS + 痘痘 + 低 GI 三軸整合
+- 與「痘痘外油內乾報告」「PCOS 低 GI 飲食報告」呼應整合
+
+### Fixed
+- `scripts/md_to_pdf.py` CSS 加 `svg { break-inside: avoid; page-break-inside: avoid; }`（雖 weasyprint SVG break 支援有限，仍補上以求嚴謹）
+
+### Lessons
+- WeasyPrint 對 SVG 的 `break-inside: avoid` 支援不完整 — 高度 ≥ 280px 的 SVG 若放在頁面下半，仍會被切割跨頁。穩定解法是在 SVG 之前手動加 `<div style="page-break-before: always; height: 0;"></div>`，並把圖內容壓縮到 ≤ 280px viewBox 高度
+
+## [2026-04-26] (Agentic AI v3 — 補圖版：6 → 10 張 SVG)
+
+### Added
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v3.md`
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v3.pdf`（1.30 MB）
+- 新增 4 張 SVG（總圖數 6 → 10）：
+  - 圖 3「三協議分層」（§3.5）— agent 三個外部接口的協議承擔與戰況色碼
+  - 圖 5「Reasoning Loop 範式對比」（§3.7.1）— ReAct 三節點 vs Extended + Interleaved Thinking 雙面板對照
+  - 圖 6「Agentic RL 範式對比」（§3.7.1.5）— RLHF 單步 MDP vs Agentic RL trajectory POMDP
+  - 圖 9「四個 2026 真實威脅地圖」（§3.7.7）— 4 攻擊面 + 防禦標籤 quadrant 圖
+
+### Changed
+- 圖號重編：原 圖 3 / 4 / 5 / 6 → 圖 4 / 7 / 8 / 10（依章節先後順序）
+- 標題與摘要更新為 v3，註明 10 張示意圖
+
+### Fixed
+- 圖 5 `auto re-plan` pill 寬度由 56 → 70px，避免文字溢出 pill 邊界
+- 圖 9 Q2 / Q4 防禦文字（右側）改用 `text-anchor: end` + `defense-text-r` class，避免超出 SVG 寬度被裁切
+- 圖 3 layer label 由 y=65 上移至 y=50（與 protocol pill 留 12px 緩衝），消除原 3px 垂直重疊
+
 ## [2026-04-26] (Agentic AI v2 — 評審修訂 + 6 張 SVG 示意圖)
 
 ### Added

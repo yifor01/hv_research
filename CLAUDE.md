@@ -118,7 +118,11 @@ pip install weasyprint markdown --break-system-packages
   - 箭頭終點需落在目標形狀 **外緣**；若進入填色區會被同色遮蔽
   - **多邊形寬度需容納最長中文字串**：頂部梯形 / 徽章若有 10+ 字的名單，頂寬 ≥ 180px；否則會被 clip
   - WeasyPrint 的 `<marker>` 渲染纖細，重要箭頭建議改用顯式 `<polygon>` 箭頭頭(見 acne 報告圖 5/6 修正)
-  - 累積案例：關埔購屋研究(6 張)、痘痘肌報告(6 張)
+  - **WeasyPrint 不支援 `font:` CSS shorthand**（只認 `font-weight + font-size + font-family` 顯式三屬性，否則粗體標題消失）— 見 agentic AI v2 教訓
+  - **內嵌 pill 寬度 ≥ 文字寬 + 12-15px buffer**：text-anchor 為 middle 時，pill 寬若小於文字寬，文字會視覺溢出 pill 邊界（agentic v3 `auto re-plan` 56→70px 修正）
+  - **WeasyPrint SVG `break-inside: avoid` 支援不完整**：viewBox 高度 ≥ 280px 的 SVG 若放在頁面下半仍會被切跨頁。穩定解法：(a) 在 SVG 標題前手動加 `<div style="page-break-before: always; height: 0;"></div>` 強制圖從新頁頂部開始；(b) 同時壓縮 viewBox 高度 ≤ 280px。兩條都做才穩定（lean-pcos-collagen 報告圖 1 修正案）
+  - **右側標籤超出 SVG width 會被裁切**：寬度 580 的 SVG，從 x=360 起的長中文字串易超界；改用 `text-anchor: end` 配 x=560 從右算起
+  - 累積案例：關埔購屋研究(6 張)、痘痘肌報告(6 張)、Agentic AI 報告(10 張，v3 補圖版)
 - **主管報告必附 Reference URL**：Due diligence 類交付，每位 PI 至少 2-3 個公開連結（學校頁 / Scholar / Lab）
 - **Companion PDF 結構要跟主 PDF 一致**：同 session 出多份 PDF 時，結構對齊降低閱讀成本
 - **跨領域學習**：研究過程中遇到的方法論心得寫進 `~/vault/projects/hv-research/lessons.md`

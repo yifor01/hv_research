@@ -117,6 +117,7 @@ ul, ol { margin: 6pt 0; padding-left: 20pt; }
 li { margin: 2pt 0; }
 
 img { max-width: 100%; height: auto; display: block; margin: 10pt auto; page-break-inside: avoid; }
+svg { max-width: 100%; height: auto; display: block; margin: 10pt auto; page-break-inside: avoid; break-inside: avoid; }
 figure { page-break-inside: avoid; margin: 10pt 0; text-align: center; }
 figcaption { font-size: 9pt; color: #666; font-style: italic; margin-top: 3pt; text-align: center; }
 p > em:only-child { display: block; text-align: center; font-size: 9pt; color: #666; margin-top: -6pt; }
