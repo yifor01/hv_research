@@ -29,6 +29,10 @@ hv-research/
 ├── templates/                  # 跨題目復用的方法論 template
 │   ├── pi-due-diligence-framework.md
 │   └── scoring-rubric-v2.md   # PI 盡職調查 5 維度評分標準
+├── 用戶資訊/                    # 使用者長期持續性個人資料（健康/個人類研究的 hidden constraint 來源）
+│   ├── README.md              # 資料夾用途與維護規則
+│   ├── profile.md             # 個人基本資料（年齡、性別、地區、職業、預算、決策風格）
+│   └── health.md              # 健康狀況（PCOS / 痘痘 / 體質 / 飲食框架 / 補充品立場 / 檢驗指標）
 ├── CHANGELOG.md                # 版本紀錄（每份研究交付後追加）
 └── README.md
 ```
@@ -83,11 +87,25 @@ hv-research/
 
 與使用者個人健康/情境綁定的研究（如 PCOS 飲食、皮膚問題），建議採「分檔 research → 合併報告」結構：
 
-1. `research_01_<sub-topic>.md` ~ `research_NN_<sub-topic>.md`：每章獨立深查（病史 / 比較 / 在地化）
-2. 合併輸出：`<topic>_橫縱分析報告.md` + `.pdf`
-3. 因素材高度個人化（年齡、地點、現有體質），素材放 `raw-materials/<topic>/`
+1. **啟動前先讀 `用戶資訊/health.md`**（lean phenotype / PCOS / 痘痘 / 飲食框架已寫好），避免框架錯位
+2. **與使用者明確對齊「outcome」與「safety constraint」**——例如「保澎潤 vs 治 PCOS」是兩個完全不同的框架，啟動時要先釘定，否則 v1 出來的報告可能完全沒回答到真實問題
+3. `research_01_<sub-topic>.md` ~ `research_NN_<sub-topic>.md`：每章獨立深查（病史 / 比較 / 在地化）
+4. 合併輸出：`<topic>_橫縱分析報告.md` + `.pdf`
+5. 因素材高度個人化（年齡、地點、現有體質），素材放 `raw-materials/<topic>/`
 
-案例：`reports/2026-04-tsmc-pcos-low-gi-diet/`（4 章 research + 合併報告）、`reports/2026-04-acne-dehydrated-skincare/`（含 6 張 SVG）
+#### v1 → v2 修訂模式（健康類研究專用）
+
+對個人健康類研究，常見「v1 框架對 + 觀念對，但目標 framing 與用戶真實意圖不符」的情況。建議流程：
+
+1. **v1**：照標準分檔結構產出第一版
+2. **v2 起手前先做「皮膚科 / 內分泌主治視角審查」**：制定 8 軸 22 點檢核框架（科學基礎 / 專科視角 / 跨領域準確性 / 個案適配 / 風險揭露 / 實務執行 / 觀念誤導 / 遺漏盲區）做加權評分
+3. **與用戶確認真實 outcome 後重新框定**（如 lean PCOS 膠原 v1 是「PCOS 該不該補」框架，v2 重定位為「保澎潤該不該補」框架，PCOS 降為 safety constraint）
+4. **v2 修訂時保留 v1 章節編號 1-10 穩定**，新內容以子章節（如 §2.1）/ 增補表（如 §6.6 §6.7 §6.8）/ 重寫段（如 §8.1）形式無縫嵌入；任何 v2 新增 / 重寫 / 升級的段落明確標註「（v2 新增 / v2 重寫 / v2 升級）」便於追溯
+
+案例：
+- `reports/2026-04-tsmc-pcos-low-gi-diet/`（4 章 research + 合併報告）
+- `reports/2026-04-acne-dehydrated-skincare/`（含 6 張 SVG）
+- `reports/2026-04-lean-pcos-collagen/` v1（PCOS 框架，1121 行）→ v2（保澎潤框架，1321 行 + 圖 2 澎潤分層 + §6.6 口服 HA 對照 + §6.7 醫美對照 + §8.7 檢驗清單）
 
 ## 命名規則
 

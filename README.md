@@ -26,4 +26,5 @@ cc hv-research
 - `raw-materials/` — 研究前素材
 - `scripts/` — 工具（含 `md_to_pdf.py`,支援 SVG 區塊保護、多 MD 合併、封面目錄、emoji → 樣式化標記）
 - `templates/` — 跨題目復用的方法論 template（如 `pi-due-diligence-framework.md`）
+- `用戶資訊/` — 使用者長期持續性個人資料（profile + health），健康/個人類研究啟動前先讀
 - `CHANGELOG.md` — 變更紀錄
