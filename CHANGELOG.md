@@ -4,6 +4,38 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-27] (TSMC × 台灣學界 PI 盡職調查 v4.3 — 「建議合作方式」wording 雙 check)
+
+### Added
+- `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_PI_彙整大表_v4.3.pdf`（872 KB，直向主檔）
+- `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_PI_統一大表_橫式_v4.3.pdf`（550 KB，A3 橫式）
+- B47 李宏毅 Profile 補上完整跨域題目表（5 條，依橋接成本 + 對應目的軸排序）+ KPI 細項
+
+### Changed
+- **B47 李宏毅**（最大改動）：原「無半導體題目可接觸 / 無明確應用點 / 研究軌與半導體無交集」過於否定 → 重定位為**工程師效率軸方法論候補**（非主軸 PI），列出 5 條跨域題目：
+  1. LLM-as-Evaluator SOP/ECN/FMEA 文件審查（首選 PoC，3-6 月最低橋接成本）
+  2. 無塵室 hands-free LALM 語音操作
+  3. 交班報告 ASR + LLM 結構化轉寫
+  4. 自監督學習應用於設備聲學異常偵測
+  5. TSMC 內部 AI 素養 / reskilling 課程共製
+- **B53 陳正剛**：「方法論顧問池」→ Tier 2 顧問（依 Jakey Blue 案需求橋接 SPC/APC 方法論會診）
+- **B54 謝旻甫**：「轉給 Fab 設施部門」→ 補上題目細節（馬達/風機 ML 預測維護 + chiller 節能調度）+ 軸定位（fab 設施軸非製程 AI 軸）
+- **B55 洪英超**：「方法論顧問池」→ Granger 因果統計單次諮詢顧問（橋接 SPC 多變量根因分析）
+- **C56 林清安**：「不建議進階」→ 機械視覺/手臂與 AMHS/封裝視覺定位有間接接點，候補位待主軸 PI 飽和再重評
+- **C57 柏林 Berlin Chen**：補上與 B47 LALM 路徑競合說明（李宏毅優先）
+- **C58 王振興**：「不建議；AIoT 邊緣另案」→ 補上員工穿戴監測另案軸定位
+- **C60 鄭少為**：「理論 PoC 配套」→ 高維 GP/DoE 統計支援（非獨立 PI）
+- **C61 李祈均**：「COI 需簽約後考慮」→ 補上員工關懷軸（情感語音 → 工程師壓力/疲勞偵測）+ 雙 COI 資訊牆要求
+- 大表附註 §C ranking 微調說明（B47 條目）同步更新
+- 執行摘要 §八不啟動池 B47 條目同步更新
+- README.md：v4.2 → v4.3 路徑、PDF 主檔引用、archive 清單更新
+
+### Removed
+- v4.2 PDF 從 `v4.3-final/`（前 v4.2-final/）移至 `archive/pdfs-old-versions/`
+- 資料夾 `v4.2-final/` 重命名為 `v4.3-final/`
+
+---
+
 ## [2026-04-26] (Lean PCOS 膠原蛋白研究 v2 — 保澎潤框架重定位)
 
 ### Added

@@ -1156,7 +1156,7 @@
 
 ---
 
-### B47. 李宏毅（Hung-Yi Lee）｜總分 **6.1**（B 級，研究軸與半導體無交集）｜不啟動
+### B47. 李宏毅（Hung-Yi Lee）｜總分 **6.1**（B 級，半導體無直接交集 / 工程師效率軸跨域方法論候補）｜不啟動（保留橋接）
 
 | 校系職級 | NTU 電機系 + 兼任資工系 ｜ 正教授（Professor，2023 升等）；2019-2023 副教授；2014-2019 助理教授 ｜ PhD: NTU 通訊工程研究所 2012（本碩博均 NTU）；AS CITI 博後 2012-2013；MIT CSAIL 訪問科學家 2013-2014 |
 |---|---|
@@ -1165,18 +1165,29 @@
 | **5 維度評分** | 研究 10 ｜ fab 1 ｜ Lab 8 ｜ 接洽 7 ｜ 長期 7 ｜ 語音教父 + 零半導體 + 大型 Lab + 無業界綁定 |
 
 **核心專長 × 近 3 年代表實績**
-- 語音辨識 / 合成 / NLP / 自監督學習 / AI 通識教育 / 基礎模型
+- 語音辨識 / 合成 / NLP / 自監督學習 / LALM（Large Audio-Language Model）/ LLM-as-Evaluator / AI 通識教育
 - SUPERB benchmark（2021，1,312 引）；Can LLMs Replace Human Evaluators（2023，1,092 引）；Self-supervised speech review（2022，625 引）；2023 升正教授（Full Professor）；YouTube 機器學習課程超 400 萬次觀看；已確認非 Appier 共同創辦人（前次已修正）
 - 2023 升正教授；YouTube 機器學習課程超 400 萬次觀看
 
 **合作紀錄 × 與外部公司狀況**
 - 無公開可見業界綁定
-- **無公開可見業界綁定**；研究主軸為語音 / 語言基礎模型，與半導體 fab 應用距離遠
+- **無公開可見業界綁定**；研究主軸為語音 / 語言基礎模型，與半導體 fab 應用距離遠（任何題目均需 6-12 月方法論橋接 PoC）
 
 **建議合作方式 × 公開連結**
-- **題目**：無明確接觸點；零半導體論文
-- **制度**：不建議主動接觸
-- **KPI**：—
+
+> **v4.3 雙 check 後追加**：原 v4.2「無半導體題目可接觸」過於否定；經跨域題目發想，定位為**工程師效率軸方法論候補（非主軸 PI）**。以下 5 題依橋接成本 / 對應目的優先排序。
+
+| 優先 | 對應目的軸 | 跨域題目 | 技術路徑 | 與李宏毅實績的接點 | 橋接成本 |
+|---|---|---|---|---|---|
+| 1（首選 PoC）| 工程師效率 / 法遵 | LLM-as-Evaluator 自動審查 SOP / ECN（Engineering Change Notice）/ FMEA 文件 | LLM 評估器 + 多 reviewer 共識建模 | 代表作 "Can LLMs Replace Human Evaluators"（1,092 引）直接對應 | 低（3-6 月）|
+| 2 | 工程師效率 | 無塵室 hands-free 語音操作 / SOP 查詢 | LALM + 多輪語音對話 + 製程術語微調 | LALM 為其 2024-2025 主軸；SUPERB 為工業界 ASR 評估標準 | 中（6-12 月）|
+| 3 | 工程師效率 | 交班（Shift Handover）報告自動轉寫 + 結構化摘要 | ASR + LLM 抽取（事件 / 機台 / 處置欄位）| 語音辨識 + NLP 雙軌核心專長 | 中（6-12 月）|
+| 4 | 良率（橋接） | 自監督學習應用於設備聲學異常偵測（Pump / Chamber / CMP）| Self-Supervised Audio Pre-training + 少量 labeled fine-tune | "Self-Supervised Speech Review"（625 引）方法論可遷移；Fab acoustic sensor 已具備但 label 稀缺 | 高（12 月+）|
+| 5 | 人才漏斗 | TSMC 內部 AI 素養課 / 新進工程師 reskilling 共同設計 | 教學內容共製 | YouTube 教學頻道 400 萬觀看 = 教學能力佐證 | 低（單次合約）|
+
+- **題目**：上表 5 條（優先順序見上）
+- **制度**：目前不主動接觸；若工程師效率軸 S/A 級 PI 飽和或缺「LLM-as-Evaluator / 自監督方法論」專長 cover，可作為候補；**首選 PoC**：LLM-as-Evaluator SOP/ECN/FMEA 文件審查（3-6 月，最低橋接成本，與 TSMC 法遵 / 變更管理流程對接）
+- **KPI**：（依優先序）①LLM-as-Evaluator 與工程師 agreement rate（Cohen's κ）/ 文件審查通過率；②無塵室語音指令辨識率（SNR < 10dB）；③交班轉寫欄位抽取 F1；④自監督聲學異常偵測 AUC
 - 連結：[個人網站](https://speech.ee.ntu.edu.tw/~tlkagk/) ｜ [個人網站（hylee）](https://speech.ee.ntu.edu.tw/~hylee/index.php) ｜ [Google Scholar](https://scholar.google.com/citations?user=DxLO11IAAAAJ&hl=en) ｜ [ResearchGate](https://www.researchgate.net/profile/Hung-Yi-Lee-2) ｜ [YouTube 教學頻道](https://www.youtube.com/@HungyiLeeNTU)
 
 ---
@@ -1324,9 +1335,12 @@
 - **無公開可見外部綁定**；已脫離半導體 10+ 年
 
 **建議合作方式 × 公開連結**
-- **題目**：方法論顧問池（不建議新合作 PI）
-- **制度**：單次諮詢
-- **KPI**：—
+
+> **v4.3 雙 check 後修訂**：原 v4.2「方法論顧問池」過於含糊；定位為**Tier 2 方法論會診顧問**（非獨立委案 PI），透過 Jakey Blue 案需求橋接。
+
+- **題目**：SPC / APC 方法論歷史權威（2009 前累積；最高引論文 "Optimal levels of process parameters" 258 引）；Jakey Blue（B45）之師，可作 Tier 2 方法論會診
+- **制度**：Tier 2 顧問：依 Jakey Blue 案需求橋接 SPC/APC 方法論會診；不獨立委案 PI（Lab 僅 3 人 + 主軸已轉生醫）
+- **KPI**：—（會診型，按次計費或併入 Jakey Blue 案）
 - 連結：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_sms_48541_s_51387.html) ｜ [Google Scholar](https://scholar.google.com/citations?user=IahSBeQAAAAJ&hl=en)
 
 ---
@@ -1349,9 +1363,12 @@
 - 台達電特聘歷史（時間優先度被佔用）；廠務研究非 fab 核心
 
 **建議合作方式 × 公開連結**
-- **題目**：廠務風機預測維護 — **非 AI 部門**
-- **制度**：轉給 Fab 設施部門；不啟動
-- **KPI**：不適用
+
+> **v4.3 雙 check 後修訂**：原 v4.2「轉給 Fab 設施部門」相對具體但缺題目細節；補上題目軸定位 — 屬**Fab 設施軸（廠務）**而非製程 AI 軸，本盤點不啟動但建議轉介。
+
+- **題目**：廠務風機 / 馬達驅動預測維護（馬達電流訊號 → 軸承劣化 ML 預測）；fab 廠務節能優化（chiller 調度 — 與 S14 李家岩 MARL chiller 軸有題目競合）
+- **制度**：轉介 Fab 設施部門：年度設施合作專案制；本盤點（製程 AI 軸）不啟動；台達電 Chair 2019-2024 已結束，時間檔期已釋放
+- **KPI**：（轉介後參考）馬達 / 風機預測維護準確率、平均故障預警提前時數、廠務年度節能 %
 - 連結：[NCKU EE 師資頁（含 IET Fellow 確認）](https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=163) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/min-fu-hsieh/) ｜ [Google Scholar](https://scholar.google.com/citations?user=VkHJZYQAAAAJ&hl=zh-TW) ｜ [ORCID](https://orcid.org/0000-0002-5514-3397) ｜ [ResearchGate](https://www.researchgate.net/profile/Min-Fu-Hsieh)
 
 ---
@@ -1374,9 +1391,12 @@
 - **無公開可見外部綁定**
 
 **建議合作方式 × 公開連結**
-- **題目**：方法論顧問池（不建議新合作 PI）
-- **制度**：單次諮詢
-- **KPI**：—
+
+> **v4.3 雙 check 後修訂**：原 v4.2「方法論顧問池」過於含糊；定位為**Granger 因果統計單次諮詢顧問**（非主動委案 PI）。
+
+- **題目**：Granger Causality 因果統計可橋接 fab 多變量 SPC 根因分析（需方法論 PoC）；SVR Profile Monitoring（2012 前）為早期方法論底子
+- **制度**：單次諮詢顧問：SPC 多變量因果鏈方法論問題會診；研究主軸已轉「EV 充電 + 統計方法論」雙軸（半導體軌偏離），不主動委案 PI
+- **KPI**：—（會診型，按次計費）
 - 連結：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_s_214735.html) ｜ [NTU 工學院公告（確認加入）](https://www.eng.ntu.edu.tw/iet/News_Content_n_182589_s_234981.html) ｜ [NTU IE 歡迎新進教師公告](https://ie.ntu.edu.tw/News_Content_n_44395_s_109275.html) ｜ [ResearchGate](https://www.researchgate.net/profile/Ying-Chao-Hung)
 
 ---
