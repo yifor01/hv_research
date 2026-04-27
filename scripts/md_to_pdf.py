@@ -113,8 +113,13 @@ tr:nth-child(even) td { background: #f7f9fc; }
 .tag { display: inline-block; background: #2a5aa0; color: #fff; padding: 0 4pt; border-radius: 3pt; font-size: 8pt; }
 .bolt { color: #d4a017; }
 
-ul, ol { margin: 6pt 0; padding-left: 20pt; }
+ul, ol { margin: 6pt 0; padding-left: 18pt; }
 li { margin: 2pt 0; }
+ul ul { margin: 2pt 0; padding-left: 16pt; }
+ul ul ul { margin: 1pt 0; padding-left: 14pt; }
+ul > li { list-style-type: disc; }
+ul ul > li { list-style-type: circle; }
+ul ul ul > li { list-style-type: square; }
 
 img { max-width: 100%; height: auto; display: block; margin: 10pt auto; page-break-inside: avoid; }
 svg { max-width: 100%; height: auto; display: block; margin: 10pt auto; page-break-inside: avoid; break-inside: avoid; }
@@ -181,7 +186,7 @@ def convert_md(path: Path) -> str:
         return f"\n\n@@SVG_PLACEHOLDER_{len(svgs) - 1}@@\n\n"
 
     stashed = SVG_BLOCK_RE.sub(_stash, text)
-    html = markdown.markdown(stashed, extensions=MD_EXTENSIONS, output_format="html5")
+    html = markdown.markdown(stashed, extensions=MD_EXTENSIONS, output_format="html5", tab_length=2)
     for i, svg in enumerate(svgs):
         token = f"@@SVG_PLACEHOLDER_{i}@@"
         html = html.replace(f"<p>{token}</p>", svg).replace(token, svg)

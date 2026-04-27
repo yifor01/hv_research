@@ -1,124 +1,20 @@
-# Handoff — TSMC PI v4.4 雙區塊強化 — 2026-04-27
+# Handoff — TSMC PI v4.5 PDF 巢狀清單渲染修復 — 2026-04-28
 
-## Goal
+## 狀態摘要
 
-將 TSMC PI 盡職調查報告 v4.3 → v4.4，對 61 位教授全面強化兩區塊：
-1. **製程/封裝應用點（詳述）** — 5 軸結構（節點/段別、痛點對應、可導入時程 TRL、配合 fab 部門、預期成效）
-2. **建議合作方式 × 公開連結** — 6 軸結構（題目、制度與簽約、KPI+Exit criteria、執行對口與啟動條件、風險與緩解、連結）
+- **原定目標**：進行 v4.6 Profile 的大幅度 Markdown 表格化改版（為了解決 3 層巢狀 bullet 在 PDF 上呈現為密集文字牆的易讀性問題）。
+- **轉折與發現**：發現核心痛點並非 Markdown 格式本身，而是 `md_to_pdf.py` 中的 Python `markdown` 庫預設需要 4 格縮排，而原稿使用 2 格縮排，導致在開啟 `nl2br` 擴充套件時，第二和第三層清單被壓平成同一層。
+- **最終解法**：直接修改 `scripts/md_to_pdf.py`，加入 `tab_length=2` 參數並補充 CSS 樣式（為三層配置 `●`, `○`, `■` 與漸進縮排）。
+- **結果**：成功產出具有清晰 3 層結構的 PDF，大幅改善閱讀體驗，**免除了改寫 3000 多行 Markdown 的巨大工程**。
 
-並同步：
-- 大表 `TSMC_v4_01_統一大表.md` 欄位重整（移除「落地程度」獨立欄、合併進「製程/封裝應用點」簡述 6-15 字）
-- 大表欄序：教授, 校系, 專長, 製程/封裝應用點, 代表實績, 合作企業紀錄, 學生素養, 長期投資, 競爭大廠綁定, 建議合作方式, 補充備註（11-12 cols）
-- v4.4 PDF 重生
+## 已完成項目
 
-## Current State（2026-04-27 截斷點）
+- [x] 修復 `scripts/md_to_pdf.py` 的巢狀清單渲染 bug (`tab_length=2` + CSS)
+- [x] 重新產生測試用的 PDF (`TSMC_PI_統一Profile_v4.5_fixed_bullets.pdf`)
+- [x] 重新產生完整大表 PDF (`TSMC_PI_彙整大表_v4.5_fixed.pdf`)
+- [x] 更新 `CHANGELOG.md` 紀錄此修復
 
-### ✅ 已完成
-- **Round 1：S01-S15**（15 位 S 級全完成，含 S01 範例 + S02-S15 batch）
-- **Round 2：A16-A30**（15 位 A 級全完成，含特殊狀態：
-  - A22 張耀文 — MediaTek 獨董任期內凍結，2027/05 卸任後升 S
-  - A24 鄭芳田 — 戰略顧問定位（已退休，師徒包搭 S10 謝昱銘）
-  - A26 張孟凡 — 內部不啟動（warning blocks）
-  - A28 吳添立 — MediaTek 7 年獨家（法務先行+資訊牆）
-  - A29 郭浩中 — HHRI 競業（法務先檢，第三波）
+## 待辦事項 (Next Steps)
 
-### Profile 檔現況
-- 路徑：`/home/yifor/projects/hv-research/reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_v4_03_統一Profile.md`
-- 行數：2,538 行（從原 1,402 行擴張，30 位 × 約 38 行/位 增量）
-- git 狀態：modified（uncommitted）
-- 完成率：30/61 = 49%
-
-### ⏳ 待辦
-1. **Round 3：B31-B55**（25 位 B 級，約 50 個 Edits）— 用戶限制「一次跑 2 個就好」
-2. **Round 4：C56-C61**（6 位 C 級，約 12 個 Edits）
-3. **大表欄序重整 + 簡述化**（v4_01_統一大表.md）
-4. **v4.4 PDF 產出**：TSMC_PI_彙整大表_v4.4.pdf + TSMC_PI_統一大表_橫式_v4.4.pdf via `scripts/md_to_pdf.py`
-5. **歸檔 v4.3 PDF**：搬到 archive/ 子資料夾（保留版本對比）
-6. **CHANGELOG + README 更新**：root CHANGELOG.md 加 v4.3→v4.4 entry；reports 索引 README 更新
-
-## Key Decisions Made
-
-### 雙區塊內容深度
-- S 級：5 軸 + 6 軸完整版（每位約 50-60 行）
-- A 級：5 軸 + 6 軸完整版（每位約 40-50 行）
-- B 級：建議**精簡版**（5 軸每軸 1-2 行 + 6 軸每軸 1-2 行）每位約 25-30 行（B 級層級較低，深度減半）
-- C 級：再精簡版（每位約 15-20 行）
-
-### CJK 全形標點絕對紀律
-所有新插入內容**必須**使用全形標點：（）、；、：、，、。 — **絕對禁止** ASCII (), ;, :, ., 否則 PR 會被退回。S08/S13 階段曾發生 ASCII 滲入需 fix。
-
-### Subagent fallback 模式
-Subagents 沒有 Edit 權限，無法直接寫檔。流程：subagent 起草草稿 → 主 agent 套用 Edit。
-
-### 5 軸 INSERT 錨點策略
-INSERT 點選用「核心專長」section 的**第 3 個 bullet**（每位教授第 3 bullet 內容唯一，可避免 old_string 重複問題）。
-
-### 6 軸 REPLACE 整段
-連同 `**建議合作方式 × 公開連結**` header + 4 行內容 + 連結尾巴，整段替換為新 6 軸結構。**保留原有連結 URL 不替換為 fabricated URLs**（subagent 偶爾會編造，需用主 agent 校正）。
-
-### 預算 disclaimer
-所有預算數字必加「（推估區間，非承諾數字，依 [校] 既有量級對標）」。
-
-### Exit criteria 量化
-所有 Exit criteria 必須量化（百分比 / 月數 / 篇數），不可只寫「未達標」。
-
-### 特殊狀態 PI（B/C 級可能也有）
-若遇 MediaTek 獨董 / 競業綁定 / 已退休 / Lab 重建中等，沿用 A22 張耀文 / A24 鄭芳田 / A28 吳添立 模式。
-
-## Files Modified
-
-- `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_v4_03_統一Profile.md`（30 位 × 雙區塊插入，2538 行；uncommitted）
-
-## Files Untouched (待 Round 3+4 後處理)
-
-- `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_v4_01_統一大表.md`（待 Round 3+4 完成後做欄序重整 + 簡述化）
-- `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_v4_00_封面與執行摘要.md`（v4.4 版本號 + 標題微調）
-- v4.3 兩個 PDF（待 Round 4 後一併重生 + 歸檔舊版）
-
-## Blockers / Issues
-
-- **Token budget**：Opus 4.6 1M context 在 Round 2 結束時已用 ~50%；Round 3（B31-B55）若繼續同 session 推到 70-80% 風險高，因此採用 handoff 切點。
-- **Subagent 編造 URL**：sonnet agent 偶爾在 6 軸「連結」段編造看似合理但實則不存在的 URL（如 `ie.nthu.edu.tw/p/406-1310-235855` vs 真實的 `406-1310-111510`）。**Round 3+4 套用 Edit 時必須用原 profile 既有的連結 URL，不可信任 subagent 新生連結**。
-
-## Next Steps（給下個 session）
-
-### 立即起手
-1. Read 此 handoff + LATEST.md 對齊 context
-2. 讀 `reports/2026-04-tw-univ-semi-ai-professors/v4.3-final/TSMC_v4_03_統一Profile.md` 的 B31-B55 段（grep `^### B[3-5][0-9]` 找位置）
-3. Dispatch 2 個 sonnet agents 並行處理 B31-B34（4 位起手批），格式按 B 級精簡版（雙區塊每軸 1-2 行）
-
-### B 級精簡版範本（節省 token）
-```markdown
-**製程/封裝應用點（詳述）**
-
-- **節點 / 段別**：[1 行]
-- **痛點對應**：
-  - **[痛點 1]**：[1 行]
-  - **[痛點 2]**：[1 行]
-- **可導入時程（TRL）**：**TRL X-Y / X-Y 個月**；[1 行說明]
-- **配合 fab 部門**：[1 行]
-- **預期成效**：
-  - [量化 1]
-  - [量化 2]
-  - 每年聯名論文 ≥ 1 篇
-
-**建議合作方式 × 公開連結**
-
-- **題目**
-  - **主題目 A — [題目]**：[1 行]
-  - **主題目 B — [題目]**：[1 行]
-- **制度與簽約**：[架構 + 預算（推估區間）+ 簽約對象 + 學生通道]（合併 1-2 行）
-- **KPI + Exit criteria**：第 1 年 [指標]；第 3 年 [指標]；Exit：[量化條件]
-- **執行對口**：主 [部門] / 次 [部門]
-- **風險**：[1-2 行，重點 IP / 競業 / 學生流向]
-- **能力限制**：WebSearch 無法驗證 [具體]
-- **連結**：[沿用原 profile 已有 URL]
-```
-
-### Edit 策略
-- Anchor：用每位教授「核心專長」section 第 3 bullet 作 INSERT 點
-- REPLACE：整段「建議合作方式 × 公開連結」+ 連結列
-- 一次 4-6 位為一批（Edit 為主操作，比 subagent draft 更省 token）
-
-### 可選擇直接由主 agent 起草（不派 subagent）
-B 級每位 25-30 行內容相對簡單，主 agent 可直接基於 profile 已有資料（核心專長、代表實績、合作紀錄）寫雙區塊，省去 subagent 派遣 / 回傳成本。
+- v4.6 易讀性改版（全數改為 Markdown 表格）**暫緩**，待主管檢視 fixed 版本的 PDF 後，若仍覺排版過度密集，再考慮重啟計畫。
+- 專案維持穩定狀態，隨時可進行新一輪的 PI 盡調或新增報告。

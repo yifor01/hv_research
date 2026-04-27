@@ -4,6 +4,40 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+  - 解決了原本 Profile 中「建議合作方式」等區塊三層 bullet 被壓平成兩層，導致視覺過於密集（視覺牆壁）的問題。無需大幅修改 Markdown 原稿即可提升易讀性。
+
+### Changed
+- 重新生成 `TSMC_PI_彙整大表_v4.5_fixed.pdf` 等 PDF，應用修正後的清單排版。
+
+---
+
+# Changelog
+
+All notable changes to the hv-research project.
+
+Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
+
+## [2026-04-27] (TSMC PI v4.5 — 大表欄位重整 13→11 欄)
+
+### Changed
+- `TSMC_v4_01_統一大表.md`：13 欄 → 11 欄，三項結構性變更：
+  - **移除「落地程度」欄**：值（研究級 / 原型級 / 量產級）已隱含在 Profile 雙區塊的「可導入時程（TRL）」，大表不再重複
+  - **「製程/封裝應用點」從第 8 欄前移至第 5 欄**（「代表實績」前），閱讀動線改善：校系 → 專長 → 應用點 → 實績
+  - **欄內容精修**：
+    - 「製程/封裝應用點」統一為「[節點/段別]；[核心痛點]；TRL X」格式（≤ 20 字）
+    - 「建議合作方式」統一為「[主題目 A 短名]（[制度簡稱]）」格式（≤ 15 字），詳情連結至 Profile §3
+- `TSMC_v4_00_封面與執行摘要.md`：§九報告結構 §2 欄數描述 13 → 11，標注 v4.5 欄位重整
+- 欄位說明 blockquote 新增製程/封裝應用點與建議合作方式的格式定義
+
+### Added
+- `TSMC_PI_彙整大表_v4.5.pdf`（1185 KB，直向）
+- `TSMC_PI_統一大表_橫式_v4.5.pdf`（534 KB，橫式）
+
+### Removed
+- v4.4 PDF 搬至 `archive/pdfs-old-versions/`
+
+---
+
 ## [2026-04-27] (TSMC PI v4.4 — 雙區塊強化 61/61 全完成)
 
 ### Changed
