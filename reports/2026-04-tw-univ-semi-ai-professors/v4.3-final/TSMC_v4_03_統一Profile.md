@@ -1909,11 +1909,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：製程知識庫整合；適用 N5/N3 以降複雜製程文件管理
+- **痛點對應**：
+  - **工程師查文件耗時**：多版本製程文件手動查找、BKM 知識碎片化
+  - **跨部門知識轉移低效**：YE/RD 新進工程師 onboarding 慢，知識孤島難打通
+- **可導入時程（TRL）**：**TRL 3-5 / 12-18 個月**；RAG PoC 框架已成熟，需工廠語料適配與資安隔離
+- **配合 fab 部門**：IT/FIT（知識平台主導）；YE/PE 提供製程文件語料
+- **預期成效**：
+  - 工程師查文件時間減少 40%
+  - YE FAQ 覆蓋率 ≥ 80%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：工程師 RAG PoC（製程文件檢索）
-- **制度**：IT/FIT 啟動 RAG PoC；1 年 PoC 600 萬 → 3 年 1500 萬/年
-- **KPI**：RAG 檢索 MRR、工程師使用轉化
-- 連結：[NCCU CS 個人頁](https://www.cs.nccu.edu.tw/~mftsai/about.html) ｜ [NCCU CS 系師資列表](https://www.cs.nccu.edu.tw/csnccu/web/team/team.jsp?lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=ZLkFlS0AAAAJ&hl=zh-CN) ｜ [CLIP Lab](http://clip.csie.org/wiki/pages/B5H3f2N2/MingFeng_Tsai.html) ｜ [研究頁](https://www.cs.nccu.edu.tw/~mftsai/research.html)
+
+- **題目**
+  - **主題目 A — 製程知識 RAG 系統**：以 N5/N3 製程文件語料建立工程師自然語言查詢 BKM 與故障排查知識平台
+  - **主題目 B — LtR 優化檢索排序**：利用 Learning-to-Rank 優化文件相關性排序，結合工程師回饋迭代改善
+- **制度與簽約**：技術合作合約（NCCU CSIE）；年度預算 500-800 萬（推估區間，非承諾數字，依 NCCU 既有量級對標）；學生通道：碩博生 RA 駐場 + TSMC IT 實習
+- **KPI + Exit criteria**：第 1 年 RAG MRR ≥ 0.65 / 文件覆蓋 ≥ 500 份；第 3 年工程師主動使用率 ≥ 30%；Exit：MRR < 0.5 且連續 2 季無改善
+- **執行對口**：主 IT/FIT / 次 YE 製程部門
+- **風險**：製程文件機密等級高（IP 隔離需先行）；學生離職帶走 fine-tuned 模型需合約約束
+- **能力限制**：WebSearch 無法驗證 NCCU-TSMC 既有非公開合作協議
+- **連結**：[NCCU CS 個人頁](https://www.cs.nccu.edu.tw/~mftsai/about.html) ｜ [NCCU CS 系師資列表](https://www.cs.nccu.edu.tw/csnccu/web/team/team.jsp?lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=ZLkFlS0AAAAJ&hl=zh-CN) ｜ [CLIP Lab](http://clip.csie.org/wiki/pages/B5H3f2N2/MingFeng_Tsai.html) ｜ [研究頁](https://www.cs.nccu.edu.tw/~mftsai/research.html)
 
 ---
 
@@ -1934,11 +1953,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：製程知識靜態快取管理；適用 N3/A16 工程師規範文件
+- **痛點對應**：
+  - **RAG 計算成本高**：製程規範文件更新頻率低但查詢量大，向量化成本持續累積
+  - **長文件語義切片難**：百頁製程手冊在 RAG 中切片後語境碎裂，CAG 提供完整上下文優勢
+- **可導入時程（TRL）**：**TRL 3-5 / 12-15 個月**；CAG 框架已有學術驗證，需工廠語料適配
+- **配合 fab 部門**：IT/FIT（與 B31 蔡銘峰配套部署）；PE 提供靜態規範語料
+- **預期成效**：
+  - 重複查詢延遲降低 60%（CAG vs RAG）
+  - 快取命中率 ≥ 70%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：CAG / RAG 範式比較實驗；工程師 LLM 工具
-- **制度**：與 B31 蔡銘峰配套；配套方案，年 500-800 萬
-- **KPI**：CAG 響應延遲、記憶體使用
-- 連結：[AS IIS 個人頁](https://homepage.iis.sinica.edu.tw/pages/hhhuang/index_zh.html) ｜ [AS IIS Vita](https://homepage.iis.sinica.edu.tw/pages/hhhuang/vita_en.html) ｜ [Google Scholar](https://scholar.google.com/citations?user=ro65EMcAAAAA&hl=en) ｜ [AS IIS Research Fellows](https://www.iis.sinica.edu.tw/en/page/People/ResearchFellows.html) ｜ [NCCU CS 舊個人頁](https://www.cs.nccu.edu.tw/~hhhuang/)
+
+- **題目**
+  - **主題目 A — CAG 製程手冊快取系統**：以 CAG 範式建立 TSMC 製程規範靜態快取知識庫，提升高重複查詢響應效率
+  - **主題目 B — RAG/CAG 混合部署評估**：在真實製程文件場景比較 RAG 與 CAG 效能，形成混合部署建議
+- **制度與簽約**：技術合作合約（Academia Sinica IIS；走 AS 合作協議）；年度預算 400-700 萬（推估區間，非承諾數字，依 AS IIS 既有量級對標）；學生通道：AS 博後 + 碩士生 RA 合聘
+- **KPI + Exit criteria**：第 1 年 CAG 快取命中率 ≥ 70% / 延遲改善 ≥ 50%；第 3 年製程手冊覆蓋率 ≥ 80%；Exit：快取命中率 < 50% 且連續 3 個月無改善
+- **執行對口**：主 IT/FIT / 次 PE 製程工程部門
+- **風險**：AS 合作合約週期較長（需提前 3-4 個月啟動）；製程文件更新頻繁時 CAG 快取需頻繁重建
+- **能力限制**：WebSearch 無法驗證 AS IIS-TSMC 非公開合作協議
+- **連結**：[AS IIS 個人頁](https://homepage.iis.sinica.edu.tw/pages/hhhuang/index_zh.html) ｜ [AS IIS Vita](https://homepage.iis.sinica.edu.tw/pages/hhhuang/vita_en.html) ｜ [Google Scholar](https://scholar.google.com/citations?user=ro65EMcAAAAA&hl=en) ｜ [AS IIS Research Fellows](https://www.iis.sinica.edu.tw/en/page/People/ResearchFellows.html) ｜ [NCCU CS 舊個人頁](https://www.cs.nccu.edu.tw/~hhhuang/)
 
 ---
 
@@ -1959,11 +1997,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：先進介電材料開發；適用 N3/A16 High-k/Metal Gate（HKMG）堆疊
+- **痛點對應**：
+  - **DFT 模擬耗時**：SiO2/HfO2 替代材料的 first-principles 計算試誤成本高，新材料候選篩選週期長
+  - **全參數空間最佳化難**：介電常數與漏電流 trade-off 難以在高維參數空間快速收斂
+- **可導入時程（TRL）**：**TRL 3-5 / 18-24 個月**；AI 多尺度模擬需 fab 真實量測數據驗證校準
+- **配合 fab 部門**：MSE 材料科學部門 / PTD 製程整合；提供 CVD 沉積條件與電性量測資料
+- **預期成效**：
+  - 新材料候選篩選週期縮短 30-40%
+  - SiO2/HfO2 工藝參數預測誤差 ≤ 5%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：SiO2 / HfO2 工藝參數優化基礎研究
-- **制度**：材料資訊學 PoC；2 年 PoC，年預算 600-1000 萬
-- **KPI**：材料預測精度、Fab 工藝參數驗證數量
-- 連結：[LAiMM Lab](https://www.laimm.net/) ｜ [NCKU ResearchOutput](https://researchoutput.ncku.edu.tw/zh/persons/chi-hua-yu) ｜ [LinkedIn](https://www.linkedin.com/in/chi-hua-yu-a7a86377) ｜ [ResearchGate](https://www.researchgate.net/profile/Chi-Hua-Yu)
+
+- **題目**
+  - **主題目 A — 先進介電材料 AI 篩選**：以 DFT+ML 混合方法預測 High-k 材料電性，加速 N3/A16 HKMG 候選篩選
+  - **主題目 B — AI 驅動工藝參數最佳化**：利用 RL 方法自動探索 SiO2/HfO2 沉積參數，最大化介電常數並抑制漏電流
+- **制度與簽約**：技術合作合約（NCKU 工程科學系）；年度預算 600-1000 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：碩博生 RA + TSMC MSE 實習
+- **KPI + Exit criteria**：第 1 年材料預測準確率 ≥ 90% / fab 驗證樣品 ≥ 10 批；第 3 年主動提供工藝建議 ≥ 5 項；Exit：預測誤差 > 15% 且連續 3 個月無改善
+- **執行對口**：主 MSE 材料部門 / 次 PTD 製程整合
+- **風險**：材料特性數據高度機密（資安隔離需先行）；跨域背景（土木→材料）對 fab 製程流程的認知存在差距
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 非公開材料合作協議
+- **連結**：[LAiMM Lab](https://www.laimm.net/) ｜ [NCKU ResearchOutput](https://researchoutput.ncku.edu.tw/zh/persons/chi-hua-yu) ｜ [LinkedIn](https://www.linkedin.com/in/chi-hua-yu-a7a86377) ｜ [ResearchGate](https://www.researchgate.net/profile/Chi-Hua-Yu)
 
 ---
 
@@ -1984,11 +2041,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：GAA 奈米片結構光學量測；適用 N2/A16 以降高深寬比元件
+- **痛點對應**：
+  - **CD 量測破壞性高**：GAA 奈米片高深寬比下傳統 SEM 截面量測耗時且破壞性，無法全批次監控
+  - **原位量測空缺**：製程線寬監控需非破壞性方案，現有光學方法對 GAA 精度不足
+- **可導入時程（TRL）**：**TRL 2-4 / 24-30 個月**；理論基礎完整，半導體 PoC 橋接尚未完成，需先期驗證
+- **配合 fab 部門**：Metrology 量測部門（主）；Equipment 設備工程（次）；提供 GAA 測試片與量測基準
+- **預期成效**：
+  - GAA CD 非破壞量測 throughput 提升 2-3x
+  - 量測精度達 ±0.5nm 級
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：GAA 奈米片光學量測 PoC
-- **制度**：需先完成理論→半導體 PoC 橋接；1 年 PoC → 3 年 JDP，初期 500-800 萬
-- **KPI**：CD 預測精度、光學量測 throughput
-- 連結：[NCKU ME 教師頁](https://me.ncku.edu.tw/content_teacher_detail.php?teacher_rkey=92FXQZG3V4) ｜ [NCKU ResearchOutput](https://researchoutput.ncku.edu.tw/en/persons/yu-lung-lo) ｜ [Google Scholar](https://scholar.google.com/citations?user=Li7MD7YAAAAJ&hl=en) ｜ [ResearchGate](https://www.researchgate.net/profile/Yu-Lung-Lo-2) ｜ [SPIE](https://spie.org/profile/Yu-Lung.Lo-12555)
+
+- **題目**
+  - **主題目 A — GAA 干涉光學 CD 量測 PoC**：以光學干涉量測技術建立 N2/A16 GAA 結構非破壞性 CD 預測模型
+  - **主題目 B — AI 輔助量測模型校正**：結合 ML 方法消除干涉量測系統誤差，提升高深寬比結構準確率
+- **制度與簽約**：技術合作合約（NCKU 機械工程系）；年度預算 500-800 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：博士生 RA + TSMC Metrology 實習
+- **KPI + Exit criteria**：第 1 年半導體 PoC 完成 / 量測精度 ≤ ±0.5nm；第 3 年 throughput 較 SEM 提升 ≥ 2x；Exit：精度 > ±2nm 且連續 3 個月無改善
+- **執行對口**：主 Metrology 量測部門 / 次 Equipment 設備工程
+- **風險**：fab 5 分偏低，需先完成半導體 PoC 橋接才進 JDP；院長行政職影響研究投入時間
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 量測技術非公開合作
+- **連結**：[NCKU ME 教師頁](https://me.ncku.edu.tw/content_teacher_detail.php?teacher_rkey=92FXQZG3V4) ｜ [NCKU ResearchOutput](https://researchoutput.ncku.edu.tw/en/persons/yu-lung-lo) ｜ [Google Scholar](https://scholar.google.com/citations?user=Li7MD7YAAAAJ&hl=en) ｜ [ResearchGate](https://www.researchgate.net/profile/Yu-Lung-Lo-2) ｜ [SPIE](https://spie.org/profile/Yu-Lung.Lo-12555)
 
 ---
 
@@ -2009,11 +2085,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：製程缺陷 Virtual RL 預測；適用任一節點量產線（缺陷模式跨節點通用）
+- **痛點對應**：
+  - **缺陷標記數據不足**：fab 缺陷數據有限且標記成本高，真實數據訓練樣本稀缺
+  - **模型泛化性差**：換線或新製程時需重訓練，缺乏即時回饋迴路
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；Virtual RL 框架已在 TETC 論文驗證，需 fab 真實製程數據適配
+- **配合 fab 部門**：YE 良率工程（主）；Equipment 設備工程（次）；提供缺陷標記數據與設備感測資料
+- **預期成效**：
+  - 缺陷預測 F1-score ≥ 0.85
+  - 虛擬 RL 訓練效率較純真實數據提升 30%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：fab 製程缺陷預測 PoC
-- **制度**：3 月短期 PoC → 評估轉 JDP；PoC 500 萬 → 3 年期 1500 萬/年
-- **KPI**：缺陷預測 precision/recall、RL 收斂時間
-- 連結：[個人網站](https://sites.google.com/view/ycchen) ｜ [NCU Scholars](https://scholars.ncu.edu.tw/en/persons/yi-cheng-chen) ｜ [Google Scholar](https://scholar.google.com/citations?user=pxx0z6oAAAAJ&hl=zh-TW) ｜ [ADML Lab Publications](https://sites.google.com/view/ycchen/publications)
+
+- **題目**
+  - **主題目 A — fab 缺陷 Virtual RL 預測**：以 Virtual RL 框架在模擬環境預訓練缺陷預測模型，遷移至 TSMC 量產線
+  - **主題目 B — Industry 4.0 良率決策優化**：利用 RL 策略自動決策製程調整方向，縮短缺陷追因時間
+- **制度與簽約**：技術合作合約（NCU 資訊管理系）；年度預算 500-800 萬（推估區間，非承諾數字，依 NCU 既有量級對標）；學生通道：碩博生 RA + TSMC YE 實習
+- **KPI + Exit criteria**：第 1 年 PoC 缺陷預測 F1 ≥ 0.85 / 數據覆蓋率 ≥ 80%；第 3 年自動決策建議採納率 ≥ 50%；Exit：F1 < 0.70 且連續 2 季無改善
+- **執行對口**：主 YE 良率工程 / 次 Equipment 設備工程
+- **風險**：製程缺陷數據高度機密（分類存取需先行）；系主任行政職影響研究投入時間
+- **能力限制**：WebSearch 無法驗證 NCU-TSMC 非公開合作協議
+- **連結**：[個人網站](https://sites.google.com/view/ycchen) ｜ [NCU Scholars](https://scholars.ncu.edu.tw/en/persons/yi-cheng-chen) ｜ [Google Scholar](https://scholar.google.com/citations?user=pxx0z6oAAAAJ&hl=zh-TW) ｜ [ADML Lab Publications](https://sites.google.com/view/ycchen/publications)
 
 ---
 
@@ -2034,11 +2129,30 @@
 - 日月光、華邦、聯華電子（聯電）、工研院、資策會；2018 聯電大數據平台合作論文
 - **有聯電大數據平台合作實證**（2018）；屬分散式儲存/平台層合作，非製程 AI 核心
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：機台數據分散式採集與儲存；適用所有節點 EDA/FDC 數據基礎設施
+- **痛點對應**：
+  - **集中式儲存瓶頸**：機台感測器每分鐘產生 TB 級數據，集中式架構難支撐即時 FDC 負載
+  - **跨廠區隱私合規空缺**：多廠區 / 多機台數據聯邦學習缺統一平台，合規框架未建立
+- **可導入時程（TRL）**：**TRL 5-7 / 6-12 個月**；有聯電大數據平台合作實證（2018），TSMC 適配路徑清晰
+- **配合 fab 部門**：IT/FIT 數據基礎設施（主）；Equipment 設備工程 FDC 感測數據（次）
+- **預期成效**：
+  - 機台數據 ingestion throughput 提升 50%
+  - 跨廠區聯邦學習 baseline 建立
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：機台數據分散式儲存平台 / 大數據基礎設施
-- **制度**：單點專案合作；2 年期，年預算 800 萬
-- **KPI**：平台 throughput、儲存效率
-- 連結：[NCKU CSIE 教師頁](https://www.csie.ncku.edu.tw/zh-hant/members/27) ｜ [英文教師頁](https://www.csie.ncku.edu.tw/en/members/27) ｜ [Google Scholar](https://scholar.google.com/citations?user=sqw1GncAAAAJ&hl=en) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/hung-chang-hsiao/) ｜ [個人 Lab](https://sites.google.com/view/hung-chang-hsiao/home) ｜ [半導體合作論文](https://researchoutput.ncku.edu.tw/en/publications/the-case-of-big-data-platform-services-for-semiconductor-wafer-fa/)
+
+- **題目**
+  - **主題目 A — 機台大數據分散式平台升級**：基於 Apache Kafka/Submarine 架構建立高吞吐 TSMC 機台感測數據分散式平台
+  - **主題目 B — 跨廠區聯邦學習基礎設施**：在機台數據隱私合規約束下，建立跨 fab 聯邦學習通訊框架
+- **制度與簽約**：技術合作合約（NCKU 資訊工程系）；年度預算 600-1000 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：博士生 RA + TSMC IT 實習
+- **KPI + Exit criteria**：第 1 年平台 throughput ≥ 1TB/day / FDC latency ≤ 100ms；第 3 年聯邦學習跨廠 pilot ≥ 2 廠；Exit：throughput < 500GB/day 且連續 2 季無改善
+- **執行對口**：主 IT/FIT 數據基礎設施 / 次 Equipment FDC 部門
+- **風險**：平台層合作非製程 AI 核心，長期需求度可能降低；聯電合作經驗需確認 TSMC 技術隔離需求
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 非公開平台合作協議
+- **連結**：[NCKU CSIE 教師頁](https://www.csie.ncku.edu.tw/zh-hant/members/27) ｜ [英文教師頁](https://www.csie.ncku.edu.tw/en/members/27) ｜ [Google Scholar](https://scholar.google.com/citations?user=sqw1GncAAAAJ&hl=en) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/hung-chang-hsiao/) ｜ [個人 Lab](https://sites.google.com/view/hung-chang-hsiao/home) ｜ [半導體合作論文](https://researchoutput.ncku.edu.tw/en/publications/the-case-of-big-data-platform-services-for-semiconductor-wafer-fa/)
 
 ---
 
@@ -2059,11 +2173,30 @@
 - 無綁定（學術主導）
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：製程統計控制（SPC）/ 虛擬量測（VM）/ 良率提升；適用 N5/N3 量產線批次監控
+- **痛點對應**：
+  - **SPC 管制圖靜態**：現有 ±3σ 管制界限無法自適應製程動態波動，誤報率高
+  - **FDC 特徵手動**：故障偵測特徵依賴人工定義，缺乏自動化 ML 替代方案
+- **可導入時程（TRL）**：**TRL 6-8 / 6-12 個月**；SPC/FDC/VM 框架成熟，直接適配 TSMC 製程數據
+- **配合 fab 部門**：YE 良率工程（主）；統計品管部門（次）；提供製程批次數據
+- **預期成效**：
+  - FDC 預警準確率 ≥ 90%
+  - 製程變異偵測時間縮短 50%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：SPC / FDC / Yield / 半導體良率提升 PoC
-- **制度**：產學共同主持；3 年期，年預算 1000-1500 萬
-- **KPI**：Yield 提升、FDC 準確率
-- 連結：[NTHU IEEM 師資列表](https://ieem.site.nthu.edu.tw/p/403-1310-2658-1.php?Lang=zh-tw) ｜ [NTHU IEEM 個人頁](https://ieem.site.nthu.edu.tw/p/406-1310-297808,r5910.php?Lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=I23ksWUAAAAJ&hl=en) ｜ [NTHU 得獎公告](https://ieem.site.nthu.edu.tw/p/406-1310-299817,r3168.php?Lang=zh-tw) ｜ [IEEE Xplore](https://ieeexplore.ieee.org/author/37631630400)
+
+- **題目**
+  - **主題目 A — SPC/FDC 自適應系統**：以 ML 自動更新管制界限，取代靜態 ±3σ SPC，適應 N5/N3 製程動態波動
+  - **主題目 B — 多變量虛擬量測 VM**：基於製程感測數據建立 VM 模型，預測晶圓電性參數，減少破壞性量測
+- **制度與簽約**：產學共同主持（NTHU IEEM）；年度預算 1000-1500 萬（推估區間，非承諾數字，依 NTHU 既有量級對標）；學生通道：博士生 RA + TSMC YE 實習
+- **KPI + Exit criteria**：第 1 年 FDC 準確率 ≥ 90% / VM 殘差 ≤ 5%；第 3 年自適應 SPC 覆蓋機台 ≥ 100 台；Exit：FDC < 80% 且連續 2 季無改善
+- **執行對口**：主 YE 良率工程 / 次 統計品管部門
+- **風險**：SPC 警報假陽性可能影響工程師信任度；NVIDIA 訪問研究員期間研究重心可能轉移
+- **能力限制**：WebSearch 無法驗證 NTHU-TSMC 非公開合作協議
+- **連結**：[NTHU IEEM 師資列表](https://ieem.site.nthu.edu.tw/p/403-1310-2658-1.php?Lang=zh-tw) ｜ [NTHU IEEM 個人頁](https://ieem.site.nthu.edu.tw/p/406-1310-297808,r5910.php?Lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=I23ksWUAAAAJ&hl=en) ｜ [NTHU 得獎公告](https://ieem.site.nthu.edu.tw/p/406-1310-299817,r3168.php?Lang=zh-tw) ｜ [IEEE Xplore](https://ieeexplore.ieee.org/author/37631630400)
 
 ---
 
@@ -2084,11 +2217,27 @@
 - 2025 借調 TSMC（TSMC 員工身份）
 - **TSMC 借調處長（2025-）** — 借調期間屬 TSMC 員工身份
 
+**製程/封裝應用點（詳述）**（不啟動 — 借調 TSMC 中，理論定位）
+
+- **節點 / 段別**：製程文件 Agentic IR 應用；適用工程師知識管理與決策支援
+- **痛點對應**：
+  - **Agentic 製程決策缺工具**：複雜製程變更決策涉及多步驟文件查詢，現有工具不支援 Agentic 推理
+  - **工程師 LLM 部署空缺**：TSMC 尚缺成熟製程知識 RAG/CAG 部署框架
+- **可導入時程（TRL）**：借調期間 TSMC 內部主導；**2027 返校後重評**
+- **配合 fab 部門**：由 TSMC 借調處長身份內部協調
+- **預期成效**：借調期間 TSMC 內部推進；返校後依研究方向重評合作可能
+
 **建議合作方式 × 公開連結**
-- **題目**：Agentic IR 應用 — 由 TSMC 內部負責
-- **制度**：內部資源協調；2027 返校可重評；不啟動
-- **KPI**：由 TSMC 內部評估
-- 連結：[NYCU 系教師頁](https://www.cs.nycu.edu.tw/members/detail/wcpeng) ｜ [個人網站](https://sites.google.com/site/wcpeng/) ｜ [Google Scholar](https://scholar.google.com/citations?user=T5Rs-ngAAAAJ&hl=zh-TW) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/wen-chih-peng) ｜ [SIGIR 2025 論文](https://dl.acm.org/doi/10.1145/3726302.3730253)
+
+- **題目**
+  - **不啟動（借調中）**：2025 起借調 TSMC 處長，借調期間屬 TSMC 員工身份，外部合約視為利益衝突
+  - **2027 返校後重評**：依返校後研究方向評估 Agentic IR / 製程知識管理 PoC
+- **制度與簽約**：借調期間不啟動；返校後評估技術合作合約（NYCU CS）
+- **KPI + Exit criteria**：借調期間由 TSMC 內部評定；返校後訂定
+- **執行對口**：借調期間 TSMC 內部負責；返校後重新對接
+- **風險**：借調期間接洽可能違反 TSMC 內規；返校時間及研究方向不確定
+- **能力限制**：WebSearch 無法驗證借調細節與確切返校時間表
+- **連結**：[NYCU 系教師頁](https://www.cs.nycu.edu.tw/members/detail/wcpeng) ｜ [個人網站](https://sites.google.com/site/wcpeng/) ｜ [Google Scholar](https://scholar.google.com/citations?user=T5Rs-ngAAAAJ&hl=zh-TW) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/wen-chih-peng) ｜ [SIGIR 2025 論文](https://dl.acm.org/doi/10.1145/3726302.3730253)
 
 ---
 
@@ -2109,11 +2258,30 @@
 - Intel / Qisda 2022 合作
 - **無獨家綁定**；Intel / Qisda 為歷史合作
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：3D 結構光 AOI 缺陷檢測；適用 CoWoS / SoIC 封裝後段 + 南科廠區地緣優勢
+- **痛點對應**：
+  - **封裝 3D 翹曲偵測空缺**：CoWoS/SoIC 接合缺陷 2D AOI 難以偵測 3D 翹曲，需光學 3D 量測方案
+  - **南科在地合作未充分利用**：NCKU 機器人實驗室距南科廠區 20 分鐘，地緣優勢未轉化為快速迭代
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；3D 結構光 AOI 原型具備，需封裝測試片適配
+- **配合 fab 部門**：AP 先進封裝（主）；Metrology 量測部門（次）；南科廠區協調
+- **預期成效**：
+  - CoWoS 接合缺陷 3D 檢出率 ≥ 95%
+  - 南科學生轉任 TSMC 通道建立
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：3D 結構光 AOI PoC；南科地緣
-- **制度**：6-12 月 PoC；PoC 500 萬
-- **KPI**：3D 缺陷檢出率、南科學生轉任
-- 連結：[NCKU CSIE 教師頁](https://www.csie.ncku.edu.tw/zh-hant/members/25) ｜ [電資學院副院長](https://eecs.ncku.edu.tw/p/412-1020-24885.php?Lang=zh-tw) ｜ [Google Scholar](https://scholar.google.com/citations?user=C6Ic16IAAAAJ) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/zh/persons/james-jenn-jier-lien/) ｜ [AI 機器人學程](https://aim.ncku.edu.tw/p/426-1179-13.php?Lang=en) ｜ [2025 AI Academy](https://workshop202506.aiacademy.tw/jenn-jier-james-lien/)
+
+- **題目**
+  - **主題目 A — CoWoS/SoIC 3D 結構光 AOI**：建立封裝後段 3D 翹曲 / 接合缺陷非接觸式光學檢測系統
+  - **主題目 B — 嵌入式 CUDA 即時缺陷分類**：結合 YOLO 模型實現 CUDA 嵌入式即時推論，縮短檢測週期
+- **制度與簽約**：技術合作合約（NCKU CSIE）；年度預算 400-600 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：碩博生 RA 駐廠 + 南科 TSMC 就地實習
+- **KPI + Exit criteria**：第 1 年 PoC 缺陷檢出率 ≥ 95% / 推論速度 ≤ 100ms；第 3 年南科廠區部署 ≥ 1 條線；Exit：檢出率 < 85% 且連續 2 季無改善
+- **執行對口**：主 AP 先進封裝 / 次 Metrology 量測部門
+- **風險**：3D 結構光系統對振動敏感，fab 環境需額外防震設計；Intel/Qisda 歷史合作需確認無技術隔離
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 南科廠區非公開合作
+- **連結**：[NCKU CSIE 教師頁](https://www.csie.ncku.edu.tw/zh-hant/members/25) ｜ [電資學院副院長](https://eecs.ncku.edu.tw/p/412-1020-24885.php?Lang=zh-tw) ｜ [Google Scholar](https://scholar.google.com/citations?user=C6Ic16IAAAAJ) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/zh/persons/james-jenn-jier-lien/) ｜ [AI 機器人學程](https://aim.ncku.edu.tw/p/426-1179-13.php?Lang=en) ｜ [2025 AI Academy](https://workshop202506.aiacademy.tw/jenn-jier-james-lien/)
 
 ---
 
@@ -2134,11 +2302,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：3D IC 電遷移（EM）可靠性預測；適用 CoWoS / SoIC 封裝銅錫焊點
+- **痛點對應**：
+  - **EM 失效難預測**：3D IC 堆疊 TSV / Bump 在高電流密度下電遷移失效機制難以事先建模
+  - **新材料建模慢**：Ag/Cu 合金等新型焊接材料 EM 有效電荷參數缺乏 ML 快速建模方法
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；ML 材料熱力學框架已在 Materials Characterization 論文驗證，需 fab 封裝真實數據適配
+- **配合 fab 部門**：AP 先進封裝（主）；Package Reliability 可靠性部門（次）；提供 CoWoS 焊點測試數據
+- **預期成效**：
+  - 3D IC EM 壽命預測誤差 ≤ 10%
+  - 新焊接材料候選篩選週期縮短 30%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：3D IC EM / 封裝散熱材料可靠性 PoC
-- **制度**：2 年 PoC → 評估；年 500-800 萬
-- **KPI**：EM 模型精度、焊接可靠性驗證
-- 連結：[LIU LAB](https://sites.google.com/gs.ncku.edu.tw/liumaterials/home) ｜ [LIU LAB Members](https://sites.google.com/gs.ncku.edu.tw/liumaterials/members) ｜ [NCKU ME 教師頁](https://en.me.ncku.edu.tw/content_teacher_detail.php?teacher_rkey=VMOZBD9OE1) ｜ [Google Scholar](https://scholar.google.com/citations?user=gZv6IkwAAAAJ&hl=zh-TW) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/yu-chen-liu)
+
+- **題目**
+  - **主題目 A — 3D IC EM ML 可靠性預測**：以 ML 建立 CoWoS/SoIC 銅錫焊點 EM 有效電荷參數模型，預測高電流密度失效
+  - **主題目 B — 封裝散熱材料可靠性 PoC**：結合熱力學模擬與 ML，評估新型封裝散熱材料的長期可靠性
+- **制度與簽約**：技術合作合約（NCKU 機械系）；年度預算 500-800 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：碩博生 RA + TSMC Package Reliability 實習
+- **KPI + Exit criteria**：第 1 年 EM 模型誤差 ≤ 10% / fab 驗證樣品 ≥ 5 批；第 3 年主動提供封裝材料選材建議 ≥ 3 項；Exit：誤差 > 20% 且連續 3 個月無改善
+- **執行對口**：主 AP 先進封裝 / 次 Package Reliability 可靠性部門
+- **風險**：助理教授（新銳）研究穩定性較低；Lab 20 人規模承擔大型專案人力有限
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 封裝可靠性非公開合作
+- **連結**：[LIU LAB](https://sites.google.com/gs.ncku.edu.tw/liumaterials/home) ｜ [LIU LAB Members](https://sites.google.com/gs.ncku.edu.tw/liumaterials/members) ｜ [NCKU ME 教師頁](https://en.me.ncku.edu.tw/content_teacher_detail.php?teacher_rkey=VMOZBD9OE1) ｜ [Google Scholar](https://scholar.google.com/citations?user=gZv6IkwAAAAJ&hl=zh-TW) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/yu-chen-liu)
 
 ---
 
@@ -2159,11 +2346,27 @@
 - 前 TSMC 13 年資深工程師（商秘綁定）
 - **前 TSMC 13 年 + 商秘獎綁定** — 法務先檢 IP 邊界
 
+**製程/封裝應用點（詳述）**（觀察中 — 法務先行確認 IP 邊界）
+
+- **節點 / 段別**：3D 晶圓接合 / 異質整合封裝；Hybrid Bond / CoWoS / InFO / SoIC 相關（**法務先核可範疇**）
+- **痛點對應**：
+  - **實務知識稀缺**：前 TSMC 13 年 SoIC/CoWoS 工程師，具備外部學術界難以複製的實務深度
+  - **商秘邊界不清**：技術知識與商業機密邊界須法務事前確認，否則合作存在 IP 風險
+- **可導入時程（TRL）**：**視法務結論**；技術成熟度高（TRL 8-9），啟動條件為法務核可
+- **配合 fab 部門**：AP 先進封裝（技術對口）；法務部門（必要前置，確認 IP 邊界）
+- **預期成效**：視法務核可範疇決定；S06/S08/S12/S11 已覆蓋同類題目，戰略補充性較低
+
 **建議合作方式 × 公開連結**
-- **題目**：3D 晶圓接合（需法務核可範疇）
-- **制度**：法務先檢後決定；S06 / S08 / S12 / S11 已覆蓋 3D 封裝，戰略優先度不高；視法務結論
-- **KPI**：法務核可範疇 → IP 自洽度
-- 連結：[NSYSU SAT 教師頁（英）](https://sat.nsysu.edu.tw/p/405-1325-336409,c25172.php?Lang=en) ｜ [NSYSU SAT 教師頁（中，含學經歷）](https://sat.nsysu.edu.tw/p/405-1325-334976,c25997.php?Lang=zh-tw) ｜ [榮譽獎項頁](https://sat.nsysu.edu.tw/p/404-1325-339788.php?Lang=zh-tw)
+
+- **題目**
+  - **主題目 A — 3D 晶圓接合 IP 邊界確認（法務先行）**：由法務界定前 TSMC 13 年商秘範圍，確認可教授的技術邊界
+  - **主題目 B — 異質整合封裝教學顧問**：法務核可後，以 NSYSU SAT 顧問身份提供封裝製程教育訓練
+- **制度與簽約**：法務確認後決定（目前觀察中）；若啟動：短期顧問合約為主，年費 100-200 萬；S06/S08/S12/S11 已覆蓋同類題目，戰略優先度不高
+- **KPI + Exit criteria**：法務核可後訂定；若核可範疇過窄（僅基礎教學），不啟動正式 PI 合作
+- **執行對口**：主 法務部門（IP 邊界審查）/ 次 AP 先進封裝（技術對口）
+- **風險**：2021 金牌保密獎銀獎顯示曾接觸高機密性技術，IP 洩露風險高；接洽評分 1 分，須法務主導
+- **能力限制**：WebSearch 無法驗證前 TSMC 商秘協議範疇；法務審查需線下執行
+- **連結**：[NSYSU SAT 教師頁（英）](https://sat.nsysu.edu.tw/p/405-1325-336409,c25172.php?Lang=en) ｜ [NSYSU SAT 教師頁（中，含學經歷）](https://sat.nsysu.edu.tw/p/405-1325-334976,c25997.php?Lang=zh-tw) ｜ [榮譽獎項頁](https://sat.nsysu.edu.tw/p/404-1325-339788.php?Lang=zh-tw)
 
 ---
 
@@ -2184,11 +2387,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：PCB / 陶瓷基板後段 AOI 缺陷檢測；適用 CoWoS / SoIC 供應鏈端封裝基板品質控管
+- **痛點對應**：
+  - **Gold Finger 漏檢率高**：PCB Gold Finger / 陶瓷基板表面缺陷人工目視漏檢，DL 自動化需求急
+  - **供應鏈品質追溯空缺**：CoWoS 基板供應鏈缺陷追溯鏈尚未數位化，良率問題難溯源
+- **可導入時程（TRL）**：**TRL 5-7 / 6-12 個月**；陶瓷基板 DL 缺陷論文（33 引）已驗證，可快速適配
+- **配合 fab 部門**：AP 先進封裝供應鏈管理部門（主）；供應商品質管理（次）
+- **預期成效**：
+  - Gold Finger / 陶瓷基板缺陷漏檢率降低 80%
+  - 供應鏈缺陷追溯自動化率 ≥ 90%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：CoWoS / SoIC 供應鏈端 PCB / 陶瓷基板 AOI
-- **制度**：後段供應鏈專案；2 年期，年預算 500-800 萬
-- **KPI**：AOI 良率、供應鏈缺陷追溯
-- 連結：[系主任頁](https://iem.ntut.edu.tw/p/405-1081-65525,c11955.php?Lang=en) ｜ [教師頁](https://iem.ntut.edu.tw/p/405-1081-131700,c17321.php?Lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=N_1GIA0AAAAJ&hl=en) ｜ [Binghamton SSIE Alumni（PhD 1996 確認）](https://www.binghamton.edu/ssie/graduate/faculty-alumni.html) ｜ [Lab 網站](https://sites.google.com/mail.ntut.edu.tw/ntut632)
+
+- **題目**
+  - **主題目 A — CoWoS 基板 DL AOI 缺陷檢測**：以深度學習建立 Gold Finger / 陶瓷基板表面缺陷自動化辨識系統
+  - **主題目 B — 供應鏈端品質數位追溯**：結合 Smart TOPSIS 多準則決策，建立基板供應商品質評估與追溯框架
+- **制度與簽約**：技術合作合約（NTUT 工業工程系）；年度預算 400-700 萬（推估區間，非承諾數字，依 NTUT 既有量級對標）；學生通道：碩博生 RA + TSMC 供應鏈品管實習
+- **KPI + Exit criteria**：第 1 年漏檢率 ≤ 5% / 缺陷分類準確率 ≥ 95%；第 3 年供應商品質追溯覆蓋率 ≥ 80%；Exit：準確率 < 85% 且連續 2 季無改善
+- **執行對口**：主 AP 供應鏈品管 / 次 供應商管理部門
+- **風險**：PCB/陶瓷基板屬後段供應鏈，非 TSMC 核心製程 AI，預算優先度偏低；系主任行政職影響研究投入時間
+- **能力限制**：WebSearch 無法驗證 NTUT-TSMC 供應鏈非公開合作
+- **連結**：[系主任頁](https://iem.ntut.edu.tw/p/405-1081-65525,c11955.php?Lang=en) ｜ [教師頁](https://iem.ntut.edu.tw/p/405-1081-131700,c17321.php?Lang=en) ｜ [Google Scholar](https://scholar.google.com/citations?user=N_1GIA0AAAAJ&hl=en) ｜ [Binghamton SSIE Alumni（PhD 1996 確認）](https://www.binghamton.edu/ssie/graduate/faculty-alumni.html) ｜ [Lab 網站](https://sites.google.com/mail.ntut.edu.tw/ntut632)
 
 ---
 
@@ -2209,11 +2431,30 @@
 - 經濟部標準局品管委員（中性）
 - **無獨家綁定**；標準局委員為政府諮詢職
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：進階統計製程控制（SPC）方法論；適用所有節點量產線批次數據監控
+- **痛點對應**：
+  - **分布假設錯誤**：製程數據多呈 Gamma / Birnbaum-Saunders 非常態分布，現有 EWMA 假設常態導致誤報
+  - **多變量監控不足**：現有 Hotelling T² 對異常值敏感，缺乏非參數多變量 CUSUM 方法
+- **可導入時程（TRL）**：**TRL 5-7 / 6-12 個月**；AEWMA / 非參數 CUSUM 方法論已有頂刊驗證，可移植
+- **配合 fab 部門**：統計品管部門（主）；YE 良率工程（次）；提供批次數據
+- **預期成效**：
+  - 非常態製程誤報率降低 40%
+  - 多變量 EWMA 比率監控覆蓋機台 ≥ 50 台
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：SPC 方法論諮詢（純統計）
-- **制度**：委託研究 / 短期顧問；單次專案
-- **KPI**：SPC 方法論深度 / 標準化建議
-- 連結：[NCCU 統計系教師頁](https://stat.nccu.edu.tw/zh_tw/members/楊-素芬-88908104) ｜ [NCCU 統計系英文](https://stat.nccu.edu.tw/en/members/members1/SU-FEN-YANG-88908104) ｜ [Google Scholar](https://scholar.google.com/citations?user=rOz5ZhYAAAAJ&hl=en) ｜ [AEIC 簡介頁（特聘教授確認）](https://mip.keoaeic.org/aeic-members/37.html) ｜ [NCCU 商學院](https://commerce.nccu.edu.tw/en/faculty_link/faculty_directory_bydept/SU-FEN-YANG-31144682)
+
+- **題目**
+  - **主題目 A — 非常態製程 SPC 方法論移植**：以 AEWMA / Gamma 控制圖取代現有常態假設管制圖，降低誤報率
+  - **主題目 B — 多變量 EWMA 比率監控**：部署多變量 EWMA 比率控制圖，監控批次間良率變異
+- **制度與簽約**：委託研究 / 短期顧問合約（NCCU 統計系）；年度預算 200-400 萬（推估區間，非承諾數字，依 NCCU 既有量級對標）；學生通道：碩生 RA 協助數據分析
+- **KPI + Exit criteria**：第 1 年 AEWMA 誤報率 ≤ 5% / 適配機台 ≥ 20 台；第 3 年多變量監控覆蓋 ≥ 50 台；Exit：誤報率 > 10% 且連續 2 季無改善
+- **執行對口**：主 統計品管部門 / 次 YE 良率工程
+- **風險**：純統計方法論需較長推廣期；標準局委員職可能分散研究時間
+- **能力限制**：WebSearch 無法驗證 NCCU-TSMC 非公開方法論顧問協議
+- **連結**：[NCCU 統計系教師頁](https://stat.nccu.edu.tw/zh_tw/members/楊-素芬-88908104) ｜ [NCCU 統計系英文](https://stat.nccu.edu.tw/en/members/members1/SU-FEN-YANG-88908104) ｜ [Google Scholar](https://scholar.google.com/citations?user=rOz5ZhYAAAAJ&hl=en) ｜ [AEIC 簡介頁（特聘教授確認）](https://mip.keoaeic.org/aeic-members/37.html) ｜ [NCCU 商學院](https://commerce.nccu.edu.tw/en/faculty_link/faculty_directory_bydept/SU-FEN-YANG-31144682)
 
 ---
 
@@ -2234,11 +2475,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：fab AMHS 自動搬運系統室內精準定位；適用前段 / 後段 fab 廠區物料搬運
+- **痛點對應**：
+  - **AMHS AMR 定位精度不足**：fab 無塵室 WiFi 訊號弱，現有定位精度 ±1m+，影響搬運路徑規劃
+  - **RFID 粗糙定位**：現有 RFID 系統精度不足釐米級，VLP 可見光定位提供量級提升
+- **可導入時程（TRL）**：**TRL 3-5 / 12-18 個月**；KAN 增強 VLP（IEEE Sensors 2025）已驗證，需 fab 光源環境適配
+- **配合 fab 部門**：AMHS 搬運系統部門（主）；設施工程部門（次）；提供廠區光源佈局
+- **預期成效**：
+  - AMR 室內定位精度 ≤ 5cm（vs 現有 ±1m）
+  - AMHS 搬運效率提升 20%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：fab AMHS 室內定位 / AMR PoC
-- **制度**：12 月 PoC 環境適配；PoC 400-600 萬
-- **KPI**：VLP 室內定位精度、AMR 運能
-- 連結：[NCU 機械系教師頁](https://www.me.ncku.edu.tw/en/portfolio-item/%E6%9E%97%E9%8C%A6%E5%BE%B7/) ｜ [NCU iTeacher 履歷平台](https://cis.ncu.edu.tw/iTeacher/home/0x548fc79e95899388ef6675c6d14ffaac) ｜ [NCU Scholars](https://scholars.ncu.edu.tw/zh/persons/chin-te-lin) ｜ [LinkedIn](https://www.linkedin.com/in/chin-te-lin-5b41b52b/)
+
+- **題目**
+  - **主題目 A — fab 無塵室 VLP 高精度定位**：以可見光定位（VLP）+ KAN 建立 fab 廠區 AMR 釐米級室內定位系統
+  - **主題目 B — AMHS AMR 自主導航 PoC**：整合 VLP 定位與 LSTM 時序預測，提升 AMR 搬運路徑效率
+- **制度與簽約**：技術合作合約（NCU 機械系）；年度預算 400-600 萬（推估區間，非承諾數字，依 NCU 既有量級對標）；學生通道：碩博生 RA + TSMC AMHS 實習
+- **KPI + Exit criteria**：第 1 年 PoC 定位精度 ≤ 5cm / fab 光源適配完成；第 3 年 AMHS 效率提升 ≥ 20%；Exit：精度 > 30cm 且連續 3 個月無改善
+- **執行對口**：主 AMHS 搬運系統部門 / 次 設施工程部門
+- **風險**：fab 無塵室光源頻率可能干擾 VLP 精度（需先期環境測試）；助理教授 h-6 研究成熟度相對有限
+- **能力限制**：WebSearch 無法驗證 NCU-TSMC AMHS 非公開合作
+- **連結**：[NCU 機械系教師頁](https://www.me.ncku.edu.tw/en/portfolio-item/%E6%9E%97%E9%8C%A6%E5%BE%B7/) ｜ [NCU iTeacher 履歷平台](https://cis.ncu.edu.tw/iTeacher/home/0x548fc79e95899388ef6675c6d14ffaac) ｜ [NCU Scholars](https://scholars.ncu.edu.tw/zh/persons/chin-te-lin) ｜ [LinkedIn](https://www.linkedin.com/in/chin-te-lin-5b41b52b/)
 
 ---
 
@@ -2259,11 +2519,30 @@
 - 前 TSMC Principal Engineer（1 年短期）；Mines-NTU 2022 法合作
 - TSMC 1 年短期經歷為歷史；**無現役競業綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：先進製程控制（APC）/ 設備健康預測；適用 N5/N3 蝕刻 / CMP 製程
+- **痛點對應**：
+  - **R2R 線性模型不足**：現有 R2R Control 基於線性模型，對非線性製程漂移適應慢
+  - **設備劣化閾值手動**：設備狀態監控依賴人工設定，HMM 可提供自動狀態轉換建模
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；ESWA / IEEE TASE 代表作已驗證方法論，需 TSMC 製程數據適配
+- **配合 fab 部門**：PE 製程工程（R2R APC 主）；Equipment 設備工程（HMM 健康次）
+- **預期成效**：
+  - R2R Control 收斂時間縮短 30%
+  - 設備劣化提前預警準確率 ≥ 85%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：設備健康監控 / R2R Control / APC 短期 PoC
-- **制度**：6 月 PoC 評估；PoC 400-600 萬
-- **KPI**：APC 收斂時間、HMM 劣化偵測
-- 連結：[NTU IE 升等公告](https://ie.ntu.edu.tw/english/News_Content_n_48014_s_118237.html) ｜ [個人學術網站](https://jakeyblue.github.io/) ｜ [Google Scholar](https://scholar.google.com/citations?user=WFvE0xIAAAAJ&hl=en) ｜ [NTU 技術交易網](https://mip.ord.ntu.edu.tw/expert1.asp?ser=2472)
+
+- **題目**
+  - **主題目 A — Physics-Informed R2R Control**：以 Physics-Informed APC 取代純數據驅動 R2R 控制，提升 N5/N3 非線性製程穩定性
+  - **主題目 B — HMM 設備狀態健康監控**：建立 HMM 設備劣化狀態模型，自動偵測 Chamber / CMP 狀態轉換
+- **制度與簽約**：技術合作合約（NTU IE）；年度預算 400-600 萬（推估區間，非承諾數字，依 NTU 既有量級對標）；學生通道：碩博生 RA + TSMC PE 實習
+- **KPI + Exit criteria**：第 1 年 R2R 收斂時間縮短 ≥ 30% / HMM 狀態偵測準確率 ≥ 85%；第 3 年 APC 覆蓋機台 ≥ 50 台；Exit：收斂改善 < 10% 且連續 2 季無進展
+- **執行對口**：主 PE 製程工程 / 次 Equipment 設備工程
+- **風險**：前 TSMC Principal Engineer 1 年短期，需確認無競業條款；2022 剛升副教授，Lab 規模較小
+- **能力限制**：WebSearch 無法驗證 NTU-TSMC APC 非公開合作
+- **連結**：[NTU IE 升等公告](https://ie.ntu.edu.tw/english/News_Content_n_48014_s_118237.html) ｜ [個人學術網站](https://jakeyblue.github.io/) ｜ [Google Scholar](https://scholar.google.com/citations?user=WFvE0xIAAAAJ&hl=en) ｜ [NTU 技術交易網](https://mip.ord.ntu.edu.tw/expert1.asp?ser=2472)
 
 ---
 
@@ -2284,11 +2563,30 @@
 - TSMC-NTU Center 13 年
 - TSMC-NTU Center 為既有合作；**無其他綁定**
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：EUV 微影 DFM / OPC / e-beam 多電子束；適用 N3/N2/A16 微影段
+- **痛點對應**：
+  - **EUV 隨機缺陷激增**：sub-3nm 節點 EUV 隨機缺陷（Stochastic Defects）急增，DFM 規則優化需求高
+  - **OPC 計算量龐大**：多電子束 OPC 補償計算量大，缺乏 ML 加速框架
+- **可導入時程（TRL）**：**TRL 5-7 / 6-12 個月**；TSMC-NTU Center 13 年合作，既有框架直接延伸
+- **配合 fab 部門**：Lithography 微影整合部門（主）；OPC/RET 工程部門（次）
+- **預期成效**：
+  - EUV 隨機缺陷降低 20%
+  - OPC 計算時間縮短 30%（ML 加速）
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：EUV / DFM / e-beam 補位
-- **制度**：既有 NTU Center 框架延伸；Center 內預算
-- **KPI**：EUV 解析度、DFM 導入效率
-- 連結：[NTU EE 個人頁](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901160) ｜ [Biography（含 PhD）](http://www.ee.ntu.edu.tw/bio1.php?id=674) ｜ [Google Scholar](https://scholar.google.com/citations?user=U2qcl4wAAAAJ&hl=en) ｜ [GIEE EDA 教師列表](https://giee.ntu.edu.tw/en/eda_faculty.php) ｜ [NTU Scholars](https://scholars.lib.ntu.edu.tw/entities/person/3dfdfd8e-e9c8-465d-acbc-952cf547943b)
+
+- **題目**
+  - **主題目 A — EUV DFM 隨機缺陷 ML 優化**：以 ML 建立 EUV 隨機缺陷預測模型，協助 N2/A16 DFM 設計規則優化
+  - **主題目 B — e-beam 多電子束 OPC 加速**：利用 ML 加速多電子束 OPC 補償計算，縮短 mask 製備週期
+- **制度與簽約**：既有 TSMC-NTU Center 框架延伸；Center 內預算（推估 500-1000 萬，非承諾數字，依 Center 既有量級對標）；學生通道：NTU EE 博士生 + TSMC Lithography 實習
+- **KPI + Exit criteria**：第 1 年 EUV 缺陷預測準確率 ≥ 85% / OPC 計算加速 ≥ 30%；第 3 年 DFM 規則建議採納 ≥ 3 條；Exit：準確率 < 75% 且連續 2 季無改善
+- **執行對口**：主 Lithography 微影部門 / 次 OPC/RET 工程
+- **風險**：副教授 13 年未升（h-12 偏低），長期研究穩定性存疑；Center 合作需遵循 TSMC-NTU 規則
+- **能力限制**：WebSearch 無法驗證 TSMC-NTU Center 合作具體技術範疇
+- **連結**：[NTU EE 個人頁](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901160) ｜ [Biography（含 PhD）](http://www.ee.ntu.edu.tw/bio1.php?id=674) ｜ [Google Scholar](https://scholar.google.com/citations?user=U2qcl4wAAAAJ&hl=en) ｜ [GIEE EDA 教師列表](https://giee.ntu.edu.tw/en/eda_faculty.php) ｜ [NTU Scholars](https://scholars.lib.ntu.edu.tw/entities/person/3dfdfd8e-e9c8-465d-acbc-952cf547943b)
 
 ---
 
@@ -2309,22 +2607,34 @@
 - 無公開可見業界綁定
 - **無公開可見業界綁定**；研究主軸為語音 / 語言基礎模型，與半導體 fab 應用距離遠（任何題目均需 6-12 月方法論橋接 PoC）
 
+**製程/封裝應用點（詳述）**（不啟動主軸 — 保留橋接；無半導體直接 fab 應用，工程師效率軸候補）
+
+- **節點 / 段別**：工程師效率軸跨域方法論；適用文件審查 / 語音 / 聲學異常偵測（非直接製程段）
+- **痛點對應**：
+  - **SOP/FMEA 文件審查人工成本高**：LLM-as-Evaluator 可自動化 ECN / FMEA 文件一致性審查
+  - **fab 聲學異常偵測 label 稀缺**：Self-Supervised 方法論可降低設備聲學異常偵測的標記需求
+- **可導入時程（TRL）**：橋接成本 3-12 個月（依題目，見下表）；**fab 1 分，任何題目均需跨域橋接期**
+- **配合 fab 部門**：IT/FIT（LLM-as-Evaluator）；Equipment 設備工程（聲學異常）；人才發展部門（AI 素養課）
+- **預期成效**：依優先 PoC 題目而定；首選題目（①）橋接成本最低，3-6 月可見成果
+
 **建議合作方式 × 公開連結**
 
-> **v4.3 雙 check 後追加**：原 v4.2「無半導體題目可接觸」過於否定；經跨域題目發想，定位為**工程師效率軸方法論候補（非主軸 PI）**。以下 5 題依橋接成本 / 對應目的優先排序。
+> **v4.3 雙 check 後追加（v4.4 維持）**：定位為**工程師效率軸方法論候補（非主軸 PI）**。5 題依橋接成本 / 對應目的優先排序：
 
-| 優先 | 對應目的軸 | 跨域題目 | 技術路徑 | 與李宏毅實績的接點 | 橋接成本 |
-|---|---|---|---|---|---|
-| 1（首選 PoC）| 工程師效率 / 法遵 | LLM-as-Evaluator 自動審查 SOP / ECN（Engineering Change Notice）/ FMEA 文件 | LLM 評估器 + 多 reviewer 共識建模 | 代表作 "Can LLMs Replace Human Evaluators"（1,092 引）直接對應 | 低（3-6 月）|
-| 2 | 工程師效率 | 無塵室 hands-free 語音操作 / SOP 查詢 | LALM + 多輪語音對話 + 製程術語微調 | LALM 為其 2024-2025 主軸；SUPERB 為工業界 ASR 評估標準 | 中（6-12 月）|
-| 3 | 工程師效率 | 交班（Shift Handover）報告自動轉寫 + 結構化摘要 | ASR + LLM 抽取（事件 / 機台 / 處置欄位）| 語音辨識 + NLP 雙軌核心專長 | 中（6-12 月）|
-| 4 | 良率（橋接） | 自監督學習應用於設備聲學異常偵測（Pump / Chamber / CMP）| Self-Supervised Audio Pre-training + 少量 labeled fine-tune | "Self-Supervised Speech Review"（625 引）方法論可遷移；Fab acoustic sensor 已具備但 label 稀缺 | 高（12 月+）|
-| 5 | 人才漏斗 | TSMC 內部 AI 素養課 / 新進工程師 reskilling 共同設計 | 教學內容共製 | YouTube 教學頻道 400 萬觀看 = 教學能力佐證 | 低（單次合約）|
+| 優先 | 對應目的軸 | 跨域題目 | 橋接成本 |
+|---|---|---|---|
+| 1（首選 PoC）| 工程師效率 / 法遵 | LLM-as-Evaluator 自動審查 SOP / ECN / FMEA 文件 | 低（3-6 月）|
+| 2 | 工程師效率 | 無塵室 hands-free 語音操作 / SOP 查詢 | 中（6-12 月）|
+| 3 | 工程師效率 | 交班報告自動轉寫 + 結構化摘要 | 中（6-12 月）|
+| 4 | 良率（橋接）| 自監督學習 × 設備聲學異常偵測（Pump/CMP）| 高（12 月+）|
+| 5 | 人才漏斗 | TSMC AI 素養課 / 新進工程師 reskilling 共同設計 | 低（單次合約）|
 
-- **題目**：上表 5 條（優先順序見上）
-- **制度**：目前不主動接觸；若工程師效率軸 S/A 級 PI 飽和或缺「LLM-as-Evaluator / 自監督方法論」專長 cover，可作為候補；**首選 PoC**：LLM-as-Evaluator SOP/ECN/FMEA 文件審查（3-6 月，最低橋接成本，與 TSMC 法遵 / 變更管理流程對接）
-- **KPI**：（依優先序）①LLM-as-Evaluator 與工程師 agreement rate（Cohen's κ）/ 文件審查通過率；②無塵室語音指令辨識率（SNR < 10dB）；③交班轉寫欄位抽取 F1；④自監督聲學異常偵測 AUC
-- 連結：[個人網站](https://speech.ee.ntu.edu.tw/~tlkagk/) ｜ [個人網站（hylee）](https://speech.ee.ntu.edu.tw/~hylee/index.php) ｜ [Google Scholar](https://scholar.google.com/citations?user=DxLO11IAAAAJ&hl=en) ｜ [ResearchGate](https://www.researchgate.net/profile/Hung-Yi-Lee-2) ｜ [YouTube 教學頻道](https://www.youtube.com/@HungyiLeeNTU)
+- **制度與簽約**：目前不主動接觸；若工程師效率軸 S/A 級 PI 飽和或缺 LLM-as-Evaluator 專長，可作候補；首選 PoC 3-6 月、法遵 / 變更管理流程對接（不承諾金額，單次 PoC 議）
+- **KPI + Exit criteria**：①LLM 與工程師 agreement rate（Cohen's κ）≥ 0.75；④聲學異常偵測 AUC ≥ 0.90；Exit：任一 PoC 指標連續 2 季未達 50% 改善
+- **執行對口**：主 IT/FIT / 次依題目（Equipment / 人才發展）
+- **風險**：fab 1 分，任何題目均需 6-12 月橋接期；YouTube 教學知名度不等於半導體 fab 合作意願
+- **能力限制**：WebSearch 無法驗證 NTU-TSMC 非公開合作意向
+- **連結**：[個人網站](https://speech.ee.ntu.edu.tw/~tlkagk/) ｜ [個人網站（hylee）](https://speech.ee.ntu.edu.tw/~hylee/index.php) ｜ [Google Scholar](https://scholar.google.com/citations?user=DxLO11IAAAAJ&hl=en) ｜ [ResearchGate](https://www.researchgate.net/profile/Hung-Yi-Lee-2) ｜ [YouTube 教學頻道](https://www.youtube.com/@HungyiLeeNTU)
 
 ---
 
@@ -2345,11 +2655,30 @@
 - Neuchips 創鑫智慧技術顧問（待核實排他性）
 - **Neuchips 顧問**（排他性待核實）
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：AI 晶片硬體安全 DfT 驗證 / LLM 量化設計；適用 N5/N3 AI SoC 設計驗證段
+- **痛點對應**：
+  - **Hardware Trojan 偵測難自動化**：AI 晶片 Trojan 插入點多，現有 DfT 設計難以全覆蓋
+  - **AI 推論功耗偏高**：TSMC 量產 AI 晶片（CoWoS）需要量化加速方案降低 package 功耗
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；ICLR 2025 Palu / Quamba / Quamba2 方法論成熟，EDA+LLM 跨界新穎
+- **配合 fab 部門**：DfT 設計驗證部門（主）；DTCO 設計技術共優化（次）
+- **預期成效**：
+  - Hardware Trojan 偵測率 ≥ 95%
+  - LLM KV-Cache 壓縮率 ≥ 40%（Palu 方法論）
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：AI 晶片硬體安全驗證（Trojan / DfT）
-- **制度**：ICCAD Contest 題目共同設計；Contest + 年度計畫
-- **KPI**：Trojan 偵測率、DfT coverage
-- 連結：[NYCU CS 個人頁](https://www.cs.nycu.edu.tw/members/detail/kcw?locale=en) ｜ [個人學術頁](https://people.cs.nycu.edu.tw/~kcw/) ｜ [Google Scholar](https://scholar.google.com/citations?user=TrWPWaIAAAAJ&hl=en) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/kai-chiang-wu/) ｜ [所長任命公告](https://www.cs.nycu.edu.tw/announcements/detail/12859?locale=en)
+
+- **題目**
+  - **主題目 A — AI 晶片 Hardware Trojan 自動偵測**：以 LLM+EDA 整合建立 N5/N3 AI SoC Hardware Trojan 自動化偵測系統
+  - **主題目 B — LLM 量化加速器設計 PoC**：利用 SSM 量化（Quamba2）方法論設計低功耗 AI 推論加速器 RTL
+- **制度與簽約**：技術合作合約（NYCU CS）；年度預算 600-1000 萬（推估區間，非承諾數字，依 NYCU 既有量級對標）；學生通道：博士生 RA + TSMC DfT 實習；**Neuchips 顧問排他性需先確認**
+- **KPI + Exit criteria**：第 1 年 Trojan 偵測率 ≥ 90% / 量化 benchmark 完成；第 3 年 DfT 覆蓋率提升 ≥ 20%；Exit：Trojan 偵測率 < 80% 且連續 2 季無改善
+- **執行對口**：主 DfT 設計驗證 / 次 DTCO 設計技術共優化
+- **風險**：Neuchips 顧問排他性未確認，可能限制合作範疇；CS 所長行政職（2025/8/1 起）影響研究時間
+- **能力限制**：WebSearch 無法驗證 Neuchips 顧問排他性協議；NYCU-TSMC 非公開合作
+- **連結**：[NYCU CS 個人頁](https://www.cs.nycu.edu.tw/members/detail/kcw?locale=en) ｜ [個人學術頁](https://people.cs.nycu.edu.tw/~kcw/) ｜ [Google Scholar](https://scholar.google.com/citations?user=TrWPWaIAAAAJ&hl=en) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/kai-chiang-wu/) ｜ [所長任命公告](https://www.cs.nycu.edu.tw/announcements/detail/12859?locale=en)
 
 ---
 
@@ -2370,11 +2699,27 @@
 - Foxconn 合作背景
 - **無獨家綁定**；Foxconn 為歷史合作
 
+**製程/封裝應用點（詳述）**（邊界應用 — 非 TSMC 核心製程 AI）
+
+- **節點 / 段別**：資料中心電源供應（PSU）GaN 功率元件；**廠房設施軸，非 fab 製程主軸**
+- **痛點對應**：
+  - **廠房 PUE 偏高**：TSMC 資料中心廠房供電效率受制於傳統 Si PSU，GaN 方案可提升整體 PUE
+  - **β-Ga2O3 功率元件研究空白**：TSMC 尚未規模量產 GaN 邏輯製程，相關合作機會有限
+- **可導入時程（TRL）**：**TRL 3-5 / 18-24 個月**；廠房設施應用路徑有限（fab 4 分），需先確認 TSMC GaN 策略方向
+- **配合 fab 部門**：設施工程（廠房 PSU）；新業務開發（GaN Foundry 探索）
+- **預期成效**：廠房 PUE 評估報告 1 份；β-Ga2O3 特性評估報告 1 份（視策略方向）
+
 **建議合作方式 × 公開連結**
-- **題目**：資料中心 PSU 能效顧問（邊界應用）
-- **制度**：專案顧問；單次專案
-- **KPI**：PSU 效率、資料中心能源
-- 連結：[個人網站（NYCU ICST）](https://staff.ee.ncu.edu.tw/changching.tu/public_html/) ｜ [Google Scholar](https://scholar.google.com/citations?hl=en&user=I5Niz7YAAAAJ) ｜ [ResearchGate](https://www.researchgate.net/profile/Chang-Ching-Tu-2) ｜ [Nature 矽量子點論文](https://www.nature.com/articles/s42005-024-01806-3)
+
+- **題目**
+  - **主題目 A — GaN 資料中心 PSU 能效顧問**：評估 GaN 元件在 TSMC 廠房 PSU 中的應用可行性，協助設施工程降低 PUE
+  - **主題目 B — β-Ga2O3 製程特性評估（探索）**：提供 β-Ga2O3 FET 技術建議，探索 TSMC GaN Foundry 可能性
+- **制度與簽約**：短期顧問合約（NYCU ICST）；單次專案為主，年費 100-200 萬（推估區間，非承諾數字）；製程 AI 主軸之外的邊界合作
+- **KPI + Exit criteria**：第 1 年 GaN PSU 可行性評估報告 1 份；Exit：若 TSMC GaN Foundry 策略不啟動則不續約
+- **執行對口**：主 設施工程部門 / 次 新業務開發
+- **風險**：fab 4 分低，功率電子與 TSMC 核心製程關聯度有限；2026/02 剛轉入 NYCU，適應期影響
+- **能力限制**：WebSearch 無法驗證 Foxconn 歷史合作技術詳情；NYCU-TSMC 功率元件非公開合作
+- **連結**：[個人網站（NYCU ICST）](https://staff.ee.ncu.edu.tw/changching.tu/public_html/) ｜ [Google Scholar](https://scholar.google.com/citations?hl=en&user=I5Niz7YAAAAJ) ｜ [ResearchGate](https://www.researchgate.net/profile/Chang-Ching-Tu-2) ｜ [Nature 矽量子點論文](https://www.nature.com/articles/s42005-024-01806-3)
 
 ---
 
@@ -2395,11 +2740,30 @@
 - 無公開外部綁定
 - **無公開可見外部綁定**；研究橫跨農業科技、醫療影像、工業製造（VM）
 
+**製程/封裝應用點（詳述）**
+
+- **節點 / 段別**：CNN 虛擬量測（VM）/ Edge IoT 感測；適用任一節點量產線批次量測替代
+- **痛點對應**：
+  - **破壞性量測成本高**：fab 量測需破壞晶圓，VM 系統以感測數據預測電性可降低成本
+  - **IoT 邊緣設備算力受限**：fab 大量 IoT 感測器需輕量化分散式 ML，Cloud-only 方案延遲高
+- **可導入時程（TRL）**：**TRL 4-6 / 12-18 個月**；CNN VM 方法論已在 IEEE Robotics 論文驗證，需 fab 批次數據適配
+- **配合 fab 部門**：YE 良率工程（VM 主）；IT/FIT IoT Edge 部署（次）
+- **預期成效**：
+  - CNN VM 預測殘差 ≤ 5%
+  - IoT 邊緣部署機台 ≥ 50 台
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：CNN 虛擬量測 / 跨域 IoT PoC
-- **制度**：跨領域應用級短期 PoC；1 年 PoC 500 萬
-- **KPI**：CNN VM 精度、CIoT 平台 throughput
-- 連結：[NCKU 研究輸出資料庫](https://researchoutput.ncku.edu.tw/zh/persons/chao-chun-chen/) ｜ [CIoT Lab 指導教授頁](https://ciot.imis.ncku.edu.tw/?page_id=35) ｜ [NCKU IMIS 師資頁](https://www.csie.ncku.edu.tw/zh-hant/members/imis) ｜ [CIoT Lab 首頁](https://ciot.imis.ncku.edu.tw/)
+
+- **題目**
+  - **主題目 A — 批次 CNN 虛擬量測系統**：以 CNN 端到端學習預測晶圓批次電性參數，減少破壞性量測頻率
+  - **主題目 B — 分散式 IoT 製程監控**：部署輕量化分散式 ML 演算法於 fab IoT 邊緣設備，實現即時監控
+- **制度與簽約**：技術合作合約（NCKU CSIE/IMIS）；年度預算 400-700 萬（推估區間，非承諾數字，依 NCKU 既有量級對標）；學生通道：碩博生 RA + TSMC YE 實習
+- **KPI + Exit criteria**：第 1 年 CNN VM 預測誤差 ≤ 5% / IoT 部署機台 ≥ 20 台；第 3 年 VM 替代量測比例 ≥ 30%；Exit：誤差 > 10% 且連續 3 個月無改善
+- **執行對口**：主 YE 良率工程 / 次 IT/FIT IoT 部門
+- **風險**：跨域背景（農業、醫療、工業）帶來泛化能力但半導體專注度偏低；h-16 研究量能中等
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC IoT 非公開合作
+- **連結**：[NCKU 研究輸出資料庫](https://researchoutput.ncku.edu.tw/zh/persons/chao-chun-chen/) ｜ [CIoT Lab 指導教授頁](https://ciot.imis.ncku.edu.tw/?page_id=35) ｜ [NCKU IMIS 師資頁](https://www.csie.ncku.edu.tw/zh-hant/members/imis) ｜ [CIoT Lab 首頁](https://ciot.imis.ncku.edu.tw/)
 
 ---
 
@@ -2420,11 +2784,30 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**（設備合作軌 — 獨立於製程 AI 主軸）
+
+- **節點 / 段別**：TGV / TSV 雷射加工 / Stealth Dicing；適用 CoWoS / 3D IC 封裝介面製程
+- **痛點對應**：
+  - **TGV/TSV 加工精度要求升**：3D IC 高密度接線中 TGV/TSV 雷射加工參數優化依賴試誤，成本高
+  - **Stealth Dicing 缺陷難線上偵測**：雷射加工微裂縫 / 剝層缺陷缺乏即時線上監控手段
+- **可導入時程（TRL）**：**TRL 5-7 / 12-18 個月**；h-22 / 141 篇積累，設備合作框架成熟
+- **配合 fab 部門**：AP 先進封裝製程設備部門（主）；TSV 製程工程（次）；**設備合作軌（非製程 AI 主軸）**
+- **預期成效**：
+  - TGV/TSV 雷射加工精度提升 20%
+  - Stealth Dicing 微裂縫線上偵測率 ≥ 90%
+  - 每年聯名論文 ≥ 1 篇
+
 **建議合作方式 × 公開連結**
-- **題目**：TGV / TSV 雷射加工（**設備合作獨立分類**，非 AI 軌）
-- **制度**：設備合作專案；2-3 年，年預算 600-1000 萬
-- **KPI**：雷射加工精度、晶圓良率影響
-- 連結：[NTUT 製造科技所教師頁](https://imt.ntut.edu.tw/p/405-1065-87844,c382.php?Lang=zh-tw) ｜ [NTUT 機械系教師頁](https://me1.ntut.edu.tw/p/405-1062-87760,c2760.php?Lang=en) ｜ [Elsevier Pure 學術資料庫](https://ntut.elsevierpure.com/en/persons/shih-feng-tseng/) ｜ [光製造與檢測實驗室](https://academic.ntut.edu.tw/5157/) ｜ [北科大學術資源網](https://academic.ntut.edu.tw/1781/1556/2159/)
+
+- **題目**
+  - **主題目 A — TGV/TSV 雷射加工參數優化（設備合作）**：建立 CoWoS/3D IC TGV/TSV 雷射加工製程參數優化方法
+  - **主題目 B — Stealth Dicing 缺陷線上監控**：建立雷射加工即時缺陷偵測系統，提升晶圓切割良率
+- **制度與簽約**：設備合作合約（NTUT 製造科技所）；年度預算 600-1000 萬（推估區間，非承諾數字，依 NTUT 既有量級對標）；學生通道：碩博生 RA + TSMC 封裝設備部門實習；**注意：設備合作軌，獨立於製程 AI 主軸預算**
+- **KPI + Exit criteria**：第 1 年加工精度提升 ≥ 20% / PoC 完成；第 3 年生產線部署 ≥ 1 條；Exit：精度改善 < 10% 且連續 2 季無進展
+- **執行對口**：主 AP 封裝製程設備部門 / 次 TSV 製程工程
+- **風險**：設備合作軌與 AI 主軸分屬不同預算來源，需雙軌協調；系主任行政職影響研究投入
+- **能力限制**：WebSearch 無法驗證 NTUT-TSMC 設備合作非公開協議
+- **連結**：[NTUT 製造科技所教師頁](https://imt.ntut.edu.tw/p/405-1065-87844,c382.php?Lang=zh-tw) ｜ [NTUT 機械系教師頁](https://me1.ntut.edu.tw/p/405-1062-87760,c2760.php?Lang=en) ｜ [Elsevier Pure 學術資料庫](https://ntut.elsevierpure.com/en/persons/shih-feng-tseng/) ｜ [光製造與檢測實驗室](https://academic.ntut.edu.tw/5157/) ｜ [北科大學術資源網](https://academic.ntut.edu.tw/1781/1556/2159/)
 
 ---
 
@@ -2445,11 +2828,27 @@
 - 無綁定（完全自由 PI）；前 AT&T Labs Research 1996-2000
 - **無公開可見外部綁定**；完全自由 PI；NYCU 電資學院院長行政負擔重
 
+**製程/封裝應用點（詳述）**（觀察 — 精省合作；研究主軸 6G/UAV 非半導體製造）
+
+- **節點 / 段別**：TSMC 廠區 5G 私網 / ISAC 智慧工廠；**廠區網路基礎設施，非核心製程 AI**
+- **痛點對應**：
+  - **廠區無線網路覆蓋不足**：fab 廠區內部 5G 私網 NR-U 佈建尚無成熟學術合作框架
+  - **人員 / 物流定位粗糙**：ISAC 整合感知通訊可提供廠區人員定位與物流追蹤，優於現有 RFID
+- **可導入時程（TRL）**：**TRL 3-5 / 12-18 個月**；6G/ISAC 方法論成熟，fab 場域驗證需先行
+- **配合 fab 部門**：設施工程（廠區網路）；IT/FIT IoT 感知平台；注意：與 TSMC 核心 fab/封裝/EDA 無直接連結
+- **預期成效**：廠區 5G 私網覆蓋規劃報告 1 份；ISAC 智慧工廠 pilot 方案 1 份；學術合作框架簽署
+
 **建議合作方式 × 公開連結**
-- **題目**：**精省 / 有條件低度合作** — 與 TSMC 核心業務（fab/封裝/EDA）無直接技術連結；可探索方向：(1) TSMC 廠區 5G 私網 / NR-U 部署（已有業界案例）；(2) ISAC（整合感知通訊）智慧工廠：人員定位、物流追蹤；(3) 學術象徵性合作：院長身分帶來 NYCU 整體合作框架的戰略意義；不建議方向：AI for 製程異常偵測、AOI 檢測、EDA 加速、CoWoS 封裝測試
-- **制度**：5G 私網顧問年費 100-200 萬 × 3 年；制度合作框架另議
-- **KPI**：5G 私網部署成熟度、ISAC 智慧工廠落地度、學術合作框架簽署
-- 連結：[NYCU IECE 教師頁](https://iece.dee.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=133&locale=en) ｜ [個人 Lab](https://wang.web.nycu.edu.tw/) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/li-chun-wang) ｜ [DBLP](https://dblp.org/pid/w/LiChunWang.html) ｜ [ORCID](https://orcid.org/0000-0002-7883-6217) ｜ [NYCU 電資學院院長公告](https://ece.nycu.edu.tw/department/index.aspx?Parser=40,4,242,260)
+
+- **題目**
+  - **主題目 A — TSMC 廠區 5G 私網部署顧問**：評估 TSMC fab 廠區 NR-U 5G 私網覆蓋方案，提供部署建議
+  - **主題目 B — ISAC 智慧工廠人員定位**：以整合感知通訊（ISAC）建立廠區人員定位 / 物流追蹤 pilot
+- **制度與簽約**：5G 私網顧問年費 100-200 萬 × 3 年；制度合作框架另議（院長身分有 NYCU 整體合作戰略意義）；不建議方向：AI for 製程異常偵測、AOI、EDA 加速、CoWoS 封裝（研究主軸無交集）
+- **KPI + Exit criteria**：5G 私網覆蓋規劃報告 1 份 / ISAC pilot 完成；Exit：若廠區網路策略轉向不續約
+- **執行對口**：主 設施工程廠區網路 / 次 IT/FIT IoT 平台
+- **風險**：研究主軸（6G/UAV）與 fab 核心業務無直接連結，長期合作深度受限；電資學院院長行政重，研究投入時間有限
+- **能力限制**：WebSearch 無法驗證 NYCU-TSMC 5G 私網非公開合作意向
+- **連結**：[NYCU IECE 教師頁](https://iece.dee.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=133&locale=en) ｜ [個人 Lab](https://wang.web.nycu.edu.tw/) ｜ [NYCU Academic Hub](https://scholar.nycu.edu.tw/en/persons/li-chun-wang) ｜ [DBLP](https://dblp.org/pid/w/LiChunWang.html) ｜ [ORCID](https://orcid.org/0000-0002-7883-6217) ｜ [NYCU 電資學院院長公告](https://ece.nycu.edu.tw/department/index.aspx?Parser=40,4,242,260)
 
 ---
 
@@ -2470,14 +2869,27 @@
 - 半導體 SPC 代表作距今 10+ 年
 - **無公開可見外部綁定**；已脫離半導體 10+ 年
 
+**製程/封裝應用點（詳述）**（不啟動 — 主軸已轉生醫 10+ 年；理論定位）
+
+- **節點 / 段別**：SPC / APC 統計方法論（2009 前歷史積累）；現研究主軸為生醫，不啟動獨立 PI 合作
+- **痛點對應**：SPC/APC 歷史方法論權威（最高引 "Optimal levels of process parameters" 258 引），可作 Tier 2 會診
+- **可導入時程（TRL）**：N/A（研究主軸已轉生醫 10+ 年；Lab 僅 3 人）；透過 B45 Jakey Blue 橋接
+- **配合 fab 部門**：透過 B45 Jakey Blue 橋接 YE / 統計品管部門
+- **預期成效**：會診型，無量化 KPI；依 Jakey Blue 案需求按次橋接
+
 **建議合作方式 × 公開連結**
 
-> **v4.3 雙 check 後修訂**：原 v4.2「方法論顧問池」過於含糊；定位為**Tier 2 方法論會診顧問**（非獨立委案 PI），透過 Jakey Blue 案需求橋接。
+> **v4.3 雙 check 後修訂（v4.4 維持）**：定位為**Tier 2 方法論會診顧問**（非獨立委案 PI），透過 Jakey Blue 案需求橋接。
 
-- **題目**：SPC / APC 方法論歷史權威（2009 前累積；最高引論文 "Optimal levels of process parameters" 258 引）；Jakey Blue（B45）之師，可作 Tier 2 方法論會診
-- **制度**：Tier 2 顧問：依 Jakey Blue 案需求橋接 SPC/APC 方法論會診；不獨立委案 PI（Lab 僅 3 人 + 主軸已轉生醫）
-- **KPI**：—（會診型，按次計費或併入 Jakey Blue 案）
-- 連結：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_sms_48541_s_51387.html) ｜ [Google Scholar](https://scholar.google.com/citations?user=IahSBeQAAAAJ&hl=en)
+- **題目**
+  - **Tier 2 會診 — SPC/APC 方法論橋接**：依 B45 Jakey Blue 案需求，提供 SPC/APC 方法論歷史觀點會診
+  - **不獨立委案**：Lab 僅 3 人 + 主軸已轉生醫，不作為獨立 PI
+- **制度與簽約**：會診型顧問，按次計費或併入 B45 Jakey Blue 案；不獨立簽約
+- **KPI + Exit criteria**：—（會診型，無量化 KPI）
+- **執行對口**：透過 B45 Jakey Blue 橋接
+- **風險**：研究主軸已轉生醫，SPC 方法論距今 10+ 年，技術現貨性存疑
+- **能力限制**：WebSearch 無法驗證研究主軸轉向後的方法論持續更新狀況
+- **連結**：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_sms_48541_s_51387.html) ｜ [Google Scholar](https://scholar.google.com/citations?user=IahSBeQAAAAJ&hl=en)
 
 ---
 
@@ -2498,14 +2910,29 @@
 - 台達電特聘歷史；中鋼 / 國太中心合作
 - 台達電特聘歷史（時間優先度被佔用）；廠務研究非 fab 核心
 
+**製程/封裝應用點（詳述）**（不啟動製程 AI 主軸 — 屬廠務設施軸；轉介 Fab 設施部門）
+
+- **節點 / 段別**：廠務風機 / 馬達驅動預測維護；適用 TSMC 廠房 chiller / 風扇驅動設施（非 fab 製程段）
+- **痛點對應**：
+  - **廠務設備劣化難預測**：馬達電流訊號 → 軸承劣化 ML 預測缺乏系統化實施
+  - **廠務節能潛力未充分開發**：chiller 調度節能與 S14 李家岩 MARL 軸有題目競合
+- **可導入時程（TRL）**：**TRL 6-8 / 6-12 個月**；廠務應用技術成熟，台達電 Chair 2019-2024 已結束，時間檔期釋放
+- **配合 fab 部門**：轉介 Fab 設施部門；本盤點（製程 AI 軸）不啟動
+- **預期成效**：轉介後參考 — 馬達/風機預測維護準確率提升；廠務年度節能 %
+
 **建議合作方式 × 公開連結**
 
-> **v4.3 雙 check 後修訂**：原 v4.2「轉給 Fab 設施部門」相對具體但缺題目細節；補上題目軸定位 — 屬**Fab 設施軸（廠務）**而非製程 AI 軸，本盤點不啟動但建議轉介。
+> **v4.3 雙 check 後修訂（v4.4 維持）**：屬**Fab 設施軸（廠務）**而非製程 AI 軸，本盤點不啟動但建議轉介。
 
-- **題目**：廠務風機 / 馬達驅動預測維護（馬達電流訊號 → 軸承劣化 ML 預測）；fab 廠務節能優化（chiller 調度 — 與 S14 李家岩 MARL chiller 軸有題目競合）
-- **制度**：轉介 Fab 設施部門：年度設施合作專案制；本盤點（製程 AI 軸）不啟動；台達電 Chair 2019-2024 已結束，時間檔期已釋放
-- **KPI**：（轉介後參考）馬達 / 風機預測維護準確率、平均故障預警提前時數、廠務年度節能 %
-- 連結：[NCKU EE 師資頁（含 IET Fellow 確認）](https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=163) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/min-fu-hsieh/) ｜ [Google Scholar](https://scholar.google.com/citations?user=VkHJZYQAAAAJ&hl=zh-TW) ｜ [ORCID](https://orcid.org/0000-0002-5514-3397) ｜ [ResearchGate](https://www.researchgate.net/profile/Min-Fu-Hsieh)
+- **題目**
+  - **廠務轉介 — 風機/馬達預測維護**：廠務風機/馬達電流訊號 → 軸承劣化 ML 預測（轉介 Fab 設施部門）
+  - **廠務節能顧問（chiller 調度）**：注意與 S14 李家岩 MARL chiller 軸有題目競合，需協調
+- **制度與簽約**：轉介 Fab 設施部門：年度設施合作專案制；本盤點（製程 AI 軸）不啟動；台達電 Chair 2019-2024 已結束
+- **KPI + Exit criteria**：（轉介後參考）馬達/風機預測維護準確率、故障預警提前時數、廠務年度節能 %
+- **執行對口**：Fab 設施部門（轉介）；非本盤點製程 AI 執行對口
+- **風險**：chiller 題目與 S14 李家岩競合，需確認題目分工；廠務研究非 fab 核心，長期 TSMC 重視度不確定
+- **能力限制**：WebSearch 無法驗證 NCKU-TSMC 廠務非公開合作協議
+- **連結**：[NCKU EE 師資頁（含 IET Fellow 確認）](https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=163) ｜ [NCKU Research Output](https://researchoutput.ncku.edu.tw/en/persons/min-fu-hsieh/) ｜ [Google Scholar](https://scholar.google.com/citations?user=VkHJZYQAAAAJ&hl=zh-TW) ｜ [ORCID](https://orcid.org/0000-0002-5514-3397) ｜ [ResearchGate](https://www.researchgate.net/profile/Min-Fu-Hsieh)
 
 ---
 
@@ -2526,13 +2953,26 @@
 - 無綁定
 - **無公開可見外部綁定**
 
+**製程/封裝應用點（詳述）**（不啟動 — 研究主軸已轉 EV 充電；單次諮詢顧問定位）
+
+- **節點 / 段別**：多變量 SPC 根因分析（Granger Causality）；研究主軸已偏離，不啟動獨立 PI
+- **痛點對應**：Granger Causality 方法論可橋接 fab 多變量 SPC 根因分析；SVR Profile Monitoring（2012 前）為方法論底子
+- **可導入時程（TRL）**：N/A（研究主軸已轉 EV 充電 + 統計方法論雙軸，半導體軌偏離）；單次諮詢顧問，不委案
+- **配合 fab 部門**：統計品管部門（單次諮詢）；不啟動正式合作
+- **預期成效**：會診型，無量化 KPI；Granger 因果方法論問題按次計費
+
 **建議合作方式 × 公開連結**
 
-> **v4.3 雙 check 後修訂**：原 v4.2「方法論顧問池」過於含糊；定位為**Granger 因果統計單次諮詢顧問**（非主動委案 PI）。
+> **v4.3 雙 check 後修訂（v4.4 維持）**：定位為**Granger 因果統計單次諮詢顧問**（非主動委案 PI）。
 
-- **題目**：Granger Causality 因果統計可橋接 fab 多變量 SPC 根因分析（需方法論 PoC）；SVR Profile Monitoring（2012 前）為早期方法論底子
-- **制度**：單次諮詢顧問：SPC 多變量因果鏈方法論問題會診；研究主軸已轉「EV 充電 + 統計方法論」雙軸（半導體軌偏離），不主動委案 PI
-- **KPI**：—（會診型，按次計費）
-- 連結：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_s_214735.html) ｜ [NTU 工學院公告（確認加入）](https://www.eng.ntu.edu.tw/iet/News_Content_n_182589_s_234981.html) ｜ [NTU IE 歡迎新進教師公告](https://ie.ntu.edu.tw/News_Content_n_44395_s_109275.html) ｜ [ResearchGate](https://www.researchgate.net/profile/Ying-Chao-Hung)
+- **題目**
+  - **單次諮詢 — Granger Causality SPC 橋接**：SPC 多變量因果鏈方法論會診，按次計費
+  - **不主動委案**：研究主軸已轉「EV 充電 + 統計方法論」雙軸（半導體軌偏離）
+- **制度與簽約**：單次諮詢顧問，按次計費；不作為獨立 PI 委案
+- **KPI + Exit criteria**：—（會診型，無量化 KPI）
+- **執行對口**：統計品管部門（單次諮詢）
+- **風險**：研究主軸已轉，半導體方法論知識可能不再更新；2022/8 剛轉入 NTU IE，適應期影響
+- **能力限制**：WebSearch 無法驗證研究主軸轉向後的方法論持續更新狀況
+- **連結**：[NTU IE 教師頁](https://ie.ntu.edu.tw/News_Photo_Content_n_44392_s_214735.html) ｜ [NTU 工學院公告（確認加入）](https://www.eng.ntu.edu.tw/iet/News_Content_n_182589_s_234981.html) ｜ [NTU IE 歡迎新進教師公告](https://ie.ntu.edu.tw/News_Content_n_44395_s_109275.html) ｜ [ResearchGate](https://www.researchgate.net/profile/Ying-Chao-Hung)
 
 ---
