@@ -4,6 +4,15 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-27] (TSMC PI v4.4 — 雙區塊強化 61/61 全完成)
+
+### Changed
+- `TSMC_v4_03_統一Profile.md`：61 位教授全部升級雙區塊（製程/封裝應用點 5 軸 + 建議合作方式 6 軸）
+  - S01-S15（Round 1）、A16-A30（Round 2）、B31-B55（Round 3）、C56-C61（Round 4）
+  - 特殊狀態（借調 / 法務觀察 / 不啟動）均標注特殊定位，保留 v4.3 判斷脈絡
+  - 檔案行數：1402 → 3177（+1775 行累計）
+- PDF 重生待執行（TSMC_PI_彙整大表_v4.4.pdf + 橫式）
+
 ## [2026-04-27] (TSMC × 台灣學界 PI 盡職調查 v4.3 — 「建議合作方式」wording 雙 check)
 
 ### Added
