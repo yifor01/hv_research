@@ -4,6 +4,20 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-28] (TSMC PI v4.6 — 製程/封裝應用點濃縮列點式)
+
+### Changed
+- `TSMC_v4_01_統一大表.md`：S+A+B 級 55 位 PI 的「製程/封裝應用點」欄從原本「[節點/段別]；[核心痛點]；TRL X」單行 ≤ 20 字格式，改為列點式 4 條 bullet（1 條節點段別 + 2 條核心痛點 / 量化效益 + 1 條 TRL/時程），將 Profile §3「製程/封裝應用點（詳述）」的 4-5 條痛點主軸 + 量化目標濃縮至大表，主管不必翻 Profile 即可掌握每位 PI 的具體應用方向；C 級 6 位（C56-C61）因無詳述 Profile 維持原單行格式
+- `TSMC_v4_00_封面與執行摘要.md`：§九 §2 欄位描述追加 v4.6 列點式說明
+- 大表頂部欄位說明 blockquote 同步更新格式定義
+
+### Output
+- 重新生成 `TSMC_PI_彙整大表_v4.6.pdf`（直向）+ `TSMC_PI_統一大表_橫式_v4.6.pdf`（A3 速查）
+
+---
+
+## [2026-04-27] (TSMC PI v4.5 fixed — Profile bullet 三層保留)
+
   - 解決了原本 Profile 中「建議合作方式」等區塊三層 bullet 被壓平成兩層，導致視覺過於密集（視覺牆壁）的問題。無需大幅修改 Markdown 原稿即可提升易讀性。
 
 ### Changed
