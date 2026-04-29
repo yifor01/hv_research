@@ -4,6 +4,47 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-29] (Agent 長期記憶系統研究 v2 ── CTO Review 修訂)
+
+### Added
+- `agent-memory-systems_橫縱分析報告_v2.pdf`（A4，1.4 MB，1563 行 markdown）
+- §2.6 新增「Long Context + Prompt Cache」對照路線（強調閉源 API only、自部署開源模型 1M 落地可行性差、5 min cache TTL）
+- §2.7 新增「Anthropic Memory tool + Claude Skills」（tool primitive vs service-layer 兩種設計哲學對比；四件套：Memory tool / Files API / CLAUDE.md / Skills）
+- §2.8 新增「OpenAI Memory / ChatGPT Personalization」（市佔最大 memory layer、52.9% LongMemEval、developer-side 限制）
+- §2.9 LangMem 從次主流升為獨立節（LangChain 生態 first-class memory；三類 modular API）
+- §4.3 新增 LongMemEval / LoCoMo 自身 dataset bias 分析（對 coding / domain / 多 agent / 中文場景代表性弱）
+- §7 重繪選型決策樹：兩層 gate（session 規模 + 部署環境）+ 三條主路徑；新增場景表 3 條（短歷史 / Claude 生態 / Self-host enterprise）
+- §8 補入四條失敗模式：cost runaway / Long Context cache 失效成本 / GDPR-用戶刪除權 / hosted memory 資料主權風險
+- §10 補入第 10-12 條能力限制：Karpathy-centric 取材偏誤聲明、Long Context 數字未實測、Anthropic Memory tool 規格演進
+- `sources.md` 補 Model Provider 官方資源 12 條（Anthropic Memory tool / Files API / Skills / Prompt Caching / 1M Context；OpenAI Memory / Responses；Gemini Long Context / Caching；LangMem；Qwen2.5-1M / GLM-4-1M）
+- §1.3 新增第四種解法（Long Context + Cache）；圖 1 重繪為四條路覆蓋圖
+- §0 摘要新增「v2 修訂重點」、「三條對照路線」表、「兩條暗線（service-layer vs tool-primitive 張力 + 企業 self-host 限制）」
+
+### Changed
+- §3.4 中文場景從 13 行擴寫到 50+ 行：四層問題（embedding / NER / temporal / token cost）+ 五條台灣團隊工程建議
+- §9.1 cognitive core 雛形主推改為 Anthropic Haiku 4.5 + Memory tool（Phi-3.5 / Llama 3.2 退為開源側佐證）
+- §1.2 「Karpathy 多次強調的隱含項」改為具體標註出處（Dwarkesh podcast + X 推文）
+- §2.4 MemPalace stars 數字統一為「48 hr 22K → 兩週 ~47K」（v1 §0 與 §2.4 數字不一致已修正）
+- §2.11（原 §2.7）forgetting curve 公式加註「轉錄自 emergentmind 的整理筆記，並非標準 Ebbinghaus，Gompertz-like 形式建議以原論文為準」
+- §2.10（原 §2.6）次主流框架表格移除 LangMem 條目（已升 §2.9）
+
+## [2026-04-29] (Agent 長期記憶系統研究 v1)
+
+### Added
+- `reports/2026-04-agent-memory-systems/`：A 類一般主題研究第一版交付
+  - `agent-memory-systems_橫縱分析報告.md`（27 頁、~52K 字元、含 9 張內嵌 SVG + 9 張表格）
+  - `agent-memory-systems_橫縱分析報告.pdf`（A4，1.3 MB）
+  - `sources.md`（30+ 來源，含 Karpathy 一手 / 官方 / 第三方 / 學術論文 / 批評 / 產業實踐五分類）
+- 五大主流框架橫向對比：Mem0 / Zep+Graphiti / Letta(MemGPT) / MemPalace / Karpathy LLM Wiki
+- Karpathy 三條觀點線穿插全文：anterograde amnesia + Decade of Agents（§1）/ LLM Wiki 編譯器路線（§2.5）/ Beyond RAG 之爭（§3.3）/ System Prompt Learning 第三範式（§5.2）/ Episodic→Semantic→In-Weights 三階段 consolidation（§5.4）/ Cognitive Core + Wiki→Fine-tune loop 應用想像（§9）
+- `raw-materials/2026-04-agent-memory-systems/`：素材消化檔（Karpathy gist / Decade of Agents / Mem0 / Letta forum / MemPalace / Atlan landscape / 實作批評 / 認知架構 / Letta+MemGPT+Graphiti 架構共 9 份摘要）
+- 9 張 SVG 視覺驗證通過（pdftoppm 高 DPI 確認文字未截斷、跨頁皆有 page-break-before 處理）
+
+### Changed
+- `README.md` Reports 索引新增 A 類「Agent 長期記憶系統」一筆
+
+---
+
 ## [2026-04-28] (TSMC PI v4.6 — 製程/封裝應用點濃縮列點式)
 
 ### Changed
