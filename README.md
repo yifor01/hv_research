@@ -40,7 +40,7 @@ cc hv-research
 | Claude Code 工具深度解析 | [`reports/2026-04-claude-code/`](reports/2026-04-claude-code/) | 單版本 |
 | 最新 Agentic AI 技術細節與實現方式 | [`reports/2026-04-agentic-ai-tech/`](reports/2026-04-agentic-ai-tech/) | v1 / v2 / v3 三版迭代 |
 | Qwen3-VL 半導體領域適應 | [`reports/2026-04-vlm-domain-adaptation/`](reports/2026-04-vlm-domain-adaptation/) | 含 figures/ |
-| Agent 長期記憶系統：框架對比、認知架構與選型決策 | [`reports/2026-04-agent-memory-systems/`](reports/2026-04-agent-memory-systems/) | 五大框架對比 + Karpathy LLM Wiki 視角貫穿 + 9 SVG / 9 表 |
+| Agent 長期記憶系統：框架對比、認知架構與選型決策 | [`reports/2026-04-agent-memory-systems/`](reports/2026-04-agent-memory-systems/) | v1（五大框架）+ v2（CTO Review 修訂：補 Long Context / Anthropic Memory tool / OpenAI Memory；37 頁 / 10 SVG / 12 表） |
 
 ### B. PI 盡職調查（人物盤點 / 候選人評估）
 
