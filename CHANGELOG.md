@@ -4,6 +4,28 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-04-30] (鼻中膈手術 × lean PCOS 研究 v2 ── 首席專科醫師四主治圓桌審查修訂)
+
+### Added
+- `REVIEW_chief_specialist_v1.md` — 四主治圓桌（鼻科 / 內分泌 / 麻醉 / 婦產生殖）+ 6 軸加權評分總分 89/100 + 行動建議三級分類（Critical/High/Medium）
+- `鼻中膈手術_橫縱分析報告_v2.pdf`（A4，1.44 MB，含 review doc 完整附錄）
+- §1.4.4 舒眠麻醉的 lean phenotype 氣道風險（v2 新增）— 解釋為何 BMI ≤ 21 + 鼻部填塞 + 仰躺建議優先全麻
+- §3.2.6 PONV 雙重預防章節（**🔴 v2 新增 — Critical**）— Apfel score 自評 + dual prophylaxis 主動爭取 + lean phenotype 後果倍增論述
+- §5.6 麻醉藥 / 抗生素 / X 光對隨後懷孕的明確安全聲明（v2 新增）— FDA Cat B/C 標註 + 卵子成熟週期論述消除常見擔憂
+- §3.1 + §5.2 維他命 C 1000 mg/日（v2 新增）— prolyl hydroxylase 輔因子，與口服膠原協同
+- §5.3 陷阱 1 鼻塞期食慾下降的多口味 hack（v2 新增）— 6 種 hack 表格（湯類 / 多味道 / 室溫 / 質地對比 / 辣麻 / 餐前清湯）
+- §6.6 簽手術同意書前清單分為 ENT / 麻醉 / 內分泌婦科三段，新增 PONV 麻醉項
+
+### Changed
+- §3.2.3 PCOS-VTE 引用 attribution 修正（v2 修正）— OR=5.23 改為單獨引自 Bird 2013 AJOG（PMC4408606）；CMAJ 2013 (Okoroh) 改為輔證（整體 PCOS-VTE 約 2 倍，未報告 phenotype 分層）
+- §3.2.4 反應性低血糖樣本 caveat 加入（v2 修正）— 50% 改為 30-50%，標註 n=64、BMI ≤ 25 lean 定義較寬
+- §4.3 情境 B Floseal 96% 止血率加 evidence caveat（v2 修正）— 該數字主要來自 FESS RCT，septoplasty 單獨情境 evidence 較弱
+- §5.6 備孕用詞改保守（v2 重寫）— 「下個月經週期即可」對 PCOS 月經不規則者偏激進，改為「術後 1-3 個月確認月經週期回到 baseline + 抗生素 ≥ 60 天」
+- §2.4 caudal strut 詢問升級（v2 升級）— 從「保留策略」精準到「具體 mm 數」3 連問（≥ 12-15 mm + 女性是否調整 + columellar strut graft 補強）
+- §00 前言：safety constraints 第 6 條 levothyroxine 從「待補」改為自查路徑 + 圍術期續用論述；新增第 7 條 PONV 高風險族群識別
+- §00 Executive Summary：三句話核心結論升級為四句話（PONV 為新增第 1 條 Critical）
+- §3.5 結論：補入 PONV 為「最容易被忽略的點」第 1 項
+
 ## [2026-04-29] (Agent 長期記憶系統研究 v2 ── CTO Review 修訂)
 
 ### Added
@@ -414,3 +436,12 @@ Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
     4. 「3 個月無效」底部盒子原本完全斷開 → 加上橘色垂直連線 + 箭頭
   - 新增底部 takeaway 總結線
 
+
+## [2026-04-30]
+### Added
+- `reports/2026-04-septoplasty-lean-pcos/`：鼻中膈手術全圖研究（D 類個人健康，B+C 框架）
+  - 術前後最佳化 + 加購膠原蛋白評估
+  - 個人化基於 lean PCOS（BMI 19-21, phenotype B）+ 25 歲女性 + 計畫備孕 + 現有補品清單（魚油/葉黃素/合利他命/藍莓精華/表飛鳴）
+  - 7 章分檔結構：00 前言 + 01 術式與彎曲解析 + 02 後遺症風險全圖 + 03 術前準備 + 04 術中與加購評估 + 05 術後恢復 + 06 新竹資源與決策清單
+  - 3 張 SVG 示意圖：加購膠原決策樹、圍術期補品時間軸、PCOS 風險加成圖
+  - 40 頁 PDF（1.5 MB）
