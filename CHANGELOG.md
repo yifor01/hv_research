@@ -4,6 +4,29 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-05-02] (Agent 長期記憶系統 v3 ── 編排優化）
+
+### Added
+- `agent-memory-systems_橫縱分析報告_v3.pdf`（A4，~600 KB，1695 行 markdown）
+- §0 前置區三件套（讓讀者 3 分鐘內找到結論）：
+  - **30 秒選型卡**：10 列 × 4 欄（情境 / 第一推薦 / 第二選擇 / 為什麼）+ 三個選型 gate
+  - **本報告閱讀導引**：7 種角色路徑表（趕時間決策者 / 框架定位 / 設計取捨 / benchmark / 主管 / 採購 / 完整研究）
+  - **新 SVG「11 個選項的抽象層級全景」**：第零層（Long Context+Cache）/ 第一層（tool-primitive）/ 第二層（service-layer）/ 第三層（概念範式）四層分類
+- §1 ~ §10 各章開頭新增「**本節結論**」blockquote 3-5 行 bullet（L3 結論先行）
+- 文末新增「**附錄：版本沿革**」3 列 changelog 表（v1 / v2 / v3 主要變更）
+
+### Changed
+- 全文 inline v1/v2 標註激進清除（共 ~24 處）：
+  - 9 處章節標題（§1.3 / §2.6 / §2.7 / §2.8 / §2.9 / §3.4 / §4.3 / §7 / §9.1）
+  - ~15 處內文括號（§2.4 22K→47K 對齊註、§2.11 公式 v2 註記、§7 v2 場景速查 / 關鍵 reframe、§8 四條 v2 新增失敗模式、§9.1 雛形括號、§10 items 10/11/12、§11 Model Provider 標題、SVG 內 v2 文字 / comments）
+- 章節敘述改為單一時間點視角，讀者不需在 v1/v2 之間時空切換
+- 文首移除「v2 重點修訂（vs v1）」6 條 bullet 列表（內容遷移至文末附錄表）
+- 保留真實版本識別號（Mem0 v1.0.0、all-MiniLM-L6-v2、rohitg00 LLM Wiki v2 gist 等）
+
+### Preserved
+- `agent-memory-systems_橫縱分析報告_v2.pdf`（v2 PDF 保留歸檔，供版本對比）
+- `agent-memory-systems_橫縱分析報告_v2.md`（v2 MD 新建為歸檔副本）
+
 ## [2026-05-02] (北海道四城景點與餐廳深度分析 v1 — A 類旅遊主題研究)
 
 ### Added
