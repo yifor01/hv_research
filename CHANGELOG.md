@@ -4,6 +4,19 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-05-02] (CLAUDE.md 跨類別慣例新增：BLUF 結論先行 + 版本註解隔離)
+
+### Changed
+- `CLAUDE.md` §慣例 A 全類別通用慣例新增 2 條跨類別硬約束：
+  - **報告結論先行（BLUF）**：每份報告必須以「速答頁」開場（≤1 頁，含一句話總結 + 5-8 條 actionable 結論 + 必跳過 / 必避坑清單 + 章節導航）；放在所有歷史 / 框架 / 方法論章節之前。讀者看完速答頁應該已能做出主要決策。A/B/C/D 全類別適用
+  - **版本註解只入 CHANGELOG，不入報告本文**：版本溯源（「v2 新增」「相對 v1」「v1 漏寫」）只放在 CHANGELOG / commit / git history；報告本文應讀來是一份完整自足的單一文件。唯一例外：報告 frontmatter 可有 1 行版本標註，不擴散到內文
+- `CLAUDE.md` §健康個人領域研究 v1→v2 修訂模式 第 4 條同步修訂：v2 新增 / 重寫 / 升級的段落溯源寫進 CHANGELOG.md 而非報告本文
+- `reports/2026-05-hokkaido-attractions-restaurants/research_v2_*.md`：套用新慣例
+  - v2-01 改寫頂部新增「速答頁」（一句話總結 + 7 條 actionable 結論 + 6 條避坑 + 章節導航表）
+  - v2-01 ~ v2-04 全文移除版本註解（v1 漏寫 / v2 新增 / v1 → v2 變動表 / v2 不取代 v1 等）
+  - 章節編號從 v2.X 改為 §1-§6 直白編號
+  - PDF 重新產出（435.9 KB）
+
 ## [2026-05-02] (北海道四城景點與餐廳 v2 聚焦版 — 5月中行程・景點・螃蟹深章)
 
 ### Added
