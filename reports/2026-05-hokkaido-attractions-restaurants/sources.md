@@ -239,3 +239,74 @@
 - [北海道螃蟹三大餐廳推薦（食探日本）](https://tasting-japan.com/archives/4185)
 - [Best Restaurants in Otaru（Tripadvisor）](https://www.tripadvisor.com/Restaurants-g298153-Otaru_Hokkaido.html)
 - [Grand Park Otaru — Snow Light Path](https://www.parkhotelgroup.com/grand-park-otaru/our-hotel/experiences/snow-light-path)
+
+---
+
+## 六、v2 補充來源（2026-05-02 第二輪研究：5月中聚焦 + 螃蟹深章）
+
+### 5月中氣候 / 服裝
+- [札幌 5月の気温と服装｜たびらい](https://www.tabirai.net/sightseeing/hokkaido/info/monthly/may_weather-sapporo.aspx)
+- [函館 5月の気温と服装｜たびらい](https://www.tabirai.net/sightseeing/hokkaido/info/monthly/may_weather-hakodate.aspx)
+- [北海道 5月の気温・服装・おすすめ｜たびらい](https://www.tabirai.net/sightseeing/hokkaido/info/monthly/may_weather.aspx)
+- [5月の北海道旅行 気候・服装・イベント｜HIS](https://www.his-j.com/kokunai/dst/hokkaido/month/may/)
+- [北海道5月の気温と服装・観光攻略｜Newt](https://newt.net/jpn/hokkaido/mag-928310386)
+- [気象予報士監修 北海道旅行最適服装｜JAL ontrip](https://ontrip.jal.co.jp/hokkaido/17751194)
+- [北海道5月の気温と服装｜ホンダレント](https://www.hondarent.com/blog/tourist/hokkaido-may-clothing.html)
+- [函館5月の服装と気温｜ホンダレント](https://www.hondarent.com/blog/tourist/hakodate-may-clothes.html)
+- [春の北海道旅行 服装の正解｜いい北海道](https://ii-hokkaido.com/7392/)
+- [J-TRIP 5月北海道服装持ち物](https://www.smartmagazine.jp/howto/article/32890/)
+
+### 札幌丁香祭（ライラックまつり）2026
+- [さっぽろライラックまつり｜HOKKAIDO LOVE](https://www.visit-hokkaido.jp/event/detail_11056.html)
+- [さっぽろライラックまつり 公式 sapporo.travel](https://www.sapporo.travel/lilacfes/)
+- [さっぽろライラックまつり 開催概要](https://www.sapporo.travel/lilacfes/about/)
+- [2026 さっぽろライラックまつり｜ぐうたび北海道](https://www.gutabi.jp/event/detail/1530)
+- [札幌大通公園イベント 2026 ライラック](https://www.odoripark.info/2026/sapporo-lilac-matsuri-2026/)
+- [札幌祭シーズン 5大お祭り｜SASARU](https://sasaru.media/article/weather/20260425_001/)
+- [大通公園 第67回ライラックまつり 報告（2025）](https://odori-park.jp/news/%E7%AC%AC67%E5%9B%9E%E3%81%95%E3%81%A3%E3%81%BD%E3%82%8D%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF%E3%81%BE%E3%81%A4%E3%82%8A%E5%A7%8B%E3%81%BE%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/)
+
+### 五稜郭櫻花 2026 開花情報
+- [五稜郭公園の桜開花・満開 天気情報 2026｜tenki.jp](https://tenki.jp/sakura/1/4/50036.html)
+- [函館市の桜開花・満開 名所の天気情報 2026｜tenki.jp](https://tenki.jp/sakura/1/4/2300/1202/)
+- [五稜郭の桜｜五稜郭タワー公式](https://www.goryokaku-tower.co.jp/en/sakura/)
+- [函館の開花・満開日 さくら開花予想2026｜weathermap](https://sakura.weathermap.jp/sp/point.php?city=Hakodate)
+- [五稜郭公園の花見・桜名所 2026｜ウェザーニュース](https://weathernews.jp/sakura/spot/2/)
+- [五稜郭の桜2026 開花状況｜加藤健一旅log](https://katokenichi.jp/goryokaku-cherry-blossoms/)
+- [五稜郭の桜2026 屋台 撮影｜進撃のキットカム](https://kit-cam.jp/2026/03/19/cherry-blossoms-at-goryokaku/)
+- [五稜郭の桜 2026 ツアー｜阪急交通社](https://www.hankyu-travel.com/kokunai/sakura/hokkaido/goryoukaku/)
+- [五稜郭公園の桜｜お花見2026 ウォーカープラス](https://hanami.walkerplus.com/detail/ar0101e60101/)
+- [五稜郭公園・函館公園のお花見｜はこぶら](https://www.hakobura.jp/events/366)
+
+### 北海道螃蟹漁期 / 旬曆
+- [カニの旬はいつ？北海道や福井｜虎ノ門コラム](https://www.toranomon-ichiba.com/column/t-category/gyokai/kani-syun.html)
+- [北海道オホーツク海の毛ガニの旬は3月から｜松浦水産](https://matsuura-okhotsk.com/hokkaido_okhotsk_kegani/)
+- [北海道では通年旬のカニが楽しめます｜北海道百科](https://hokkaido-hyakka.com/encyclopedia/enc021/)
+- [北海道のカニの種類と旬の時期｜居酒屋かけはし](https://sapporo-kakehashi.com/blog/2021/04/30/hokkaido_crab/)
+- [北海道のおいしい素材｜毛ガニの旬｜おいしい旅北海道](https://delicious-hokkaido.jp/archives/horsehair-crab/)
+- [食のプロ 今が食べ頃のカニの旬｜元八商店](https://motohachistore.com/blog/?p=638)
+- [毛ガニ(毛蟹)の旬｜かにうま.com](http://kani-uma.com/column/kegani/1154/)
+- [北海道のカニの旬｜jins-partners](https://jins-partners.co.jp/kani/hokkaido-kani-syun/)
+- [北海道の美味しいカニ 種類と特徴｜虎ノ門コラム](https://www.toranomon-ichiba.com/column/t-category/gyokai/hokkaido-kani.html)
+- [三吉丸かに直売店 BASE](https://sankitimaru.base.shop/)
+
+### 函館海膽（ウニ）漁期
+- [函館ウニの旬と漁解禁｜きたの道草](https://kitano-michikusa.com/fes/081_hakodate_uni_osusume/)
+- [北海道産うに 解禁時期について｜shiire.info](https://shiire.info/archives/927)
+- [北海道のおいしい素材｜ウニの旬｜おいしい旅北海道](https://delicious-hokkaido.jp/archives/hokkaido-sea-urchin/)
+- [ウニの旬と種類｜八面六臂](https://hachimenroppi.com/faq/000002069/)
+- [北海道各地のウニの旬｜晴れの日お出かけ日和](https://wonderquest.net/hokkaido-uni-no-syun/)
+- [ウニの旬と産地｜ふるなび](https://furunavi.jp/discovery/knowledge_food/202104-product-sea-urchin-2/)
+- [ウニの旬と産地｜洋野町ポータル](https://portal.town.hirono.iwate.jp/feature/feature-367/)
+- [うにむらかみ 函館本店 公式](https://www.uni-murakami.com/hakodate/)
+- [ウニが美味しい旬な時期｜PREZO](https://prezo.jp/column/1136)
+- [ウニの旬｜元八商店](https://motohachistore.com/blog/?p=91)
+
+### 美瑛 5月觀光資訊
+- [拓真館｜Yahoo!トラベル](https://travel.yahoo.co.jp/kanko/spot-00009653/)
+- [拓真館 観光・アクセス・営業時間｜トラベルコ](https://www.tour.ne.jp/j_spot/1325168/)
+- [拓真館アクセス料金｜じゃらんnet](https://www.jalan.net/kankou/spt_01459cc3300034146/)
+- [拓真館 4travel](https://4travel.jp/dm_shisetsu/10013206)
+- [現地スタッフ厳選 美瑛おすすめ観光｜楽天トラベル](https://travel.rakuten.co.jp/mytrip/ranking/spot-biei)
+- [拓真館｜るるぶ&more.](https://rurubu.jp/andmore/spot/80001481)
+- [美瑛の観光スポット 拓真館｜road-to-freedom](https://road-to-freedom.net/takushinkan/)
+
