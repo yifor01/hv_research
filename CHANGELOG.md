@@ -4,6 +4,27 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-05-02] (北海道四城景點與餐廳深度分析 v1 — A 類旅遊主題研究)
+
+### Added
+- `reports/2026-05-hokkaido-attractions-restaurants/`：A 類一般主題研究第一版交付
+  - `北海道四城景點與餐廳_橫縱分析報告.pdf`（A4，472 KB，5 章節結構）
+  - 5 份分章 markdown：
+    - `research_01_overview_and_vertical_part1.md`：執行摘要 + 範圍框架 + 縱向（札幌、小樽）
+    - `research_02_vertical_part2_and_horizontal_overview.md`：縱向（函館、美瑛）+ 橫向 1（四城角色互補）
+    - `research_03_horizontal_attractions.md`：橫向 2（三大夜景 / 海鮮市場 / 紅磚老建築 / 三大拉麵流派 / 不接預約文化）
+    - `research_04_itinerary_matrix_and_picks.md`：橫向 3（行程矩陣 × 季節 × 自駕）+ 四城精選必訪清單（景點 19 處 + 餐廳 21 家）
+    - `research_05_caveats_and_limits.md`：跨城共通注意事項 + 8 條能力限制聲明 + 速查表
+  - `sources.md`：分四城 + 跨城共通五大區塊，120+ URL，繁中旅遊媒體 + 北海道官方 + Tabelog + 店家官網交叉驗證
+- `raw-materials/2026-05-hokkaido-attractions-restaurants/`：四城分檔素材
+  - `sapporo.md`（17 景點 + 21 餐廳）、`otaru.md`（10 景點 + 10 餐廳）、`hakodate.md`（10 景點 + 12 餐廳）、`biei.md`（13 景點 + 11 餐廳）
+- 縱向章主軸：四城歷史身分（札幌 1869 開拓使機能性都市 / 小樽 1923 運河 + 1986 保存運動 / 函館 1854 開港西洋混血 / 美瑛 1971 前田真三 + 1970s 廣告 + 2012 Apple 桌布三波視覺敘事）如何形塑今日旅遊體驗
+- 橫向章主軸：「角色互補不重疊」（札幌樞紐 / 小樽衛星懷舊 / 函館跳島歷史 / 美瑛自然田園）+ 同類景點橫切對比表 + 行程設計矩陣（天數 × 月份 × 自駕）
+- 重要時效資訊：札幌雪祭 2026 第 76 屆（約 2/4–2/11）/ 小樽雪燈之路 2026/2/7–2/14 / 美瑛青池ライトアップ 2025/10/24–2026/4/22 / 北海道新幹線札幌延伸延後至 2038 年度末
+
+### Changed
+- `CLAUDE.md`：新增 §「Claude Code 操作約束」段，5 條硬約束（編號任務一次一個 / 單 tool call ≤150 行 / 對話 >20 tool call 開新 session / grep 加過濾 / timeout retry 縮 scope），插在 §前置依賴 與 §慣例 之間
+
 ## [2026-04-30] (鼻中膈手術 × lean PCOS 研究 v2 ── 首席專科醫師四主治圓桌審查修訂)
 
 ### Added
