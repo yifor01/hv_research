@@ -4,6 +4,24 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-05-02] (竹科台積電女性工程師代步車推薦 v1 — C 類消費市場決策研究)
+
+### Added
+- `reports/2026-05-hsinchu-tsmc-female-commuter-car/`：C 類「代步車購入決策」v1 交付
+  - `竹科女性工程師代步車推薦_橫縱分析報告.pdf`（A4，397 KB，6 章節結構）
+  - 6 份分章 markdown：
+    - `research_00_速答頁.md`：BLUF 速答頁（一句話總結 + 三條推薦路徑 + 必做/必避 5+5 + 章節導航；落實 §慣例 A「結論先行」）
+    - `research_01_需求框架.md`：使用者輪廓 + 用車情境（新竹市內 90% / 雪隧 10%）+ 三軸權重（安全 45% / 配備 25% / 價格 30%）+ 篩選漏斗 + 「女性駕駛」去刻板化說明
+    - `research_02_新車候選池.md`：6 款新車主動安全配備對照表 + 5 款逐車剖析（Yaris Cross 享樂 / Corolla Altis 經典 / Kicks 智行旗艦 / HR-V 汽油 S+ / Corolla Cross 汽油豪華）+ 暫不推薦車款說明（Hyundai Venue、Kia Picanto、MG ZS、Skoda Fabia/Scala）
+    - `research_03_中古車選擇.md`：三平台均價口徑差異 + 70 萬內 3 組黃金組合（Corolla Cross Hybrid 2022 / HR-V S 2022-2024 / CX-30 2022-2023）+ 中古選購 5 條硬規則 + CPO vs 車商 vs 自售三劇本定性比較
+    - `research_04_持有成本.md`：5 年 TCO 試算（落地 + 燃料 + 保養 + 保險 + 稅費 + 折舊）+ 5 款車保值率排名 + 26 歲首購女性保險組合 + 月供能力倒算（依台積電工程師月薪假設）
+    - `research_05_最終推薦.md`：Top 3 詳細比較 + 決策樹 SVG（含「硬預算」「中古意願」「最重視軸」三層分支） + 試駕清單（10 項必檢） + 議價簽約建議（車價/配件/貸款/保險）+ 能力限制聲明
+  - `sources.md`：6 大類引用來源（車型售價 + 安全評等 + 選車總覽 + 中古車 + 新竹/竹科通勤 + 能力限制聲明）
+- 套用 §慣例 C 區域市場專用：三劇本去除偽機率改定性排序、平台均價差異結構性解釋、風險揭露（中古車事故 / 泡水 / 里程造假 / 保固轉移）、持有成本（油耗/保養/保險/折舊/稅費，刻意不套用 Cap Rate 因不適用車輛資產）
+- 1 張 SVG 決策樹（圖 1）：26 歲竹科女性工程師購車決策樹（70 萬基準 → 可爆預算到 88 萬）
+- 落實 §慣例 A：BLUF 速答頁前置（research_00）、版本註解只入 CHANGELOG 不入本文、能力限制聲明（§5.6）、Reference URL 完整（sources.md）
+- 落實 CLAUDE.md 防呆表：未引用 `用戶資訊/health.md`（C 類嚴禁）、未套用 B 類「主管 3 問防禦」、未套用 D 類「outcome 重定位」框架
+
 ## [2026-05-02] (CLAUDE.md 跨類別慣例新增：BLUF 結論先行 + 版本註解隔離)
 
 ### Changed
