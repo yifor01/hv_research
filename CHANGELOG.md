@@ -40,6 +40,29 @@ Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 - `sources.md` 由 v1 五大區塊（札幌 / 小樽 / 函館 / 美瑛 / 跨城共通）擴充為六大區塊（新增「v2 補充來源」段）
 - 此份研究歸入 D 類「v1 + v2 聚焦補強」模式（A 類旅遊但採用 outcome 重新對焦的修訂法），v1 全年通用版仍保留作為框架基礎
 
+## [2026-05-02] (Agent 長期記憶系統 v3 ── 編排優化)
+
+### Added
+- `agent-memory-systems_橫縱分析報告_v3.pdf`（A4，594.6 KB，1681 行 markdown）
+- §0 前置區三件套（讓讀者 3 分鐘內找到結論，符合上游 BLUF 慣例）：
+  - **30 秒選型卡**：10 列 × 4 欄（情境 / 第一推薦 / 第二選擇 / 為什麼）+ 三個選型 gate
+  - **本報告閱讀導引**：7 種角色路徑表（趕時間決策者 / 框架定位 / 設計取捨 / benchmark / 主管 / 採購 / 完整研究）
+  - **新 SVG「11 個選項的抽象層級全景」**：第零層（Long Context+Cache）/ 第一層（tool-primitive）/ 第二層（service-layer）/ 第三層（概念範式）四層分類
+- §1 ~ §10 各章開頭新增「**本節結論**」blockquote 3-5 行 bullet（L3 結論先行）
+- frontmatter 新增 1 行 v3 版本標註（符合上游「版本註解隔離」唯一例外條款）
+
+### Changed
+- 全文 inline v1/v2 標註激進清除（共 ~24 處），對齊上游新慣例「版本註解只入 CHANGELOG，不入報告本文」：
+  - 9 處章節標題（§1.3 / §2.6 / §2.7 / §2.8 / §2.9 / §3.4 / §4.3 / §7 / §9.1）
+  - ~15 處內文括號（§2.4 22K→47K 對齊註、§2.11 公式註記、§7 場景速查 / 關鍵 reframe、§8 四條失敗模式、§9.1 雛形括號、§10 items 10/11/12、§11 Model Provider 標題、SVG 內 v2 文字 / comments）
+- 章節敘述改為單一時間點視角，讀者不需在 v1/v2 之間時空切換
+- 文首移除原「v2 重點修訂（vs v1）」6 條 bullet 列表
+- 保留真實版本識別號（Mem0 v1.0.0、all-MiniLM-L6-v2、rohitg00 LLM Wiki v2 gist 等）
+
+### Preserved
+- `agent-memory-systems_橫縱分析報告_v2.pdf`（v2 PDF 保留歸檔，供版本對比）
+- `agent-memory-systems_橫縱分析報告_v2.md`（v2 MD 新建為歸檔副本）
+
 ## [2026-05-02] (北海道四城景點與餐廳深度分析 v1 — A 類旅遊主題研究)
 
 ### Added
