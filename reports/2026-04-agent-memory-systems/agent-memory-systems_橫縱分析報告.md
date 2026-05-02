@@ -1,6 +1,6 @@
 # Agent 長期記憶系統：框架對比、認知架構與選型決策
 
-> 橫縱分析法深度研究報告 ｜ 2026-04-29 ｜ 資料截止：2026-04-29
+> 橫縱分析法深度研究報告 ｜ v3 ｜ 2026-04-29 ｜ 資料截止：2026-04-29
 
 ---
 
@@ -1675,20 +1675,6 @@ ICLR 2026 的 SYNAPSE paper 把這個機制建模到 agent memory：
 - LinkedIn Cognitive Memory Agent（ZenML LLMOps Database）
 - VentureBeat：Karpathy LLM Knowledge Base 報導
 - Memco / Gamgee / Epsilla / TecAdRise / MindStudio 商業化解讀
-
----
-
-## 附錄：版本沿革
-
-本報告經歷三次版本迭代。為維持主文閱讀流暢，所有舊版本標註已從章節中清除；如需追溯各版本差異，可參考下列 changelog 與 git 歷史。
-
-| 版本 | 日期 | 主要變更 |
-|---|---|---|
-| **v1** | 2026-04-29 | 初版：五大流派橫向對比（Mem0 / Zep / Letta / MemPalace / Karpathy LLM Wiki）、認知架構視角、選型決策樹 |
-| **v2** | 2026-04-29 | CTO Review 修訂：補入第六派 Long Context + Prompt Cache、Anthropic Memory tool、OpenAI Memory；LangMem 從次主流升為獨立節；§3.4 中文場景擴寫；§4 補 benchmark dataset bias；§8 補 cost runaway / GDPR / 資料主權；§9.1 cognitive core 改用 Haiku 4.5 為主雛形；§7 決策樹重繪加入兩層 gate；§10 加入 Karpathy-centric 取材偏誤聲明 |
-| **v3** | 2026-05-02 | 編排優化：新增 30 秒選型卡 + 本報告閱讀導引 + 11 個選項抽象層級全景 SVG（§0）；§1-§10 各章開頭新增「本節結論」3-5 行；移除所有 inline v1/v2 標註（內容相同，敘述改為單一時間點視角）；附錄即此節 |
-
-歷史 PDF（`_v2.pdf`）保留於同層資料夾，方便版本對比；過期 v2 MD 歸檔為 `_v2.md`。
 
 ---
 
