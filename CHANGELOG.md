@@ -4,6 +4,19 @@ All notable changes to the hv-research project.
 
 Format: `## [YYYY-MM-DD]` with Added / Changed / Fixed / Removed subsections.
 
+## [2026-05-02] (Agentic AI 技術細節報告 v4 — 可讀性優化版)
+
+### Changed
+- `reports/2026-04-agentic-ai-tech/最新_agentic_ai_技術細節與實現方式_橫縱分析報告_v4.{md,pdf}`：在 v3 內容基礎上做兩類可讀性優化（套用 §慣例 A 兩條跨類別硬約束）
+  - **版本註解全部移出報告本文**：刪除 / 改寫所有 `(v2 新增)`、`(v2 補完整)`、`(v1 完全沒提)`、`(v2 修正 v1 錯誤)`、`v1 報告把…是錯的` 等 ~30 處版本溯源句；報告 frontmatter 也從「研究時間 + 版本 + v3 補圖摘要 + v2 修訂摘要」三段壓回單行「研究時間 + 領域」；末尾的「v2 修訂摘要」總表整段移除
+  - **內文 URL 改 link 形式**：60 處 `[來源: https://...]` 一律改成 markdown link `[來源](https://...)`，PDF 渲染為一個藍色「來源」字而非裸露長 URL，閱讀流暢度大幅提升；§五 參考資料章節保留完整可見 URL
+- 章節 frontmatter 與小節標題的「（vN 新增 / 大幅擴展 / 補新世代）」一併拿掉；版本溯源語氣（"v1 寫…是錯的"）改寫為時序中性敘述（如 "Anthropic 的 Agentic Misalignment 研究發表於 2025-06"）
+- v4 PDF 大小 ~1.1 MB（v3 為 1.37 MB），檔案輕量化但內容章節結構完全保留
+
+### 不變動的部分
+- v3 的 10 張 SVG 示意圖（5 條演化線匯流、3 陣營 3 協議、3 協議分層、7 層工程、Reasoning Loop 對比、Agentic RL 對比、Context Lifecycle、Multi-agent 4 拓撲、4 威脅地圖、3 未定賭注）全部保留
+- 章節編號與內容結構 1:1 對應 v3，讀者拿 v4 看不到 v1/v2/v3 任何版本痕跡
+
 ## [2026-05-02] (CLAUDE.md 跨類別慣例新增：BLUF 結論先行 + 版本註解隔離)
 
 ### Changed
